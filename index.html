@@ -236,6 +236,11 @@
 
     <script>
         function startExam() {
+            // Registrar evento de inicio de examen
+            if (window.va) {
+                window.va('track', 'exam_started');
+            }
+            
             // Añadir efecto de carga
             const button = document.querySelector('.start-button');
             button.innerHTML = '⏳ Cargando...';
@@ -259,5 +264,11 @@
             }, 100);
         });
     </script>
+    
+    <!-- Vercel Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

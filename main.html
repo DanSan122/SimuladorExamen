@@ -501,10 +501,47 @@
         let timerInterval;
         let currentQuestionIndex = 0;
 
-        // Función para seleccionar 20 preguntas aleatorias
+        // Función mejorada para aleatorización real usando Fisher-Yates
         function selectRandomQuestions(questions, count) {
-            const shuffled = [...questions].sort(() => 0.5 - Math.random());
+            // Crear una copia del array original
+            const shuffled = [...questions];
+            
+            // Algoritmo Fisher-Yates para verdadera aleatorización
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            
+            // Tomar solo la cantidad solicitada
             return shuffled.slice(0, count);
+        }
+
+        // Función para mezclar las opciones de una pregunta (opcional)
+        function shuffleQuestionOptions(question) {
+            // Crear mapeo de opciones originales
+            const originalOptions = [...question.options];
+            const correctAnswer = question.answer;
+            
+            // Crear array de índices y mezclarlo
+            const indices = Array.from({length: originalOptions.length}, (_, i) => i);
+            
+            // Fisher-Yates para índices
+            for (let i = indices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [indices[i], indices[j]] = [indices[j], indices[i]];
+            }
+            
+            // Reorganizar opciones según nuevos índices
+            const shuffledOptions = indices.map(i => originalOptions[i]);
+            
+            // Encontrar nueva posición de la respuesta correcta
+            const newCorrectAnswer = indices.indexOf(correctAnswer);
+            
+            return {
+                ...question,
+                options: shuffledOptions,
+                answer: newCorrectAnswer
+            };
         }
 
         async function loadQuestions() {
@@ -515,8 +552,12 @@
                 }
                 allQuestions = await response.json();
                 
-                // Seleccionar solo 20 preguntas aleatorias
+                // Seleccionar 20 preguntas aleatorias
                 selectedQuestions = selectRandomQuestions(allQuestions, 20);
+                
+                // Opcional: También mezclar las opciones de cada pregunta
+                // Descomenta la siguiente línea si quieres que las opciones también se mezclen
+                // selectedQuestions = selectedQuestions.map(q => shuffleQuestionOptions(q));
                 
                 userAnswers = new Array(selectedQuestions.length).fill(null);
                 currentQuestionIndex = 0;
@@ -679,6 +720,16 @@
             
             const score = (correctCount / selectedQuestions.length * 100).toFixed(1);
             
+            // Registrar evento de finalización de examen
+            if (window.va) {
+                window.va('track', 'exam_completed', {
+                    score: parseFloat(score),
+                    correct_answers: correctCount,
+                    total_questions: selectedQuestions.length,
+                    time_remaining: timeLeft
+                });
+            }
+            
             // Mostrar resumen general
             resultsDiv.innerHTML = `
                 <div class="results-header">
@@ -769,5 +820,11 @@
 
         window.addEventListener('DOMContentLoaded', loadQuestions);
     </script>
+    
+    <!-- Vercel Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
