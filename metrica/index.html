@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro de Simuladores - Exámenes Online</title>
+    <title>Simulador de Examen - Métrica V3</title>
     <style>
         :root {
             --bg-color: #1a1a1a;
@@ -42,6 +42,25 @@
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             border: 1px solid var(--border-color);
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--highlight-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: var(--primary-color);
+            color: white;
         }
 
         .logo {
@@ -92,80 +111,6 @@
 
         .info-value {
             color: var(--text-color);
-        }
-
-        .modules-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin: 30px 0;
-        }
-
-        .module-card {
-            background: var(--highlight-color);
-            border-radius: 15px;
-            padding: 25px;
-            border: 2px solid var(--border-color);
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .module-card:hover {
-            border-color: var(--primary-color);
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(76, 175, 80, 0.3);
-        }
-
-        .module-card:active {
-            transform: translateY(-2px);
-        }
-
-        .module-icon {
-            font-size: 3rem;
-            margin-bottom: 15px;
-            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
-        }
-
-        .module-card h3 {
-            color: var(--primary-color);
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
-
-        .module-description {
-            color: #b0b0b0;
-            font-size: 1rem;
-            margin-bottom: 15px;
-            line-height: 1.4;
-        }
-
-        .module-info {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            margin-bottom: 20px;
-            font-size: 0.9rem;
-            color: #888;
-        }
-
-        .module-button {
-            background: linear-gradient(45deg, var(--primary-color), #66BB6A);
-            color: white;
-            padding: 12px 20px;
-            border-radius: 25px;
-            font-weight: bold;
-            font-size: 0.95rem;
-            transition: all 0.3s ease;
-            margin-top: auto;
-        }
-
-        .module-card:hover .module-button {
-            background: linear-gradient(45deg, var(--primary-hover), #5cbf60);
-            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
         }
 
         .start-button {
@@ -246,6 +191,12 @@
                 padding: 15px 30px;
                 font-size: 1.1rem;
             }
+
+            .back-button {
+                position: static;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
         }
 
         .pulse {
@@ -266,83 +217,66 @@
     </style>
 </head>
 <body>
+    <a href="../index.html" class="back-button">← Volver al inicio</a>
+    
     <div class="container">
-        <div class="logo">🎓</div>
-        <h1>Centro de Simuladores</h1>
-        <p class="subtitle">Sistema de Evaluación - Múltiples Módulos</p>
+        <div class="logo">📋</div>
+        <h1>Simulador de Examen</h1>
+        <p class="subtitle">Metodología Métrica V3 - Sistema de Evaluación</p>
         
-        <div class="modules-container">
-            <div class="module-card" onclick="selectModule('metrica')">
-                <div class="module-icon">�</div>
-                <h3>Métrica V3</h3>
-                <p class="module-description">Metodología de desarrollo de sistemas de información</p>
-                <div class="module-info">
-                    <span>🎯 Procesos PSI, ASI, DSI, CSI, IAS</span>
-                    <span>📊 20 preguntas</span>
-                    <span>⏱️ 20 minutos</span>
-                </div>
-                <div class="module-button">Acceder al Simulador</div>
+        <div class="info-box">
+            <div class="info-item">
+                <span class="info-label">📊 Total de preguntas:</span>
+                <span class="info-value">20 preguntas aleatorias</span>
             </div>
-
-            <div class="module-card" onclick="selectModule('software')">
-                <div class="module-icon">💻</div>
-                <h3>Ingeniería de Software</h3>
-                <p class="module-description">Principios y prácticas de desarrollo de software</p>
-                <div class="module-info">
-                    <span>🎯 Metodologías, UML, Patrones</span>
-                    <span>📊 20 preguntas</span>
-                    <span>⏱️ 20 minutos</span>
-                </div>
-                <div class="module-button">Acceder al Simulador</div>
+            <div class="info-item">
+                <span class="info-label">⏱️ Tiempo límite:</span>
+                <span class="info-value">20 minutos</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">✅ Tipo de examen:</span>
+                <span class="info-value">Opción múltiple</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">🎯 Tema:</span>
+                <span class="info-value">Métrica V3 - Procesos PSI, ASI, DSI, CSI, IAS</span>
             </div>
         </div>
 
         <div class="instructions">
-            <h3>📝 Instrucciones Generales:</h3>
+            <h3>📝 Instrucciones:</h3>
             <ul>
-                <li>Selecciona el módulo de tu preferencia</li>
-                <li>Cada examen tiene 20 minutos de duración</li>
-                <li>Las preguntas se seleccionan aleatoriamente</li>
+                <li>Tendrás 20 minutos para completar el examen</li>
+                <li>Se seleccionarán 20 preguntas al azar de toda la base de datos</li>
                 <li>Puedes cambiar tus respuestas antes de enviar</li>
-                <li>Al finalizar verás tus resultados detallados</li>
+                <li>Al finalizar verás tus resultados y las respuestas correctas</li>
+                <li>Si el tiempo se agota, el examen se enviará automáticamente</li>
             </ul>
         </div>
+
+        <button class="start-button pulse" onclick="startExam()">
+            🚀 Iniciar Examen
+        </button>
         
         <h6>Elaborado por Daniel Sanchez</h6>
     </div>
 
     <script>
-        function selectModule(moduleType) {
-            // Registrar evento de selección de módulo
+        function startExam() {
+            // Registrar evento de inicio de examen
             if (window.va) {
-                window.va('track', 'module_selected', { module: moduleType });
+                window.va('track', 'exam_started', { module: 'metrica' });
             }
             
             // Añadir efecto de carga
-            const cards = document.querySelectorAll('.module-card');
-            cards.forEach(card => {
-                card.style.opacity = '0.5';
-                card.style.transform = 'scale(0.95)';
-            });
-            
-            // Mostrar mensaje de carga
-            const selectedCard = event.currentTarget;
-            const button = selectedCard.querySelector('.module-button');
+            const button = document.querySelector('.start-button');
             button.innerHTML = '⏳ Cargando...';
+            button.style.transform = 'scale(0.95)';
             
-            // Redirigir según el módulo seleccionado
+            // Redirigir después de un breve delay para el efecto visual
             setTimeout(() => {
-                if (moduleType === 'metrica') {
-                    window.location.href = './metrica/index.html';
-                } else if (moduleType === 'software') {
-                    window.location.href = './software/index.html';
-                }
+                window.location.href = './main.html';
             }, 800);
-        }
-
-        // Función legacy para compatibilidad
-        function startExam() {
-            selectModule('metrica');
         }
 
         // Añadir animación sutil al cargar la página
@@ -355,18 +289,6 @@
                 document.querySelector('.container').style.opacity = '1';
                 document.querySelector('.container').style.transform = 'translateY(0)';
             }, 100);
-
-            // Animación secuencial de las tarjetas
-            const cards = document.querySelectorAll('.module-card');
-            cards.forEach((card, index) => {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(30px)';
-                setTimeout(() => {
-                    card.style.transition = 'all 0.5s ease';
-                    card.style.opacity = '1';
-                    card.style.transform = 'translateY(0)';
-                }, 300 + (index * 200));
-            });
         });
     </script>
     
@@ -375,17 +297,5 @@
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
-    
-    <!-- Google Analytics (alternativa) -->
-    <!-- Reemplaza G-XXXXXXXXXX con tu ID de Google Analytics -->
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
-    -->
 </body>
 </html>

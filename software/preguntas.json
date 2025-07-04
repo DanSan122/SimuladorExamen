@@ -1,0 +1,202 @@
+[
+    {
+        "question": "¿Cuál es una ventaja de tener un plan de pruebas bien definido?",
+        "options": [
+            "Elimina la necesidad de pruebas manuales",
+            "Mejora la trazabilidad y control del proceso de pruebas",
+            "Reduce la necesidad de documentación",
+            "Aumenta la complejidad del sistema"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es una buena práctica al realizar pruebas de continuidad?",
+        "options": [
+            "Simular escenarios realistas de interrupción",
+            "Realizarlas sin notificar al personal",
+            "Ejecutarlas solo después de un desastre real",
+            "Ejecutarlas únicamente en entornos de producción"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo principal de un plan de pruebas de software?",
+        "options": [
+            "Reducir el tiempo de desarrollo",
+            "Automatizar todos los casos de prueba",
+            "Documentar los errores encontrados",
+            "Definir el enfoque, recursos y cronograma de las pruebas"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Qué métrica se utiliza comúnmente para evaluar la efectividad de las pruebas unitarias?",
+        "options": [
+            "Número de usuarios concurrentes",
+            "Velocidad de carga de la interfaz",
+            "Porcentaje de cobertura de código",
+            "Tiempo de respuesta del sistema"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes no es un buen motivo para escribir pruebas unitarias?",
+        "options": [
+            "Detectar errores en funciones específicas",
+            "Aumentar la cobertura de código",
+            "Facilitar el mantenimiento del software",
+            "Verificar la interfaz gráfica del usuario"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Qué formato se utiliza comúnmente para escribir escenarios en BDD?",
+        "options": [
+            "JSON",
+            "XML",
+            "YAML",
+            "Gherkin"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Qué tipo de pruebas se escriben principalmente en TDD?",
+        "options": [
+            "Pruebas de integración",
+            "Pruebas de rendimiento",
+            "Pruebas de aceptación",
+            "Pruebas unitarias"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del desarrollo dirigido por comportamiento (BDD)?",
+        "options": [
+            "Facilitar la colaboración entre desarrolladores, testers y clientes mediante ejemplos concretos",
+            "Automatizar la interfaz gráfica del usuario",
+            "Reducir el tamaño del código fuente",
+            "Mejorar la cobertura de código"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo principal de una prueba unitaria?",
+        "options": [
+            "Probar el comportamiento de una función o método individual",
+            "Validar los requisitos del cliente",
+            "Evaluar el rendimiento del sistema",
+            "Verificar la integración entre módulos"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta se utiliza comúnmente para documentar y gestionar planes de prueba?",
+        "options": [
+            "Ms Project",
+            "Ms Office",
+            "Plantillas de Excel",
+            "JIRA"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "En BDD, una historia de usuario se descompone en escenarios que siguen la estructura:",
+        "options": [
+            "Given - When - Then",
+            "Setup - Execute - Verify",
+            "Arrange - Act - Assert",
+            "Input - Process - Output"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es comúnmente utilizada para implementar TDD en proyectos con Python?",
+        "options": [
+            "Postman",
+            "JUnit",
+            "PyTest",
+            "Selenium"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes riesgos puede mitigarse con un buen plan de pruebas?",
+        "options": [
+            "Fallos no detectados en producción",
+            "Retrasos en la entrega del hardware",
+            "Cambios en el mercado",
+            "Problemas legales del cliente"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué tipo de prueba se enfoca en verificar la interacción entre módulos?",
+        "options": [
+            "Prueba de integración",
+            "Prueba de regresión",
+            "Prueba de aceptación",
+            "Prueba unitaria"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Quién es el principal responsable de escribir las pruebas unitarias?",
+        "options": [
+            "El cliente",
+            "El desarrollador",
+            "El analista de calidad",
+            "El gerente de proyecto"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes beneficios está más directamente asociado con las pruebas unitarias?",
+        "options": [
+            "Mejora la experiencia del usuario",
+            "Facilita la detección temprana de errores",
+            "Reduce el tiempo de compilación",
+            "Aumenta la velocidad de despliegue"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de las siguientes herramientas está más asociada con BDD?",
+        "options": [
+            "Selenium",
+            "Jenkins",
+            "JUnit",
+            "Cucumber"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Cuál es el orden correcto de pasos en el desarrollo guiado por pruebas (TDD)?",
+        "options": [
+            "Escribir prueba → Escribir código → Refactorizar",
+            "Refactorizar → Escribir código → Escribir prueba",
+            "Escribir código → Refactorizar → Escribir prueba",
+            "Escribir código → Escribir prueba → Refactorizar"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes eventos justificaría la ejecución de una prueba de continuidad?",
+        "options": [
+            "Cambio en el proceso del negocio",
+            "Mejora en la documentación del usuario",
+            "Simulación de un corte de energía, caídas de los sistemas o fallo del servidor",
+            "Actualización menor del sistema operativo"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un criterio de salida en un plan de pruebas?",
+        "options": [
+            "Se ha alcanzado una cobertura de pruebas aceptable",
+            "Todos los errores corregidos",
+            "El sistema ha sido desplegado en producción",
+            "Todos los casos de prueba ejecutados"
+        ],
+        "answer": 2
+    }
+]

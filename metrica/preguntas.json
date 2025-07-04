@@ -1,0 +1,3893 @@
+[
+    {
+        "question": "¿Cuál es uno de los objetivos principales de la metodología Métrica V3?",
+        "options": [
+            "Proporcionar Sistemas de Información que ayuden a conseguir los fines de la Organización mediante la definición de un marco estratégico para el desarrollo de los mismos.",
+            "Reducir al mínimo la documentación del proyecto para agilizar el desarrollo.",
+            "Ignorar la reutilización de software para fomentar la innovación constante.",
+            "Limitar la comunicación entre los participantes del proyecto para evitar confusiones."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué objetivo de Métrica V3 se enfoca en satisfacer las necesidades de los usuarios dando mayor importancia al análisis de requisitos?",
+        "options": [
+            "Mejorar la productividad de los departamentos de Sistemas y Tecnologías de la Información y las Comunicaciones.",
+            "Facilitar la comunicación y entendimiento entre los distintos participantes.",
+            "Dotar a la Organización de productos software que satisfagan las necesidades de los usuarios dando una mayor importancia al análisis de requisitos.",
+            "Facilitar la operación, mantenimiento y uso de los productos software obtenidos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes no es un proceso principal de la metodología Métrica V3?",
+        "options": [
+            "Planificación de Sistemas de Información (PSI).",
+            "Desarrollo de Sistemas de Información (DSI).",
+            "Gestión de Proyectos (GP).",
+            "Mantenimiento de Sistemas de Información (MSI)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuáles son los 'Momentos' clave presentados en el recurso didáctico de Estrategias de Sistemas de Información?",
+        "options": [
+            "Desarrollo, Conclusiones, Referencias.",
+            "Utilidad, Innovación, Saberes, Logros.",
+            "Planificación, Diseño, Construcción, Implantación.",
+            "Introducción, Temas, Actividad, Consultas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Elaborar un Plan de Sistemas de Información.",
+            "Obtener la definición de la arquitectura del sistema.",
+            "Construir y probar los componentes del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto final del proceso PSI?",
+        "options": [
+            "Modelo físico de datos optimizado.",
+            "Resultado de pruebas unitarias.",
+            "Catálogo de Requisitos, que surge de un estudio de situación actual, diagnóstico y necesidades de información.",
+            "Acuerdo de nivel de servicio del sistema (SLA)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Según la fuente, la Propuesta de Arquitectura de Información en el PSI es más estratégica que:",
+        "options": [
+            "Operativa.",
+            "Financiera.",
+            "Tecnológica.",
+            "Humana."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la primera actividad del proceso PSI?",
+        "options": [
+            "Definición y Organización del PSI (PSI 2).",
+            "Estudio de la Información Relevante (PSI 3).",
+            "Inicio del PSI (PSI 1).",
+            "Identificación de Requisitos (PSI 4)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se define en la Tarea PSI 1.2: Identificación del Alcance del PSI?",
+        "options": [
+            "El equipo humano de trabajo y el cronograma de ejecución.",
+            "Los procesos afectados por la organización debido al Plan del SI y las direcciones de las áreas implicadas.",
+            "Los productos finales del Plan de SI y sus fechas previstas.",
+            "Las fuentes de información y documentación para el estudio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad PSI 4: Identificación de Requisitos, ¿qué se realiza además de la especificación de requisitos de información y la obtención de un modelo de información?",
+        "options": [
+            "Valoración del estudio de la situación actual.",
+            "Selección de los SI a conservar.",
+            "Clasificación de los requisitos según prioridad.",
+            "Definición del Plan de Trabajo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la actividad PSI 5: Estudio de los SI Actuales?",
+        "options": [
+            "Definir los SI que darán soporte a los procesos de la organización.",
+            "Proponer una arquitectura tecnológica para los SI.",
+            "Valorar la situación actual apoyándose en información respecto al mantenimiento, documentación, flexibilidad, facilidad de uso, etc..",
+            "Definir los proyectos y acciones para la implantación del modelo de información y SI."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 6: Diseño del Modelo de SI, ¿qué se elabora después de realizar un diagnóstico de la situación actual?",
+        "options": [
+            "Un Plan de Mantenimiento del PSI.",
+            "Un modelo de SI.",
+            "Una Arquitectura Tecnológica.",
+            "Un Catálogo de Peticiones."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca con la actividad PSI 7: Definición de la Arquitectura Tecnológica?",
+        "options": [
+            "Identificar los requisitos de información de la organización.",
+            "Definir los proyectos y acciones a llevar a cabo para la implantación.",
+            "Proponer una arquitectura tecnológica que dé soporte a los SI escogidos.",
+            "Aprobar formalmente el Plan de Sistemas de Información."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 8: Definición del Plan de Acción, ¿qué se incluye además de un cronograma de proyectos y estimación de recursos?",
+        "options": [
+            "Un modelo lógico de datos.",
+            "Un plan de mantenimiento del PSI.",
+            "Un estudio de viabilidad.",
+            "Una especificación detallada del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo final de la actividad PSI 9: Revisión y Aprobación del PSI?",
+        "options": [
+            "Elaborar el catálogo de requisitos.",
+            "Realizar entrevistas con usuarios.",
+            "La aprobación del PSI.",
+            "Definir los procesos afectados."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Estudio de Viabilidad del Sistema (EVS)?",
+        "options": [
+            "Conseguir la especificación detallada del SI.",
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Construcción y pruebas de los componentes del SI.",
+            "Entrega y aceptación del sistema en su totalidad."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se incluye en los productos resultantes de un EVS si la solución incluye un producto software estándar de mercado?",
+        "options": [
+            "Modelo abstracto de datos.",
+            "Descripción del producto, evolución del producto, costos ocasionados por el producto, estándares del producto, descripción de adaptación.",
+            "Modelo de procesos.",
+            "Modelo de negocio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad EVS 1: Establecimiento del Alcance del Sistema, ¿qué se inicia además de determinar los objetivos y estudiar el alcance de la necesidad planteada?",
+        "options": [
+            "La valoración de los antecedentes.",
+            "Los estudios de los requisitos.",
+            "La elaboración del diagnóstico.",
+            "La descripción de los SI existentes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el resultado de la actividad EVS 2: Estudio de la Situación Actual?",
+        "options": [
+            "Definición de requisitos generales.",
+            "Propuesta de alternativas que respondan a los requisitos.",
+            "Un diagnóstico, estimando la eficiencia de los SI existentes e identificando problemas y mejoras.",
+            "Valoración de las alternativas considerando el impacto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad EVS 3: Definición de Requisitos del Sistema, ¿qué tipo de directrices se recogen?",
+        "options": [
+            "Directrices económicas y financieras.",
+            "Directrices técnicas y de gestión.",
+            "Directrices de marketing y ventas.",
+            "Directrices de recursos humanos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué se enfoca la actividad EVS 4: Estudio de Alternativas de Solución?",
+        "options": [
+            "En la planificación de alternativas.",
+            "En la descripción general de la necesidad planteada.",
+            "En proponer alternativas que respondan a los requisitos planteados.",
+            "En la selección de la solución más adecuada."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se considera en la valoración de las alternativas en la actividad EVS 5?",
+        "options": [
+            "Únicamente el costo de la solución.",
+            "La viabilidad técnica y operativa.",
+            "El impacto en la organización, beneficios, riesgos, recursos y plazos.",
+            "La disponibilidad de personal para el proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Quiénes dan la aprobación formal o determinan la inviabilidad del sistema en la Tarea EVS 6.3: Aprobación de la Solución?",
+        "options": [
+            "Los usuarios finales.",
+            "El equipo de desarrollo.",
+            "El Comité de Dirección.",
+            "Los gerentes de departamento."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso de Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Obtener la definición de la arquitectura del sistema.",
+            "La construcción y pruebas de los componentes del SI.",
+            "Conseguir la especificación detallada del SI, a través de requisitos y modelos.",
+            "Realizar las pruebas de implantación con el usuario final."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el proceso ASI, ¿cuáles son algunos de los productos resultantes en Análisis Orientado a Objetos?",
+        "options": [
+            "Modelo lógico de datos normalizados.",
+            "Descripción de subsistemas de análisis, descripción de interfaces entre subsistemas, modelo de clases de análisis.",
+            "Catálogo de requisitos (inicial).",
+            "Plan de migración y carga inicial de datos (inicial)."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 1: Definición del Sistema, ¿qué se obtiene a partir del modelo abstracto de datos en el caso del paradigma orientado a objetos?",
+        "options": [
+            "Un modelo de procesos.",
+            "Un modelo conceptual de datos.",
+            "Un glosario de términos.",
+            "Un plan de pruebas inicial."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se lleva a cabo en la Actividad ASI 2: Establecimiento de Requisitos?",
+        "options": [
+            "La identificación de subsistemas de análisis.",
+            "La definición, análisis y validación de requisitos a partir de la información facilitada por el usuario.",
+            "El análisis de los casos de uso.",
+            "La elaboración del modelo de procesos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se especifica en la Tarea ASI 2.2: Especificación de Casos de Uso?",
+        "options": [
+            "La descripción de escenario, precondiciones y postcondiciones, interfaces de usuario, respuesta al sistema, etc..",
+            "La identificación de clases asociadas a un caso de uso.",
+            "La identificación de las directrices técnicas y de gestión.",
+            "La elaboración del modelo conceptual de datos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 3: Identificación de Subsistemas de Análisis?",
+        "options": [
+            "Garantizar la calidad de los distintos modelos generados.",
+            "Facilitar el análisis del SI llevando a cabo la descomposición del sistema en subsistemas.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Realizar un análisis top-down de descomposición."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 4: Análisis de los Casos de Uso, ¿qué tipo de clases se identifican?",
+        "options": [
+            "Clases de entidad, clases de interfaz de usuario, clases de control.",
+            "Clases de datos, clases de procesos.",
+            "Clases abstractas, clases concretas.",
+            "Clases de negocio, clases de dominio."
+        ],
+        "answer": 0
+    },
+        {
+        "question": "¿Cuál es uno de los objetivos principales de la metodología Métrica V3?",
+        "options": [
+            "Proporcionar Sistemas de Información que ayuden a conseguir los fines de la Organización mediante la definición de un marco estratégico para el desarrollo de los mismos.",
+            "Reducir al mínimo la documentación del proyecto para agilizar el desarrollo.",
+            "Ignorar la reutilización de software para fomentar la innovación constante.",
+            "Limitar la comunicación entre los participantes del proyecto para evitar confusiones."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué objetivo de Métrica V3 se enfoca en satisfacer las necesidades de los usuarios dando mayor importancia al análisis de requisitos?",
+        "options": [
+            "Mejorar la productividad de los departamentos de Sistemas y Tecnologías de la Información y las Comunicaciones.",
+            "Facilitar la comunicación y entendimiento entre los distintos participantes.",
+            "Dotar a la Organización de productos software que satisfagan las necesidades de los usuarios dando una mayor importancia al análisis de requisitos.",
+            "Facilitar la operación, mantenimiento y uso de los productos software obtenidos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes no es un proceso principal de la metodología Métrica V3?",
+        "options": [
+            "Planificación de Sistemas de Información (PSI).",
+            "Desarrollo de Sistemas de Información (DSI).",
+            "Gestión de Proyectos (GP).",
+            "Mantenimiento de Sistemas de Información (MSI)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuáles son los 'Momentos' clave presentados en el recurso didáctico de Estrategias de Sistemas de Información?",
+        "options": [
+            "Desarrollo, Conclusiones, Referencias.",
+            "Utilidad, Innovación, Saberes, Logros.",
+            "Planificación, Diseño, Construcción, Implantación.",
+            "Introducción, Temas, Actividad, Consultas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Elaborar un Plan de Sistemas de Información.",
+            "Obtener la definición de la arquitectura del sistema.",
+            "Construir y probar los componentes del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto final del proceso PSI?",
+        "options": [
+            "Modelo físico de datos optimizado.",
+            "Resultado de pruebas unitarias.",
+            "Catálogo de Requisitos, que surge de un estudio de situación actual, diagnóstico y necesidades de información.",
+            "Acuerdo de nivel de servicio del sistema (SLA)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Según la fuente, la Propuesta de Arquitectura de Información en el PSI es más estratégica que:",
+        "options": [
+            "Operativa.",
+            "Financiera.",
+            "Tecnológica.",
+            "Humana."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la primera actividad del proceso PSI?",
+        "options": [
+            "Definición y Organización del PSI (PSI 2).",
+            "Estudio de la Información Relevante (PSI 3).",
+            "Inicio del PSI (PSI 1).",
+            "Identificación de Requisitos (PSI 4)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se define en la Tarea PSI 1.2: Identificación del Alcance del PSI?",
+        "options": [
+            "El equipo humano de trabajo y el cronograma de ejecución.",
+            "Los procesos afectados por la organización debido al Plan del SI y las direcciones de las áreas implicadas.",
+            "Los productos finales del Plan de SI y sus fechas previstas.",
+            "Las fuentes de información y documentación para el estudio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad PSI 4: Identificación de Requisitos, ¿qué se realiza además de la especificación de requisitos de información y la obtención de un modelo de información?",
+        "options": [
+            "Valoración del estudio de la situación actual.",
+            "Selección de los SI a conservar.",
+            "Clasificación de los requisitos según prioridad.",
+            "Definición del Plan de Trabajo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la actividad PSI 5: Estudio de los SI Actuales?",
+        "options": [
+            "Definir los SI que darán soporte a los procesos de la organización.",
+            "Proponer una arquitectura tecnológica para los SI.",
+            "Valorar la situación actual apoyándose en información respecto al mantenimiento, documentación, flexibilidad, facilidad de uso, etc..",
+            "Definir los proyectos y acciones para la implantación del modelo de información y SI."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 6: Diseño del Modelo de SI, ¿qué se elabora después de realizar un diagnóstico de la situación actual?",
+        "options": [
+            "Un Plan de Mantenimiento del PSI.",
+            "Un modelo de SI.",
+            "Una Arquitectura Tecnológica.",
+            "Un Catálogo de Peticiones."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca con la actividad PSI 7: Definición de la Arquitectura Tecnológica?",
+        "options": [
+            "Identificar los requisitos de información de la organización.",
+            "Definir los proyectos y acciones a llevar a cabo para la implantación.",
+            "Proponer una arquitectura tecnológica que dé soporte a los SI escogidos.",
+            "Aprobar formalmente el Plan de Sistemas de Información."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 8: Definición del Plan de Acción, ¿qué se incluye además de un cronograma de proyectos y estimación de recursos?",
+        "options": [
+            "Un modelo lógico de datos.",
+            "Un plan de mantenimiento del PSI.",
+            "Un estudio de viabilidad.",
+            "Una especificación detallada del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo final de la actividad PSI 9: Revisión y Aprobación del PSI?",
+        "options": [
+            "Elaborar el catálogo de requisitos.",
+            "Realizar entrevistas con usuarios.",
+            "La aprobación del PSI.",
+            "Definir los procesos afectados."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Estudio de Viabilidad del Sistema (EVS)?",
+        "options": [
+            "Conseguir la especificación detallada del SI.",
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Construcción y pruebas de los componentes del SI.",
+            "Entrega y aceptación del sistema en su totalidad."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se incluye en los productos resultantes de un EVS si la solución incluye un producto software estándar de mercado?",
+        "options": [
+            "Modelo abstracto de datos.",
+            "Descripción del producto, evolución del producto, costos ocasionados por el producto, estándares del producto, descripción de adaptación.",
+            "Modelo de procesos.",
+            "Modelo de negocio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad EVS 1: Establecimiento del Alcance del Sistema, ¿qué se inicia además de determinar los objetivos y estudiar el alcance de la necesidad planteada?",
+        "options": [
+            "La valoración de los antecedentes.",
+            "Los estudios de los requisitos.",
+            "La elaboración del diagnóstico.",
+            "La descripción de los SI existentes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el resultado de la actividad EVS 2: Estudio de la Situación Actual?",
+        "options": [
+            "Definición de requisitos generales.",
+            "Propuesta de alternativas que respondan a los requisitos.",
+            "Un diagnóstico, estimando la eficiencia de los SI existentes e identificando problemas y mejoras.",
+            "Valoración de las alternativas considerando el impacto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad EVS 3: Definición de Requisitos del Sistema, ¿qué tipo de directrices se recogen?",
+        "options": [
+            "Directrices económicas y financieras.",
+            "Directrices técnicas y de gestión.",
+            "Directrices de marketing y ventas.",
+            "Directrices de recursos humanos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué se enfoca la actividad EVS 4: Estudio de Alternativas de Solución?",
+        "options": [
+            "En la planificación de alternativas.",
+            "En la descripción general de la necesidad planteada.",
+            "En proponer alternativas que respondan a los requisitos planteados.",
+            "En la selección de la solución más adecuada."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se considera en la valoración de las alternativas en la actividad EVS 5?",
+        "options": [
+            "Únicamente el costo de la solución.",
+            "La viabilidad técnica y operativa.",
+            "El impacto en la organización, beneficios, riesgos, recursos y plazos.",
+            "La disponibilidad de personal para el proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Quiénes dan la aprobación formal o determinan la inviabilidad del sistema en la Tarea EVS 6.3: Aprobación de la Solución?",
+        "options": [
+            "Los usuarios finales.",
+            "El equipo de desarrollo.",
+            "El Comité de Dirección.",
+            "Los gerentes de departamento."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso de Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Obtener la definición de la arquitectura del sistema.",
+            "La construcción y pruebas de los componentes del SI.",
+            "Conseguir la especificación detallada del SI, a través de requisitos y modelos.",
+            "Realizar las pruebas de implantación con el usuario final."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el proceso ASI, ¿cuáles son algunos de los productos resultantes en Análisis Orientado a Objetos?",
+        "options": [
+            "Modelo lógico de datos normalizados.",
+            "Descripción de subsistemas de análisis, descripción de interfaces entre subsistemas, modelo de clases de análisis.",
+            "Catálogo de requisitos (inicial).",
+            "Plan de migración y carga inicial de datos (inicial)."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 1: Definición del Sistema, ¿qué se obtiene a partir del modelo abstracto de datos en el caso del paradigma orientado a objetos?",
+        "options": [
+            "Un modelo de procesos.",
+            "Un modelo conceptual de datos.",
+            "Un glosario de términos.",
+            "Un plan de pruebas inicial."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se lleva a cabo en la Actividad ASI 2: Establecimiento de Requisitos?",
+        "options": [
+            "La identificación de subsistemas de análisis.",
+            "La definición, análisis y validación de requisitos a partir de la información facilitada por el usuario.",
+            "El análisis de los casos de uso.",
+            "La elaboración del modelo de procesos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se especifica en la Tarea ASI 2.2: Especificación de Casos de Uso?",
+        "options": [
+            "La descripción de escenario, precondiciones y postcondiciones, interfaces de usuario, respuesta al sistema, etc..",
+            "La identificación de clases asociadas a un caso de uso.",
+            "La identificación de las directrices técnicas y de gestión.",
+            "La elaboración del modelo conceptual de datos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 3: Identificación de Subsistemas de Análisis?",
+        "options": [
+            "Garantizar la calidad de los distintos modelos generados.",
+            "Facilitar el análisis del SI llevando a cabo la descomposición del sistema en subsistemas.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Realizar un análisis top-down de descomposición."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 4: Análisis de los Casos de Uso, ¿qué tipo de clases se identifican?",
+        "options": [
+            "Clases de entidad, clases de interfaz de usuario, clases de control.",
+            "Clases de datos, clases de procesos.",
+            "Clases abstractas, clases concretas.",
+            "Clases de negocio, clases de dominio."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué se reconoce en la Actividad ASI 5: Análisis de Clases en el paradigma orientado a objetos?",
+        "options": [
+            "Los casos de uso asociados a los requisitos funcionales.",
+            "Las clases, sus métodos, atributos y relaciones.",
+            "La navegación entre ventanas.",
+            "La asignación de esquemas físicos de datos a nodos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 6: Elaboración del Modelo de Datos?",
+        "options": [
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Identificar las necesidades de información de cada uno de los procesos, con el fin de obtener un modelo de datos.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Comprobar la integración de todos los subsistemas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuándo se realiza la Tarea ASI 6.4: Especificación de Necesidades de Migración de Datos y Carga Inicial?",
+        "options": [
+            "Solo si el sistema es completamente nuevo.",
+            "Si es necesaria una migración de datos de otros sistemas o una carga inicial de información.",
+            "Al finalizar la construcción del sistema.",
+            "Durante la definición de la arquitectura tecnológica."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué paradigma se lleva a cabo la Actividad ASI 7: Elaboración del Modelo de Procesos?",
+        "options": [
+            "Diseño orientado a objetos.",
+            "Análisis de casos de uso.",
+            "Análisis estructurado.",
+            "Diseño físico de datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad ASI 8: Definición de Interfaces de Usuario?",
+        "options": [
+            "Construir interfaces acordes a las necesidades del usuario, flexibles, sencillas, coherentes y eficientes.",
+            "Generar el código de los componentes del SI.",
+            "Preparar el entorno de construcción.",
+            "Realizar pruebas unitarias."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "En la Actividad ASI 9: Análisis de Consistencia y Especificación de Requisitos, ¿qué se busca asegurar?",
+        "options": [
+            "La disponibilidad de los recursos humanos y técnicos.",
+            "La calidad de los distintos modelos generados en todo el proceso del Análisis de los Sistemas de Información.",
+            "La identificación de clases adicionales.",
+            "La elaboración de manuales de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Para qué sirve el plan de pruebas especificado en la Actividad ASI 10: Especificación del Plan de Pruebas?",
+        "options": [
+            "Como guía para la realización de las pruebas y permite verificar que el SI cumple las necesidades establecidas por el usuario.",
+            "Para definir los procedimientos de operación y seguridad.",
+            "Para elaborar la documentación del usuario final.",
+            "Para la formalización del plan de mantenimiento."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Quiénes aprueban el Análisis del SI en la Actividad ASI 11?",
+        "options": [
+            "El equipo de desarrollo.",
+            "El responsable de seguridad.",
+            "El Comité de Dirección.",
+            "Los usuarios finales."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito principal del proceso de Diseño del Sistema de Información (DSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución.",
+            "Conseguir la especificación detallada del SI a través de requisitos.",
+            "Obtener la definición de la arquitectura del sistema y del entorno tecnológico, y la especificación detallada de los componentes del SI.",
+            "Entregar y aceptar el sistema en su totalidad."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto resultante del DSI (Primer Bloque)?",
+        "options": [
+            "Modelo de procesos.",
+            "Resultado de las pruebas de integración.",
+            "Diseño de la arquitectura del sistema.",
+            "Catálogo de peticiones de cambio."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la Tarea DSI 1.1: Definición de Niveles de Arquitectura, ¿qué se tiene en cuenta para definir las particiones físicas del SI?",
+        "options": [
+            "Volumen de datos y frecuencia de ejecución.",
+            "Ubicación de usuarios, movilidad, concurrencia, número, así como variabilidad, volumen y seguridad de los datos.",
+            "El plan de mantenimiento del PSI.",
+            "El presupuesto disponible para el proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Tarea DSI 1.7: Especificación de Requisitos de Operación y Seguridad?",
+        "options": [
+            "La jerarquía de clases.",
+            "Procedimientos de seguridad y operación necesarios para no comprometer el correcto funcionamiento del sistema.",
+            "La realización de las pruebas de regresión.",
+            "El entorno tecnológico propio de los procesos de migración."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 3: Diseño de Casos de Uso Reales (solo para Orientado a Objetos)?",
+        "options": [
+            "Definir los SI que finalmente darán soporte a los procesos de la organización.",
+            "Especificar el comportamiento del SI para un caso de uso, mediante objetos o subsistemas de diseño que interactúan.",
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Establecer las necesidades de formación del usuario final."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se transforma en la Actividad DSI 4: Diseño de Clases (solo para Orientado a Objetos)?",
+        "options": [
+            "El modelo de procesos a un modelo de clases de diseño.",
+            "El modelo lógico a un modelo de clases de diseño.",
+            "El modelo de negocio a un modelo de dominio.",
+            "El modelo conceptual a un modelo físico de datos."
+        ],
+        "answer": 1
+    },
+        {
+        "question": "¿Cuál es uno de los objetivos principales de la metodología Métrica V3?",
+        "options": [
+            "Proporcionar Sistemas de Información que ayuden a conseguir los fines de la Organización mediante la definición de un marco estratégico para el desarrollo de los mismos.",
+            "Reducir al mínimo la documentación del proyecto para agilizar el desarrollo.",
+            "Ignorar la reutilización de software para fomentar la innovación constante.",
+            "Limitar la comunicación entre los participantes del proyecto para evitar confusiones."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué objetivo de Métrica V3 se enfoca en satisfacer las necesidades de los usuarios dando mayor importancia al análisis de requisitos?",
+        "options": [
+            "Mejorar la productividad de los departamentos de Sistemas y Tecnologías de la Información y las Comunicaciones.",
+            "Facilitar la comunicación y entendimiento entre los distintos participantes.",
+            "Dotar a la Organización de productos software que satisfagan las necesidades de los usuarios dando una mayor importancia al análisis de requisitos.",
+            "Facilitar la operación, mantenimiento y uso de los productos software obtenidos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes no es un proceso principal de la metodología Métrica V3?",
+        "options": [
+            "Planificación de Sistemas de Información (PSI).",
+            "Desarrollo de Sistemas de Información (DSI).",
+            "Gestión de Proyectos (GP).",
+            "Mantenimiento de Sistemas de Información (MSI)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuáles son los 'Momentos' clave presentados en el recurso didáctico de Estrategias de Sistemas de Información?",
+        "options": [
+            "Desarrollo, Conclusiones, Referencias.",
+            "Utilidad, Innovación, Saberes, Logros.",
+            "Planificación, Diseño, Construcción, Implantación.",
+            "Introducción, Temas, Actividad, Consultas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Elaborar un Plan de Sistemas de Información.",
+            "Obtener la definición de la arquitectura del sistema.",
+            "Construir y probar los componentes del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto final del proceso PSI?",
+        "options": [
+            "Modelo físico de datos optimizado.",
+            "Resultado de pruebas unitarias.",
+            "Catálogo de Requisitos, que surge de un estudio de situación actual, diagnóstico y necesidades de información.",
+            "Acuerdo de nivel de servicio del sistema (SLA)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Según la fuente, la Propuesta de Arquitectura de Información en el PSI es más estratégica que:",
+        "options": [
+            "Operativa.",
+            "Financiera.",
+            "Tecnológica.",
+            "Humana."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la primera actividad del proceso PSI?",
+        "options": [
+            "Definición y Organización del PSI (PSI 2).",
+            "Estudio de la Información Relevante (PSI 3).",
+            "Inicio del PSI (PSI 1).",
+            "Identificación de Requisitos (PSI 4)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se define en la Tarea PSI 1.2: Identificación del Alcance del PSI?",
+        "options": [
+            "El equipo humano de trabajo y el cronograma de ejecución.",
+            "Los procesos afectados por la organización debido al Plan del SI y las direcciones de las áreas implicadas.",
+            "Los productos finales del Plan de SI y sus fechas previstas.",
+            "Las fuentes de información y documentación para el estudio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad PSI 4: Identificación de Requisitos, ¿qué se realiza además de la especificación de requisitos de información y la obtención de un modelo de información?",
+        "options": [
+            "Valoración del estudio de la situación actual.",
+            "Selección de los SI a conservar.",
+            "Clasificación de los requisitos según prioridad.",
+            "Definición del Plan de Trabajo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la actividad PSI 5: Estudio de los SI Actuales?",
+        "options": [
+            "Definir los SI que darán soporte a los procesos de la organización.",
+            "Proponer una arquitectura tecnológica para los SI.",
+            "Valorar la situación actual apoyándose en información respecto al mantenimiento, documentación, flexibilidad, facilidad de uso, etc..",
+            "Definir los proyectos y acciones para la implantación del modelo de información y SI."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 6: Diseño del Modelo de SI, ¿qué se elabora después de realizar un diagnóstico de la situación actual?",
+        "options": [
+            "Un Plan de Mantenimiento del PSI.",
+            "Un modelo de SI.",
+            "Una Arquitectura Tecnológica.",
+            "Un Catálogo de Peticiones."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca con la actividad PSI 7: Definición de la Arquitectura Tecnológica?",
+        "options": [
+            "Identificar los requisitos de información de la organización.",
+            "Definir los proyectos y acciones a llevar a cabo para la implantación.",
+            "Proponer una arquitectura tecnológica que dé soporte a los SI escogidos.",
+            "Aprobar formalmente el Plan de Sistemas de Información."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 8: Definición del Plan de Acción, ¿qué se incluye además de un cronograma de proyectos y estimación de recursos?",
+        "options": [
+            "Un modelo lógico de datos.",
+            "Un plan de mantenimiento del PSI.",
+            "Un estudio de viabilidad.",
+            "Una especificación detallada del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo final de la actividad PSI 9: Revisión y Aprobación del PSI?",
+        "options": [
+            "Elaborar el catálogo de requisitos.",
+            "Realizar entrevistas con usuarios.",
+            "La aprobación del PSI.",
+            "Definir los procesos afectados."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Estudio de Viabilidad del Sistema (EVS)?",
+        "options": [
+            "Conseguir la especificación detallada del SI.",
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Construcción y pruebas de los componentes del SI.",
+            "Entrega y aceptación del sistema en su totalidad."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se incluye en los productos resultantes de un EVS si la solución incluye un producto software estándar de mercado?",
+        "options": [
+            "Modelo abstracto de datos.",
+            "Descripción del producto, evolución del producto, costos ocasionados por el producto, estándares del producto, descripción de adaptación.",
+            "Modelo de procesos.",
+            "Modelo de negocio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad EVS 1: Establecimiento del Alcance del Sistema, ¿qué se inicia además de determinar los objetivos y estudiar el alcance de la necesidad planteada?",
+        "options": [
+            "La valoración de los antecedentes.",
+            "Los estudios de los requisitos.",
+            "La elaboración del diagnóstico.",
+            "La descripción de los SI existentes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el resultado de la actividad EVS 2: Estudio de la Situación Actual?",
+        "options": [
+            "Definición de requisitos generales.",
+            "Propuesta de alternativas que respondan a los requisitos.",
+            "Un diagnóstico, estimando la eficiencia de los SI existentes e identificando problemas y mejoras.",
+            "Valoración de las alternativas considerando el impacto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad EVS 3: Definición de Requisitos del Sistema, ¿qué tipo de directrices se recogen?",
+        "options": [
+            "Directrices económicas y financieras.",
+            "Directrices técnicas y de gestión.",
+            "Directrices de marketing y ventas.",
+            "Directrices de recursos humanos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué se enfoca la actividad EVS 4: Estudio de Alternativas de Solución?",
+        "options": [
+            "En la planificación de alternativas.",
+            "En la descripción general de la necesidad planteada.",
+            "En proponer alternativas que respondan a los requisitos planteados.",
+            "En la selección de la solución más adecuada."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se considera en la valoración de las alternativas en la actividad EVS 5?",
+        "options": [
+            "Únicamente el costo de la solución.",
+            "La viabilidad técnica y operativa.",
+            "El impacto en la organización, beneficios, riesgos, recursos y plazos.",
+            "La disponibilidad de personal para el proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Quiénes dan la aprobación formal o determinan la inviabilidad del sistema en la Tarea EVS 6.3: Aprobación de la Solución?",
+        "options": [
+            "Los usuarios finales.",
+            "El equipo de desarrollo.",
+            "El Comité de Dirección.",
+            "Los gerentes de departamento."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso de Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Obtener la definición de la arquitectura del sistema.",
+            "La construcción y pruebas de los componentes del SI.",
+            "Conseguir la especificación detallada del SI, a través de requisitos y modelos.",
+            "Realizar las pruebas de implantación con el usuario final."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el proceso ASI, ¿cuáles son algunos de los productos resultantes en Análisis Orientado a Objetos?",
+        "options": [
+            "Modelo lógico de datos normalizados.",
+            "Descripción de subsistemas de análisis, descripción de interfaces entre subsistemas, modelo de clases de análisis.",
+            "Catálogo de requisitos (inicial).",
+            "Plan de migración y carga inicial de datos (inicial)."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 1: Definición del Sistema, ¿qué se obtiene a partir del modelo abstracto de datos en el caso del paradigma orientado a objetos?",
+        "options": [
+            "Un modelo de procesos.",
+            "Un modelo conceptual de datos.",
+            "Un glosario de términos.",
+            "Un plan de pruebas inicial."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se lleva a cabo en la Actividad ASI 2: Establecimiento de Requisitos?",
+        "options": [
+            "La identificación de subsistemas de análisis.",
+            "La definición, análisis y validación de requisitos a partir de la información facilitada por el usuario.",
+            "El análisis de los casos de uso.",
+            "La elaboración del modelo de procesos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se especifica en la Tarea ASI 2.2: Especificación de Casos de Uso?",
+        "options": [
+            "La descripción de escenario, precondiciones y postcondiciones, interfaces de usuario, respuesta al sistema, etc..",
+            "La identificación de clases asociadas a un caso de uso.",
+            "La identificación de las directrices técnicas y de gestión.",
+            "La elaboración del modelo conceptual de datos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 3: Identificación de Subsistemas de Análisis?",
+        "options": [
+            "Garantizar la calidad de los distintos modelos generados.",
+            "Facilitar el análisis del SI llevando a cabo la descomposición del sistema en subsistemas.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Realizar un análisis top-down de descomposición."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 4: Análisis de los Casos de Uso, ¿qué tipo de clases se identifican?",
+        "options": [
+            "Clases de entidad, clases de interfaz de usuario, clases de control.",
+            "Clases de datos, clases de procesos.",
+            "Clases abstractas, clases concretas.",
+            "Clases de negocio, clases de dominio."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué se reconoce en la Actividad ASI 5: Análisis de Clases en el paradigma orientado a objetos?",
+        "options": [
+            "Los casos de uso asociados a los requisitos funcionales.",
+            "Las clases, sus métodos, atributos y relaciones.",
+            "La navegación entre ventanas.",
+            "La asignación de esquemas físicos de datos a nodos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 6: Elaboración del Modelo de Datos?",
+        "options": [
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Identificar las necesidades de información de cada uno de los procesos, con el fin de obtener un modelo de datos.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Comprobar la integración de todos los subsistemas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuándo se realiza la Tarea ASI 6.4: Especificación de Necesidades de Migración de Datos y Carga Inicial?",
+        "options": [
+            "Solo si el sistema es completamente nuevo.",
+            "Si es necesaria una migración de datos de otros sistemas o una carga inicial de información.",
+            "Al finalizar la construcción del sistema.",
+            "Durante la definición de la arquitectura tecnológica."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué paradigma se lleva a cabo la Actividad ASI 7: Elaboración del Modelo de Procesos?",
+        "options": [
+            "Diseño orientado a objetos.",
+            "Análisis de casos de uso.",
+            "Análisis estructurado.",
+            "Diseño físico de datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad ASI 8: Definición de Interfaces de Usuario?",
+        "options": [
+            "Construir interfaces acordes a las necesidades del usuario, flexibles, sencillas, coherentes y eficientes.",
+            "Generar el código de los componentes del SI.",
+            "Preparar el entorno de construcción.",
+            "Realizar pruebas unitarias."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "En la Actividad ASI 9: Análisis de Consistencia y Especificación de Requisitos, ¿qué se busca asegurar?",
+        "options": [
+            "La disponibilidad de los recursos humanos y técnicos.",
+            "La calidad de los distintos modelos generados en todo el proceso del Análisis de los Sistemas de Información.",
+            "La identificación de clases adicionales.",
+            "La elaboración de manuales de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Para qué sirve el plan de pruebas especificado en la Actividad ASI 10: Especificación del Plan de Pruebas?",
+        "options": [
+            "Como guía para la realización de las pruebas y permite verificar que el SI cumple las necesidades establecidas por el usuario.",
+            "Para definir los procedimientos de operación y seguridad.",
+            "Para elaborar la documentación del usuario final.",
+            "Para la formalización del plan de mantenimiento."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Quiénes aprueban el Análisis del SI en la Actividad ASI 11?",
+        "options": [
+            "El equipo de desarrollo.",
+            "El responsable de seguridad.",
+            "El Comité de Dirección.",
+            "Los usuarios finales."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito principal del proceso de Diseño del Sistema de Información (DSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución.",
+            "Conseguir la especificación detallada del SI a través de requisitos.",
+            "Obtener la definición de la arquitectura del sistema y del entorno tecnológico, y la especificación detallada de los componentes del SI.",
+            "Entregar y aceptar el sistema en su totalidad."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto resultante del DSI (Primer Bloque)?",
+        "options": [
+            "Modelo de procesos.",
+            "Resultado de las pruebas de integración.",
+            "Diseño de la arquitectura del sistema.",
+            "Catálogo de peticiones de cambio."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la Tarea DSI 1.1: Definición de Niveles de Arquitectura, ¿qué se tiene en cuenta para definir las particiones físicas del SI?",
+        "options": [
+            "Volumen de datos y frecuencia de ejecución.",
+            "Ubicación de usuarios, movilidad, concurrencia, número, así como variabilidad, volumen y seguridad de los datos.",
+            "El plan de mantenimiento del PSI.",
+            "El presupuesto disponible para el proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Tarea DSI 1.7: Especificación de Requisitos de Operación y Seguridad?",
+        "options": [
+            "La jerarquía de clases.",
+            "Procedimientos de seguridad y operación necesarios para no comprometer el correcto funcionamiento del sistema.",
+            "La realización de las pruebas de regresión.",
+            "El entorno tecnológico propio de los procesos de migración."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 3: Diseño de Casos de Uso Reales (solo para Orientado a Objetos)?",
+        "options": [
+            "Definir los SI que finalmente darán soporte a los procesos de la organización.",
+            "Especificar el comportamiento del SI para un caso de uso, mediante objetos o subsistemas de diseño que interactúan.",
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Establecer las necesidades de formación del usuario final."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se transforma en la Actividad DSI 4: Diseño de Clases (solo para Orientado a Objetos)?",
+        "options": [
+            "El modelo de procesos a un modelo de clases de diseño.",
+            "El modelo lógico a un modelo de clases de diseño.",
+            "El modelo de negocio a un modelo de dominio.",
+            "El modelo conceptual a un modelo físico de datos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué modelo se elabora en la Actividad DSI 5: Diseño del Modelo Físico de Datos?",
+        "options": [
+            "Modelo de seguridad del sistema.",
+            "Modelo de navegación entre ventanas.",
+            "Modelo que describe cómo se almacenarán físicamente los datos.",
+            "Modelo de clases de análisis."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad DSI 6: Diseño de Componentes?",
+        "options": [
+            "Construir los módulos del sistema.",
+            "Definir la arquitectura tecnológica.",
+            "Determinar la estructura interna de los subsistemas y su interacción con otros componentes.",
+            "Realizar pruebas funcionales del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué contiene el producto 'Especificación de Clases de Diseño'?",
+        "options": [
+            "Atributos, operaciones, clases asociadas, relaciones y restricciones de cada clase.",
+            "Solo los métodos públicos de cada clase.",
+            "La estructura de la base de datos relacional.",
+            "El modelo conceptual inicial del sistema."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 7: Diseño de la Interfaz de Usuario?",
+        "options": [
+            "Diseñar pantallas atractivas con elementos visuales llamativos.",
+            "Establecer cómo se verá el sistema desde el punto de vista del usuario final, facilitando su interacción.",
+            "Establecer la estructura interna del software.",
+            "Diseñar la lógica de negocio del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Actividad DSI 8: Diseño de la Estrategia de Pruebas?",
+        "options": [
+            "El código fuente del sistema.",
+            "La planificación de recursos humanos.",
+            "Los criterios de aceptación, los tipos de pruebas y los recursos necesarios.",
+            "El diseño gráfico del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actores participan en la aprobación del diseño del SI según la Actividad DSI 9?",
+        "options": [
+            "Usuarios finales y responsables de calidad.",
+            "Analistas y técnicos de soporte.",
+            "Comité de Dirección y usuarios responsables del área afectada.",
+            "Proveedores externos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo del proceso Construcción del Sistema de Información (CSI)?",
+        "options": [
+            "Elaborar el plan de implantación del sistema.",
+            "Transformar en código ejecutable y componentes software los diseños previamente realizados.",
+            "Especificar la arquitectura del sistema.",
+            "Determinar los requisitos técnicos del entorno."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad CSI 1: Preparación del Entorno?",
+        "options": [
+            "Implementar la seguridad física del sistema.",
+            "Instalar y configurar el entorno tecnológico necesario para la construcción del sistema.",
+            "Entrenar a los usuarios finales.",
+            "Diseñar la arquitectura lógica del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca en la Actividad CSI 2: Generación del Código?",
+        "options": [
+            "Reescribir el modelo conceptual.",
+            "Obtener el código fuente del sistema a partir de los diseños detallados.",
+            "Documentar el sistema.",
+            "Crear los casos de prueba de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se valida en la Actividad CSI 3: Pruebas del Sistema?",
+        "options": [
+            "El modelo de casos de uso.",
+            "La estructura del plan estratégico.",
+            "El cumplimiento de los requisitos mediante pruebas unitarias, de integración y de sistema.",
+            "La planificación financiera del proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la finalidad de la Actividad CSI 4: Preparación de la Implantación?",
+        "options": [
+            "Diseñar el plan de mantenimiento del sistema.",
+            "Crear interfaces gráficas interactivas.",
+            "Planificar y realizar las acciones necesarias para la instalación y uso del sistema en el entorno real.",
+            "Codificar las funcionalidades básicas del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué representa el proceso de Implantación y Aceptación del Sistema (IAS)?",
+        "options": [
+            "La finalización del análisis de requisitos.",
+            "La transformación de modelos de datos.",
+            "El paso del sistema al entorno de producción, su entrega y aceptación formal.",
+            "La capacitación del equipo de desarrollo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se hace en la Actividad IAS 1: Implantación del Sistema?",
+        "options": [
+            "Solo instalar el sistema en los servidores.",
+            "Coordinar y ejecutar la instalación del sistema en el entorno operativo, incluyendo migración de datos y formación.",
+            "Entrenar al equipo de desarrollo.",
+            "Verificar las interfaces gráficas del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué ocurre en la Actividad IAS 2: Aceptación del Sistema?",
+        "options": [
+            "Pruebas de integración de componentes.",
+            "Aprobación del sistema por parte del equipo de desarrollo.",
+            "Verificación de que el sistema cumple con todos los requisitos establecidos y su aceptación formal por el usuario.",
+            "Implementación de mejoras solicitadas."
+        ],
+        "answer": 2
+    },
+        {
+        "question": "¿Cuál es uno de los objetivos principales de la metodología Métrica V3?",
+        "options": [
+            "Proporcionar Sistemas de Información que ayuden a conseguir los fines de la Organización mediante la definición de un marco estratégico para el desarrollo de los mismos.",
+            "Reducir al mínimo la documentación del proyecto para agilizar el desarrollo.",
+            "Ignorar la reutilización de software para fomentar la innovación constante.",
+            "Limitar la comunicación entre los participantes del proyecto para evitar confusiones."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué objetivo de Métrica V3 se enfoca en satisfacer las necesidades de los usuarios dando mayor importancia al análisis de requisitos?",
+        "options": [
+            "Mejorar la productividad de los departamentos de Sistemas y Tecnologías de la Información y las Comunicaciones.",
+            "Facilitar la comunicación y entendimiento entre los distintos participantes.",
+            "Dotar a la Organización de productos software que satisfagan las necesidades de los usuarios dando una mayor importancia al análisis de requisitos.",
+            "Facilitar la operación, mantenimiento y uso de los productos software obtenidos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes no es un proceso principal de la metodología Métrica V3?",
+        "options": [
+            "Planificación de Sistemas de Información (PSI).",
+            "Desarrollo de Sistemas de Información (DSI).",
+            "Gestión de Proyectos (GP).",
+            "Mantenimiento de Sistemas de Información (MSI)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuáles son los 'Momentos' clave presentados en el recurso didáctico de Estrategias de Sistemas de Información?",
+        "options": [
+            "Desarrollo, Conclusiones, Referencias.",
+            "Utilidad, Innovación, Saberes, Logros.",
+            "Planificación, Diseño, Construcción, Implantación.",
+            "Introducción, Temas, Actividad, Consultas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Elaborar un Plan de Sistemas de Información.",
+            "Obtener la definición de la arquitectura del sistema.",
+            "Construir y probar los componentes del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto final del proceso PSI?",
+        "options": [
+            "Modelo físico de datos optimizado.",
+            "Resultado de pruebas unitarias.",
+            "Catálogo de Requisitos, que surge de un estudio de situación actual, diagnóstico y necesidades de información.",
+            "Acuerdo de nivel de servicio del sistema (SLA)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Según la fuente, la Propuesta de Arquitectura de Información en el PSI es más estratégica que:",
+        "options": [
+            "Operativa.",
+            "Financiera.",
+            "Tecnológica.",
+            "Humana."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la primera actividad del proceso PSI?",
+        "options": [
+            "Definición y Organización del PSI (PSI 2).",
+            "Estudio de la Información Relevante (PSI 3).",
+            "Inicio del PSI (PSI 1).",
+            "Identificación de Requisitos (PSI 4)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se define en la Tarea PSI 1.2: Identificación del Alcance del PSI?",
+        "options": [
+            "El equipo humano de trabajo y el cronograma de ejecución.",
+            "Los procesos afectados por la organización debido al Plan del SI y las direcciones de las áreas implicadas.",
+            "Los productos finales del Plan de SI y sus fechas previstas.",
+            "Las fuentes de información y documentación para el estudio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad PSI 4: Identificación de Requisitos, ¿qué se realiza además de la especificación de requisitos de información y la obtención de un modelo de información?",
+        "options": [
+            "Valoración del estudio de la situación actual.",
+            "Selección de los SI a conservar.",
+            "Clasificación de los requisitos según prioridad.",
+            "Definición del Plan de Trabajo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la actividad PSI 5: Estudio de los SI Actuales?",
+        "options": [
+            "Definir los SI que darán soporte a los procesos de la organización.",
+            "Proponer una arquitectura tecnológica para los SI.",
+            "Valorar la situación actual apoyándose en información respecto al mantenimiento, documentación, flexibilidad, facilidad de uso, etc..",
+            "Definir los proyectos y acciones para la implantación del modelo de información y SI."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 6: Diseño del Modelo de SI, ¿qué se elabora después de realizar un diagnóstico de la situación actual?",
+        "options": [
+            "Un Plan de Mantenimiento del PSI.",
+            "Un modelo de SI.",
+            "Una Arquitectura Tecnológica.",
+            "Un Catálogo de Peticiones."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca con la actividad PSI 7: Definición de la Arquitectura Tecnológica?",
+        "options": [
+            "Identificar los requisitos de información de la organización.",
+            "Definir los proyectos y acciones a llevar a cabo para la implantación.",
+            "Proponer una arquitectura tecnológica que dé soporte a los SI escogidos.",
+            "Aprobar formalmente el Plan de Sistemas de Información."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 8: Definición del Plan de Acción, ¿qué se incluye además de un cronograma de proyectos y estimación de recursos?",
+        "options": [
+            "Un modelo lógico de datos.",
+            "Un plan de mantenimiento del PSI.",
+            "Un estudio de viabilidad.",
+            "Una especificación detallada del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo final de la actividad PSI 9: Revisión y Aprobación del PSI?",
+        "options": [
+            "Elaborar el catálogo de requisitos.",
+            "Realizar entrevistas con usuarios.",
+            "La aprobación del PSI.",
+            "Definir los procesos afectados."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Estudio de Viabilidad del Sistema (EVS)?",
+        "options": [
+            "Conseguir la especificación detallada del SI.",
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Construcción y pruebas de los componentes del SI.",
+            "Entrega y aceptación del sistema en su totalidad."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se incluye en los productos resultantes de un EVS si la solución incluye un producto software estándar de mercado?",
+        "options": [
+            "Modelo abstracto de datos.",
+            "Descripción del producto, evolución del producto, costos ocasionados por el producto, estándares del producto, descripción de adaptación.",
+            "Modelo de procesos.",
+            "Modelo de negocio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad EVS 1: Establecimiento del Alcance del Sistema, ¿qué se inicia además de determinar los objetivos y estudiar el alcance de la necesidad planteada?",
+        "options": [
+            "La valoración de los antecedentes.",
+            "Los estudios de los requisitos.",
+            "La elaboración del diagnóstico.",
+            "La descripción de los SI existentes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el resultado de la actividad EVS 2: Estudio de la Situación Actual?",
+        "options": [
+            "Definición de requisitos generales.",
+            "Propuesta de alternativas que respondan a los requisitos.",
+            "Un diagnóstico, estimando la eficiencia de los SI existentes e identificando problemas y mejoras.",
+            "Valoración de las alternativas considerando el impacto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad EVS 3: Definición de Requisitos del Sistema, ¿qué tipo de directrices se recogen?",
+        "options": [
+            "Directrices económicas y financieras.",
+            "Directrices técnicas y de gestión.",
+            "Directrices de marketing y ventas.",
+            "Directrices de recursos humanos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué se enfoca la actividad EVS 4: Estudio de Alternativas de Solución?",
+        "options": [
+            "En la planificación de alternativas.",
+            "En la descripción general de la necesidad planteada.",
+            "En proponer alternativas que respondan a los requisitos planteados.",
+            "En la selección de la solución más adecuada."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se considera en la valoración de las alternativas en la actividad EVS 5?",
+        "options": [
+            "Únicamente el costo de la solución.",
+            "La viabilidad técnica y operativa.",
+            "El impacto en la organización, beneficios, riesgos, recursos y plazos.",
+            "La disponibilidad de personal para el proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Quiénes dan la aprobación formal o determinan la inviabilidad del sistema en la Tarea EVS 6.3: Aprobación de la Solución?",
+        "options": [
+            "Los usuarios finales.",
+            "El equipo de desarrollo.",
+            "El Comité de Dirección.",
+            "Los gerentes de departamento."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso de Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Obtener la definición de la arquitectura del sistema.",
+            "La construcción y pruebas de los componentes del SI.",
+            "Conseguir la especificación detallada del SI, a través de requisitos y modelos.",
+            "Realizar las pruebas de implantación con el usuario final."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el proceso ASI, ¿cuáles son algunos de los productos resultantes en Análisis Orientado a Objetos?",
+        "options": [
+            "Modelo lógico de datos normalizados.",
+            "Descripción de subsistemas de análisis, descripción de interfaces entre subsistemas, modelo de clases de análisis.",
+            "Catálogo de requisitos (inicial).",
+            "Plan de migración y carga inicial de datos (inicial)."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 1: Definición del Sistema, ¿qué se obtiene a partir del modelo abstracto de datos en el caso del paradigma orientado a objetos?",
+        "options": [
+            "Un modelo de procesos.",
+            "Un modelo conceptual de datos.",
+            "Un glosario de términos.",
+            "Un plan de pruebas inicial."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se lleva a cabo en la Actividad ASI 2: Establecimiento de Requisitos?",
+        "options": [
+            "La identificación de subsistemas de análisis.",
+            "La definición, análisis y validación de requisitos a partir de la información facilitada por el usuario.",
+            "El análisis de los casos de uso.",
+            "La elaboración del modelo de procesos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se especifica en la Tarea ASI 2.2: Especificación de Casos de Uso?",
+        "options": [
+            "La descripción de escenario, precondiciones y postcondiciones, interfaces de usuario, respuesta al sistema, etc..",
+            "La identificación de clases asociadas a un caso de uso.",
+            "La identificación de las directrices técnicas y de gestión.",
+            "La elaboración del modelo conceptual de datos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 3: Identificación de Subsistemas de Análisis?",
+        "options": [
+            "Garantizar la calidad de los distintos modelos generados.",
+            "Facilitar el análisis del SI llevando a cabo la descomposición del sistema en subsistemas.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Realizar un análisis top-down de descomposición."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 4: Análisis de los Casos de Uso, ¿qué tipo de clases se identifican?",
+        "options": [
+            "Clases de entidad, clases de interfaz de usuario, clases de control.",
+            "Clases de datos, clases de procesos.",
+            "Clases abstractas, clases concretas.",
+            "Clases de negocio, clases de dominio."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué se reconoce en la Actividad ASI 5: Análisis de Clases en el paradigma orientado a objetos?",
+        "options": [
+            "Los casos de uso asociados a los requisitos funcionales.",
+            "Las clases, sus métodos, atributos y relaciones.",
+            "La navegación entre ventanas.",
+            "La asignación de esquemas físicos de datos a nodos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 6: Elaboración del Modelo de Datos?",
+        "options": [
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Identificar las necesidades de información de cada uno de los procesos, con el fin de obtener un modelo de datos.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Comprobar la integración de todos los subsistemas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuándo se realiza la Tarea ASI 6.4: Especificación de Necesidades de Migración de Datos y Carga Inicial?",
+        "options": [
+            "Solo si el sistema es completamente nuevo.",
+            "Si es necesaria una migración de datos de otros sistemas o una carga inicial de información.",
+            "Al finalizar la construcción del sistema.",
+            "Durante la definición de la arquitectura tecnológica."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué paradigma se lleva a cabo la Actividad ASI 7: Elaboración del Modelo de Procesos?",
+        "options": [
+            "Diseño orientado a objetos.",
+            "Análisis de casos de uso.",
+            "Análisis estructurado.",
+            "Diseño físico de datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad ASI 8: Definición de Interfaces de Usuario?",
+        "options": [
+            "Construir interfaces acordes a las necesidades del usuario, flexibles, sencillas, coherentes y eficientes.",
+            "Generar el código de los componentes del SI.",
+            "Preparar el entorno de construcción.",
+            "Realizar pruebas unitarias."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "En la Actividad ASI 9: Análisis de Consistencia y Especificación de Requisitos, ¿qué se busca asegurar?",
+        "options": [
+            "La disponibilidad de los recursos humanos y técnicos.",
+            "La calidad de los distintos modelos generados en todo el proceso del Análisis de los Sistemas de Información.",
+            "La identificación de clases adicionales.",
+            "La elaboración de manuales de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Para qué sirve el plan de pruebas especificado en la Actividad ASI 10: Especificación del Plan de Pruebas?",
+        "options": [
+            "Como guía para la realización de las pruebas y permite verificar que el SI cumple las necesidades establecidas por el usuario.",
+            "Para definir los procedimientos de operación y seguridad.",
+            "Para elaborar la documentación del usuario final.",
+            "Para la formalización del plan de mantenimiento."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Quiénes aprueban el Análisis del SI en la Actividad ASI 11?",
+        "options": [
+            "El equipo de desarrollo.",
+            "El responsable de seguridad.",
+            "El Comité de Dirección.",
+            "Los usuarios finales."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito principal del proceso de Diseño del Sistema de Información (DSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución.",
+            "Conseguir la especificación detallada del SI a través de requisitos.",
+            "Obtener la definición de la arquitectura del sistema y del entorno tecnológico, y la especificación detallada de los componentes del SI.",
+            "Entregar y aceptar el sistema en su totalidad."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto resultante del DSI (Primer Bloque)?",
+        "options": [
+            "Modelo de procesos.",
+            "Resultado de las pruebas de integración.",
+            "Diseño de la arquitectura del sistema.",
+            "Catálogo de peticiones de cambio."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la Tarea DSI 1.1: Definición de Niveles de Arquitectura, ¿qué se tiene en cuenta para definir las particiones físicas del SI?",
+        "options": [
+            "Volumen de datos y frecuencia de ejecución.",
+            "Ubicación de usuarios, movilidad, concurrencia, número, así como variabilidad, volumen y seguridad de los datos.",
+            "El plan de mantenimiento del PSI.",
+            "El presupuesto disponible para el proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Tarea DSI 1.7: Especificación de Requisitos de Operación y Seguridad?",
+        "options": [
+            "La jerarquía de clases.",
+            "Procedimientos de seguridad y operación necesarios para no comprometer el correcto funcionamiento del sistema.",
+            "La realización de las pruebas de regresión.",
+            "El entorno tecnológico propio de los procesos de migración."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 3: Diseño de Casos de Uso Reales (solo para Orientado a Objetos)?",
+        "options": [
+            "Definir los SI que finalmente darán soporte a los procesos de la organización.",
+            "Especificar el comportamiento del SI para un caso de uso, mediante objetos o subsistemas de diseño que interactúan.",
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Establecer las necesidades de formación del usuario final."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se transforma en la Actividad DSI 4: Diseño de Clases (solo para Orientado a Objetos)?",
+        "options": [
+            "El modelo de procesos a un modelo de clases de diseño.",
+            "El modelo lógico a un modelo de clases de diseño.",
+            "El modelo de negocio a un modelo de dominio.",
+            "El modelo conceptual a un modelo físico de datos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué modelo se elabora en la Actividad DSI 5: Diseño del Modelo Físico de Datos?",
+        "options": [
+            "Modelo de seguridad del sistema.",
+            "Modelo de navegación entre ventanas.",
+            "Modelo que describe cómo se almacenarán físicamente los datos.",
+            "Modelo de clases de análisis."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad DSI 6: Diseño de Componentes?",
+        "options": [
+            "Construir los módulos del sistema.",
+            "Definir la arquitectura tecnológica.",
+            "Determinar la estructura interna de los subsistemas y su interacción con otros componentes.",
+            "Realizar pruebas funcionales del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué contiene el producto 'Especificación de Clases de Diseño'?",
+        "options": [
+            "Atributos, operaciones, clases asociadas, relaciones y restricciones de cada clase.",
+            "Solo los métodos públicos de cada clase.",
+            "La estructura de la base de datos relacional.",
+            "El modelo conceptual inicial del sistema."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 7: Diseño de la Interfaz de Usuario?",
+        "options": [
+            "Diseñar pantallas atractivas con elementos visuales llamativos.",
+            "Establecer cómo se verá el sistema desde el punto de vista del usuario final, facilitando su interacción.",
+            "Establecer la estructura interna del software.",
+            "Diseñar la lógica de negocio del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Actividad DSI 8: Diseño de la Estrategia de Pruebas?",
+        "options": [
+            "El código fuente del sistema.",
+            "La planificación de recursos humanos.",
+            "Los criterios de aceptación, los tipos de pruebas y los recursos necesarios.",
+            "El diseño gráfico del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actores participan en la aprobación del diseño del SI según la Actividad DSI 9?",
+        "options": [
+            "Usuarios finales y responsables de calidad.",
+            "Analistas y técnicos de soporte.",
+            "Comité de Dirección y usuarios responsables del área afectada.",
+            "Proveedores externos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo del proceso Construcción del Sistema de Información (CSI)?",
+        "options": [
+            "Elaborar el plan de implantación del sistema.",
+            "Transformar en código ejecutable y componentes software los diseños previamente realizados.",
+            "Especificar la arquitectura del sistema.",
+            "Determinar los requisitos técnicos del entorno."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad CSI 1: Preparación del Entorno?",
+        "options": [
+            "Implementar la seguridad física del sistema.",
+            "Instalar y configurar el entorno tecnológico necesario para la construcción del sistema.",
+            "Entrenar a los usuarios finales.",
+            "Diseñar la arquitectura lógica del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca en la Actividad CSI 2: Generación del Código?",
+        "options": [
+            "Reescribir el modelo conceptual.",
+            "Obtener el código fuente del sistema a partir de los diseños detallados.",
+            "Documentar el sistema.",
+            "Crear los casos de prueba de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se valida en la Actividad CSI 3: Pruebas del Sistema?",
+        "options": [
+            "El modelo de casos de uso.",
+            "La estructura del plan estratégico.",
+            "El cumplimiento de los requisitos mediante pruebas unitarias, de integración y de sistema.",
+            "La planificación financiera del proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la finalidad de la Actividad CSI 4: Preparación de la Implantación?",
+        "options": [
+            "Diseñar el plan de mantenimiento del sistema.",
+            "Crear interfaces gráficas interactivas.",
+            "Planificar y realizar las acciones necesarias para la instalación y uso del sistema en el entorno real.",
+            "Codificar las funcionalidades básicas del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué representa el proceso de Implantación y Aceptación del Sistema (IAS)?",
+        "options": [
+            "La finalización del análisis de requisitos.",
+            "La transformación de modelos de datos.",
+            "El paso del sistema al entorno de producción, su entrega y aceptación formal.",
+            "La capacitación del equipo de desarrollo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se hace en la Actividad IAS 1: Implantación del Sistema?",
+        "options": [
+            "Solo instalar el sistema en los servidores.",
+            "Coordinar y ejecutar la instalación del sistema en el entorno operativo, incluyendo migración de datos y formación.",
+            "Entrenar al equipo de desarrollo.",
+            "Verificar las interfaces gráficas del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué ocurre en la Actividad IAS 2: Aceptación del Sistema?",
+        "options": [
+            "Pruebas de integración de componentes.",
+            "Aprobación del sistema por parte del equipo de desarrollo.",
+            "Verificación de que el sistema cumple con todos los requisitos establecidos y su aceptación formal por el usuario.",
+            "Implementación de mejoras solicitadas."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Mantenimiento de Sistemas de Información (MSI)?",
+        "options": [
+            "Desarrollar nuevos sistemas desde cero.",
+            "Realizar estudios de viabilidad para sistemas potenciales.",
+            "Atender las peticiones de cambio, resolución de errores y mejoras en el sistema implantado.",
+            "Realizar el análisis de requisitos inicial del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actividad inicia el proceso MSI?",
+        "options": [
+            "Análisis de consistencia.",
+            "Recepción y registro de peticiones.",
+            "Desarrollo de prototipos.",
+            "Generación del código fuente."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad MSI 3: Evaluación y Planificación de Cambios?",
+        "options": [
+            "Se valida el entorno de producción.",
+            "Se diseña el sistema desde cero.",
+            "Se analizan las peticiones y se planifican los cambios a realizar.",
+            "Se implantan directamente los cambios."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué tarea pertenece a la Actividad MSI 4: Análisis y Diseño Técnico del Cambio?",
+        "options": [
+            "Formación de usuarios.",
+            "Análisis de impacto de los cambios.",
+            "Especificación de pruebas de aceptación.",
+            "Desarrollo de manuales técnicos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el producto resultante de la Actividad MSI 5: Construcción del Cambio?",
+        "options": [
+            "Plan de sistemas de información.",
+            "Propuesta de solución a medida.",
+            "Componentes modificados o nuevos del sistema.",
+            "Modelo de negocio."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se verifica en la Actividad MSI 6: Pruebas del Cambio?",
+        "options": [
+            "El diseño gráfico del nuevo módulo.",
+            "La satisfacción del cliente.",
+            "La calidad del software en cuanto al cumplimiento de requisitos.",
+            "La validez de los documentos administrativos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad MSI 7: Implantación del Cambio?",
+        "options": [
+            "El análisis estructurado del sistema.",
+            "La instalación del cambio en el entorno real y la formación si es necesaria.",
+            "La construcción de clases de diseño.",
+            "La planificación de recursos del proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad MSI 8: Cierre del Cambio?",
+        "options": [
+            "Evaluar el cambio, cerrar formalmente y actualizar la documentación del sistema.",
+            "Eliminar todos los registros antiguos.",
+            "Notificar el fin de mantenimiento a los usuarios.",
+            "Reiniciar el proceso de análisis de requisitos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué es un producto de salida común en el proceso MSI?",
+        "options": [
+            "Plan Estratégico Corporativo.",
+            "Catálogo de requisitos iniciales.",
+            "Registro de cambios del sistema.",
+            "Diagrama de despliegue."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Desarrollar software en un entorno ágil.",
+            "Obtener una visión estratégica que permita definir un plan director para los sistemas de información.",
+            "Eliminar redundancias en las bases de datos existentes.",
+            "Implementar tecnologías emergentes en la infraestructura actual."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se evalúa en la actividad PSI 1: Identificación de Necesidades?",
+        "options": [
+            "El presupuesto para nuevas contrataciones.",
+            "El modelo físico de datos.",
+            "Los objetivos y necesidades estratégicas de la organización.",
+            "La calidad del software en producción."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué productos se generan durante la actividad PSI 2: Determinación del Alcance y Objetivos?",
+        "options": [
+            "El código fuente del nuevo sistema.",
+            "El Modelo de Procesos Organizativo y el Modelo de Información actual.",
+            "Manual del usuario final.",
+            "Especificación técnica de interfaces."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué caracteriza al modelo de procesos organizativo elaborado durante la planificación?",
+        "options": [
+            "Define el flujo de control del sistema informático.",
+            "Describe las tareas, funciones y relaciones entre unidades organizativas.",
+            "Define clases y relaciones entre objetos.",
+            "Se utiliza exclusivamente en entornos orientados a objetos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es un beneficio del uso de Métrica V3 en la planificación de sistemas?",
+        "options": [
+            "Reducir la participación del usuario.",
+            "Evitar documentación formal.",
+            "Promover una alineación estratégica entre los SI y los objetivos de negocio.",
+            "Simplificar la codificación con herramientas gráficas."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actores deben participar en la revisión final del PSI según Métrica V3?",
+        "options": [
+            "Solo el analista de sistemas.",
+            "Equipo técnico y de mantenimiento.",
+            "Responsables del negocio y de sistemas.",
+            "Usuarios externos y clientes finales."
+        ],
+        "answer": 2
+    },
+        {
+        "question": "¿Cuál es uno de los objetivos principales de la metodología Métrica V3?",
+        "options": [
+            "Proporcionar Sistemas de Información que ayuden a conseguir los fines de la Organización mediante la definición de un marco estratégico para el desarrollo de los mismos.",
+            "Reducir al mínimo la documentación del proyecto para agilizar el desarrollo.",
+            "Ignorar la reutilización de software para fomentar la innovación constante.",
+            "Limitar la comunicación entre los participantes del proyecto para evitar confusiones."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué objetivo de Métrica V3 se enfoca en satisfacer las necesidades de los usuarios dando mayor importancia al análisis de requisitos?",
+        "options": [
+            "Mejorar la productividad de los departamentos de Sistemas y Tecnologías de la Información y las Comunicaciones.",
+            "Facilitar la comunicación y entendimiento entre los distintos participantes.",
+            "Dotar a la Organización de productos software que satisfagan las necesidades de los usuarios dando una mayor importancia al análisis de requisitos.",
+            "Facilitar la operación, mantenimiento y uso de los productos software obtenidos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes no es un proceso principal de la metodología Métrica V3?",
+        "options": [
+            "Planificación de Sistemas de Información (PSI).",
+            "Desarrollo de Sistemas de Información (DSI).",
+            "Gestión de Proyectos (GP).",
+            "Mantenimiento de Sistemas de Información (MSI)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuáles son los 'Momentos' clave presentados en el recurso didáctico de Estrategias de Sistemas de Información?",
+        "options": [
+            "Desarrollo, Conclusiones, Referencias.",
+            "Utilidad, Innovación, Saberes, Logros.",
+            "Planificación, Diseño, Construcción, Implantación.",
+            "Introducción, Temas, Actividad, Consultas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Elaborar un Plan de Sistemas de Información.",
+            "Obtener la definición de la arquitectura del sistema.",
+            "Construir y probar los componentes del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto final del proceso PSI?",
+        "options": [
+            "Modelo físico de datos optimizado.",
+            "Resultado de pruebas unitarias.",
+            "Catálogo de Requisitos, que surge de un estudio de situación actual, diagnóstico y necesidades de información.",
+            "Acuerdo de nivel de servicio del sistema (SLA)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Según la fuente, la Propuesta de Arquitectura de Información en el PSI es más estratégica que:",
+        "options": [
+            "Operativa.",
+            "Financiera.",
+            "Tecnológica.",
+            "Humana."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la primera actividad del proceso PSI?",
+        "options": [
+            "Definición y Organización del PSI (PSI 2).",
+            "Estudio de la Información Relevante (PSI 3).",
+            "Inicio del PSI (PSI 1).",
+            "Identificación de Requisitos (PSI 4)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se define en la Tarea PSI 1.2: Identificación del Alcance del PSI?",
+        "options": [
+            "El equipo humano de trabajo y el cronograma de ejecución.",
+            "Los procesos afectados por la organización debido al Plan del SI y las direcciones de las áreas implicadas.",
+            "Los productos finales del Plan de SI y sus fechas previstas.",
+            "Las fuentes de información y documentación para el estudio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad PSI 4: Identificación de Requisitos, ¿qué se realiza además de la especificación de requisitos de información y la obtención de un modelo de información?",
+        "options": [
+            "Valoración del estudio de la situación actual.",
+            "Selección de los SI a conservar.",
+            "Clasificación de los requisitos según prioridad.",
+            "Definición del Plan de Trabajo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la actividad PSI 5: Estudio de los SI Actuales?",
+        "options": [
+            "Definir los SI que darán soporte a los procesos de la organización.",
+            "Proponer una arquitectura tecnológica para los SI.",
+            "Valorar la situación actual apoyándose en información respecto al mantenimiento, documentación, flexibilidad, facilidad de uso, etc..",
+            "Definir los proyectos y acciones para la implantación del modelo de información y SI."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 6: Diseño del Modelo de SI, ¿qué se elabora después de realizar un diagnóstico de la situación actual?",
+        "options": [
+            "Un Plan de Mantenimiento del PSI.",
+            "Un modelo de SI.",
+            "Una Arquitectura Tecnológica.",
+            "Un Catálogo de Peticiones."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca con la actividad PSI 7: Definición de la Arquitectura Tecnológica?",
+        "options": [
+            "Identificar los requisitos de información de la organización.",
+            "Definir los proyectos y acciones a llevar a cabo para la implantación.",
+            "Proponer una arquitectura tecnológica que dé soporte a los SI escogidos.",
+            "Aprobar formalmente el Plan de Sistemas de Información."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 8: Definición del Plan de Acción, ¿qué se incluye además de un cronograma de proyectos y estimación de recursos?",
+        "options": [
+            "Un modelo lógico de datos.",
+            "Un plan de mantenimiento del PSI.",
+            "Un estudio de viabilidad.",
+            "Una especificación detallada del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo final de la actividad PSI 9: Revisión y Aprobación del PSI?",
+        "options": [
+            "Elaborar el catálogo de requisitos.",
+            "Realizar entrevistas con usuarios.",
+            "La aprobación del PSI.",
+            "Definir los procesos afectados."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Estudio de Viabilidad del Sistema (EVS)?",
+        "options": [
+            "Conseguir la especificación detallada del SI.",
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Construcción y pruebas de los componentes del SI.",
+            "Entrega y aceptación del sistema en su totalidad."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se incluye en los productos resultantes de un EVS si la solución incluye un producto software estándar de mercado?",
+        "options": [
+            "Modelo abstracto de datos.",
+            "Descripción del producto, evolución del producto, costos ocasionados por el producto, estándares del producto, descripción de adaptación.",
+            "Modelo de procesos.",
+            "Modelo de negocio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad EVS 1: Establecimiento del Alcance del Sistema, ¿qué se inicia además de determinar los objetivos y estudiar el alcance de la necesidad planteada?",
+        "options": [
+            "La valoración de los antecedentes.",
+            "Los estudios de los requisitos.",
+            "La elaboración del diagnóstico.",
+            "La descripción de los SI existentes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el resultado de la actividad EVS 2: Estudio de la Situación Actual?",
+        "options": [
+            "Definición de requisitos generales.",
+            "Propuesta de alternativas que respondan a los requisitos.",
+            "Un diagnóstico, estimando la eficiencia de los SI existentes e identificando problemas y mejoras.",
+            "Valoración de las alternativas considerando el impacto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad EVS 3: Definición de Requisitos del Sistema, ¿qué tipo de directrices se recogen?",
+        "options": [
+            "Directrices económicas y financieras.",
+            "Directrices técnicas y de gestión.",
+            "Directrices de marketing y ventas.",
+            "Directrices de recursos humanos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué se enfoca la actividad EVS 4: Estudio de Alternativas de Solución?",
+        "options": [
+            "En la planificación de alternativas.",
+            "En la descripción general de la necesidad planteada.",
+            "En proponer alternativas que respondan a los requisitos planteados.",
+            "En la selección de la solución más adecuada."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se considera en la valoración de las alternativas en la actividad EVS 5?",
+        "options": [
+            "Únicamente el costo de la solución.",
+            "La viabilidad técnica y operativa.",
+            "El impacto en la organización, beneficios, riesgos, recursos y plazos.",
+            "La disponibilidad de personal para el proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Quiénes dan la aprobación formal o determinan la inviabilidad del sistema en la Tarea EVS 6.3: Aprobación de la Solución?",
+        "options": [
+            "Los usuarios finales.",
+            "El equipo de desarrollo.",
+            "El Comité de Dirección.",
+            "Los gerentes de departamento."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso de Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Obtener la definición de la arquitectura del sistema.",
+            "La construcción y pruebas de los componentes del SI.",
+            "Conseguir la especificación detallada del SI, a través de requisitos y modelos.",
+            "Realizar las pruebas de implantación con el usuario final."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el proceso ASI, ¿cuáles son algunos de los productos resultantes en Análisis Orientado a Objetos?",
+        "options": [
+            "Modelo lógico de datos normalizados.",
+            "Descripción de subsistemas de análisis, descripción de interfaces entre subsistemas, modelo de clases de análisis.",
+            "Catálogo de requisitos (inicial).",
+            "Plan de migración y carga inicial de datos (inicial)."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 1: Definición del Sistema, ¿qué se obtiene a partir del modelo abstracto de datos en el caso del paradigma orientado a objetos?",
+        "options": [
+            "Un modelo de procesos.",
+            "Un modelo conceptual de datos.",
+            "Un glosario de términos.",
+            "Un plan de pruebas inicial."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se lleva a cabo en la Actividad ASI 2: Establecimiento de Requisitos?",
+        "options": [
+            "La identificación de subsistemas de análisis.",
+            "La definición, análisis y validación de requisitos a partir de la información facilitada por el usuario.",
+            "El análisis de los casos de uso.",
+            "La elaboración del modelo de procesos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se especifica en la Tarea ASI 2.2: Especificación de Casos de Uso?",
+        "options": [
+            "La descripción de escenario, precondiciones y postcondiciones, interfaces de usuario, respuesta al sistema, etc..",
+            "La identificación de clases asociadas a un caso de uso.",
+            "La identificación de las directrices técnicas y de gestión.",
+            "La elaboración del modelo conceptual de datos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 3: Identificación de Subsistemas de Análisis?",
+        "options": [
+            "Garantizar la calidad de los distintos modelos generados.",
+            "Facilitar el análisis del SI llevando a cabo la descomposición del sistema en subsistemas.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Realizar un análisis top-down de descomposición."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 4: Análisis de los Casos de Uso, ¿qué tipo de clases se identifican?",
+        "options": [
+            "Clases de entidad, clases de interfaz de usuario, clases de control.",
+            "Clases de datos, clases de procesos.",
+            "Clases abstractas, clases concretas.",
+            "Clases de negocio, clases de dominio."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué se reconoce en la Actividad ASI 5: Análisis de Clases en el paradigma orientado a objetos?",
+        "options": [
+            "Los casos de uso asociados a los requisitos funcionales.",
+            "Las clases, sus métodos, atributos y relaciones.",
+            "La navegación entre ventanas.",
+            "La asignación de esquemas físicos de datos a nodos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 6: Elaboración del Modelo de Datos?",
+        "options": [
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Identificar las necesidades de información de cada uno de los procesos, con el fin de obtener un modelo de datos.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Comprobar la integración de todos los subsistemas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuándo se realiza la Tarea ASI 6.4: Especificación de Necesidades de Migración de Datos y Carga Inicial?",
+        "options": [
+            "Solo si el sistema es completamente nuevo.",
+            "Si es necesaria una migración de datos de otros sistemas o una carga inicial de información.",
+            "Al finalizar la construcción del sistema.",
+            "Durante la definición de la arquitectura tecnológica."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué paradigma se lleva a cabo la Actividad ASI 7: Elaboración del Modelo de Procesos?",
+        "options": [
+            "Diseño orientado a objetos.",
+            "Análisis de casos de uso.",
+            "Análisis estructurado.",
+            "Diseño físico de datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad ASI 8: Definición de Interfaces de Usuario?",
+        "options": [
+            "Construir interfaces acordes a las necesidades del usuario, flexibles, sencillas, coherentes y eficientes.",
+            "Generar el código de los componentes del SI.",
+            "Preparar el entorno de construcción.",
+            "Realizar pruebas unitarias."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "En la Actividad ASI 9: Análisis de Consistencia y Especificación de Requisitos, ¿qué se busca asegurar?",
+        "options": [
+            "La disponibilidad de los recursos humanos y técnicos.",
+            "La calidad de los distintos modelos generados en todo el proceso del Análisis de los Sistemas de Información.",
+            "La identificación de clases adicionales.",
+            "La elaboración de manuales de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Para qué sirve el plan de pruebas especificado en la Actividad ASI 10: Especificación del Plan de Pruebas?",
+        "options": [
+            "Como guía para la realización de las pruebas y permite verificar que el SI cumple las necesidades establecidas por el usuario.",
+            "Para definir los procedimientos de operación y seguridad.",
+            "Para elaborar la documentación del usuario final.",
+            "Para la formalización del plan de mantenimiento."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Quiénes aprueban el Análisis del SI en la Actividad ASI 11?",
+        "options": [
+            "El equipo de desarrollo.",
+            "El responsable de seguridad.",
+            "El Comité de Dirección.",
+            "Los usuarios finales."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito principal del proceso de Diseño del Sistema de Información (DSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución.",
+            "Conseguir la especificación detallada del SI a través de requisitos.",
+            "Obtener la definición de la arquitectura del sistema y del entorno tecnológico, y la especificación detallada de los componentes del SI.",
+            "Entregar y aceptar el sistema en su totalidad."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto resultante del DSI (Primer Bloque)?",
+        "options": [
+            "Modelo de procesos.",
+            "Resultado de las pruebas de integración.",
+            "Diseño de la arquitectura del sistema.",
+            "Catálogo de peticiones de cambio."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la Tarea DSI 1.1: Definición de Niveles de Arquitectura, ¿qué se tiene en cuenta para definir las particiones físicas del SI?",
+        "options": [
+            "Volumen de datos y frecuencia de ejecución.",
+            "Ubicación de usuarios, movilidad, concurrencia, número, así como variabilidad, volumen y seguridad de los datos.",
+            "El plan de mantenimiento del PSI.",
+            "El presupuesto disponible para el proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Tarea DSI 1.7: Especificación de Requisitos de Operación y Seguridad?",
+        "options": [
+            "La jerarquía de clases.",
+            "Procedimientos de seguridad y operación necesarios para no comprometer el correcto funcionamiento del sistema.",
+            "La realización de las pruebas de regresión.",
+            "El entorno tecnológico propio de los procesos de migración."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 3: Diseño de Casos de Uso Reales (solo para Orientado a Objetos)?",
+        "options": [
+            "Definir los SI que finalmente darán soporte a los procesos de la organización.",
+            "Especificar el comportamiento del SI para un caso de uso, mediante objetos o subsistemas de diseño que interactúan.",
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Establecer las necesidades de formación del usuario final."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se transforma en la Actividad DSI 4: Diseño de Clases (solo para Orientado a Objetos)?",
+        "options": [
+            "El modelo de procesos a un modelo de clases de diseño.",
+            "El modelo lógico a un modelo de clases de diseño.",
+            "El modelo de negocio a un modelo de dominio.",
+            "El modelo conceptual a un modelo físico de datos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué modelo se elabora en la Actividad DSI 5: Diseño del Modelo Físico de Datos?",
+        "options": [
+            "Modelo de seguridad del sistema.",
+            "Modelo de navegación entre ventanas.",
+            "Modelo que describe cómo se almacenarán físicamente los datos.",
+            "Modelo de clases de análisis."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad DSI 6: Diseño de Componentes?",
+        "options": [
+            "Construir los módulos del sistema.",
+            "Definir la arquitectura tecnológica.",
+            "Determinar la estructura interna de los subsistemas y su interacción con otros componentes.",
+            "Realizar pruebas funcionales del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué contiene el producto 'Especificación de Clases de Diseño'?",
+        "options": [
+            "Atributos, operaciones, clases asociadas, relaciones y restricciones de cada clase.",
+            "Solo los métodos públicos de cada clase.",
+            "La estructura de la base de datos relacional.",
+            "El modelo conceptual inicial del sistema."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 7: Diseño de la Interfaz de Usuario?",
+        "options": [
+            "Diseñar pantallas atractivas con elementos visuales llamativos.",
+            "Establecer cómo se verá el sistema desde el punto de vista del usuario final, facilitando su interacción.",
+            "Establecer la estructura interna del software.",
+            "Diseñar la lógica de negocio del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Actividad DSI 8: Diseño de la Estrategia de Pruebas?",
+        "options": [
+            "El código fuente del sistema.",
+            "La planificación de recursos humanos.",
+            "Los criterios de aceptación, los tipos de pruebas y los recursos necesarios.",
+            "El diseño gráfico del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actores participan en la aprobación del diseño del SI según la Actividad DSI 9?",
+        "options": [
+            "Usuarios finales y responsables de calidad.",
+            "Analistas y técnicos de soporte.",
+            "Comité de Dirección y usuarios responsables del área afectada.",
+            "Proveedores externos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo del proceso Construcción del Sistema de Información (CSI)?",
+        "options": [
+            "Elaborar el plan de implantación del sistema.",
+            "Transformar en código ejecutable y componentes software los diseños previamente realizados.",
+            "Especificar la arquitectura del sistema.",
+            "Determinar los requisitos técnicos del entorno."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad CSI 1: Preparación del Entorno?",
+        "options": [
+            "Implementar la seguridad física del sistema.",
+            "Instalar y configurar el entorno tecnológico necesario para la construcción del sistema.",
+            "Entrenar a los usuarios finales.",
+            "Diseñar la arquitectura lógica del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca en la Actividad CSI 2: Generación del Código?",
+        "options": [
+            "Reescribir el modelo conceptual.",
+            "Obtener el código fuente del sistema a partir de los diseños detallados.",
+            "Documentar el sistema.",
+            "Crear los casos de prueba de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se valida en la Actividad CSI 3: Pruebas del Sistema?",
+        "options": [
+            "El modelo de casos de uso.",
+            "La estructura del plan estratégico.",
+            "El cumplimiento de los requisitos mediante pruebas unitarias, de integración y de sistema.",
+            "La planificación financiera del proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la finalidad de la Actividad CSI 4: Preparación de la Implantación?",
+        "options": [
+            "Diseñar el plan de mantenimiento del sistema.",
+            "Crear interfaces gráficas interactivas.",
+            "Planificar y realizar las acciones necesarias para la instalación y uso del sistema en el entorno real.",
+            "Codificar las funcionalidades básicas del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué representa el proceso de Implantación y Aceptación del Sistema (IAS)?",
+        "options": [
+            "La finalización del análisis de requisitos.",
+            "La transformación de modelos de datos.",
+            "El paso del sistema al entorno de producción, su entrega y aceptación formal.",
+            "La capacitación del equipo de desarrollo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se hace en la Actividad IAS 1: Implantación del Sistema?",
+        "options": [
+            "Solo instalar el sistema en los servidores.",
+            "Coordinar y ejecutar la instalación del sistema en el entorno operativo, incluyendo migración de datos y formación.",
+            "Entrenar al equipo de desarrollo.",
+            "Verificar las interfaces gráficas del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué ocurre en la Actividad IAS 2: Aceptación del Sistema?",
+        "options": [
+            "Pruebas de integración de componentes.",
+            "Aprobación del sistema por parte del equipo de desarrollo.",
+            "Verificación de que el sistema cumple con todos los requisitos establecidos y su aceptación formal por el usuario.",
+            "Implementación de mejoras solicitadas."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Mantenimiento de Sistemas de Información (MSI)?",
+        "options": [
+            "Desarrollar nuevos sistemas desde cero.",
+            "Realizar estudios de viabilidad para sistemas potenciales.",
+            "Atender las peticiones de cambio, resolución de errores y mejoras en el sistema implantado.",
+            "Realizar el análisis de requisitos inicial del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actividad inicia el proceso MSI?",
+        "options": [
+            "Análisis de consistencia.",
+            "Recepción y registro de peticiones.",
+            "Desarrollo de prototipos.",
+            "Generación del código fuente."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad MSI 3: Evaluación y Planificación de Cambios?",
+        "options": [
+            "Se valida el entorno de producción.",
+            "Se diseña el sistema desde cero.",
+            "Se analizan las peticiones y se planifican los cambios a realizar.",
+            "Se implantan directamente los cambios."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué tarea pertenece a la Actividad MSI 4: Análisis y Diseño Técnico del Cambio?",
+        "options": [
+            "Formación de usuarios.",
+            "Análisis de impacto de los cambios.",
+            "Especificación de pruebas de aceptación.",
+            "Desarrollo de manuales técnicos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el producto resultante de la Actividad MSI 5: Construcción del Cambio?",
+        "options": [
+            "Plan de sistemas de información.",
+            "Propuesta de solución a medida.",
+            "Componentes modificados o nuevos del sistema.",
+            "Modelo de negocio."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se verifica en la Actividad MSI 6: Pruebas del Cambio?",
+        "options": [
+            "El diseño gráfico del nuevo módulo.",
+            "La satisfacción del cliente.",
+            "La calidad del software en cuanto al cumplimiento de requisitos.",
+            "La validez de los documentos administrativos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad MSI 7: Implantación del Cambio?",
+        "options": [
+            "El análisis estructurado del sistema.",
+            "La instalación del cambio en el entorno real y la formación si es necesaria.",
+            "La construcción de clases de diseño.",
+            "La planificación de recursos del proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad MSI 8: Cierre del Cambio?",
+        "options": [
+            "Evaluar el cambio, cerrar formalmente y actualizar la documentación del sistema.",
+            "Eliminar todos los registros antiguos.",
+            "Notificar el fin de mantenimiento a los usuarios.",
+            "Reiniciar el proceso de análisis de requisitos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué es un producto de salida común en el proceso MSI?",
+        "options": [
+            "Plan Estratégico Corporativo.",
+            "Catálogo de requisitos iniciales.",
+            "Registro de cambios del sistema.",
+            "Diagrama de despliegue."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Desarrollar software en un entorno ágil.",
+            "Obtener una visión estratégica que permita definir un plan director para los sistemas de información.",
+            "Eliminar redundancias en las bases de datos existentes.",
+            "Implementar tecnologías emergentes en la infraestructura actual."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se evalúa en la actividad PSI 1: Identificación de Necesidades?",
+        "options": [
+            "El presupuesto para nuevas contrataciones.",
+            "El modelo físico de datos.",
+            "Los objetivos y necesidades estratégicas de la organización.",
+            "La calidad del software en producción."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué productos se generan durante la actividad PSI 2: Determinación del Alcance y Objetivos?",
+        "options": [
+            "El código fuente del nuevo sistema.",
+            "El Modelo de Procesos Organizativo y el Modelo de Información actual.",
+            "Manual del usuario final.",
+            "Especificación técnica de interfaces."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué caracteriza al modelo de procesos organizativo elaborado durante la planificación?",
+        "options": [
+            "Define el flujo de control del sistema informático.",
+            "Describe las tareas, funciones y relaciones entre unidades organizativas.",
+            "Define clases y relaciones entre objetos.",
+            "Se utiliza exclusivamente en entornos orientados a objetos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es un beneficio del uso de Métrica V3 en la planificación de sistemas?",
+        "options": [
+            "Reducir la participación del usuario.",
+            "Evitar documentación formal.",
+            "Promover una alineación estratégica entre los SI y los objetivos de negocio.",
+            "Simplificar la codificación con herramientas gráficas."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actores deben participar en la revisión final del PSI según Métrica V3?",
+        "options": [
+            "Solo el analista de sistemas.",
+            "Equipo técnico y de mantenimiento.",
+            "Responsables del negocio y de sistemas.",
+            "Usuarios externos y clientes finales."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué producto se genera en la actividad PSI 4: Elaboración del Plan de Sistemas de Información?",
+        "options": [
+            "Informe de arquitectura tecnológica.",
+            "Propuesta de modelo de clases.",
+            "Plan Director de los Sistemas de Información.",
+            "Manual técnico de usuario."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se identifica en la actividad PSI 3: Determinación de Requisitos de Información y Funcionales?",
+        "options": [
+            "Los actores del sistema y sus permisos.",
+            "Las fuentes de financiamiento para el proyecto.",
+            "Los requerimientos de información que deben satisfacer los sistemas futuros.",
+            "El código fuente para migración."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué objetivo cumple la actividad PSI 5: Aprobación del Plan de Sistemas de Información?",
+        "options": [
+            "Evaluar el modelo de clases definitivo.",
+            "Definir los cronogramas del equipo de desarrollo.",
+            "Obtener el compromiso de los responsables de la organización para ejecutar el Plan.",
+            "Establecer reglas de estilo para la programación."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué define la arquitectura del sistema en el contexto de Métrica V3?",
+        "options": [
+            "Una colección de scripts funcionales.",
+            "La estructura organizativa de la empresa.",
+            "La organización física y lógica de los componentes que forman el sistema.",
+            "El diagrama de flujos de usuario."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actividad inicia el proceso de Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Especificación del plan de pruebas.",
+            "Estudio de la documentación existente.",
+            "Estudio de la situación actual.",
+            "Diseño físico de la base de datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del proceso ASI?",
+        "options": [
+            "Definir el plan financiero de TI.",
+            "Obtener una visión general del sistema actual para identificar mejoras.",
+            "Generar código fuente para los módulos básicos.",
+            "Implementar controles de calidad."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca lograr en la actividad ASI 2: Estudio del Sistema Actual?",
+        "options": [
+            "Elaborar un plan de mantenimiento.",
+            "Analizar el funcionamiento del sistema actual y detectar problemas y oportunidades de mejora.",
+            "Migrar datos entre sistemas.",
+            "Diseñar interfaces gráficas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué técnica es comúnmente usada en la actividad ASI 3: Determinación de Requisitos?",
+        "options": [
+            "Evaluación heurística.",
+            "Prototipado de interfaces.",
+            "Entrevistas con usuarios y análisis de procesos.",
+            "Revisión de código."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se obtiene como resultado de la actividad ASI 3?",
+        "options": [
+            "Modelo físico del sistema.",
+            "Plan de pruebas de usuario.",
+            "Catálogo de requisitos.",
+            "Lista de errores críticos del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué define el modelo de clases elaborado en ASI?",
+        "options": [
+            "Las estructuras físicas del servidor.",
+            "El comportamiento de los usuarios.",
+            "Los objetos del sistema, sus atributos, métodos y relaciones.",
+            "El flujo de caja de la inversión tecnológica."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué técnica facilita la validación del catálogo de requisitos?",
+        "options": [
+            "Mapeo de red.",
+            "Pruebas de penetración.",
+            "Revisión conjunta entre analistas y usuarios.",
+            "Compilación incremental."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué ventaja aporta el enfoque orientado a objetos en Métrica V3?",
+        "options": [
+            "Aumenta el tiempo de desarrollo.",
+            "Disminuye la reutilización.",
+            "Facilita la reutilización y el mantenimiento.",
+            "Evita la necesidad de modelado previo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué herramienta apoya la trazabilidad de requisitos en Métrica V3?",
+        "options": [
+            "Entrevistas abiertas.",
+            "Diagrama de flujo simple.",
+            "Matriz de trazabilidad.",
+            "Generador de código automático."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué representa el término 'producto' dentro de Métrica V3?",
+        "options": [
+            "La empresa desarrolladora.",
+            "Una fase de implementación.",
+            "El resultado tangible de una actividad o tarea.",
+            "Una base de datos."
+        ],
+        "answer": 2
+    },
+        {
+        "question": "¿Cuál es uno de los objetivos principales de la metodología Métrica V3?",
+        "options": [
+            "Proporcionar Sistemas de Información que ayuden a conseguir los fines de la Organización mediante la definición de un marco estratégico para el desarrollo de los mismos.",
+            "Reducir al mínimo la documentación del proyecto para agilizar el desarrollo.",
+            "Ignorar la reutilización de software para fomentar la innovación constante.",
+            "Limitar la comunicación entre los participantes del proyecto para evitar confusiones."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué objetivo de Métrica V3 se enfoca en satisfacer las necesidades de los usuarios dando mayor importancia al análisis de requisitos?",
+        "options": [
+            "Mejorar la productividad de los departamentos de Sistemas y Tecnologías de la Información y las Comunicaciones.",
+            "Facilitar la comunicación y entendimiento entre los distintos participantes.",
+            "Dotar a la Organización de productos software que satisfagan las necesidades de los usuarios dando una mayor importancia al análisis de requisitos.",
+            "Facilitar la operación, mantenimiento y uso de los productos software obtenidos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes no es un proceso principal de la metodología Métrica V3?",
+        "options": [
+            "Planificación de Sistemas de Información (PSI).",
+            "Desarrollo de Sistemas de Información (DSI).",
+            "Gestión de Proyectos (GP).",
+            "Mantenimiento de Sistemas de Información (MSI)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuáles son los 'Momentos' clave presentados en el recurso didáctico de Estrategias de Sistemas de Información?",
+        "options": [
+            "Desarrollo, Conclusiones, Referencias.",
+            "Utilidad, Innovación, Saberes, Logros.",
+            "Planificación, Diseño, Construcción, Implantación.",
+            "Introducción, Temas, Actividad, Consultas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Elaborar un Plan de Sistemas de Información.",
+            "Obtener la definición de la arquitectura del sistema.",
+            "Construir y probar los componentes del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto final del proceso PSI?",
+        "options": [
+            "Modelo físico de datos optimizado.",
+            "Resultado de pruebas unitarias.",
+            "Catálogo de Requisitos, que surge de un estudio de situación actual, diagnóstico y necesidades de información.",
+            "Acuerdo de nivel de servicio del sistema (SLA)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Según la fuente, la Propuesta de Arquitectura de Información en el PSI es más estratégica que:",
+        "options": [
+            "Operativa.",
+            "Financiera.",
+            "Tecnológica.",
+            "Humana."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la primera actividad del proceso PSI?",
+        "options": [
+            "Definición y Organización del PSI (PSI 2).",
+            "Estudio de la Información Relevante (PSI 3).",
+            "Inicio del PSI (PSI 1).",
+            "Identificación de Requisitos (PSI 4)."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se define en la Tarea PSI 1.2: Identificación del Alcance del PSI?",
+        "options": [
+            "El equipo humano de trabajo y el cronograma de ejecución.",
+            "Los procesos afectados por la organización debido al Plan del SI y las direcciones de las áreas implicadas.",
+            "Los productos finales del Plan de SI y sus fechas previstas.",
+            "Las fuentes de información y documentación para el estudio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad PSI 4: Identificación de Requisitos, ¿qué se realiza además de la especificación de requisitos de información y la obtención de un modelo de información?",
+        "options": [
+            "Valoración del estudio de la situación actual.",
+            "Selección de los SI a conservar.",
+            "Clasificación de los requisitos según prioridad.",
+            "Definición del Plan de Trabajo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la actividad PSI 5: Estudio de los SI Actuales?",
+        "options": [
+            "Definir los SI que darán soporte a los procesos de la organización.",
+            "Proponer una arquitectura tecnológica para los SI.",
+            "Valorar la situación actual apoyándose en información respecto al mantenimiento, documentación, flexibilidad, facilidad de uso, etc..",
+            "Definir los proyectos y acciones para la implantación del modelo de información y SI."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 6: Diseño del Modelo de SI, ¿qué se elabora después de realizar un diagnóstico de la situación actual?",
+        "options": [
+            "Un Plan de Mantenimiento del PSI.",
+            "Un modelo de SI.",
+            "Una Arquitectura Tecnológica.",
+            "Un Catálogo de Peticiones."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca con la actividad PSI 7: Definición de la Arquitectura Tecnológica?",
+        "options": [
+            "Identificar los requisitos de información de la organización.",
+            "Definir los proyectos y acciones a llevar a cabo para la implantación.",
+            "Proponer una arquitectura tecnológica que dé soporte a los SI escogidos.",
+            "Aprobar formalmente el Plan de Sistemas de Información."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad PSI 8: Definición del Plan de Acción, ¿qué se incluye además de un cronograma de proyectos y estimación de recursos?",
+        "options": [
+            "Un modelo lógico de datos.",
+            "Un plan de mantenimiento del PSI.",
+            "Un estudio de viabilidad.",
+            "Una especificación detallada del SI."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo final de la actividad PSI 9: Revisión y Aprobación del PSI?",
+        "options": [
+            "Elaborar el catálogo de requisitos.",
+            "Realizar entrevistas con usuarios.",
+            "La aprobación del PSI.",
+            "Definir los procesos afectados."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Estudio de Viabilidad del Sistema (EVS)?",
+        "options": [
+            "Conseguir la especificación detallada del SI.",
+            "Analizar necesidades para proponer una solución de corto plazo.",
+            "Construcción y pruebas de los componentes del SI.",
+            "Entrega y aceptación del sistema en su totalidad."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se incluye en los productos resultantes de un EVS si la solución incluye un producto software estándar de mercado?",
+        "options": [
+            "Modelo abstracto de datos.",
+            "Descripción del producto, evolución del producto, costos ocasionados por el producto, estándares del producto, descripción de adaptación.",
+            "Modelo de procesos.",
+            "Modelo de negocio."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la actividad EVS 1: Establecimiento del Alcance del Sistema, ¿qué se inicia además de determinar los objetivos y estudiar el alcance de la necesidad planteada?",
+        "options": [
+            "La valoración de los antecedentes.",
+            "Los estudios de los requisitos.",
+            "La elaboración del diagnóstico.",
+            "La descripción de los SI existentes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el resultado de la actividad EVS 2: Estudio de la Situación Actual?",
+        "options": [
+            "Definición de requisitos generales.",
+            "Propuesta de alternativas que respondan a los requisitos.",
+            "Un diagnóstico, estimando la eficiencia de los SI existentes e identificando problemas y mejoras.",
+            "Valoración de las alternativas considerando el impacto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la actividad EVS 3: Definición de Requisitos del Sistema, ¿qué tipo de directrices se recogen?",
+        "options": [
+            "Directrices económicas y financieras.",
+            "Directrices técnicas y de gestión.",
+            "Directrices de marketing y ventas.",
+            "Directrices de recursos humanos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué se enfoca la actividad EVS 4: Estudio de Alternativas de Solución?",
+        "options": [
+            "En la planificación de alternativas.",
+            "En la descripción general de la necesidad planteada.",
+            "En proponer alternativas que respondan a los requisitos planteados.",
+            "En la selección de la solución más adecuada."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se considera en la valoración de las alternativas en la actividad EVS 5?",
+        "options": [
+            "Únicamente el costo de la solución.",
+            "La viabilidad técnica y operativa.",
+            "El impacto en la organización, beneficios, riesgos, recursos y plazos.",
+            "La disponibilidad de personal para el proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Quiénes dan la aprobación formal o determinan la inviabilidad del sistema en la Tarea EVS 6.3: Aprobación de la Solución?",
+        "options": [
+            "Los usuarios finales.",
+            "El equipo de desarrollo.",
+            "El Comité de Dirección.",
+            "Los gerentes de departamento."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso de Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Obtener la definición de la arquitectura del sistema.",
+            "La construcción y pruebas de los componentes del SI.",
+            "Conseguir la especificación detallada del SI, a través de requisitos y modelos.",
+            "Realizar las pruebas de implantación con el usuario final."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el proceso ASI, ¿cuáles son algunos de los productos resultantes en Análisis Orientado a Objetos?",
+        "options": [
+            "Modelo lógico de datos normalizados.",
+            "Descripción de subsistemas de análisis, descripción de interfaces entre subsistemas, modelo de clases de análisis.",
+            "Catálogo de requisitos (inicial).",
+            "Plan de migración y carga inicial de datos (inicial)."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 1: Definición del Sistema, ¿qué se obtiene a partir del modelo abstracto de datos en el caso del paradigma orientado a objetos?",
+        "options": [
+            "Un modelo de procesos.",
+            "Un modelo conceptual de datos.",
+            "Un glosario de términos.",
+            "Un plan de pruebas inicial."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se lleva a cabo en la Actividad ASI 2: Establecimiento de Requisitos?",
+        "options": [
+            "La identificación de subsistemas de análisis.",
+            "La definición, análisis y validación de requisitos a partir de la información facilitada por el usuario.",
+            "El análisis de los casos de uso.",
+            "La elaboración del modelo de procesos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se especifica en la Tarea ASI 2.2: Especificación de Casos de Uso?",
+        "options": [
+            "La descripción de escenario, precondiciones y postcondiciones, interfaces de usuario, respuesta al sistema, etc..",
+            "La identificación de clases asociadas a un caso de uso.",
+            "La identificación de las directrices técnicas y de gestión.",
+            "La elaboración del modelo conceptual de datos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 3: Identificación de Subsistemas de Análisis?",
+        "options": [
+            "Garantizar la calidad de los distintos modelos generados.",
+            "Facilitar el análisis del SI llevando a cabo la descomposición del sistema en subsistemas.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Realizar un análisis top-down de descomposición."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Actividad ASI 4: Análisis de los Casos de Uso, ¿qué tipo de clases se identifican?",
+        "options": [
+            "Clases de entidad, clases de interfaz de usuario, clases de control.",
+            "Clases de datos, clases de procesos.",
+            "Clases abstractas, clases concretas.",
+            "Clases de negocio, clases de dominio."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué se reconoce en la Actividad ASI 5: Análisis de Clases en el paradigma orientado a objetos?",
+        "options": [
+            "Los casos de uso asociados a los requisitos funcionales.",
+            "Las clases, sus métodos, atributos y relaciones.",
+            "La navegación entre ventanas.",
+            "La asignación de esquemas físicos de datos a nodos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad ASI 6: Elaboración del Modelo de Datos?",
+        "options": [
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Identificar las necesidades de información de cada uno de los procesos, con el fin de obtener un modelo de datos.",
+            "Especificar las interfaces entre el sistema y el usuario.",
+            "Comprobar la integración de todos los subsistemas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuándo se realiza la Tarea ASI 6.4: Especificación de Necesidades de Migración de Datos y Carga Inicial?",
+        "options": [
+            "Solo si el sistema es completamente nuevo.",
+            "Si es necesaria una migración de datos de otros sistemas o una carga inicial de información.",
+            "Al finalizar la construcción del sistema.",
+            "Durante la definición de la arquitectura tecnológica."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué paradigma se lleva a cabo la Actividad ASI 7: Elaboración del Modelo de Procesos?",
+        "options": [
+            "Diseño orientado a objetos.",
+            "Análisis de casos de uso.",
+            "Análisis estructurado.",
+            "Diseño físico de datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad ASI 8: Definición de Interfaces de Usuario?",
+        "options": [
+            "Construir interfaces acordes a las necesidades del usuario, flexibles, sencillas, coherentes y eficientes.",
+            "Generar el código de los componentes del SI.",
+            "Preparar el entorno de construcción.",
+            "Realizar pruebas unitarias."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "En la Actividad ASI 9: Análisis de Consistencia y Especificación de Requisitos, ¿qué se busca asegurar?",
+        "options": [
+            "La disponibilidad de los recursos humanos y técnicos.",
+            "La calidad de los distintos modelos generados en todo el proceso del Análisis de los Sistemas de Información.",
+            "La identificación de clases adicionales.",
+            "La elaboración de manuales de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Para qué sirve el plan de pruebas especificado en la Actividad ASI 10: Especificación del Plan de Pruebas?",
+        "options": [
+            "Como guía para la realización de las pruebas y permite verificar que el SI cumple las necesidades establecidas por el usuario.",
+            "Para definir los procedimientos de operación y seguridad.",
+            "Para elaborar la documentación del usuario final.",
+            "Para la formalización del plan de mantenimiento."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Quiénes aprueban el Análisis del SI en la Actividad ASI 11?",
+        "options": [
+            "El equipo de desarrollo.",
+            "El responsable de seguridad.",
+            "El Comité de Dirección.",
+            "Los usuarios finales."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito principal del proceso de Diseño del Sistema de Información (DSI)?",
+        "options": [
+            "Analizar necesidades para proponer una solución.",
+            "Conseguir la especificación detallada del SI a través de requisitos.",
+            "Obtener la definición de la arquitectura del sistema y del entorno tecnológico, y la especificación detallada de los componentes del SI.",
+            "Entregar y aceptar el sistema en su totalidad."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál de los siguientes es un producto resultante del DSI (Primer Bloque)?",
+        "options": [
+            "Modelo de procesos.",
+            "Resultado de las pruebas de integración.",
+            "Diseño de la arquitectura del sistema.",
+            "Catálogo de peticiones de cambio."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la Tarea DSI 1.1: Definición de Niveles de Arquitectura, ¿qué se tiene en cuenta para definir las particiones físicas del SI?",
+        "options": [
+            "Volumen de datos y frecuencia de ejecución.",
+            "Ubicación de usuarios, movilidad, concurrencia, número, así como variabilidad, volumen y seguridad de los datos.",
+            "El plan de mantenimiento del PSI.",
+            "El presupuesto disponible para el proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Tarea DSI 1.7: Especificación de Requisitos de Operación y Seguridad?",
+        "options": [
+            "La jerarquía de clases.",
+            "Procedimientos de seguridad y operación necesarios para no comprometer el correcto funcionamiento del sistema.",
+            "La realización de las pruebas de regresión.",
+            "El entorno tecnológico propio de los procesos de migración."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 3: Diseño de Casos de Uso Reales (solo para Orientado a Objetos)?",
+        "options": [
+            "Definir los SI que finalmente darán soporte a los procesos de la organización.",
+            "Especificar el comportamiento del SI para un caso de uso, mediante objetos o subsistemas de diseño que interactúan.",
+            "Realizar un análisis top-down de descomposición de procesos.",
+            "Establecer las necesidades de formación del usuario final."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se transforma en la Actividad DSI 4: Diseño de Clases (solo para Orientado a Objetos)?",
+        "options": [
+            "El modelo de procesos a un modelo de clases de diseño.",
+            "El modelo lógico a un modelo de clases de diseño.",
+            "El modelo de negocio a un modelo de dominio.",
+            "El modelo conceptual a un modelo físico de datos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué modelo se elabora en la Actividad DSI 5: Diseño del Modelo Físico de Datos?",
+        "options": [
+            "Modelo de seguridad del sistema.",
+            "Modelo de navegación entre ventanas.",
+            "Modelo que describe cómo se almacenarán físicamente los datos.",
+            "Modelo de clases de análisis."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo de la Actividad DSI 6: Diseño de Componentes?",
+        "options": [
+            "Construir los módulos del sistema.",
+            "Definir la arquitectura tecnológica.",
+            "Determinar la estructura interna de los subsistemas y su interacción con otros componentes.",
+            "Realizar pruebas funcionales del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué contiene el producto 'Especificación de Clases de Diseño'?",
+        "options": [
+            "Atributos, operaciones, clases asociadas, relaciones y restricciones de cada clase.",
+            "Solo los métodos públicos de cada clase.",
+            "La estructura de la base de datos relacional.",
+            "El modelo conceptual inicial del sistema."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad DSI 7: Diseño de la Interfaz de Usuario?",
+        "options": [
+            "Diseñar pantallas atractivas con elementos visuales llamativos.",
+            "Establecer cómo se verá el sistema desde el punto de vista del usuario final, facilitando su interacción.",
+            "Establecer la estructura interna del software.",
+            "Diseñar la lógica de negocio del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se define en la Actividad DSI 8: Diseño de la Estrategia de Pruebas?",
+        "options": [
+            "El código fuente del sistema.",
+            "La planificación de recursos humanos.",
+            "Los criterios de aceptación, los tipos de pruebas y los recursos necesarios.",
+            "El diseño gráfico del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actores participan en la aprobación del diseño del SI según la Actividad DSI 9?",
+        "options": [
+            "Usuarios finales y responsables de calidad.",
+            "Analistas y técnicos de soporte.",
+            "Comité de Dirección y usuarios responsables del área afectada.",
+            "Proveedores externos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo del proceso Construcción del Sistema de Información (CSI)?",
+        "options": [
+            "Elaborar el plan de implantación del sistema.",
+            "Transformar en código ejecutable y componentes software los diseños previamente realizados.",
+            "Especificar la arquitectura del sistema.",
+            "Determinar los requisitos técnicos del entorno."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad CSI 1: Preparación del Entorno?",
+        "options": [
+            "Implementar la seguridad física del sistema.",
+            "Instalar y configurar el entorno tecnológico necesario para la construcción del sistema.",
+            "Entrenar a los usuarios finales.",
+            "Diseñar la arquitectura lógica del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca en la Actividad CSI 2: Generación del Código?",
+        "options": [
+            "Reescribir el modelo conceptual.",
+            "Obtener el código fuente del sistema a partir de los diseños detallados.",
+            "Documentar el sistema.",
+            "Crear los casos de prueba de usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se valida en la Actividad CSI 3: Pruebas del Sistema?",
+        "options": [
+            "El modelo de casos de uso.",
+            "La estructura del plan estratégico.",
+            "El cumplimiento de los requisitos mediante pruebas unitarias, de integración y de sistema.",
+            "La planificación financiera del proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la finalidad de la Actividad CSI 4: Preparación de la Implantación?",
+        "options": [
+            "Diseñar el plan de mantenimiento del sistema.",
+            "Crear interfaces gráficas interactivas.",
+            "Planificar y realizar las acciones necesarias para la instalación y uso del sistema en el entorno real.",
+            "Codificar las funcionalidades básicas del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué representa el proceso de Implantación y Aceptación del Sistema (IAS)?",
+        "options": [
+            "La finalización del análisis de requisitos.",
+            "La transformación de modelos de datos.",
+            "El paso del sistema al entorno de producción, su entrega y aceptación formal.",
+            "La capacitación del equipo de desarrollo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se hace en la Actividad IAS 1: Implantación del Sistema?",
+        "options": [
+            "Solo instalar el sistema en los servidores.",
+            "Coordinar y ejecutar la instalación del sistema en el entorno operativo, incluyendo migración de datos y formación.",
+            "Entrenar al equipo de desarrollo.",
+            "Verificar las interfaces gráficas del sistema."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué ocurre en la Actividad IAS 2: Aceptación del Sistema?",
+        "options": [
+            "Pruebas de integración de componentes.",
+            "Aprobación del sistema por parte del equipo de desarrollo.",
+            "Verificación de que el sistema cumple con todos los requisitos establecidos y su aceptación formal por el usuario.",
+            "Implementación de mejoras solicitadas."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso Mantenimiento de Sistemas de Información (MSI)?",
+        "options": [
+            "Desarrollar nuevos sistemas desde cero.",
+            "Realizar estudios de viabilidad para sistemas potenciales.",
+            "Atender las peticiones de cambio, resolución de errores y mejoras en el sistema implantado.",
+            "Realizar el análisis de requisitos inicial del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actividad inicia el proceso MSI?",
+        "options": [
+            "Análisis de consistencia.",
+            "Recepción y registro de peticiones.",
+            "Desarrollo de prototipos.",
+            "Generación del código fuente."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad MSI 3: Evaluación y Planificación de Cambios?",
+        "options": [
+            "Se valida el entorno de producción.",
+            "Se diseña el sistema desde cero.",
+            "Se analizan las peticiones y se planifican los cambios a realizar.",
+            "Se implantan directamente los cambios."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué tarea pertenece a la Actividad MSI 4: Análisis y Diseño Técnico del Cambio?",
+        "options": [
+            "Formación de usuarios.",
+            "Análisis de impacto de los cambios.",
+            "Especificación de pruebas de aceptación.",
+            "Desarrollo de manuales técnicos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el producto resultante de la Actividad MSI 5: Construcción del Cambio?",
+        "options": [
+            "Plan de sistemas de información.",
+            "Propuesta de solución a medida.",
+            "Componentes modificados o nuevos del sistema.",
+            "Modelo de negocio."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se verifica en la Actividad MSI 6: Pruebas del Cambio?",
+        "options": [
+            "El diseño gráfico del nuevo módulo.",
+            "La satisfacción del cliente.",
+            "La calidad del software en cuanto al cumplimiento de requisitos.",
+            "La validez de los documentos administrativos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se realiza en la Actividad MSI 7: Implantación del Cambio?",
+        "options": [
+            "El análisis estructurado del sistema.",
+            "La instalación del cambio en el entorno real y la formación si es necesaria.",
+            "La construcción de clases de diseño.",
+            "La planificación de recursos del proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de la Actividad MSI 8: Cierre del Cambio?",
+        "options": [
+            "Evaluar el cambio, cerrar formalmente y actualizar la documentación del sistema.",
+            "Eliminar todos los registros antiguos.",
+            "Notificar el fin de mantenimiento a los usuarios.",
+            "Reiniciar el proceso de análisis de requisitos."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué es un producto de salida común en el proceso MSI?",
+        "options": [
+            "Plan Estratégico Corporativo.",
+            "Catálogo de requisitos iniciales.",
+            "Registro de cambios del sistema.",
+            "Diagrama de despliegue."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo del proceso de Planificación de Sistemas de Información (PSI)?",
+        "options": [
+            "Desarrollar software en un entorno ágil.",
+            "Obtener una visión estratégica que permita definir un plan director para los sistemas de información.",
+            "Eliminar redundancias en las bases de datos existentes.",
+            "Implementar tecnologías emergentes en la infraestructura actual."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se evalúa en la actividad PSI 1: Identificación de Necesidades?",
+        "options": [
+            "El presupuesto para nuevas contrataciones.",
+            "El modelo físico de datos.",
+            "Los objetivos y necesidades estratégicas de la organización.",
+            "La calidad del software en producción."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué productos se generan durante la actividad PSI 2: Determinación del Alcance y Objetivos?",
+        "options": [
+            "El código fuente del nuevo sistema.",
+            "El Modelo de Procesos Organizativo y el Modelo de Información actual.",
+            "Manual del usuario final.",
+            "Especificación técnica de interfaces."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué caracteriza al modelo de procesos organizativo elaborado durante la planificación?",
+        "options": [
+            "Define el flujo de control del sistema informático.",
+            "Describe las tareas, funciones y relaciones entre unidades organizativas.",
+            "Define clases y relaciones entre objetos.",
+            "Se utiliza exclusivamente en entornos orientados a objetos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es un beneficio del uso de Métrica V3 en la planificación de sistemas?",
+        "options": [
+            "Reducir la participación del usuario.",
+            "Evitar documentación formal.",
+            "Promover una alineación estratégica entre los SI y los objetivos de negocio.",
+            "Simplificar la codificación con herramientas gráficas."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actores deben participar en la revisión final del PSI según Métrica V3?",
+        "options": [
+            "Solo el analista de sistemas.",
+            "Equipo técnico y de mantenimiento.",
+            "Responsables del negocio y de sistemas.",
+            "Usuarios externos y clientes finales."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué producto se genera en la actividad PSI 4: Elaboración del Plan de Sistemas de Información?",
+        "options": [
+            "Informe de arquitectura tecnológica.",
+            "Propuesta de modelo de clases.",
+            "Plan Director de los Sistemas de Información.",
+            "Manual técnico de usuario."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se identifica en la actividad PSI 3: Determinación de Requisitos de Información y Funcionales?",
+        "options": [
+            "Los actores del sistema y sus permisos.",
+            "Las fuentes de financiamiento para el proyecto.",
+            "Los requerimientos de información que deben satisfacer los sistemas futuros.",
+            "El código fuente para migración."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué objetivo cumple la actividad PSI 5: Aprobación del Plan de Sistemas de Información?",
+        "options": [
+            "Evaluar el modelo de clases definitivo.",
+            "Definir los cronogramas del equipo de desarrollo.",
+            "Obtener el compromiso de los responsables de la organización para ejecutar el Plan.",
+            "Establecer reglas de estilo para la programación."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué define la arquitectura del sistema en el contexto de Métrica V3?",
+        "options": [
+            "Una colección de scripts funcionales.",
+            "La estructura organizativa de la empresa.",
+            "La organización física y lógica de los componentes que forman el sistema.",
+            "El diagrama de flujos de usuario."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué actividad inicia el proceso de Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Especificación del plan de pruebas.",
+            "Estudio de la documentación existente.",
+            "Estudio de la situación actual.",
+            "Diseño físico de la base de datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del proceso ASI?",
+        "options": [
+            "Definir el plan financiero de TI.",
+            "Obtener una visión general del sistema actual para identificar mejoras.",
+            "Generar código fuente para los módulos básicos.",
+            "Implementar controles de calidad."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se busca lograr en la actividad ASI 2: Estudio del Sistema Actual?",
+        "options": [
+            "Elaborar un plan de mantenimiento.",
+            "Analizar el funcionamiento del sistema actual y detectar problemas y oportunidades de mejora.",
+            "Migrar datos entre sistemas.",
+            "Diseñar interfaces gráficas."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué técnica es comúnmente usada en la actividad ASI 3: Determinación de Requisitos?",
+        "options": [
+            "Evaluación heurística.",
+            "Prototipado de interfaces.",
+            "Entrevistas con usuarios y análisis de procesos.",
+            "Revisión de código."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se obtiene como resultado de la actividad ASI 3?",
+        "options": [
+            "Modelo físico del sistema.",
+            "Plan de pruebas de usuario.",
+            "Catálogo de requisitos.",
+            "Lista de errores críticos del sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué define el modelo de clases elaborado en ASI?",
+        "options": [
+            "Las estructuras físicas del servidor.",
+            "El comportamiento de los usuarios.",
+            "Los objetos del sistema, sus atributos, métodos y relaciones.",
+            "El flujo de caja de la inversión tecnológica."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué técnica facilita la validación del catálogo de requisitos?",
+        "options": [
+            "Mapeo de red.",
+            "Pruebas de penetración.",
+            "Revisión conjunta entre analistas y usuarios.",
+            "Compilación incremental."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué ventaja aporta el enfoque orientado a objetos en Métrica V3?",
+        "options": [
+            "Aumenta el tiempo de desarrollo.",
+            "Disminuye la reutilización.",
+            "Facilita la reutilización y el mantenimiento.",
+            "Evita la necesidad de modelado previo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué herramienta apoya la trazabilidad de requisitos en Métrica V3?",
+        "options": [
+            "Entrevistas abiertas.",
+            "Diagrama de flujo simple.",
+            "Matriz de trazabilidad.",
+            "Generador de código automático."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué representa el término 'producto' dentro de Métrica V3?",
+        "options": [
+            "La empresa desarrolladora.",
+            "Una fase de implementación.",
+            "El resultado tangible de una actividad o tarea.",
+            "Una base de datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se entiende por 'tarea' en la metodología Métrica V3?",
+        "options": [
+            "Un conjunto de procesos administrativos.",
+            "Una fase extensa de desarrollo.",
+            "Una unidad mínima de trabajo dentro de una actividad.",
+            "Una reunión de seguimiento del proyecto."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué finalidad tiene la utilización de prototipos en Métrica V3?",
+        "options": [
+            "Evitar el modelado UML.",
+            "Mejorar la presentación visual del sistema final.",
+            "Facilitar la comprensión y validación temprana de los requisitos.",
+            "Sustituir completamente el proceso de análisis."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué producto resulta del proceso Análisis del Sistema de Información (ASI)?",
+        "options": [
+            "Manual de instalación.",
+            "Plan de pruebas.",
+            "Modelo de análisis orientado a objetos.",
+            "Plan estratégico empresarial."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se obtiene como resultado del proceso Diseño del Sistema de Información (DSI)?",
+        "options": [
+            "Un sistema completamente implantado.",
+            "La arquitectura lógica del sistema a desarrollar.",
+            "El catálogo de incidencias reportadas.",
+            "El presupuesto general del proyecto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué representa un 'modelo de procesos de negocio' en Métrica V3?",
+        "options": [
+            "Una guía de programación orientada a objetos.",
+            "Una representación del hardware requerido.",
+            "Una representación de las actividades y flujo de información en la organización.",
+            "Una hoja de cálculo financiera."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es una de las ventajas del uso de Métrica V3?",
+        "options": [
+            "Ignorar los requerimientos no funcionales.",
+            "Aumentar la dependencia del proveedor.",
+            "Estandarizar los procesos de desarrollo de software.",
+            "Reducir el tiempo de capacitación del usuario."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué define el 'plan de pruebas' dentro de Métrica V3?",
+        "options": [
+            "Una lista de errores esperados.",
+            "Un cronograma de capacitación.",
+            "La estrategia de validación del sistema, incluyendo tipos de pruebas y responsables.",
+            "Una guía para programadores junior."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del proceso de Implantación y Aceptación del Sistema?",
+        "options": [
+            "Establecer el marco legal del desarrollo.",
+            "Probar el sistema en laboratorio exclusivamente.",
+            "Asegurar que el sistema desarrollado se instale correctamente y sea aceptado por el usuario.",
+            "Eliminar funcionalidades duplicadas."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué se realiza en la tarea 'Formación de Usuarios'?",
+        "options": [
+            "Capacitación del personal encargado de dar soporte técnico.",
+            "Formación de los usuarios finales sobre el uso del sistema implantado.",
+            "Entrenamiento de nuevos programadores.",
+            "Evaluación psicológica de los usuarios."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué importancia tiene la documentación generada en Métrica V3?",
+        "options": [
+            "Sirve como respaldo visual, pero no es necesaria.",
+            "Es clave para la trazabilidad, mantenimiento y reutilización del sistema.",
+            "Solo se emplea durante auditorías.",
+            "Está dirigida únicamente al área legal."
+        ],
+        "answer": 1
+    }
+
+]

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Examen - Ingeniería de Software</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --primary-color: #2196F3;
+            --primary-hover: #1976D2;
+            --secondary-color: #333;
+            --card-bg: #2a2a2a;
+            --border-color: #444;
+            --highlight-color: #3a3a3a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--bg-color) 0%, #2c2c2c 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--highlight-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .logo {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #f5f5f5;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #b0b0b0;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .info-box {
+            background: var(--highlight-color);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .info-value {
+            color: var(--text-color);
+        }
+
+        .start-button {
+            background: linear-gradient(45deg, var(--primary-color), #42A5F5);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 20px;
+            min-width: 200px;
+        }
+
+        .start-button:hover {
+            background: linear-gradient(45deg, var(--primary-hover), #1E88E5);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(33, 150, 243, 0.4);
+        }
+
+        .start-button:active {
+            transform: translateY(-1px);
+        }
+
+        .instructions {
+            background: rgba(255, 193, 7, 0.1);
+            border: 1px solid rgba(255, 193, 7, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .instructions h3 {
+            color: #FFC107;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .instructions ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .instructions li:before {
+            content: "▶";
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+                margin: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .logo {
+                font-size: 2.5rem;
+            }
+            
+            .start-button {
+                padding: 15px 30px;
+                font-size: 1.1rem;
+            }
+
+            .back-button {
+                position: static;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+            }
+            50% {
+                box-shadow: 0 4px 20px rgba(33, 150, 243, 0.6);
+            }
+            100% {
+                box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back-button">← Volver al inicio</a>
+    
+    <div class="container">
+        <div class="logo">💻</div>
+        <h1>Simulador de Examen</h1>
+        <p class="subtitle">Ingeniería de Software - Sistema de Evaluación</p>
+        
+        <div class="info-box">
+            <div class="info-item">
+                <span class="info-label">📊 Total de preguntas:</span>
+                <span class="info-value">20 preguntas aleatorias</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">⏱️ Tiempo límite:</span>
+                <span class="info-value">20 minutos</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">✅ Tipo de examen:</span>
+                <span class="info-value">Opción múltiple</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">🎯 Tema:</span>
+                <span class="info-value">Metodologías, UML, Patrones de Diseño, Arquitectura</span>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3>📝 Instrucciones:</h3>
+            <ul>
+                <li>Tendrás 20 minutos para completar el examen</li>
+                <li>Se seleccionarán 20 preguntas al azar de toda la base de datos</li>
+                <li>Puedes cambiar tus respuestas antes de enviar</li>
+                <li>Al finalizar verás tus resultados y las respuestas correctas</li>
+                <li>Si el tiempo se agota, el examen se enviará automáticamente</li>
+            </ul>
+        </div>
+
+        <button class="start-button pulse" onclick="startExam()">
+            🚀 Iniciar Examen
+        </button>
+        
+        <h6>Elaborado por Daniel Sanchez</h6>
+    </div>
+
+    <script>
+        function startExam() {
+            // Registrar evento de inicio de examen
+            if (window.va) {
+                window.va('track', 'exam_started', { module: 'software' });
+            }
+            
+            // Añadir efecto de carga
+            const button = document.querySelector('.start-button');
+            button.innerHTML = '⏳ Cargando...';
+            button.style.transform = 'scale(0.95)';
+            
+            // Redirigir después de un breve delay para el efecto visual
+            setTimeout(() => {
+                window.location.href = './main.html';
+            }, 800);
+        }
+
+        // Añadir animación sutil al cargar la página
+        window.addEventListener('load', () => {
+            document.querySelector('.container').style.opacity = '0';
+            document.querySelector('.container').style.transform = 'translateY(20px)';
+            document.querySelector('.container').style.transition = 'all 0.6s ease';
+            
+            setTimeout(() => {
+                document.querySelector('.container').style.opacity = '1';
+                document.querySelector('.container').style.transform = 'translateY(0)';
+            }, 100);
+        });
+    </script>
+    
+    <!-- Vercel Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
