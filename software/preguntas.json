@@ -198,5 +198,841 @@
             "Todos los casos de prueba ejecutados"
         ],
         "answer": 2
+    },
+    {
+        "question": "El Desarrollo Guiado por Pruebas (TDD) promueve escribir el código antes que las pruebas.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el orden correcto de pasos en TDD?",
+        "options": [
+            "Escribir código → Escribir prueba → Refactorizar",
+            "Escribir prueba → Escribir código → Refactorizar",
+            "Refactorizar → Escribir código → Escribir prueba",
+            "Escribir código → Refactorizar → Escribir prueba"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "BDD (Behaviour-Driven Development) se enfoca en mejorar la comunicación entre desarrolladores y stakeholders.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué estructura se utiliza comúnmente para escribir escenarios en BDD?",
+        "options": [
+            "Given - When - Then",
+            "Arrange - Act - Assert",
+            "Setup - Execute - Verify",
+            "Input - Process - Output"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Las pruebas unitarias verifican la interacción entre módulos.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de las siguientes herramientas es comúnmente utilizada para implementar TDD en Python?",
+        "options": [
+            "Postman",
+            "JUnit",
+            "PyTest",
+            "Selenium"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas de integración se enfocan en verificar componentes individuales del software.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un beneficio de las pruebas automatizadas?",
+        "options": [
+            "Mayor velocidad de ejecución",
+            "Reducción de costos a largo plazo",
+            "Detección temprana de errores",
+            "Elimina por completo la necesidad de pruebas manuales"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de aceptación son realizadas principalmente por los desarrolladores.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué herramienta se utiliza comúnmente para documentar y gestionar planes de prueba?",
+        "options": [
+            "Ms Project",
+            "Ms Office",
+            "Plantillas de Excel",
+            "JIRA"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "El objetivo principal de un plan de pruebas es reducir el tiempo de desarrollo.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes eventos justificaría la ejecución de una prueba de continuidad?",
+        "options": [
+            "Cambio en el proceso del negocio",
+            "Mejora en la documentación del usuario",
+            "Simulación de un corte de energía o fallo del servidor",
+            "Actualización menor del sistema operativo"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas de regresión verifican que los cambios no afecten funcionalidades existentes.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un criterio de salida en un plan de pruebas?",
+        "options": [
+            "Se ha alcanzado una cobertura de pruebas aceptable",
+            "Todos los errores corregidos",
+            "El sistema ha sido desplegado en producción",
+            "Todos los casos de prueba ejecutados"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Cucumber es una herramienta asociada con BDD.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué métrica se utiliza comúnmente para evaluar la efectividad de las pruebas unitarias?",
+        "options": [
+            "Número de usuarios concurrentes",
+            "Velocidad de carga de la interfaz",
+            "Porcentaje de cobertura de código",
+            "Tiempo de respuesta del sistema"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas de rendimiento son un tipo de prueba funcional.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Quién es el principal responsable de escribir las pruebas unitarias?",
+        "options": [
+            "El cliente",
+            "El desarrollador",
+            "El analista de calidad",
+            "El gerente de proyecto"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Las pruebas de seguridad son opcionales en el desarrollo de software.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba de aceptación?",
+        "options": [
+            "User Acceptance Testing (UAT)",
+            "Business Acceptance Testing (BAT)",
+            "Operational Acceptance Testing (OAT)",
+            "Unit Acceptance Testing (UAT)"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "El formato Gherkin se utiliza para escribir especificaciones en BDD.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes es un beneficio directo de las pruebas unitarias?",
+        "options": [
+            "Mejora la experiencia del usuario",
+            "Facilita la detección temprana de errores",
+            "Reduce el tiempo de compilación",
+            "Aumenta la velocidad de despliegue"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Las pruebas de humo verifican la funcionalidad básica del sistema después de un despliegue.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es comúnmente utilizada para pruebas de API?",
+        "options": [
+            "Selenium",
+            "Postman",
+            "JUnit",
+            "Cucumber"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El objetivo principal de BDD es automatizar la interfaz gráfica del usuario.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un marco de automatización de pruebas?",
+        "options": [
+            "Data Driven Automation Framework",
+            "Keyword Driven Automation Framework",
+            "Modular Automation Framework",
+            "Static Automation Framework"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de integración se realizan antes que las pruebas unitarias.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué tipo de pruebas se escriben principalmente en TDD?",
+        "options": [
+            "Pruebas de integración",
+            "Pruebas de rendimiento",
+            "Pruebas de aceptación",
+            "Pruebas unitarias"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "JIRA es una herramienta utilizada para gestionar planes de prueba.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un criterio de suspensión en pruebas?",
+        "options": [
+            "Se detecta un número elevado de errores críticos",
+            "El entorno de pruebas presenta fallos",
+            "Todos los casos de prueba han sido ejecutados",
+            "Faltan datos de prueba esenciales"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas de estrés evalúan el comportamiento del sistema bajo cargas extremas.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas unitarias en Java?",
+        "options": [
+            "Selenium",
+            "JUnit",
+            "Postman",
+            "Cucumber"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Plan según IEEE 829 incluye la planificación de recursos.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un entregable de pruebas?",
+        "options": [
+            "Casos de prueba",
+            "Informes de defectos",
+            "Código fuente del sistema",
+            "Resultados de pruebas"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas de compatibilidad verifican que el software funcione en diferentes navegadores.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de interfaz de usuario web?",
+        "options": [
+            "JUnit",
+            "Selenium",
+            "Postman",
+            "Mockito"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Manager es responsable de definir la estrategia de pruebas.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba no funcional?",
+        "options": [
+            "Pruebas de rendimiento",
+            "Pruebas de seguridad",
+            "Pruebas de usabilidad",
+            "Pruebas de regresión"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas exploratorias no requieren casos de prueba predefinidos.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta se utiliza comúnmente para mocking en pruebas unitarias?",
+        "options": [
+            "JaCoCo",
+            "Mockito",
+            "Gradle",
+            "TestNG"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El criterio de salida en pruebas puede incluir un porcentaje mínimo de cobertura.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un beneficio de la automatización de pruebas?",
+        "options": [
+            "Mayor velocidad de ejecución",
+            "Reducción de costos iniciales",
+            "Cobertura de prueba más amplia",
+            "Resultados más confiables"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Las pruebas de humo son exhaustivas y cubren todas las funcionalidades.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de carga y rendimiento?",
+        "options": [
+            "JMeter",
+            "JUnit",
+            "Selenium",
+            "Postman"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El Test Plan debe incluir una estimación del esfuerzo necesario.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un componente típico de un entorno de pruebas?",
+        "options": [
+            "Servidor de aplicaciones",
+            "Base de datos de prueba",
+            "Estación de trabajo de desarrollo",
+            "Hardware de producción"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de regresión deben ejecutarse después de cada cambio en el código.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de integración continua?",
+        "options": [
+            "Jenkins",
+            "JIRA",
+            "Postman",
+            "Mockito"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El alcance de las pruebas debe incluir tanto lo que se probará como lo que no.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de marco de automatización?",
+        "options": [
+            "Marco basado en datos",
+            "Marco basado en palabras clave",
+            "Marco monolítico",
+            "Marco híbrido"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas unitarias deben ser independientes y no depender de otras pruebas.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de aplicaciones móviles?",
+        "options": [
+            "Selenium",
+            "Appium",
+            "JUnit",
+            "Postman"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Plan debe ser revisado y aprobado por el equipo de desarrollo.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un riesgo típico en pruebas de software?",
+        "options": [
+            "Falta de habilidades en el equipo",
+            "Cronograma demasiado ajustado",
+            "Presupuesto excesivo",
+            "Falta de cooperación entre equipos"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas de aceptación del usuario (UAT) son realizadas por el cliente.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para medir la cobertura de código?",
+        "options": [
+            "JaCoCo",
+            "Mockito",
+            "Selenium",
+            "Postman"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El Test Administrator es responsable de configurar el entorno de pruebas.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba de seguridad?",
+        "options": [
+            "SAST (Static Application Security Testing)",
+            "DAST (Dynamic Application Security Testing)",
+            "LAST (Load Application Security Testing)",
+            "IAST (Interactive Application Security Testing)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas de integración continua requieren automatización.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas basadas en palabras clave?",
+        "options": [
+            "Robot Framework",
+            "JUnit",
+            "Selenium",
+            "Postman"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El Test Plan debe incluir los criterios de suspensión y salida.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un entregable antes de las pruebas?",
+        "options": [
+            "Plan de pruebas",
+            "Casos de prueba",
+            "Informe de defectos",
+            "Estrategia de pruebas"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Las pruebas de rendimiento evalúan el tiempo de respuesta del sistema.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de API REST?",
+        "options": [
+            "Selenium",
+            "Postman",
+            "JUnit",
+            "Mockito"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Plan es un documento estático que no debe modificarse durante el proyecto.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba en BDD?",
+        "options": [
+            "Pruebas de comportamiento",
+            "Pruebas basadas en escenarios",
+            "Pruebas basadas en especificaciones",
+            "Pruebas basadas en requisitos"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de usabilidad evalúan la facilidad de uso de la interfaz.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de base de datos?",
+        "options": [
+            "Selenium",
+            "DBUnit",
+            "Postman",
+            "JUnit"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Plan debe incluir los recursos humanos necesarios.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba funcional?",
+        "options": [
+            "Pruebas unitarias",
+            "Pruebas de integración",
+            "Pruebas de sistema",
+            "Pruebas de estrés"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de humo verifican la estabilidad básica del sistema.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de aplicaciones de escritorio?",
+        "options": [
+            "Selenium",
+            "TestComplete",
+            "Postman",
+            "JUnit"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Plan debe ser creado antes de comenzar cualquier actividad de prueba.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba en TDD?",
+        "options": [
+            "Pruebas unitarias",
+            "Pruebas de integración",
+            "Pruebas de aceptación",
+            "Pruebas de documentación"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de compatibilidad verifican el funcionamiento en diferentes dispositivos.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de aplicaciones web progresivas (PWA)?",
+        "options": [
+            "Selenium",
+            "Cypress",
+            "Postman",
+            "JUnit"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Plan debe incluir los riesgos identificados y su mitigación.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba de interfaz de usuario?",
+        "options": [
+            "Pruebas de usabilidad",
+            "Pruebas de accesibilidad",
+            "Pruebas de consistencia visual",
+            "Pruebas de carga"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de aceptación operacional (OAT) verifican los procedimientos de respaldo.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de aplicaciones IoT?",
+        "options": [
+            "Selenium",
+            "JMeter",
+            "Postman",
+            "No hay una herramienta específica"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "El Test Plan debe ser actualizado a lo largo del ciclo de vida del proyecto.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba en un marco ágil?",
+        "options": [
+            "Pruebas de sprint",
+            "Pruebas de regresión",
+            "Pruebas de aceptación",
+            "Pruebas de documentación"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de contrato verifican el cumplimiento de acuerdos con proveedores.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de machine learning?",
+        "options": [
+            "Selenium",
+            "TensorFlow Testing",
+            "Postman",
+            "JUnit"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Plan debe incluir el cronograma de actividades de prueba.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba de accesibilidad?",
+        "options": [
+            "WCAG",
+            "Section 508",
+            "ADA",
+            "ISO 9001"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas de exploración no requieren casos de prueba predefinidos.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de blockchain?",
+        "options": [
+            "Selenium",
+            "Truffle",
+            "Postman",
+            "JUnit"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Test Plan debe incluir los criterios para considerar una prueba como exitosa.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál de los siguientes NO es un tipo de prueba de virtualización?",
+        "options": [
+            "Pruebas en contenedores",
+            "Pruebas en máquinas virtuales",
+            "Pruebas en la nube",
+            "Pruebas en dispositivos físicos"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Las pruebas A/B comparan dos versiones de una interfaz con usuarios reales.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta es más adecuada para pruebas de microservicios?",
+        "options": [
+            "Selenium",
+            "Postman",
+            "JUnit",
+            "Todas las anteriores"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "El Test Plan debe incluir los entregables esperados de las pruebas.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
     }
 ]
