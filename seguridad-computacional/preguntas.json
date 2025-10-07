@@ -1,0 +1,52 @@
+[
+    {
+        "question": "¿Cuál es el principal objetivo de la criptografía simétrica?",
+        "options": [
+            "Proporcionar autenticación sin confidencialidad",
+            "Usar la misma clave para cifrar y descifrar datos",
+            "Generar claves públicas y privadas diferentes",
+            "Crear firmas digitales únicamente"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En el contexto de seguridad de redes, ¿qué significa CIA?",
+        "options": [
+            "Central Intelligence Agency",
+            "Confidencialidad, Integridad y Autenticidad",
+            "Confidencialidad, Integridad y Disponibilidad",
+            "Control, Identificación y Autorización"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué tipo de ataque consiste en interceptar comunicaciones entre dos partes?",
+        "options": [
+            "Ataque de fuerza bruta",
+            "Ataque de denegación de servicio",
+            "Ataque man-in-the-middle",
+            "Ataque de inyección SQL"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la función principal de un firewall?",
+        "options": [
+            "Cifrar datos en tránsito",
+            "Filtrar tráfico de red según reglas predefinidas",
+            "Detectar malware en archivos",
+            "Generar certificados digitales"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué algoritmo de hash es considerado seguro actualmente?",
+        "options": [
+            "MD5",
+            "SHA-1",
+            "SHA-256",
+            "CRC32"
+        ],
+        "answer": 2
+    }
+]

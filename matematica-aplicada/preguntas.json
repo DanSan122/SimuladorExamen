@@ -1,0 +1,52 @@
+[
+    {
+        "question": "¿Cuál es el resultado de la operación 2^3 + 3^2?",
+        "options": [
+            "15",
+            "17",
+            "19",
+            "21"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En teoría de grafos, ¿qué es un grafo conexo?",
+        "options": [
+            "Un grafo donde todos los vértices tienen el mismo grado",
+            "Un grafo donde existe un camino entre cualquier par de vértices",
+            "Un grafo que no contiene ciclos",
+            "Un grafo con exactamente n-1 aristas"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la complejidad temporal del algoritmo de ordenamiento burbuja en el peor caso?",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n²)",
+            "O(2^n)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En estadística, ¿qué mide la desviación estándar?",
+        "options": [
+            "La tendencia central de los datos",
+            "La dispersión de los datos respecto a la media",
+            "El valor máximo de un conjunto de datos",
+            "La probabilidad de un evento"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el resultado de la integral ∫x dx?",
+        "options": [
+            "x + C",
+            "x²/2 + C",
+            "x²/3 + C",
+            "2x + C"
+        ],
+        "answer": 1
+    }
+]
