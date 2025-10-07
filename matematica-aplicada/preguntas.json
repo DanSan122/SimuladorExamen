@@ -1,51 +1,721 @@
 [
     {
-        "question": "¿Cuál es el resultado de la operación 2^3 + 3^2?",
+        "question": "¿Qué es un Sistema de Ecuaciones Lineales (SEL)?",
         "options": [
-            "15",
-            "17",
-            "19",
-            "21"
+            "Un conjunto de ecuaciones donde las variables están elevadas a potencias arbitrarias.",
+            "Un conjunto de ecuaciones donde todas las variables tienen exponente uno y no se multiplican entre sí.",
+            "Una única ecuación con múltiples variables sin solución.",
+            "Un conjunto de ecuaciones diferenciales que describen un sistema dinámico."
         ],
         "answer": 1
     },
     {
-        "question": "En teoría de grafos, ¿qué es un grafo conexo?",
+        "question": "¿Cuál es la condición principal que define a una ecuación como \"lineal\" en el contexto de un SEL?",
         "options": [
-            "Un grafo donde todos los vértices tienen el mismo grado",
-            "Un grafo donde existe un camino entre cualquier par de vértices",
-            "Un grafo que no contiene ciclos",
-            "Un grafo con exactamente n-1 aristas"
-        ],
-        "answer": 1
-    },
-    {
-        "question": "¿Cuál es la complejidad temporal del algoritmo de ordenamiento burbuja en el peor caso?",
-        "options": [
-            "O(n)",
-            "O(n log n)",
-            "O(n²)",
-            "O(2^n)"
+            "Sus coeficientes deben ser enteros.",
+            "Debe contener solo dos variables.",
+            "Las variables solo pueden tener exponente uno y no pueden multiplicarse entre sí.",
+            "La ecuación debe ser igual a cero."
         ],
         "answer": 2
     },
     {
-        "question": "En estadística, ¿qué mide la desviación estándar?",
+        "question": "Defina **solución** de un Sistema de Ecuaciones Lineales ($A\\mathbf{x} = \\mathbf{b}$).",
         "options": [
-            "La tendencia central de los datos",
-            "La dispersión de los datos respecto a la media",
-            "El valor máximo de un conjunto de datos",
-            "La probabilidad de un evento"
+            "El determinante de la matriz de coeficientes $A$.",
+            "El vector $\\mathbf{b}$ de términos independientes.",
+            "El vector $\\mathbf{x}$ de valores que satisfacen simultáneamente todas las ecuaciones del sistema.",
+            "La matriz $A$ que describe el sistema."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En la forma general de un SEL ($A\\mathbf{x} = \\mathbf{b}$), ¿qué representan los $a_{ij}$ de la matriz $A$?",
+        "options": [
+            "Los coeficientes de las variables del sistema.",
+            "Las soluciones del sistema.",
+            "Los términos independientes.",
+            "Los exponentes de las variables."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué área de la computación o ingeniería utiliza SEL para la asignación óptima de recursos y planificación?",
+        "options": [
+            "Renderizado de gráficos 3D.",
+            "Criptografía asimétrica.",
+            "Investigación de operaciones o programación lineal.",
+            "Modelado de autómatas finitos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Para qué se utilizan los SEL en el modelado de circuitos eléctricos complejos?",
+        "options": [
+            "Para calcular la velocidad de la luz en el circuito.",
+            "Para aplicar las Leyes de Kirchhoff y determinar corrientes o voltajes desconocidos.",
+            "Para predecir el impacto ambiental del circuito.",
+            "Para determinar la cantidad de código fuente necesario."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cuál es el resultado de la integral ∫x dx?",
+        "question": "¿Cuál es la diferencia teórica principal entre un SEL **homogéneo** y uno **no homogéneo**?",
         "options": [
-            "x + C",
-            "x²/2 + C",
-            "x²/3 + C",
-            "2x + C"
+            "El homogéneo tiene más ecuaciones que variables.",
+            "El homogéneo tiene su vector de términos independientes $\\mathbf{b} = \\mathbf{0}$, y el no homogéneo tiene $\\mathbf{b} \\ne \\mathbf{0}$.",
+            "El homogéneo solo tiene soluciones triviales.",
+            "El homogéneo siempre es incompatible."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cómo se clasifica un SEL que tiene exactamente una solución?",
+        "options": [
+            "Sistema Incompatible.",
+            "Sistema Compatible Indeterminado.",
+            "Sistema Compatible Determinado.",
+            "Sistema Singular."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Explique qué es la **matriz aumentada** $[A|\\mathbf{b}]$ de un SEL.",
+        "options": [
+            "La matriz de coeficientes $A$ con una columna de ceros a su derecha.",
+            "La matriz de coeficientes $A$ con el determinante calculado.",
+            "La matriz de coeficientes $A$ a la que se le adjunta la columna del vector de términos independientes $\\mathbf{b}$.",
+            "La matriz de coeficientes $A$ sin los términos independientes."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué principio establece el **Teorema de Rouché-Frobenius** (o su equivalente) para determinar la compatibilidad de un SEL?",
+        "options": [
+            "El sistema es compatible si el determinante de $A$ es distinto de cero.",
+            "El sistema es compatible si el rango de la matriz de coeficientes $A$ es igual al rango de la matriz aumentada $[A|\\mathbf{b}]$.",
+            "El sistema es compatible solo si es homogéneo.",
+            "El sistema es compatible si tiene más variables que ecuaciones."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Un SEL homogéneo siempre tiene al menos una solución. ¿Cuál es esta solución garantizada?",
+        "options": [
+            "La solución particular.",
+            "La solución general.",
+            "La solución trivial (todas las variables iguales a cero).",
+            "No tiene soluciones, es incompatible."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Un Sistema de Ecuaciones Lineales se considera **Incompatible** si:",
+        "options": [
+            "El rango de $A$ es igual al número de variables.",
+            "Tiene infinitas soluciones.",
+            "El rango de $A$ es igual al rango de $[A|\\mathbf{b}]$.",
+            "No tiene ninguna solución."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Defina **Autovector** ($\\mathbf{v}$) de una matriz $A$ o un operador lineal $T$.",
+        "options": [
+            "Un vector que es transformado a un vector ortogonal a él.",
+            "Un vector que es siempre el vector cero.",
+            "Un vector no nulo que, al ser transformado por $A$, resulta en un múltiplo escalar de sí mismo ($A\\mathbf{v} = \\lambda\\mathbf{v}$).",
+            "Un vector que cambia de dirección y longitud de forma impredecible."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Defina **Autovalor** ($\\lambda$) asociado a un autovector $\\mathbf{v}$.",
+        "options": [
+            "El vector unitario de $\\mathbf{v}$.",
+            "El escalar que representa el factor de escala por el cual el autovector $\\mathbf{v}$ es multiplicado bajo la transformación $A$.",
+            "La suma de las componentes del autovector.",
+            "El determinante de la matriz $A$."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué concepto fundamental del álgebra lineal se logra cuando una matriz $A$ puede ser expresada como $A = PDP^{-1}$?",
+        "options": [
+            "Inversión de matrices.",
+            "Ortogonalización.",
+            "Diagonalización de matrices.",
+            "Factorización LU."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la principal utilidad de la diagonalización de matrices ($A = PDP^{-1}$) en la computación?",
+        "options": [
+            "Simplificar el cálculo de la inversa de la matriz.",
+            "Simplificar el cálculo de potencias de matrices ($A^k = PD^kP^{-1}$).",
+            "Calcular el rango de una matriz.",
+            "Convertir una matriz cuadrada en una triangular."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el papel del **polinomio característico** en la determinación de los autovalores de una matriz $A$?",
+        "options": [
+            "Es el que genera los autovectores.",
+            "Es el polinomio formado por la suma de las filas de $A$.",
+            "Sus raíces (o ceros) son los autovalores de la matriz ($|\\mathbf{A} - \\lambda\\mathbf{I}| = 0$).",
+            "Define si la matriz es invertible."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué propiedad geométrica describe un autovector cuando es transformado por el operador lineal asociado a la matriz?",
+        "options": [
+            "Se vuelve ortogonal al vector original.",
+            "Se rota 90 grados.",
+            "Se mapea al origen.",
+            "Mantiene su dirección (o la invierte), solo escalándose por el autovalor."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Para qué se utiliza el análisis de autovalores en el campo de los sistemas dinámicos y la estabilidad?",
+        "options": [
+            "Para determinar si el sistema es estable, inestable o marginalmente estable.",
+            "Para calcular el costo de implementación del sistema.",
+            "Para encontrar el tiempo de ejecución de un algoritmo.",
+            "Para diagonalizar una función de costo."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué es la **multiplicidad algebraica** de un autovalor $\\lambda$?",
+        "options": [
+            "El número de autovectores linealmente independientes asociados a $\\lambda$.",
+            "La suma de los autovalores.",
+            "La cantidad de veces que $\\lambda$ es raíz del polinomio característico.",
+            "El orden de la matriz $A$."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuándo se dice que una matriz es **diagonalizable**?",
+        "options": [
+            "Si su determinante es cero.",
+            "Si es una matriz triangular.",
+            "Si posee un conjunto de autovectores que forman una base para el espacio vectorial (o si la multiplicidad algebraica es igual a la geométrica para cada $\\lambda$).",
+            "Si es simétrica."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué significa que un **subespacio $V$ es invariante** por un operador $T$?",
+        "options": [
+            "T siempre mapea cualquier vector de $V$ al vector cero.",
+            "La imagen de cualquier vector $\\mathbf{v} \\in V$ bajo $T$ también pertenece al subespacio $V$.",
+            "El subespacio $V$ es ortogonal a sí mismo.",
+            "T invierte el orden de los vectores en $V$."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Descomposición Espectral para matrices simétricas, ¿qué matrices se utilizan para descomponer la matriz original ($A$)?",
+        "options": [
+            "La matriz inversa y la matriz transpuesta.",
+            "La matriz de coeficientes y la matriz aumentada.",
+            "Una matriz de autovectores ortonormales ($P$) y una matriz diagonal de autovalores ($D$).",
+            "La matriz de cofactores y la matriz de adjuntos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Un **Autovector** debe ser necesariamente...",
+        "options": [
+            "siempre el vector nulo.",
+            "cualquier vector que no cambia de longitud.",
+            "un vector no nulo.",
+            "solo puede ser un vector unitario."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Defina **Derivada Parcial** de una función $f(x, y)$ con respecto a $x$.",
+        "options": [
+            "El límite de $f$ cuando $x$ se acerca a $y$.",
+            "La derivada total de $f$.",
+            "La derivada de $f$ asumiendo que todas las demás variables (como $y$) se mantienen constantes.",
+            "La derivada de $f$ asumiendo que $y$ es otra función de $x$."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué mide conceptualmente una derivada parcial ($\\partial f / \\partial x$)?",
+        "options": [
+            "El cambio total de la función en todas las direcciones.",
+            "La tasa instantánea de cambio de la función $f$ con respecto a una sola variable, manteniendo las otras fijas.",
+            "El volumen bajo la superficie.",
+            "La curvatura de la superficie."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué representa el **Vector Gradiente** ($\\nabla f$)?",
+        "options": [
+            "Un vector que apunta en la dirección de cambio más lento.",
+            "El vector formado por las derivadas parciales de la función, que apunta en la dirección de máximo crecimiento.",
+            "Un escalar que mide el valor de la función en un punto.",
+            "La suma de todas las derivadas parciales."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué representa la dirección del Vector Gradiente en un punto de la superficie?",
+        "options": [
+            "La dirección donde la función no cambia.",
+            "La dirección de máximo crecimiento o ascenso de la función.",
+            "La dirección del mínimo absoluto.",
+            "La dirección perpendicular al vector de posición."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es una **derivada direccional** ($D_{\\mathbf{u}}f$)?",
+        "options": [
+            "El gradiente dividido por la norma del gradiente.",
+            "Una derivada parcial de orden superior.",
+            "El producto cruz del gradiente y el vector $\\mathbf{u}$.",
+            "La tasa de cambio de la función $f$ en la dirección de un vector unitario $\\mathbf{u}$."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Cómo se aplica el concepto de derivada parcial en el **Descenso de Gradiente** (*Gradient Descent*)?",
+        "options": [
+            "El gradiente se usa como un factor de aprendizaje fijo.",
+            "Se calcula la Hessiana para determinar la dirección de descenso.",
+            "El algoritmo sigue la dirección opuesta al gradiente para encontrar los mínimos de una función de costo.",
+            "La derivada parcial se usa para determinar si un SEL es compatible."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué establece el **Teorema de Clairaut** (o de simetría de las derivadas parciales cruzadas)?",
+        "options": [
+            "Que el gradiente es siempre cero en un punto crítico.",
+            "Que una función solo es diferenciable si es continua.",
+            "Si las segundas derivadas parciales cruzadas son continuas, entonces son iguales ($\\frac{\\partial^2 f}{\\partial x \\partial y} = \\frac{\\partial^2 f}{\\partial y \\partial x}$).",
+            "Que toda función multivariable debe tener un máximo y un mínimo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "El vector gradiente en un punto $\\mathbf{p}$ es **normal (perpendicular)** a:",
+        "options": [
+            "El eje $x$.",
+            "La curva de nivel que pasa por el origen.",
+            "La curva de nivel (o superficie de nivel) de la función que pasa por el punto $\\mathbf{p}$.",
+            "La matriz Hessiana."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué significa que una función $f(x, y)$ sea **diferenciable** en un punto?",
+        "options": [
+            "Que su gradiente es cero en ese punto.",
+            "Que sus derivadas parciales existen, pero no necesariamente son continuas.",
+            "Que la función puede ser bien aproximada por una función lineal (su plano tangente) cerca de ese punto.",
+            "Que la función es constante."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es la fórmula para calcular la **máxima tasa de cambio** de una función $f$ en un punto $\\mathbf{p}$?",
+        "options": [
+            "$\\text{det}(H(\\mathbf{p}))$.",
+            "$f_{xx}(\\mathbf{p}) + f_{yy}(\\mathbf{p})$.",
+            "$\\|\\nabla f(\\mathbf{p})\\|$ (La magnitud o norma del vector gradiente).",
+            "$\\nabla f(\\mathbf{p}) \\cdot \\mathbf{u}$."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el campo de la *Inteligencia Artificial* y el *Machine Learning*, ¿cuál es el rol principal de las derivadas parciales?",
+        "options": [
+            "Calcular la matriz inversa de los datos.",
+            "Minimizar la función de costo (pérdida) de un modelo mediante métodos de optimización basados en el gradiente.",
+            "Determinar la complejidad del *hardware*.",
+            "Generar números aleatorios."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Una derivada parcial de segundo orden $\\frac{\\partial^2 f}{\\partial x^2}$ mide:",
+        "options": [
+            "La tasa de cambio en la dirección de la diagonal.",
+            "La concavidad o curvatura de la función con respecto a la variable $x$.",
+            "El producto del gradiente.",
+            "El cambio total de la función."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Defina un **Punto Crítico** de una función $f(x, y)$.",
+        "options": [
+            "Un punto donde la función alcanza su valor más alto.",
+            "Un punto donde el vector gradiente es cero ($\\nabla f = \\mathbf{0}$) o donde alguna de las derivadas parciales no existe.",
+            "Un punto en la frontera del dominio.",
+            "Un punto donde el determinante de la Matriz Hessiana es negativo."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la condición de primer orden para que un punto $(a, b)$ sea un posible extremo local de una función $f(x, y)$ que es diferenciable?",
+        "options": [
+            "El determinante de la Hessiana debe ser positivo.",
+            "El vector de posición debe ser nulo.",
+            "Las derivadas parciales de primer orden deben ser cero ($\\frac{\\partial f}{\\partial x} = 0$ y $\\frac{\\partial f}{\\partial y} = 0$).",
+            "$f(a, b)$ debe ser cero."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué información crucial proporciona la **Matriz Hessiana** ($H$) en la prueba de la segunda derivada?",
+        "options": [
+            "El valor de la función en el punto crítico.",
+            "Si el sistema de ecuaciones es compatible.",
+            "Información sobre la concavidad (curvatura) de la función para clasificar el punto crítico.",
+            "La dirección de máximo crecimiento de la función."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué criterio se utiliza (basado en el determinante de la Hessiana, $D$) para determinar si un punto crítico es un **Punto de Silla**?",
+        "options": [
+            "$D > 0$ y $f_{xx} < 0$.",
+            "$D = 0$.",
+            "$D > 0$ y $f_{xx} > 0$.",
+            "$D < 0$ (El determinante de la Hessiana es negativo)."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Qué son los **Multiplicadores de Lagrange**?",
+        "options": [
+            "Un método para resolver sistemas de ecuaciones no lineales.",
+            "Una forma de calcular la matriz inversa.",
+            "Una técnica para encontrar extremos de una función sujetos a una o más restricciones de igualdad.",
+            "El valor del determinante de la matriz Hessiana."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Explique la diferencia entre un **Máximo Relativo** y un **Máximo Absoluto**.",
+        "options": [
+            "El relativo se encuentra en la frontera, el absoluto no.",
+            "El relativo es el valor más grande en una vecindad local; el absoluto es el valor más grande en todo el dominio o región especificada.",
+            "El relativo requiere que la Hessiana sea positiva, el absoluto no.",
+            "Son sinónimos y no hay diferencia."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el rol de la función de restricción $g(x, y)$ en el método de Multiplicadores de Lagrange?",
+        "options": [
+            "Se utiliza para calcular el gradiente de la función objetivo.",
+            "Define la(s) curva(s) o superficie(s) donde se buscan los extremos de la función objetivo $f$.",
+            "Es la Matriz Hessiana.",
+            "Se utiliza para determinar si el punto es de silla."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Si el determinante de la Matriz Hessiana ($D$) es cero en un punto crítico, ¿qué se puede concluir sobre la naturaleza del punto?",
+        "options": [
+            "Que es definitivamente un mínimo.",
+            "Que es definitivamente un máximo.",
+            "Que es un punto de silla.",
+            "La prueba de la segunda derivada no es concluyente."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Qué significa que un punto crítico $(a, b)$ sea un **Mínimo Relativo** (usando la prueba de la segunda derivada)?",
+        "options": [
+            "$D < 0$.",
+            "$D = 0$.",
+            "$D > 0$ y $\\frac{\\partial^2 f}{\\partial x^2}(a, b) > 0$.",
+            "$D > 0$ y $\\frac{\\partial^2 f}{\\partial x^2}(a, b) < 0$."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "La optimización en funciones de varias variables es crucial para:",
+        "options": [
+            "Determinar si un SEL es lineal.",
+            "El entrenamiento de modelos de Machine Learning (minimización de la función de pérdida) y la toma de decisiones en ingeniería.",
+            "La factorización de polinomios.",
+            "El cálculo de autovectores."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿En qué tipo de dominio se debe realizar un análisis adicional de la frontera para encontrar los máximos y mínimos **absolutos**?",
+        "options": [
+            "En un dominio abierto e ilimitado.",
+            "En un dominio cerrado y acotado (compacto).",
+            "Solo en dominios con una única variable.",
+            "En dominios donde la función es discontinua."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La condición necesaria para un extremo condicionado con la restricción $g(\\mathbf{x})=0$ mediante el método de Lagrange es:",
+        "options": [
+            "$\\nabla f = 0$.",
+            "$\\nabla f = \\lambda \\nabla g$.",
+            "$\\nabla f \\cdot \\nabla g = 0$.",
+            "$\\lambda$ debe ser cero."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la utilidad principal de la **Regresión** en Estadística y Ciencia de Datos?",
+        "options": [
+            "Calcular el determinante de matrices de datos.",
+            "Encontrar el punto crítico de una función de probabilidad.",
+            "Modelar la relación entre variables (dependiente e independientes) y realizar predicciones.",
+            "Simplemente ordenar los datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En un modelo de regresión lineal simple ($Y = aX + b$), ¿qué representa la variable $Y$?",
+        "options": [
+            "La variable independiente o predictor.",
+            "El error residual.",
+            "La variable dependiente o respuesta.",
+            "El coeficiente de correlación."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué son las **variables regresoras** o predictores en un modelo de regresión?",
+        "options": [
+            "Las variables que se quieren predecir.",
+            "Las variables independientes que se utilizan para predecir o explicar la variable dependiente.",
+            "Los términos constantes del modelo.",
+            "Los datos que han sido descartados."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué establece el método de **Mínimos Cuadrados** (*Least Squares*) para encontrar los coeficientes óptimos en regresión lineal?",
+        "options": [
+            "Maximizar la distancia entre los puntos y la recta.",
+            "Asegurar que la recta pase por el origen.",
+            "Minimizar la suma de los cuadrados de las distancias verticales (residuos) entre los puntos de datos y la línea de regresión.",
+            "Minimizar el número de variables en el modelo."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué objetivo del análisis de regresión se cumple a través del **Coeficiente de Correlación** ($r$)?",
+        "options": [
+            "Determinar el valor de la pendiente ($a$).",
+            "Clasificar la variable dependiente.",
+            "Medir la fuerza y la dirección de la relación lineal entre dos variables.",
+            "Calcular la media de los datos."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el contexto de un modelo de regresión lineal, ¿qué es un **Residuo** ($\\varepsilon$)?",
+        "options": [
+            "La pendiente de la recta.",
+            "El valor predicho por el modelo.",
+            "La diferencia vertical entre el valor observado de la variable dependiente ($Y$) y el valor predicho ($\\hat{Y}$).",
+            "El intercepto con el eje $Y$."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el modelo funcional más simple que relaciona dos variables en el análisis de regresión?",
+        "options": [
+            "El modelo exponencial.",
+            "El modelo cuadrático.",
+            "El modelo lineal.",
+            "El modelo logarítmico."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué indica una mejor predicción del modelo sobre el fenómeno estudiado?",
+        "options": [
+            "Un coeficiente de correlación cercano a cero.",
+            "Una Suma de Cuadrados de los Residuos (SSR) pequeña.",
+            "Un intercepto muy grande.",
+            "Más variables regresoras, independientemente de la relevancia."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la diferencia conceptual clave entre **Correlación** y **Regresión**?",
+        "options": [
+            "La correlación implica causalidad; la regresión no.",
+            "La regresión solo se usa para datos no lineales.",
+            "La correlación mide la asociación/fuerza; la regresión modela la relación funcional para predicción.",
+            "La correlación requiere más de dos variables."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "La **Regresión Múltiple** se utiliza cuando...",
+        "options": [
+            "Se tienen más ecuaciones que datos.",
+            "El modelo es no lineal.",
+            "La variable dependiente $Y$ se modela utilizando dos o más variables independientes (regresoras).",
+            "Se quiere encontrar un autovalor."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el contexto de *Machine Learning*, la Regresión Lineal se clasifica como un algoritmo de:",
+        "options": [
+            "Aprendizaje no supervisado (*Unsupervised Learning*).",
+            "Aprendizaje supervisado (*Supervised Learning*).",
+            "Aprendizaje por refuerzo (*Reinforcement Learning*).",
+            "*Deep Learning*."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito del **coeficiente de determinación** ($R^2$)?",
+        "options": [
+            "Medir la pendiente de la recta.",
+            "Determinar si los datos son normales.",
+            "Indicar la proporción de la varianza de la variable dependiente que es explicada por el modelo de regresión.",
+            "Calcular el valor medio de la variable dependiente."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Defina una **Ecuación Diferencial Ordinaria (EDO)**.",
+        "options": [
+            "Una ecuación que involucra solo derivadas parciales de una función de varias variables.",
+            "Una ecuación que involucra una función de una sola variable y sus derivadas.",
+            "Un sistema de ecuaciones lineales con una matriz de $1 \\times 1$.",
+            "Una función que no tiene solución."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿A qué hace referencia el término \"**de 1er orden**\" en la definición de una EDO?",
+        "options": [
+            "Al número de variables independientes.",
+            "Al grado del polinomio que define la EDO.",
+            "A la derivada de mayor orden presente en la ecuación.",
+            "A que tiene solo una solución."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Cuál es el propósito principal de las EDO en el modelado de sistemas en ingeniería y ciencia?",
+        "options": [
+            "Simplificar sistemas de ecuaciones lineales.",
+            "Describir la relación entre una cantidad y su tasa de cambio (su evolución temporal).",
+            "Encontrar el área bajo una curva.",
+            "Calcular el determinante de la matriz Hessiana."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué fenómeno físico modela la **Ley de Enfriamiento de Newton** en términos de EDOs?",
+        "options": [
+            "La propagación de ondas de sonido.",
+            "La tasa de cambio de temperatura de un objeto en relación con la diferencia de temperatura entre el objeto y su entorno.",
+            "El movimiento parabólico de un proyectil.",
+            "La velocidad de la luz."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué establece el **Teorema de Existencia y Unicidad** de EDOs (para problemas de valor inicial)?",
+        "options": [
+            "Que una EDO siempre tiene infinitas soluciones.",
+            "Que bajo ciertas condiciones de continuidad, existe una única solución que satisface la EDO y una condición inicial dada.",
+            "Que solo las EDOs lineales tienen solución.",
+            "Que toda EDO debe ser de primer orden."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué se entiende por la **Solución General** de una EDO?",
+        "options": [
+            "La solución que solo contiene números.",
+            "Una solución que no cumple la condición inicial.",
+            "Una familia de funciones (con constantes arbitrarias) que satisface la EDO.",
+            "La solución particular que pasa por el origen."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Describa la utilidad de las EDO en el análisis de circuitos eléctricos (como circuitos RLC).",
+        "options": [
+            "Para determinar la complejidad del código fuente.",
+            "Para describir la evolución temporal de la corriente o el voltaje en respuesta a una fuente de energía.",
+            "Para calcular la diagonalización de la matriz de impedancia.",
+            "Para encontrar el máximo absoluto de la función de costo."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Una EDO se clasifica como **Lineal** si la función dependiente ($y$) y todas sus derivadas ($y', y'', \\ldots$) aparecen:",
+        "options": [
+            "Multiplicadas entre sí.",
+            "Elevadas a cualquier potencia.",
+            "En primer grado (elevadas a la potencia 1) y no son argumento de funciones no lineales.",
+            "Solo como términos independientes."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué tipo de análisis se enfoca en el comportamiento a largo plazo y la estabilidad de las soluciones de una EDO sin necesariamente encontrar una fórmula explícita?",
+        "options": [
+            "Análisis numérico de sistemas lineales.",
+            "Análisis cualitativo o teoría de sistemas dinámicos.",
+            "Cálculo de integrales indefinidas.",
+            "Análisis de regresión."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el primer paso esencial para resolver una EDO de **variables separables** de la forma $\\frac{dy}{dx} = f(x)g(y)$?",
+        "options": [
+            "Calcular la matriz Hessiana.",
+            "Encontrar el autovalor.",
+            "Multiplicar por la variable $x$.",
+            "Separar las variables e integrar ambos lados."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "La EDO $\\frac{dP}{dt} = kP$ (donde $k$ es una constante) es el modelo fundamental para:",
+        "options": [
+            "El movimiento de un péndulo.",
+            "Circuitos RLC amortiguados.",
+            "Crecimiento poblacional o decaimiento exponencial sin restricciones (modelo de Malthus).",
+            "El calor en una barra."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Una **Condición Inicial** en una EDO de orden $n$ es necesaria para:",
+        "options": [
+            "Cambiar el orden de la EDO.",
+            "Determinar los valores de las constantes arbitrarias en la solución general para obtener una **solución particular** (o única).",
+            "Convertir la EDO en una ecuación algebraica.",
+            "Calcular el determinante de la matriz de coeficientes."
         ],
         "answer": 1
     }
