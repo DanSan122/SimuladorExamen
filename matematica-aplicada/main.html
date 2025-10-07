@@ -387,11 +387,28 @@
 
         async function loadQuestions() {
             try {
-                const response = await fetch('preguntas.json');
+                // Intentar cargar con ruta relativa primero
+                let response = await fetch('./preguntas.json');
+                
+                // Si falla, intentar con ruta absoluta
                 if (!response.ok) {
-                    throw new Error('No se pudieron cargar las preguntas matemáticas');
+                    response = await fetch('/matematica-aplicada/preguntas.json');
                 }
-                allQuestions = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(`Error HTTP: ${response.status} - ${response.statusText}`);
+                }
+                
+                const text = await response.text();
+                if (!text.trim()) {
+                    throw new Error('El archivo de preguntas está vacío');
+                }
+                
+                allQuestions = JSON.parse(text);
+                
+                if (!Array.isArray(allQuestions) || allQuestions.length === 0) {
+                    throw new Error('No se encontraron preguntas válidas');
+                }
                 
                 selectedQuestions = selectRandomQuestions(allQuestions, 20);
                 
