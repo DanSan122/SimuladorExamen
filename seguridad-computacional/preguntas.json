@@ -48,5 +48,255 @@
             "CRC32"
         ],
         "answer": 2
+    },
+    {
+        "question": "¿Qué es un ataque de fuerza bruta?",
+        "options": [
+            "Un ataque que utiliza ingeniería social",
+            "Un ataque que prueba sistemáticamente todas las combinaciones posibles",
+            "Un ataque que explota vulnerabilidades de buffer overflow",
+            "Un ataque que intercepta paquetes de red"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la diferencia principal entre HTTP y HTTPS?",
+        "options": [
+            "HTTPS usa un puerto diferente solamente",
+            "HTTP es más rápido que HTTPS",
+            "HTTPS incluye cifrado SSL/TLS",
+            "No hay diferencia, son sinónimos"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué es un certificado digital?",
+        "options": [
+            "Un archivo que contiene malware",
+            "Un documento que verifica la identidad de una entidad",
+            "Una contraseña encriptada",
+            "Un protocolo de comunicación"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué tipo de malware se replica a sí mismo?",
+        "options": [
+            "Trojan",
+            "Virus",
+            "Spyware",
+            "Adware"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es la autenticación de dos factores (2FA)?",
+        "options": [
+            "Usar dos contraseñas diferentes",
+            "Requerir dos tipos diferentes de verificación de identidad",
+            "Tener dos cuentas de usuario",
+            "Usar dos navegadores web"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de un IDS (Intrusion Detection System)?",
+        "options": [
+            "Cifrar comunicaciones",
+            "Detectar actividades maliciosas o sospechosas",
+            "Generar contraseñas seguras",
+            "Crear copias de seguridad"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es un ataque DDoS?",
+        "options": [
+            "Un ataque de inyección de código",
+            "Un ataque de denegación de servicio distribuido",
+            "Un tipo de malware",
+            "Una vulnerabilidad de software"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la longitud de clave recomendada para AES actualmente?",
+        "options": [
+            "128 bits",
+            "192 bits", 
+            "256 bits",
+            "512 bits"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué es el phishing?",
+        "options": [
+            "Un tipo de cifrado",
+            "Un ataque que intenta obtener información sensible mediante engaño",
+            "Un protocolo de seguridad",
+            "Una técnica de compresión de datos"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la función de una VPN?",
+        "options": [
+            "Acelerar la conexión a internet",
+            "Crear una conexión segura y privada sobre una red pública",
+            "Detectar virus en archivos",
+            "Comprimir datos para ahorrar ancho de banda"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es un honeypot en seguridad informática?",
+        "options": [
+            "Un tipo de virus",
+            "Un sistema señuelo diseñado para atraer atacantes",
+            "Una técnica de cifrado",
+            "Un protocolo de comunicación"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué algoritmo de criptografía asimétrica es ampliamente utilizado?",
+        "options": [
+            "AES",
+            "DES",
+            "RSA",
+            "Blowfish"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué es la ingeniería social en el contexto de seguridad?",
+        "options": [
+            "Un tipo de software",
+            "Manipulación psicológica para obtener información confidencial",
+            "Una técnica de programación",
+            "Un protocolo de red"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito principal de un WAF (Web Application Firewall)?",
+        "options": [
+            "Acelerar aplicaciones web",
+            "Proteger aplicaciones web de ataques HTTP/HTTPS",
+            "Comprimir contenido web",
+            "Gestionar certificados SSL"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es una vulnerabilidad de día cero (zero-day)?",
+        "options": [
+            "Una vulnerabilidad que se corrige inmediatamente",
+            "Una vulnerabilidad desconocida para los desarrolladores",
+            "Una vulnerabilidad sin importancia",
+            "Una vulnerabilidad en sistemas antiguos"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es el principio de menor privilegio?",
+        "options": [
+            "Dar a los usuarios todos los permisos posibles",
+            "Otorgar solo los permisos mínimos necesarios para realizar una tarea",
+            "Eliminar todos los permisos de usuario",
+            "Cambiar permisos constantemente"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué tipo de ataque explota errores en la validación de entrada?",
+        "options": [
+            "Inyección SQL",
+            "Ataque de replay",
+            "Spoofing",
+            "Pharming"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es la función de un SIEM?",
+        "options": [
+            "Cifrar archivos",
+            "Gestión de eventos e información de seguridad",
+            "Crear copias de seguridad",
+            "Optimizar rendimiento de red"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es la esteganografía?",
+        "options": [
+            "Un tipo de cifrado",
+            "El arte de ocultar información dentro de otros datos",
+            "Una técnica de compresión",
+            "Un protocolo de comunicación"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el propósito de un análisis de vulnerabilidades?",
+        "options": [
+            "Crear nuevas vulnerabilidades",
+            "Identificar y evaluar debilidades de seguridad",
+            "Acelerar el sistema",
+            "Reducir el uso de memoria"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es un rootkit?",
+        "options": [
+            "Una herramienta de administración legítima",
+            "Un tipo de malware que se oculta en el sistema",
+            "Un protocolo de seguridad",
+            "Una técnica de cifrado"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la diferencia entre IDS e IPS?",
+        "options": [
+            "No hay diferencia",
+            "IDS solo detecta, IPS detecta y previene",
+            "IPS es más lento que IDS",
+            "IDS es para redes, IPS para aplicaciones"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es la autenticación biométrica?",
+        "options": [
+            "Usar contraseñas complejas",
+            "Verificación de identidad usando características físicas únicas",
+            "Usar múltiples dispositivos",
+            "Cambiar contraseñas frecuentemente"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué protocolo se usa comúnmente para la transferencia segura de archivos?",
+        "options": [
+            "FTP",
+            "HTTP",
+            "SFTP",
+            "SMTP"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué es un ataque de escalación de privilegios?",
+        "options": [
+            "Obtener mayores permisos de los inicialmente asignados",
+            "Reducir permisos de usuario",
+            "Cambiar de usuario",
+            "Crear nuevos usuarios"
+        ],
+        "answer": 0
     }
 ]
