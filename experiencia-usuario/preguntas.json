@@ -562,5 +562,203 @@
             "Ayudar al usuario a decidir libremente."
         ],
         "answer": 0
+    },
+    {
+        "question": "Según la norma ISO 9241-210 citada en el material, ¿cuál es la definición precisa de un 'prototipo'?",
+        "options": [
+            "Cualquier boceto dibujado a mano en una etapa temprana.",
+            "Una representación de todo o parte de un sistema interactivo usada para análisis, diseño y evaluación.",
+            "El producto final en su versión beta antes del lanzamiento.",
+            "Un modelo de alta fidelidad que simula el backend completo."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En una sesión de prueba de usabilidad con 'Prototipos en Papel', se recomienda tener tres roles además del usuario. ¿Cuál es la función específica de la persona que actúa como 'La Computadora'?",
+        "options": [
+            "Registrar las observaciones y errores del usuario.",
+            "Guiar al usuario a través de las tareas y hacer preguntas.",
+            "Mover los trozos de papel y actualizar la interfaz en respuesta a las acciones del usuario.",
+            "Programar el código en tiempo real para digitalizar la prueba."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Distinga entre un 'Prototipo Evolutivo' y un 'Prototipo Desechable' según el material de clase:",
+        "options": [
+            "El evolutivo se usa solo para diseño visual; el desechable para código.",
+            "El evolutivo expande la misma base de código hasta el producto final; el desechable se crea para un experimento y luego se descarta.",
+            "El desechable es de alta fidelidad; el evolutivo es de baja fidelidad.",
+            "El evolutivo es horizontal; el desechable es vertical."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué caracteriza específicamente a un 'Prototipo Horizontal'?",
+        "options": [
+            "Profundiza en una sola funcionalidad con gran detalle técnico.",
+            "Muestra una amplia gama de funciones superficialmente, sin profundidad interactiva, para evaluar el alcance.",
+            "Se centra exclusivamente en la base de datos.",
+            "Es un diagrama de flujo sin interfaz gráfica."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la taxonomía de errores humanos, ¿qué distingue un 'Mistake' (Error) de un 'Slip' (Desliz)?",
+        "options": [
+            "Un Slip es intencional; un Mistake es accidental.",
+            "Un Slip ocurre cuando la acción ejecutada difiere de la planeada; un Mistake ocurre cuando el plan en sí mismo es incorrecto.",
+            "Un Mistake es físico; un Slip es mental.",
+            "No hay diferencia, son sinónimos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Un usuario intenta formatear un texto en un campo que no lo permite, aplicando incorrectamente una regla que funciona en otros programas. ¿Qué tipo de error específico es este?",
+        "options": [
+            "Desliz de memoria (Lapsus).",
+            "Error basado en reglas (Rule-based mistake).",
+            "Error de sistema.",
+            "Patrón oscuro."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Según las pautas WCAG (Accesibilidad Web), los cuatro principios fundamentales (POUR) son:",
+        "options": [
+            "Predecible, Opcional, Útil, Rápido.",
+            "Perceptible, Operable, Comprensible (Understandable), Robusto.",
+            "Privado, Oficial, Único, Real.",
+            "Potente, Organizado, Universal, Responsivo."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Al priorizar problemas de usabilidad hallados en pruebas, ¿cuáles son los tres criterios clave para determinar la severidad?",
+        "options": [
+            "Costo, Tiempo, Esfuerzo.",
+            "Impacto, Frecuencia, Persistencia.",
+            "Diseño, Color, Texto.",
+            "Frontend, Backend, Database."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es un 'Sprint Zero' en el contexto de la integración de UX y Agile?",
+        "options": [
+            "El sprint donde se corrigen todos los bugs finales.",
+            "Un periodo previo al desarrollo dedicado a la investigación, diseño inicial y configuración del entorno.",
+            "Un sprint fallido que debe repetirse.",
+            "El día de descanso del equipo."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En el contexto de Agile UX, ¿qué es un 'Spike' de diseño?",
+        "options": [
+            "Un aumento repentino en el tráfico del sitio web.",
+            "Un periodo dedicado a explorar problemas de diseño complejos fuera de las restricciones de tiempo de un sprint normal.",
+            "Un error crítico que detiene el desarrollo.",
+            "Una herramienta de software para prototipar."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Identifique el patrón oscuro conocido como 'Privacy Zuckering':",
+        "options": [
+            "Dificultar la cancelación de una suscripción.",
+            "Engañar al usuario para que comparta más información pública o privada de la que realmente pretendía.",
+            "Agregar items al carrito sin permiso.",
+            "Usar temporizadores falsos para crear urgencia."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El patrón oscuro 'Friend Spam' (Correo no deseado de amigos) consiste en:",
+        "options": [
+            "Enviar correos promocionales a tus amigos.",
+            "Solicitar acceso a tus contactos bajo pretexto de buscar amigos, para luego enviarles mensajes no solicitados en tu nombre.",
+            "Bloquear solicitudes de amistad.",
+            "Crear perfiles falsos."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Según la Heurística de Nielsen #6 'Reconocer mejor que recordar', el objetivo es:",
+        "options": [
+            "Que el usuario memorice los atajos de teclado.",
+            "Minimizar la carga en la memoria del usuario haciendo visibles los objetos, acciones y opciones.",
+            "Usar logotipos grandes.",
+            "Tener un buscador potente."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la evaluación de usabilidad, ¿cuál es la diferencia clave entre una prueba 'Formativa' y una 'Sumativa'?",
+        "options": [
+            "La Formativa es presencial y la Sumativa es remota.",
+            "La Formativa se usa durante el diseño para mejorar (feedback); la Sumativa se usa al final para validar si cumple criterios (pass/fail).",
+            "La Sumativa es cualitativa y la Formativa es cuantitativa.",
+            "No existe tal clasificación."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de las siguientes NO es una de las 10 Heurísticas de Usabilidad de Nielsen?",
+        "options": [
+            "Visibilidad del estado del sistema.",
+            "Innovación disruptiva constante.",
+            "Control y libertad del usuario.",
+            "Prevención de errores."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El 'Diseño Incremental' se define como:",
+        "options": [
+            "Crear nuevos mercados con productos nunca vistos.",
+            "Pequeñas mejoras continuas a productos existentes con bajo riesgo.",
+            "Rediseñar toda la marca desde cero.",
+            "Cambiar la tecnología base del producto."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En el análisis de causa raíz, el paso 5 'Determinar la causa raíz' busca identificar:",
+        "options": [
+            "Al empleado culpable.",
+            "La falla sistémica fundamental o el error recurrente, más allá de los síntomas.",
+            "El costo financiero del error.",
+            "La fecha exacta del incidente."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué implica el principio de diseño 'Pensar en sistemas'?",
+        "options": [
+            "Diseñar solo la interfaz gráfica.",
+            "Considerar no solo el producto aislado, sino cómo interactúa con el entorno, el servicio al cliente y otros productos.",
+            "Usar muchos sistemas operativos.",
+            "Centrarse únicamente en el código backend."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El patrón oscuro 'Confirmshaming' utiliza la culpa para:",
+        "options": [
+            "Hacer que el usuario confirme su correo.",
+            "Disuadir al usuario de rechazar una oferta, usando un lenguaje que lo hace sentir mal (ej: 'No, prefiero ser menos inteligente').",
+            "Obligar al usuario a donar dinero.",
+            "Confirmar la edad del usuario."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Verdadero o Falso: Un 'Boceto' (Sketch) es un subproducto del pensamiento visual privado del diseñador, mientras que un 'Prototipo' está destinado a ser evaluado con usuarios.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
     }
 ]
