@@ -8,8 +8,8 @@
         :root {
             --bg-color: #1a1a1a;
             --text-color: #e0e0e0;
-            --primary-color: #2196F3;
-            --primary-hover: #1976D2;
+            --primary-color: #FF9800;
+            --primary-hover: #F57C00;
             --secondary-color: #333;
             --border-color: #444;
             --correct-bg: #2d4a2d;
@@ -129,7 +129,7 @@
 
         .progress-fill {
             height: 100%;
-            background: linear-gradient(90deg, var(--primary-color), #42A5F5);
+            background: linear-gradient(90deg, var(--primary-color), #FFB74D);
             transition: width 0.5s ease;
         }
 
@@ -179,7 +179,7 @@
 
         .next-button {
             padding: 15px 30px;
-            background: linear-gradient(45deg, var(--primary-color), #42A5F5);
+            background: linear-gradient(45deg, var(--primary-color), #FFB74D);
             color: white;
             border: none;
             border-radius: 25px;
@@ -192,9 +192,9 @@
         }
 
         .next-button:hover:not(.disabled) {
-            background: linear-gradient(45deg, var(--primary-hover), #2196F3);
+            background: linear-gradient(45deg, var(--primary-hover), #FF9800);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
+            box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
         }
 
         .next-button.disabled {
@@ -223,7 +223,7 @@
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary-color), #42A5F5);
+            background: linear-gradient(135deg, var(--primary-color), #FFB74D);
             color: white;
             font-weight: bold;
         }
@@ -325,7 +325,7 @@
         }
 
         .restart-button {
-            background: linear-gradient(45deg, var(--primary-color), #42A5F5);
+            background: linear-gradient(45deg, var(--primary-color), #FFB74D);
             color: white;
         }
 
@@ -359,8 +359,8 @@
 </head>
 <body>
     <div id="timer">Tiempo: 30:00</div>
-    <h1>📊 Examen de Matemática Aplicada</h1>
-    <div id="loading">Cargando preguntas matemáticas...</div>
+    <h1>📊 Examen de Experiencia de Usuario (UX)</h1>
+    <div id="loading">Cargando preguntas de experiencia de usuario...</div>
     <div id="quiz-container" style="display:none;"></div>
     <button id="submit-btn" style="display:none;">Verificar Respuestas</button>
     <div id="results" class="result" style="display:none;"></div>
@@ -392,7 +392,7 @@
                 
                 // Si falla, intentar con ruta absoluta
                 if (!response.ok) {
-                    response = await fetch('/matematica-aplicada/preguntas.json');
+                    response = await fetch('/experiencia-usuario/preguntas.json');
                 }
                 
                 if (!response.ok) {
@@ -463,7 +463,7 @@
             headerDiv.className = 'question-header';
             headerDiv.innerHTML = `
                 <div class="progress-info">
-                    <h3>📐 Pregunta ${currentQuestionIndex + 1} de ${selectedQuestions.length}</h3>
+                    <h3>👥 Pregunta ${currentQuestionIndex + 1} de ${selectedQuestions.length}</h3>
                     <div class="progress-bar">
                         <div class="progress-fill" style="width: ${((currentQuestionIndex + 1) / selectedQuestions.length) * 100}%"></div>
                     </div>
@@ -516,7 +516,7 @@
             nextBtn.id = 'next-btn';
             nextBtn.className = 'next-button disabled';
             nextBtn.disabled = true;
-            nextBtn.textContent = currentQuestionIndex === selectedQuestions.length - 1 ? 'Finalizar Examen Matemático' : 'Siguiente Pregunta →';
+            nextBtn.textContent = currentQuestionIndex === selectedQuestions.length - 1 ? 'Finalizar Examen UX' : 'Siguiente Pregunta →';
             
             nextBtn.addEventListener('click', () => {
                 if (!nextBtn.disabled) {
@@ -576,7 +576,7 @@
             
             resultsDiv.innerHTML = `
                 <div class="results-header">
-                    <h2>🎯 Resultados - Matemática Aplicada</h2>
+                    <h2>🎯 Resultados - Experiencia de Usuario (UX)</h2>
                     <div class="score-summary">
                         <div class="score-circle">
                             <span class="score-percentage">${score}%</span>
@@ -590,7 +590,7 @@
                     </div>
                 </div>
                 <div class="results-review">
-                    <h3>📋 Revisión de Respuestas Matemáticas</h3>
+                    <h3>📋 Revisión de Respuestas de Experiencia de Usuario (UX)</h3>
                     <p>A continuación puedes revisar cada pregunta con la respuesta correcta:</p>
                 </div>
             `;

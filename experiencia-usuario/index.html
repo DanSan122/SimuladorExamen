@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Examen - Matemática Aplicada a la Computación</title>
+    <title>Simulador de Examen - Experiencia de Usuario(UX)</title>
     <style>
         :root {
             --bg-color: #1a1a1a;
             --text-color: #e0e0e0;
-            --primary-color: #2196F3;
-            --primary-hover: #1976D2;
+            --primary-color: #FF9800;
+            --primary-hover: #F57C00;
             --secondary-color: #333;
             --card-bg: #2a2a2a;
             --border-color: #444;
@@ -95,7 +95,7 @@
         }
 
         .start-button {
-            background: linear-gradient(45deg, var(--primary-color), #42A5F5);
+            background: linear-gradient(45deg, var(--primary-color), #FFB74D);
             color: white;
             border: none;
             padding: 18px 40px;
@@ -112,7 +112,7 @@
         }
 
         .start-button:hover {
-            background: linear-gradient(45deg, var(--primary-hover), #2196F3);
+            background: linear-gradient(45deg, var(--primary-hover), #FF9800);
             transform: translateY(-3px);
             box-shadow: 0 8px 25px rgba(33, 150, 243, 0.4);
         }
@@ -131,7 +131,7 @@
         }
 
         .instructions h3 {
-            color: #42A5F5;
+            color: var(--primary-color);
             margin-bottom: 15px;
             font-size: 1.2rem;
         }
@@ -179,13 +179,13 @@
 
         @keyframes pulse {
             0% {
-                box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+                box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
             }
             50% {
-                box-shadow: 0 4px 20px rgba(33, 150, 243, 0.6);
+                box-shadow: 0 4px 20px rgba(255, 152, 0, 0.6);
             }
             100% {
-                box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+                box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
             }
         }
     </style>
@@ -194,7 +194,7 @@
     <div class="container">
         <div class="logo">📊</div>
         <h1>Simulador de Examen</h1>
-        <p class="subtitle">Matemática Aplicada a la Computación - Sistema de Evaluación</p>
+        <p class="subtitle">Experiencia de Usuario (UX) - Sistema de Evaluación</p>
         
         <div class="info-box">
             <div class="info-item">
@@ -211,15 +211,15 @@
             </div>
             <div class="info-item">
                 <span class="info-label">🎯 Tema:</span>
-                <span class="info-value">Álgebra, Estadística, Algoritmos, Grafos</span>
+                <span class="info-value">Experiencia de Usuario (UX)</span>
             </div>
         </div>
 
         <div class="instructions">
-            <h3>📐 Instrucciones Matemáticas:</h3>
+            <h3>📐 Instrucciones UX:</h3>
             <ul>
                 <li>Tendrás 30 minutos para completar el examen</li>
-                <li>Se seleccionarán 20 preguntas al azar sobre matemáticas</li>
+                <li>Se seleccionarán 20 preguntas al azar sobre experiencia de usuario</li>
                 <li>Puedes cambiar tus respuestas antes de enviar</li>
                 <li>Al finalizar verás tus resultados y las respuestas correctas</li>
                 <li>Si el tiempo se agota, el examen se enviará automáticamente</li>
@@ -228,7 +228,7 @@
         </div>
 
         <button class="start-button pulse" onclick="startExam()">
-            🚀 Iniciar Examen de Matemáticas
+            🚀 Iniciar Examen de UX
         </button>
     </div>
 
