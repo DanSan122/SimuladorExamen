@@ -1,722 +1,566 @@
 [
     {
-        "question": "¿Qué es un Sistema de Ecuaciones Lineales (SEL)?",
+        "question": "¿Cuál es el objetivo principal del Análisis de Causa Raíz?",
         "options": [
-            "Un conjunto de ecuaciones donde las variables están elevadas a potencias arbitrarias.",
-            "Un conjunto de ecuaciones donde todas las variables tienen exponente uno y no se multiplican entre sí.",
-            "Una única ecuación con múltiples variables sin solución.",
-            "Un conjunto de ecuaciones diferenciales que describen un sistema dinámico."
-        ],
-        "answer": 1
-    },
-    {
-        "question": "¿Cuál es la condición principal que define a una ecuación como \"lineal\" en el contexto de un SEL?",
-        "options": [
-            "Sus coeficientes deben ser enteros.",
-            "Debe contener solo dos variables.",
-            "Las variables solo pueden tener exponente uno y no pueden multiplicarse entre sí.",
-            "La ecuación debe ser igual a cero."
+            "Culpar al usuario por el error.",
+            "Identificar los síntomas superficiales.",
+            "Descubrir las causas fundamentales para prevenir la recurrencia.",
+            "Rediseñar el logotipo de la empresa."
         ],
         "answer": 2
     },
     {
-        "question": "Defina **solución** de un Sistema de Ecuaciones Lineales ($A\\mathbf{x} = \\mathbf{b}$).",
+        "question": "La técnica de los '5 Porqués' consiste en formular preguntas consecutivas para llegar a la raíz de un problema.",
         "options": [
-            "El determinante de la matriz de coeficientes $A$.",
-            "El vector $\\mathbf{b}$ de términos independientes.",
-            "El vector $\\mathbf{x}$ de valores que satisfacen simultáneamente todas las ecuaciones del sistema.",
-            "La matriz $A$ que describe el sistema."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "En la forma general de un SEL ($A\\mathbf{x} = \\mathbf{b}$), ¿qué representan los $a_{ij}$ de la matriz $A$?",
-        "options": [
-            "Los coeficientes de las variables del sistema.",
-            "Las soluciones del sistema.",
-            "Los términos independientes.",
-            "Los exponentes de las variables."
+            "Verdadero",
+            "Falso"
         ],
         "answer": 0
     },
     {
-        "question": "¿Qué área de la computación o ingeniería utiliza SEL para la asignación óptima de recursos y planificación?",
+        "question": "¿Qué tipo de error ocurre cuando un usuario realiza una acción incorrecta de manera involuntaria (como presionar un botón por accidente)?",
         "options": [
-            "Renderizado de gráficos 3D.",
-            "Criptografía asimétrica.",
-            "Investigación de operaciones o programación lineal.",
-            "Modelado de autómatas finitos."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Para qué se utilizan los SEL en el modelado de circuitos eléctricos complejos?",
-        "options": [
-            "Para calcular la velocidad de la luz en el circuito.",
-            "Para aplicar las Leyes de Kirchhoff y determinar corrientes o voltajes desconocidos.",
-            "Para predecir el impacto ambiental del circuito.",
-            "Para determinar la cantidad de código fuente necesario."
+            "Error de decisión (Mistake).",
+            "Desliz (Slip).",
+            "Error basado en reglas.",
+            "Patrón oscuro."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cuál es la diferencia teórica principal entre un SEL **homogéneo** y uno **no homogéneo**?",
+        "question": "Los errores basados en la falta de conocimiento o una mala decisión consciente se denominan:",
         "options": [
-            "El homogéneo tiene más ecuaciones que variables.",
-            "El homogéneo tiene su vector de términos independientes $\\mathbf{b} = \\mathbf{0}$, y el no homogéneo tiene $\\mathbf{b} \\ne \\mathbf{0}$.",
-            "El homogéneo solo tiene soluciones triviales.",
-            "El homogéneo siempre es incompatible."
+            "Slips (Deslices).",
+            "Mistakes (Errores).",
+            "Lapsus de memoria.",
+            "Errores de sistema."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cómo se clasifica un SEL que tiene exactamente una solución?",
+        "question": "Un mecanismo de 'Deshacer' (Undo) es un ejemplo de prevención de errores.",
         "options": [
-            "Sistema Incompatible.",
-            "Sistema Compatible Indeterminado.",
-            "Sistema Compatible Determinado.",
-            "Sistema Singular."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "Explique qué es la **matriz aumentada** $[A|\\mathbf{b}]$ de un SEL.",
-        "options": [
-            "La matriz de coeficientes $A$ con una columna de ceros a su derecha.",
-            "La matriz de coeficientes $A$ con el determinante calculado.",
-            "La matriz de coeficientes $A$ a la que se le adjunta la columna del vector de términos independientes $\\mathbf{b}$.",
-            "La matriz de coeficientes $A$ sin los términos independientes."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué principio establece el **Teorema de Rouché-Frobenius** (o su equivalente) para determinar la compatibilidad de un SEL?",
-        "options": [
-            "El sistema es compatible si el determinante de $A$ es distinto de cero.",
-            "El sistema es compatible si el rango de la matriz de coeficientes $A$ es igual al rango de la matriz aumentada $[A|\\mathbf{b}]$.",
-            "El sistema es compatible solo si es homogéneo.",
-            "El sistema es compatible si tiene más variables que ecuaciones."
+            "Verdadero",
+            "Falso"
         ],
         "answer": 1
     },
     {
-        "question": "Un SEL homogéneo siempre tiene al menos una solución. ¿Cuál es esta solución garantizada?",
+        "question": "¿Cuál de los siguientes NO es un factor que contribuye comúnmente a los errores humanos?",
         "options": [
-            "La solución particular.",
-            "La solución general.",
-            "La solución trivial (todas las variables iguales a cero).",
-            "No tiene soluciones, es incompatible."
+            "Fatiga.",
+            "Estrés.",
+            "Diseño intuitivo.",
+            "Falta de atención."
         ],
         "answer": 2
     },
     {
-        "question": "Un Sistema de Ecuaciones Lineales se considera **Incompatible** si:",
+        "question": "Un mensaje de error efectivo debe:",
         "options": [
-            "El rango de $A$ es igual al número de variables.",
-            "Tiene infinitas soluciones.",
-            "El rango de $A$ es igual al rango de $[A|\\mathbf{b}]$.",
-            "No tiene ninguna solución."
-        ],
-        "answer": 3
-    },
-    {
-        "question": "Defina **Autovector** ($\\mathbf{v}$) de una matriz $A$ o un operador lineal $T$.",
-        "options": [
-            "Un vector que es transformado a un vector ortogonal a él.",
-            "Un vector que es siempre el vector cero.",
-            "Un vector no nulo que, al ser transformado por $A$, resulta en un múltiplo escalar de sí mismo ($A\\mathbf{v} = \\lambda\\mathbf{v}$).",
-            "Un vector que cambia de dirección y longitud de forma impredecible."
+            "Usar códigos técnicos complejos.",
+            "Culpar al usuario por la acción.",
+            "Ser claro, indicar el problema y sugerir una solución.",
+            "Ocultarse rápidamente."
         ],
         "answer": 2
     },
     {
-        "question": "Defina **Autovalor** ($\\lambda$) asociado a un autovector $\\mathbf{v}$.",
+        "question": "Según los principios de diseño moderno, la culpa de los errores casi siempre recae exclusivamente en el usuario.",
         "options": [
-            "El vector unitario de $\\mathbf{v}$.",
-            "El escalar que representa el factor de escala por el cual el autovector $\\mathbf{v}$ es multiplicado bajo la transformación $A$.",
-            "La suma de las componentes del autovector.",
-            "El determinante de la matriz $A$."
+            "Verdadero",
+            "Falso"
         ],
         "answer": 1
     },
     {
-        "question": "¿Qué concepto fundamental del álgebra lineal se logra cuando una matriz $A$ puede ser expresada como $A = PDP^{-1}$?",
+        "question": "¿Qué tipo de recuperación de errores permite revertir la última acción realizada?",
         "options": [
-            "Inversión de matrices.",
-            "Ortogonalización.",
-            "Diagonalización de matrices.",
-            "Factorización LU."
+            "Confirmación.",
+            "Rehacer.",
+            "Deshacer (Undo).",
+            "Autocompletado."
         ],
         "answer": 2
     },
     {
-        "question": "¿Cuál es la principal utilidad de la diagonalización de matrices ($A = PDP^{-1}$) en la computación?",
+        "question": "La validación de formularios en tiempo real es un ejemplo de:",
         "options": [
-            "Simplificar el cálculo de la inversa de la matriz.",
-            "Simplificar el cálculo de potencias de matrices ($A^k = PD^kP^{-1}$).",
-            "Calcular el rango de una matriz.",
-            "Convertir una matriz cuadrada en una triangular."
+            "Recuperación de errores.",
+            "Prevención de errores.",
+            "Análisis de causa raíz.",
+            "Diseño emocional."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cuál es el papel del **polinomio característico** en la determinación de los autovalores de una matriz $A$?",
+        "question": "¿Qué metodología se enfoca en la iteración, flexibilidad y entrega incremental?",
         "options": [
-            "Es el que genera los autovectores.",
-            "Es el polinomio formado por la suma de las filas de $A$.",
-            "Sus raíces (o ceros) son los autovalores de la matriz ($|\\mathbf{A} - \\lambda\\mathbf{I}| = 0$).",
-            "Define si la matriz es invertible."
+            "Modelo en Cascada.",
+            "Desarrollo Ágil.",
+            "Modelo V.",
+            "Diseño Industrial."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Diseño Centrado en el Usuario (DCU) es incompatible con las metodologías ágiles.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué es un 'Sprint Zero' en el contexto de UX y Agile?",
+        "options": [
+            "Un sprint donde no se trabaja.",
+            "Una fase previa al desarrollo para investigación y diseño inicial.",
+            "El sprint final de entrega.",
+            "Un error de programación."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En el Diseño Centrado en el Usuario (DCU), ¿cuál es la primera actividad general?",
+        "options": [
+            "Producir soluciones de diseño.",
+            "Evaluar el diseño.",
+            "Comprender y especificar el contexto de uso.",
+            "Escribir el código."
         ],
         "answer": 2
     },
     {
-        "question": "¿Qué propiedad geométrica describe un autovector cuando es transformado por el operador lineal asociado a la matriz?",
+        "question": "Un Design Sprint es un proceso de meses para desarrollar un producto completo.",
         "options": [
-            "Se vuelve ortogonal al vector original.",
-            "Se rota 90 grados.",
-            "Se mapea al origen.",
-            "Mantiene su dirección (o la invierte), solo escalándose por el autovalor."
+            "Verdadero",
+            "Falso"
         ],
-        "answer": 3
+        "answer": 1
     },
     {
-        "question": "¿Para qué se utiliza el análisis de autovalores en el campo de los sistemas dinámicos y la estabilidad?",
+        "question": "¿Qué rol puede asumir un especialista en UX para integrarse mejor en equipos ágiles?",
         "options": [
-            "Para determinar si el sistema es estable, inestable o marginalmente estable.",
-            "Para calcular el costo de implementación del sistema.",
-            "Para encontrar el tiempo de ejecución de un algoritmo.",
-            "Para diagonalizar una función de costo."
+            "Scrum Master.",
+            "Product Owner.",
+            "Desarrollador Backend.",
+            "Stakeholder externo."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El concepto de 'Madurez UX' se refiere a:",
+        "options": [
+            "La edad de los diseñadores.",
+            "El nivel de integración y valoración del diseño en la organización.",
+            "La cantidad de software que usa la empresa.",
+            "La antigüedad de la empresa en el mercado."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El Design Thinking y el DCU comparten el enfoque en la iteración y el prototipado.",
+        "options": [
+            "Verdadero",
+            "Falso"
         ],
         "answer": 0
     },
     {
-        "question": "¿Qué es la **multiplicidad algebraica** de un autovalor $\\lambda$?",
+        "question": "¿Cuál es un desafío común al integrar UX en Agile?",
         "options": [
-            "El número de autovectores linealmente independientes asociados a $\\lambda$.",
-            "La suma de los autovalores.",
-            "La cantidad de veces que $\\lambda$ es raíz del polinomio característico.",
-            "El orden de la matriz $A$."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Cuándo se dice que una matriz es **diagonalizable**?",
-        "options": [
-            "Si su determinante es cero.",
-            "Si es una matriz triangular.",
-            "Si posee un conjunto de autovectores que forman una base para el espacio vectorial (o si la multiplicidad algebraica es igual a la geométrica para cada $\\lambda$).",
-            "Si es simétrica."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué significa que un **subespacio $V$ es invariante** por un operador $T$?",
-        "options": [
-            "T siempre mapea cualquier vector de $V$ al vector cero.",
-            "La imagen de cualquier vector $\\mathbf{v} \\in V$ bajo $T$ también pertenece al subespacio $V$.",
-            "El subespacio $V$ es ortogonal a sí mismo.",
-            "T invierte el orden de los vectores en $V$."
+            "Demasiado tiempo para investigar.",
+            "Sincronización entre el trabajo de diseño y los sprints de desarrollo.",
+            "Falta de herramientas de software.",
+            "Exceso de presupuesto."
         ],
         "answer": 1
     },
     {
-        "question": "En la Descomposición Espectral para matrices simétricas, ¿qué matrices se utilizan para descomponer la matriz original ($A$)?",
+        "question": "Un sistema de diseño (como Material Design) ayuda a:",
         "options": [
-            "La matriz inversa y la matriz transpuesta.",
-            "La matriz de coeficientes y la matriz aumentada.",
-            "Una matriz de autovectores ortonormales ($P$) y una matriz diagonal de autovalores ($D$).",
-            "La matriz de cofactores y la matriz de adjuntos."
+            "Estandarizar el diseño visual y de interacción.",
+            "Eliminar a los diseñadores del equipo.",
+            "Hacer el desarrollo más lento.",
+            "Aumentar la carga cognitiva."
         ],
-        "answer": 2
+        "answer": 0
     },
     {
-        "question": "Un **Autovector** debe ser necesariamente...",
+        "question": "Un boceto (sketch) es lo mismo que un prototipo.",
         "options": [
-            "siempre el vector nulo.",
-            "cualquier vector que no cambia de longitud.",
-            "un vector no nulo.",
-            "solo puede ser un vector unitario."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "Defina **Derivada Parcial** de una función $f(x, y)$ con respecto a $x$.",
-        "options": [
-            "El límite de $f$ cuando $x$ se acerca a $y$.",
-            "La derivada total de $f$.",
-            "La derivada de $f$ asumiendo que todas las demás variables (como $y$) se mantienen constantes.",
-            "La derivada de $f$ asumiendo que $y$ es otra función de $x$."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué mide conceptualmente una derivada parcial ($\\partial f / \\partial x$)?",
-        "options": [
-            "El cambio total de la función en todas las direcciones.",
-            "La tasa instantánea de cambio de la función $f$ con respecto a una sola variable, manteniendo las otras fijas.",
-            "El volumen bajo la superficie.",
-            "La curvatura de la superficie."
+            "Verdadero",
+            "Falso"
         ],
         "answer": 1
     },
     {
-        "question": "¿Qué representa el **Vector Gradiente** ($\\nabla f$)?",
+        "question": "¿Cuál es el propósito principal de un prototipo?",
         "options": [
-            "Un vector que apunta en la dirección de cambio más lento.",
-            "El vector formado por las derivadas parciales de la función, que apunta en la dirección de máximo crecimiento.",
-            "Un escalar que mide el valor de la función en un punto.",
-            "La suma de todas las derivadas parciales."
+            "Ser la versión final del producto.",
+            "Evaluar soluciones de diseño y aprender.",
+            "Decorar la oficina.",
+            "Reemplazar la investigación de usuarios."
         ],
         "answer": 1
     },
     {
-        "question": "¿Qué representa la dirección del Vector Gradiente en un punto de la superficie?",
+        "question": "Un prototipo que se expande y mejora gradualmente hasta convertirse en el producto final se llama:",
         "options": [
-            "La dirección donde la función no cambia.",
-            "La dirección de máximo crecimiento o ascenso de la función.",
-            "La dirección del mínimo absoluto.",
-            "La dirección perpendicular al vector de posición."
+            "Prototipo desechable.",
+            "Prototipo evolutivo.",
+            "Boceto en papel.",
+            "Wireframe."
         ],
         "answer": 1
     },
     {
-        "question": "¿Qué es una **derivada direccional** ($D_{\\mathbf{u}}f$)?",
+        "question": "¿Qué es un wireframe?",
         "options": [
-            "El gradiente dividido por la norma del gradiente.",
-            "Una derivada parcial de orden superior.",
-            "El producto cruz del gradiente y el vector $\\mathbf{u}$.",
-            "La tasa de cambio de la función $f$ en la dirección de un vector unitario $\\mathbf{u}$."
-        ],
-        "answer": 3
-    },
-    {
-        "question": "¿Cómo se aplica el concepto de derivada parcial en el **Descenso de Gradiente** (*Gradient Descent*)?",
-        "options": [
-            "El gradiente se usa como un factor de aprendizaje fijo.",
-            "Se calcula la Hessiana para determinar la dirección de descenso.",
-            "El algoritmo sigue la dirección opuesta al gradiente para encontrar los mínimos de una función de costo.",
-            "La derivada parcial se usa para determinar si un SEL es compatible."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué establece el **Teorema de Clairaut** (o de simetría de las derivadas parciales cruzadas)?",
-        "options": [
-            "Que el gradiente es siempre cero en un punto crítico.",
-            "Que una función solo es diferenciable si es continua.",
-            "Si las segundas derivadas parciales cruzadas son continuas, entonces son iguales ($\\frac{\\partial^2 f}{\\partial x \\partial y} = \\frac{\\partial^2 f}{\\partial y \\partial x}$).",
-            "Que toda función multivariable debe tener un máximo y un mínimo."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "El vector gradiente en un punto $\\mathbf{p}$ es **normal (perpendicular)** a:",
-        "options": [
-            "El eje $x$.",
-            "La curva de nivel que pasa por el origen.",
-            "La curva de nivel (o superficie de nivel) de la función que pasa por el punto $\\mathbf{p}$.",
-            "La matriz Hessiana."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué significa que una función $f(x, y)$ sea **diferenciable** en un punto?",
-        "options": [
-            "Que su gradiente es cero en ese punto.",
-            "Que sus derivadas parciales existen, pero no necesariamente son continuas.",
-            "Que la función puede ser bien aproximada por una función lineal (su plano tangente) cerca de ese punto.",
-            "Que la función es constante."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Cuál es la fórmula para calcular la **máxima tasa de cambio** de una función $f$ en un punto $\\mathbf{p}$?",
-        "options": [
-            "$\\text{det}(H(\\mathbf{p}))$.",
-            "$f_{xx}(\\mathbf{p}) + f_{yy}(\\mathbf{p})$.",
-            "$\\|\\nabla f(\\mathbf{p})\\|$ (La magnitud o norma del vector gradiente).",
-            "$\\nabla f(\\mathbf{p}) \\cdot \\mathbf{u}$."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "En el campo de la *Inteligencia Artificial* y el *Machine Learning*, ¿cuál es el rol principal de las derivadas parciales?",
-        "options": [
-            "Calcular la matriz inversa de los datos.",
-            "Minimizar la función de costo (pérdida) de un modelo mediante métodos de optimización basados en el gradiente.",
-            "Determinar la complejidad del *hardware*.",
-            "Generar números aleatorios."
+            "Un dibujo de alta fidelidad con colores y sombras.",
+            "Un esquema de baja fidelidad que muestra la estructura y contenido.",
+            "Una fotografía del usuario.",
+            "Un código final de la aplicación."
         ],
         "answer": 1
     },
     {
-        "question": "Una derivada parcial de segundo orden $\\frac{\\partial^2 f}{\\partial x^2}$ mide:",
+        "question": "Los prototipos de papel son útiles en etapas avanzadas del proyecto para probar animaciones complejas.",
         "options": [
-            "La tasa de cambio en la dirección de la diagonal.",
-            "La concavidad o curvatura de la función con respecto a la variable $x$.",
-            "El producto del gradiente.",
-            "El cambio total de la función."
+            "Verdadero",
+            "Falso"
         ],
         "answer": 1
     },
     {
-        "question": "Defina un **Punto Crítico** de una función $f(x, y)$.",
+        "question": "Un prototipo 'Horizontal' se caracteriza por:",
         "options": [
-            "Un punto donde la función alcanza su valor más alto.",
-            "Un punto donde el vector gradiente es cero ($\\nabla f = \\mathbf{0}$) o donde alguna de las derivadas parciales no existe.",
-            "Un punto en la frontera del dominio.",
-            "Un punto donde el determinante de la Matriz Hessiana es negativo."
+            "Profundizar en una sola funcionalidad.",
+            "Mostrar un amplio rango de funciones sin profundidad.",
+            "Estar dibujado en formato apaisado.",
+            "Ser siempre de alta fidelidad."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cuál es la condición de primer orden para que un punto $(a, b)$ sea un posible extremo local de una función $f(x, y)$ que es diferenciable?",
+        "question": "Un prototipo 'Vertical' se caracteriza por:",
         "options": [
-            "El determinante de la Hessiana debe ser positivo.",
-            "El vector de posición debe ser nulo.",
-            "Las derivadas parciales de primer orden deben ser cero ($\\frac{\\partial f}{\\partial x} = 0$ y $\\frac{\\partial f}{\\partial y} = 0$).",
-            "$f(a, b)$ debe ser cero."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué información crucial proporciona la **Matriz Hessiana** ($H$) en la prueba de la segunda derivada?",
-        "options": [
-            "El valor de la función en el punto crítico.",
-            "Si el sistema de ecuaciones es compatible.",
-            "Información sobre la concavidad (curvatura) de la función para clasificar el punto crítico.",
-            "La dirección de máximo crecimiento de la función."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué criterio se utiliza (basado en el determinante de la Hessiana, $D$) para determinar si un punto crítico es un **Punto de Silla**?",
-        "options": [
-            "$D > 0$ y $f_{xx} < 0$.",
-            "$D = 0$.",
-            "$D > 0$ y $f_{xx} > 0$.",
-            "$D < 0$ (El determinante de la Hessiana es negativo)."
-        ],
-        "answer": 3
-    },
-    {
-        "question": "¿Qué son los **Multiplicadores de Lagrange**?",
-        "options": [
-            "Un método para resolver sistemas de ecuaciones no lineales.",
-            "Una forma de calcular la matriz inversa.",
-            "Una técnica para encontrar extremos de una función sujetos a una o más restricciones de igualdad.",
-            "El valor del determinante de la matriz Hessiana."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "Explique la diferencia entre un **Máximo Relativo** y un **Máximo Absoluto**.",
-        "options": [
-            "El relativo se encuentra en la frontera, el absoluto no.",
-            "El relativo es el valor más grande en una vecindad local; el absoluto es el valor más grande en todo el dominio o región especificada.",
-            "El relativo requiere que la Hessiana sea positiva, el absoluto no.",
-            "Son sinónimos y no hay diferencia."
+            "Cubrir todas las funciones del sistema.",
+            "Profundizar en el detalle de una función o tarea específica.",
+            "Ser desechable.",
+            "No tener interactividad."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cuál es el rol de la función de restricción $g(x, y)$ en el método de Multiplicadores de Lagrange?",
+        "question": "¿Qué significa 'Fidelidad' en un prototipo?",
         "options": [
-            "Se utiliza para calcular el gradiente de la función objetivo.",
-            "Define la(s) curva(s) o superficie(s) donde se buscan los extremos de la función objetivo $f$.",
-            "Es la Matriz Hessiana.",
-            "Se utiliza para determinar si el punto es de silla."
+            "La lealtad del usuario a la marca.",
+            "El grado de similitud visual y funcional con el producto final.",
+            "La calidad del papel usado.",
+            "El costo del software de prototipado."
         ],
         "answer": 1
     },
     {
-        "question": "Si el determinante de la Matriz Hessiana ($D$) es cero en un punto crítico, ¿qué se puede concluir sobre la naturaleza del punto?",
+        "question": "Es recomendable crear múltiples prototipos alternativos para compararlos entre sí.",
         "options": [
-            "Que es definitivamente un mínimo.",
-            "Que es definitivamente un máximo.",
-            "Que es un punto de silla.",
-            "La prueba de la segunda derivada no es concluyente."
+            "Verdadero",
+            "Falso"
         ],
-        "answer": 3
+        "answer": 0
     },
     {
-        "question": "¿Qué significa que un punto crítico $(a, b)$ sea un **Mínimo Relativo** (usando la prueba de la segunda derivada)?",
+        "question": "Para probar interacciones complejas y flujos dinámicos, es mejor utilizar:",
         "options": [
-            "$D < 0$.",
-            "$D = 0$.",
-            "$D > 0$ y $\\frac{\\partial^2 f}{\\partial x^2}(a, b) > 0$.",
-            "$D > 0$ y $\\frac{\\partial^2 f}{\\partial x^2}(a, b) < 0$."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "La optimización en funciones de varias variables es crucial para:",
-        "options": [
-            "Determinar si un SEL es lineal.",
-            "El entrenamiento de modelos de Machine Learning (minimización de la función de pérdida) y la toma de decisiones en ingeniería.",
-            "La factorización de polinomios.",
-            "El cálculo de autovectores."
+            "Bocetos estáticos.",
+            "Prototipos interactivos.",
+            "Descripciones escritas.",
+            "Wireframes impresos."
         ],
         "answer": 1
     },
     {
-        "question": "¿En qué tipo de dominio se debe realizar un análisis adicional de la frontera para encontrar los máximos y mínimos **absolutos**?",
+        "question": "¿Qué diferencia principal hay entre inspección de usabilidad y pruebas de usabilidad?",
         "options": [
-            "En un dominio abierto e ilimitado.",
-            "En un dominio cerrado y acotado (compacto).",
-            "Solo en dominios con una única variable.",
-            "En dominios donde la función es discontinua."
+            "La inspección involucra usuarios reales, las pruebas no.",
+            "La inspección la realizan expertos/diseñadores, las pruebas involucran usuarios reales.",
+            "No hay diferencia.",
+            "Las pruebas son más baratas."
         ],
         "answer": 1
     },
     {
-        "question": "La condición necesaria para un extremo condicionado con la restricción $g(\\mathbf{x})=0$ mediante el método de Lagrange es:",
+        "question": "¿Cuál de las siguientes es una de las 10 Heurísticas de Nielsen?",
         "options": [
-            "$\\nabla f = 0$.",
-            "$\\nabla f = \\lambda \\nabla g$.",
-            "$\\nabla f \\cdot \\nabla g = 0$.",
-            "$\\lambda$ debe ser cero."
+            "Diseño emocional.",
+            "Visibilidad del estado del sistema.",
+            "Innovación radical.",
+            "Bait and Switch."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cuál es la utilidad principal de la **Regresión** en Estadística y Ciencia de Datos?",
+        "question": "'Reconocer es mejor que recordar' sugiere que el usuario no debe tener que memorizar información de una pantalla a otra.",
         "options": [
-            "Calcular el determinante de matrices de datos.",
-            "Encontrar el punto crítico de una función de probabilidad.",
-            "Modelar la relación entre variables (dependiente e independientes) y realizar predicciones.",
-            "Simplemente ordenar los datos."
+            "Verdadero",
+            "Falso"
         ],
-        "answer": 2
+        "answer": 0
     },
     {
-        "question": "En un modelo de regresión lineal simple ($Y = aX + b$), ¿qué representa la variable $Y$?",
+        "question": "La heurística 'Consistencia y estándares' se refiere a:",
         "options": [
-            "La variable independiente o predictor.",
-            "El error residual.",
-            "La variable dependiente o respuesta.",
-            "El coeficiente de correlación."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué son las **variables regresoras** o predictores en un modelo de regresión?",
-        "options": [
-            "Las variables que se quieren predecir.",
-            "Las variables independientes que se utilizan para predecir o explicar la variable dependiente.",
-            "Los términos constantes del modelo.",
-            "Los datos que han sido descartados."
+            "Usar siempre el mismo color rojo.",
+            "Que las mismas acciones y palabras signifiquen lo mismo en todo el sistema.",
+            "Copiar a la competencia.",
+            "No usar estándares de la industria."
         ],
         "answer": 1
     },
     {
-        "question": "¿Qué establece el método de **Mínimos Cuadrados** (*Least Squares*) para encontrar los coeficientes óptimos en regresión lineal?",
+        "question": "En una prueba de usabilidad, el rol del moderador es:",
         "options": [
-            "Maximizar la distancia entre los puntos y la recta.",
-            "Asegurar que la recta pase por el origen.",
-            "Minimizar la suma de los cuadrados de las distancias verticales (residuos) entre los puntos de datos y la línea de regresión.",
-            "Minimizar el número de variables en el modelo."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué objetivo del análisis de regresión se cumple a través del **Coeficiente de Correlación** ($r$)?",
-        "options": [
-            "Determinar el valor de la pendiente ($a$).",
-            "Clasificar la variable dependiente.",
-            "Medir la fuerza y la dirección de la relación lineal entre dos variables.",
-            "Calcular la media de los datos."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "En el contexto de un modelo de regresión lineal, ¿qué es un **Residuo** ($\\varepsilon$)?",
-        "options": [
-            "La pendiente de la recta.",
-            "El valor predicho por el modelo.",
-            "La diferencia vertical entre el valor observado de la variable dependiente ($Y$) y el valor predicho ($\\hat{Y}$).",
-            "El intercepto con el eje $Y$."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Cuál es el modelo funcional más simple que relaciona dos variables en el análisis de regresión?",
-        "options": [
-            "El modelo exponencial.",
-            "El modelo cuadrático.",
-            "El modelo lineal.",
-            "El modelo logarítmico."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué indica una mejor predicción del modelo sobre el fenómeno estudiado?",
-        "options": [
-            "Un coeficiente de correlación cercano a cero.",
-            "Una Suma de Cuadrados de los Residuos (SSR) pequeña.",
-            "Un intercepto muy grande.",
-            "Más variables regresoras, independientemente de la relevancia."
+            "Explicar al usuario cómo usar el sistema paso a paso.",
+            "Observar y guiar al participante sin influir en su comportamiento.",
+            "Defender el diseño del producto.",
+            "Programar el código en vivo."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cuál es la diferencia conceptual clave entre **Correlación** y **Regresión**?",
+        "question": "Una prueba de usabilidad 'Formativa' se realiza para:",
         "options": [
-            "La correlación implica causalidad; la regresión no.",
-            "La regresión solo se usa para datos no lineales.",
-            "La correlación mide la asociación/fuerza; la regresión modela la relación funcional para predicción.",
-            "La correlación requiere más de dos variables."
+            "Calificar el producto final.",
+            "Retroalimentar y mejorar el diseño durante el proceso.",
+            "Vender el producto.",
+            "Comparar precios."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La accesibilidad web (WCAG) busca que los sistemas sean perceptibles, operables, comprensibles y robustos.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué herramienta permite ver 'mapas de calor' del comportamiento del usuario?",
+        "options": [
+            "Figma.",
+            "Hotjar.",
+            "Excel.",
+            "Trello."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La heurística 'Control y libertad del usuario' implica ofrecer:",
+        "options": [
+            "Salidas de emergencia claras (como deshacer/cancelar).",
+            "Pocas opciones para no confundir.",
+            "Control total del sistema operativo.",
+            "Libertad para cambiar el código fuente."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Un problema de usabilidad 'Crítico' es aquel que impide al usuario completar la tarea.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuáles son las tres fuerzas competitivas tradicionales mencionadas?",
+        "options": [
+            "Diseño, Marketing, Ventas.",
+            "Precio, Características, Calidad.",
+            "Usuarios, Empresas, Gobierno.",
+            "Software, Hardware, Redes."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El diseño puede ser utilizado como una ventaja competitiva para diferenciarse de la competencia.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La innovación incremental se caracteriza por:",
+        "options": [
+            "Alto riesgo y crear nuevos mercados.",
+            "Pequeñas mejoras continuas a productos existentes (bajo riesgo).",
+            "Cambiar radicalmente la industria.",
+            "No generar ganancias."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La innovación radical implica:",
+        "options": [
+            "Bajo riesgo.",
+            "Mejorar la batería de un teléfono.",
+            "Crear productos completamente nuevos y nuevos mercados (alto riesgo).",
+            "Seguir las reglas existentes."
         ],
         "answer": 2
     },
     {
-        "question": "La **Regresión Múltiple** se utiliza cuando...",
+        "question": "¿Qué tendencia tecnológica impulsa el cambio en el diseño actual?",
         "options": [
-            "Se tienen más ecuaciones que datos.",
-            "El modelo es no lineal.",
-            "La variable dependiente $Y$ se modela utilizando dos o más variables independientes (regresoras).",
-            "Se quiere encontrar un autovalor."
+            "La máquina de vapor.",
+            "Inteligencia Artificial y digitalización.",
+            "La imprenta.",
+            "El telégrafo."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El 'Diseño Emocional' busca evocar emociones positivas para hacer el producto más memorable.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Una obligación moral del diseñador es la 'Accesibilidad', que significa:",
+        "options": [
+            "Diseñar solo para usuarios expertos.",
+            "Crear productos fáciles de usar para personas con discapacidades.",
+            "Hacer productos baratos.",
+            "Hacer productos desechables."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El principio de diseño 'Pensar en sistemas' significa:",
+        "options": [
+            "Considerar solo el producto aislado.",
+            "Considerar cómo interactúan los productos entre sí y con el entorno.",
+            "Pensar solo en el sistema operativo.",
+            "Ignorar el empaquetado y servicio al cliente."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Las empresas con una cultura de tolerancia al riesgo son más propensas a la innovación incremental que a la radical.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Un desafío en la introducción de nuevos productos es:",
+        "options": [
+            "La falta de competencia.",
+            "El bajo costo de desarrollo.",
+            "La necesidad de crear una demanda.",
+            "El exceso de usuarios."
         ],
         "answer": 2
     },
     {
-        "question": "En el contexto de *Machine Learning*, la Regresión Lineal se clasifica como un algoritmo de:",
+        "question": "¿Qué son los Patrones Oscuros (Dark Patterns)?",
         "options": [
-            "Aprendizaje no supervisado (*Unsupervised Learning*).",
-            "Aprendizaje supervisado (*Supervised Learning*).",
-            "Aprendizaje por refuerzo (*Reinforcement Learning*).",
-            "*Deep Learning*."
+            "Modos de pantalla nocturna.",
+            "Prácticas de diseño engañosas para manipular al usuario.",
+            "Diseños con colores negros y grises.",
+            "Patrones de diseño complejos pero éticos."
         ],
         "answer": 1
     },
     {
-        "question": "¿Cuál es el propósito del **coeficiente de determinación** ($R^2$)?",
+        "question": "El 'Bait and Switch' (Cebo y cambio) consiste en ofrecer algo atractivo y cambiar las condiciones (o precio) al final.",
         "options": [
-            "Medir la pendiente de la recta.",
-            "Determinar si los datos son normales.",
-            "Indicar la proporción de la varianza de la variable dependiente que es explicada por el modelo de regresión.",
-            "Calcular el valor medio de la variable dependiente."
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿En qué consiste el patrón 'Roach Motel' (Bloqueo de salida)?",
+        "options": [
+            "Es fácil entrar (suscribirse) pero muy difícil salir (cancelar).",
+            "Hay insectos en el diseño.",
+            "El usuario no puede entrar al sitio.",
+            "Es un juego de video."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El patrón 'Costos ocultos' ocurre cuando:",
+        "options": [
+            "El producto es gratuito.",
+            "Se muestran todos los costos desde el inicio.",
+            "Se agregan tarifas inesperadas al final del proceso de compra.",
+            "El usuario paga con criptomonedas."
         ],
         "answer": 2
     },
     {
-        "question": "Defina una **Ecuación Diferencial Ordinaria (EDO)**.",
+        "question": "La 'Continuidad forzada' es cobrar automáticamente una suscripción después de una prueba gratuita sin aviso claro.",
         "options": [
-            "Una ecuación que involucra solo derivadas parciales de una función de varias variables.",
-            "Una ecuación que involucra una función de una sola variable y sus derivadas.",
-            "Un sistema de ecuaciones lineales con una matriz de $1 \\times 1$.",
-            "Una función que no tiene solución."
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué es el 'Privacy Zuckering' (o compartir datos no deseados)?",
+        "options": [
+            "Proteger los datos del usuario.",
+            "Engañar al usuario para que comparta más información privada de la deseada.",
+            "Usar Facebook.",
+            "Un diseño de privacidad transparente."
         ],
         "answer": 1
     },
     {
-        "question": "¿A qué hace referencia el término \"**de 1er orden**\" en la definición de una EDO?",
+        "question": "El patrón 'Disguised Ads' (Anuncios disfrazados) consiste en:",
         "options": [
-            "Al número de variables independientes.",
-            "Al grado del polinomio que define la EDO.",
-            "A la derivada de mayor orden presente en la ecuación.",
-            "A que tiene solo una solución."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Cuál es el propósito principal de las EDO en el modelado de sistemas en ingeniería y ciencia?",
-        "options": [
-            "Simplificar sistemas de ecuaciones lineales.",
-            "Describir la relación entre una cantidad y su tasa de cambio (su evolución temporal).",
-            "Encontrar el área bajo una curva.",
-            "Calcular el determinante de la matriz Hessiana."
+            "Anuncios que dicen claramente 'Publicidad'.",
+            "Botones de descarga que en realidad son anuncios.",
+            "Bloquear anuncios.",
+            "Vender productos sin anuncios."
         ],
         "answer": 1
     },
     {
-        "question": "¿Qué fenómeno físico modela la **Ley de Enfriamiento de Newton** en términos de EDOs?",
+        "question": "Los patrones oscuros suelen mejorar la confianza y lealtad del cliente a largo plazo.",
         "options": [
-            "La propagación de ondas de sonido.",
-            "La tasa de cambio de temperatura de un objeto en relación con la diferencia de temperatura entre el objeto y su entorno.",
-            "El movimiento parabólico de un proyectil.",
-            "La velocidad de la luz."
+            "Verdadero",
+            "Falso"
         ],
         "answer": 1
     },
     {
-        "question": "¿Qué establece el **Teorema de Existencia y Unicidad** de EDOs (para problemas de valor inicial)?",
+        "question": "Para evitar patrones oscuros, el diseño debe ser:",
         "options": [
-            "Que una EDO siempre tiene infinitas soluciones.",
-            "Que bajo ciertas condiciones de continuidad, existe una única solución que satisface la EDO y una condición inicial dada.",
-            "Que solo las EDOs lineales tienen solución.",
-            "Que toda EDO debe ser de primer orden."
+            "Confuso.",
+            "Transparente, ético y respetar la libertad del usuario.",
+            "Manipulador.",
+            "Oculto."
         ],
         "answer": 1
     },
     {
-        "question": "¿Qué se entiende por la **Solución General** de una EDO?",
+        "question": "El patrón 'Confirmshaming' (culpabilizar al confirmar) busca:",
         "options": [
-            "La solución que solo contiene números.",
-            "Una solución que no cumple la condición inicial.",
-            "Una familia de funciones (con constantes arbitrarias) que satisface la EDO.",
-            "La solución particular que pasa por el origen."
+            "Hacer sentir culpable al usuario por rechazar una oferta.",
+            "Confirmar una compra exitosa.",
+            "Validar el correo electrónico.",
+            "Ayudar al usuario a decidir libremente."
         ],
-        "answer": 2
-    },
-    {
-        "question": "Describa la utilidad de las EDO en el análisis de circuitos eléctricos (como circuitos RLC).",
-        "options": [
-            "Para determinar la complejidad del código fuente.",
-            "Para describir la evolución temporal de la corriente o el voltaje en respuesta a una fuente de energía.",
-            "Para calcular la diagonalización de la matriz de impedancia.",
-            "Para encontrar el máximo absoluto de la función de costo."
-        ],
-        "answer": 1
-    },
-    {
-        "question": "Una EDO se clasifica como **Lineal** si la función dependiente ($y$) y todas sus derivadas ($y', y'', \\ldots$) aparecen:",
-        "options": [
-            "Multiplicadas entre sí.",
-            "Elevadas a cualquier potencia.",
-            "En primer grado (elevadas a la potencia 1) y no son argumento de funciones no lineales.",
-            "Solo como términos independientes."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "¿Qué tipo de análisis se enfoca en el comportamiento a largo plazo y la estabilidad de las soluciones de una EDO sin necesariamente encontrar una fórmula explícita?",
-        "options": [
-            "Análisis numérico de sistemas lineales.",
-            "Análisis cualitativo o teoría de sistemas dinámicos.",
-            "Cálculo de integrales indefinidas.",
-            "Análisis de regresión."
-        ],
-        "answer": 1
-    },
-    {
-        "question": "¿Cuál es el primer paso esencial para resolver una EDO de **variables separables** de la forma $\\frac{dy}{dx} = f(x)g(y)$?",
-        "options": [
-            "Calcular la matriz Hessiana.",
-            "Encontrar el autovalor.",
-            "Multiplicar por la variable $x$.",
-            "Separar las variables e integrar ambos lados."
-        ],
-        "answer": 3
-    },
-    {
-        "question": "La EDO $\\frac{dP}{dt} = kP$ (donde $k$ es una constante) es el modelo fundamental para:",
-        "options": [
-            "El movimiento de un péndulo.",
-            "Circuitos RLC amortiguados.",
-            "Crecimiento poblacional o decaimiento exponencial sin restricciones (modelo de Malthus).",
-            "El calor en una barra."
-        ],
-        "answer": 2
-    },
-    {
-        "question": "Una **Condición Inicial** en una EDO de orden $n$ es necesaria para:",
-        "options": [
-            "Cambiar el orden de la EDO.",
-            "Determinar los valores de las constantes arbitrarias en la solución general para obtener una **solución particular** (o única).",
-            "Convertir la EDO en una ecuación algebraica.",
-            "Calcular el determinante de la matriz de coeficientes."
-        ],
-        "answer": 1
+        "answer": 0
     }
 ]
