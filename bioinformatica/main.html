@@ -396,6 +396,7 @@
         let timeLeft = TIME_LIMIT_SECONDS;
         let timerId = null;
         let submitted = false;
+        let currentIndex = 0;
 
         function shuffle(items) {
             const copy = [...items];
@@ -422,71 +423,76 @@
             timer.classList.toggle('danger', timeLeft <= 5 * 60);
         }
 
-        function renderExam() {
+        function renderQuestion() {
             const app = document.getElementById('app');
-            const questionsHtml = selectedQuestions.map((question, questionIndex) => {
-                const optionsHtml = question.options.map((option, optionIndex) => {
-                    const inputId = `q${questionIndex}_o${optionIndex}`;
-                    const isChecked = userAnswers.get(questionIndex) === optionIndex;
-                    return `
-                        <label class="option-item ${isChecked ? 'selected' : ''}" for="${inputId}">
-                            <div class="option-row">
-                                <input type="radio" id="${inputId}" name="question-${questionIndex}" value="${optionIndex}" ${isChecked ? 'checked' : ''}>
-                                <span>${option}</span>
-                            </div>
-                        </label>
-                    `;
-                }).join('');
-
+            const question = selectedQuestions[currentIndex];
+            const optionsHtml = question.options.map((option, optionIndex) => {
+                const inputId = `q${currentIndex}_o${optionIndex}`;
+                const isChecked = userAnswers.get(currentIndex) === optionIndex;
                 return `
-                    <section class="exam-card" data-question-index="${questionIndex}">
-                        <div class="question-head">
-                            <div>
-                                <p class="question-number">Pregunta ${questionIndex + 1}</p>
-                                <div class="footer-note">Selecciona una sola respuesta</div>
-                            </div>
+                    <label class="option-item ${isChecked ? 'selected' : ''}" for="${inputId}">
+                        <div class="option-row">
+                            <input type="radio" id="${inputId}" name="question-${currentIndex}" value="${optionIndex}" ${isChecked ? 'checked' : ''}>
+                            <span>${option}</span>
                         </div>
-                        <p class="question-text">${question.question}</p>
-                        <div class="options">
-                            ${optionsHtml}
-                        </div>
-                    </section>
+                    </label>
                 `;
             }).join('');
 
             app.innerHTML = `
-                <form id="examForm">
-                    ${questionsHtml}
-                    <div class="exam-actions">
-                        <button type="submit" class="button primary">Enviar examen</button>
-                        <button type="button" class="button secondary" id="clearBtn">Limpiar respuestas</button>
+                <section class="exam-card" data-question-index="${currentIndex}">
+                    <div class="question-head">
+                        <div>
+                            <p class="question-number">Pregunta ${currentIndex + 1} de ${selectedQuestions.length}</p>
+                            <div class="footer-note">Selecciona una sola respuesta</div>
+                        </div>
                     </div>
-                </form>
+                    <p class="question-text">${question.question}</p>
+                    <div class="options">
+                        ${optionsHtml}
+                    </div>
+                    <div class="exam-actions">
+                        <button type="button" class="button secondary" id="prevBtn" ${currentIndex === 0 ? 'disabled' : ''}>Anterior</button>
+                        ${currentIndex < selectedQuestions.length - 1 ? '<button type="button" class="button primary" id="nextBtn">Siguiente</button>' : '<button type="button" class="button primary" id="submitBtn">Enviar examen</button>'}
+                        <button type="button" class="button secondary" id="clearBtn">Limpiar respuesta</button>
+                    </div>
+                </section>
             `;
-
-            document.getElementById('questionCount').textContent = `${selectedQuestions.length} preguntas cargadas`;
 
             document.querySelectorAll('.option-item input[type="radio"]').forEach((input) => {
                 input.addEventListener('change', (event) => {
-                    const questionIndex = Number(event.target.name.replace('question-', ''));
                     const optionIndex = Number(event.target.value);
-                    userAnswers.set(questionIndex, optionIndex);
-                    document.querySelectorAll(`[data-question-index="${questionIndex}"] .option-item`).forEach((item) => {
-                        item.classList.remove('selected');
-                    });
+                    userAnswers.set(currentIndex, optionIndex);
+                    document.querySelectorAll('.option-item').forEach((item) => item.classList.remove('selected'));
                     event.target.closest('.option-item').classList.add('selected');
                 });
             });
 
-            document.getElementById('examForm').addEventListener('submit', (event) => {
-                event.preventDefault();
-                submitExam();
+            document.getElementById('clearBtn').addEventListener('click', () => {
+                userAnswers.delete(currentIndex);
+                renderQuestion();
             });
 
-            document.getElementById('clearBtn').addEventListener('click', () => {
-                userAnswers.clear();
-                renderExam();
+            const prevBtn = document.getElementById('prevBtn');
+            if (prevBtn) prevBtn.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex -= 1;
+                    renderQuestion();
+                }
             });
+
+            const nextBtn = document.getElementById('nextBtn');
+            if (nextBtn) nextBtn.addEventListener('click', () => {
+                if (currentIndex < selectedQuestions.length - 1) {
+                    currentIndex += 1;
+                    renderQuestion();
+                }
+            });
+
+            const submitBtn = document.getElementById('submitBtn');
+            if (submitBtn) submitBtn.addEventListener('click', () => submitExam());
+
+            document.getElementById('questionCount').textContent = `Pregunta ${currentIndex + 1} / ${selectedQuestions.length}`;
         }
 
         function buildReview() {
@@ -552,10 +558,17 @@
                 <div class="review-list">
                     ${buildReview()}
                 </div>
+                <div style="margin-top:20px; display:flex; gap:12px;">
+                    <button id="retryBtn" class="button primary">Reintentar examen</button>
+                    <button id="retakeSameBtn" class="button secondary">Volver a tomar mismo conjunto</button>
+                </div>
             `;
 
             results.classList.add('visible');
             window.scrollTo({ top: results.offsetTop, behavior: 'smooth' });
+
+            document.getElementById('retryBtn').addEventListener('click', () => restartExam(true));
+            document.getElementById('retakeSameBtn').addEventListener('click', () => restartExam(false));
 
             if (window.va) {
                 window.va('track', 'bioinformatics_exam_submitted');
@@ -581,6 +594,21 @@
             }, 1000);
         }
 
+        function restartExam(pickNew = true) {
+            // Reset state
+            submitted = false;
+            clearInterval(timerId);
+            userAnswers.clear();
+            timeLeft = TIME_LIMIT_SECONDS;
+            currentIndex = 0;
+            if (pickNew) {
+                selectedQuestions = selectRandomQuestions(allQuestions, QUESTIONS_TO_PICK);
+            }
+            document.getElementById('results').classList.remove('visible');
+            renderQuestion();
+            startTimer();
+        }
+
         async function loadQuestions() {
             try {
                 let response = await fetch('./preguntas.json');
@@ -599,7 +627,7 @@
                     throw new Error('No hay preguntas disponibles para iniciar el examen.');
                 }
 
-                renderExam();
+                renderQuestion();
                 startTimer();
             } catch (error) {
                 document.getElementById('app').innerHTML = `
