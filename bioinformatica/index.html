@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Examen - Bioinformática</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --primary-color: #00bfa5;
+            --primary-hover: #00a38f;
+            --secondary-color: #333;
+            --card-bg: #2a2a2a;
+            --border-color: #444;
+            --highlight-color: #3a3a3a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--bg-color) 0%, #2c2c2c 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 620px;
+            width: 100%;
+            text-align: center;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 22px;
+            color: var(--text-color);
+            text-decoration: none;
+            background: var(--highlight-color);
+            border: 1px solid var(--border-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: var(--primary-color);
+            color: #fff;
+        }
+
+        .logo {
+            font-size: 3.5rem;
+            margin-bottom: 18px;
+            color: var(--primary-color);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 12px;
+            color: #f5f5f5;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            font-size: 1.15rem;
+            color: #b0b0b0;
+            margin-bottom: 28px;
+            line-height: 1.5;
+        }
+
+        .info-box {
+            background: var(--highlight-color);
+            border-radius: 10px;
+            padding: 24px;
+            margin: 28px 0;
+            border-left: 4px solid var(--primary-color);
+            text-align: left;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            gap: 16px;
+            font-size: 1.05rem;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .info-value {
+            color: var(--text-color);
+            text-align: right;
+        }
+
+        .start-button {
+            background: linear-gradient(45deg, var(--primary-color), #40e0d0);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 191, 165, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 20px;
+            min-width: 220px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .start-button:hover {
+            background: linear-gradient(45deg, var(--primary-hover), var(--primary-color));
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 191, 165, 0.4);
+        }
+
+        .start-button:active {
+            transform: translateY(-1px);
+        }
+
+        .instructions {
+            background: rgba(0, 191, 165, 0.1);
+            border: 1px solid rgba(0, 191, 165, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .instructions h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .instructions ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+            padding-left: 22px;
+            position: relative;
+            line-height: 1.5;
+        }
+
+        .instructions li:before {
+            content: "🧬";
+            position: absolute;
+            left: 0;
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 4px 15px rgba(0, 191, 165, 0.3);
+            }
+            50% {
+                box-shadow: 0 4px 20px rgba(0, 191, 165, 0.6);
+            }
+            100% {
+                box-shadow: 0 4px 15px rgba(0, 191, 165, 0.3);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+                margin: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .logo {
+                font-size: 2.5rem;
+            }
+
+            .start-button {
+                padding: 15px 30px;
+                font-size: 1.05rem;
+                min-width: 0;
+                width: 100%;
+            }
+
+            .info-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .info-value {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Volver al inicio</a>
+        <div class="logo">🧬</div>
+        <h1>Simulador de Examen</h1>
+        <p class="subtitle">Bioinformática - Sistema de Evaluación</p>
+
+        <div class="info-box">
+            <div class="info-item">
+                <span class="info-label">📊 Total de preguntas:</span>
+                <span class="info-value">20 preguntas aleatorias</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">⏱️ Tiempo límite:</span>
+                <span class="info-value">20 minutos</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">✅ Tipo de examen:</span>
+                <span class="info-value">Opción múltiple</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">🎯 Tema:</span>
+                <span class="info-value">Genómica, secuenciación, alineamiento y análisis ómico</span>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3>🧬 Instrucciones del examen:</h3>
+            <ul>
+                <li>Tendrás 20 minutos para completar el examen.</li>
+                <li>Se seleccionarán 20 preguntas al azar del banco de Bioinformática.</li>
+                <li>Puedes cambiar tus respuestas antes de enviar el examen.</li>
+                <li>Al finalizar verás tu puntuación y las respuestas correctas.</li>
+                <li>Si el tiempo se agota, el examen se enviará automáticamente.</li>
+                <li>Repasa conceptos de secuenciación, alineamiento y análisis de datos biológicos.</li>
+            </ul>
+        </div>
+
+        <a href="main.html" class="start-button pulse" onclick="startExam(event)">🚀 Iniciar Examen de Bioinformática</a>
+    </div>
+
+    <script>
+        function startExam(event) {
+            if (window.va) {
+                window.va('track', 'bioinformatics_exam_started');
+            }
+
+            if (event) {
+                event.preventDefault();
+                window.location.href = 'main.html';
+            }
+        }
+    </script>
+</body>
+</html>

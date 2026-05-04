@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen - Bioinformática</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --primary-color: #00bfa5;
+            --primary-hover: #00a38f;
+            --secondary-color: #333;
+            --border-color: #444;
+            --correct-bg: #214a44;
+            --correct-text: #5ce1c8;
+            --incorrect-bg: #4a2d2d;
+            --incorrect-text: #f44336;
+            --card-bg: #2a2a2a;
+            --highlight-color: #3a3a3a;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--bg-color) 0%, #242424 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+        }
+
+        .page {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .back-button {
+            color: var(--text-color);
+            text-decoration: none;
+            background: var(--highlight-color);
+            border: 1px solid var(--border-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .back-button:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #262626, #202020);
+            border: 1px solid var(--border-color);
+            border-radius: 18px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        .hero-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .hero-title {
+            margin: 0;
+            font-size: 2rem;
+            color: #f5f5f5;
+            font-weight: 300;
+        }
+
+        .hero-subtitle {
+            margin: 8px 0 0;
+            color: #b0b0b0;
+            line-height: 1.5;
+        }
+
+        .timer {
+            position: sticky;
+            top: 12px;
+            z-index: 20;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 16px;
+            border-radius: 999px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--primary-color);
+            color: white;
+            font-weight: 700;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .timer.danger {
+            border-color: #ff7043;
+            color: #ffb39b;
+        }
+
+        .status-bar {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 18px;
+        }
+
+        .status-pill {
+            background: var(--highlight-color);
+            border: 1px solid var(--border-color);
+            border-radius: 999px;
+            padding: 8px 12px;
+            color: #d5d5d5;
+            font-size: 0.95rem;
+        }
+
+        .exam-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 22px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .question-head {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            align-items: flex-start;
+            margin-bottom: 14px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .question-number {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .question-text {
+            margin: 14px 0 18px;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: #f0f0f0;
+        }
+
+        .options {
+            display: grid;
+            gap: 12px;
+        }
+
+        .option-item {
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 14px 15px;
+            background: #222;
+            transition: all 0.25s ease;
+            cursor: pointer;
+        }
+
+        .option-item:hover {
+            border-color: var(--primary-color);
+            background: var(--highlight-color);
+            transform: translateY(-1px);
+        }
+
+        .option-item.selected {
+            border-color: var(--primary-color);
+            background: rgba(0, 191, 165, 0.12);
+        }
+
+        .option-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .option-row input {
+            margin-top: 4px;
+            accent-color: var(--primary-color);
+        }
+
+        .exam-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 22px;
+        }
+
+        .button {
+            border: none;
+            border-radius: 999px;
+            padding: 14px 22px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .button.primary {
+            background: linear-gradient(45deg, var(--primary-color), #40e0d0);
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 191, 165, 0.25);
+        }
+
+        .button.primary:hover {
+            background: linear-gradient(45deg, var(--primary-hover), var(--primary-color));
+            transform: translateY(-2px);
+        }
+
+        .button.secondary {
+            background: var(--highlight-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+        }
+
+        .button.secondary:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        .results-panel {
+            display: none;
+            background: linear-gradient(135deg, #232323, #2b2b2b);
+            border: 1px solid var(--border-color);
+            border-radius: 18px;
+            padding: 24px;
+            margin-top: 22px;
+        }
+
+        .results-panel.visible {
+            display: block;
+        }
+
+        .score-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .score-box {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 18px;
+            text-align: center;
+        }
+
+        .score-value {
+            display: block;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            margin-bottom: 4px;
+        }
+
+        .review-list {
+            margin-top: 20px;
+            display: grid;
+            gap: 14px;
+        }
+
+        .review-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-left-width: 5px;
+            border-radius: 12px;
+            padding: 16px;
+        }
+
+        .review-item.correct {
+            border-left-color: var(--correct-text);
+            background: var(--correct-bg);
+        }
+
+        .review-item.incorrect {
+            border-left-color: var(--incorrect-text);
+            background: var(--incorrect-bg);
+        }
+
+        .review-item h4 {
+            margin: 0 0 10px;
+            color: white;
+        }
+
+        .review-item p {
+            margin: 6px 0;
+            line-height: 1.5;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px 20px;
+            color: #b0b0b0;
+            font-size: 1.1rem;
+        }
+
+        .error {
+            background: rgba(244, 67, 54, 0.12);
+            border: 1px solid rgba(244, 67, 54, 0.35);
+            color: #ffb3ad;
+            padding: 18px;
+            border-radius: 12px;
+        }
+
+        .footer-note {
+            margin-top: 18px;
+            color: #9e9e9e;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .page {
+                padding: 14px;
+            }
+
+            .hero {
+                padding: 18px;
+            }
+
+            .hero-title {
+                font-size: 1.6rem;
+            }
+
+            .exam-card {
+                padding: 18px;
+            }
+
+            .question-head {
+                flex-direction: column;
+            }
+
+            .exam-actions {
+                flex-direction: column;
+            }
+
+            .button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <a href="index.html" class="back-button">← Volver al inicio</a>
+            <div id="timer" class="timer">⏱️ 20:00</div>
+        </div>
+
+        <section class="hero">
+            <div class="hero-top">
+                <div>
+                    <h1 class="hero-title">Examen de Bioinformática</h1>
+                    <p class="hero-subtitle">Evalúa conceptos de secuenciación, alineamiento, anotación genómica, bases de datos biológicas y análisis ómico.</p>
+                </div>
+            </div>
+            <div class="status-bar">
+                <span class="status-pill" id="questionCount">0 preguntas cargadas</span>
+                <span class="status-pill">20 preguntas aleatorias</span>
+                <span class="status-pill">Tiempo límite: 20 minutos</span>
+            </div>
+        </section>
+
+        <main id="app">
+            <div class="loading">Cargando preguntas...</div>
+        </main>
+
+        <section id="results" class="results-panel" aria-live="polite"></section>
+    </div>
+
+    <script>
+        const QUESTIONS_TO_PICK = 20;
+        const TIME_LIMIT_SECONDS = 20 * 60;
+
+        let allQuestions = [];
+        let selectedQuestions = [];
+        let userAnswers = new Map();
+        let timeLeft = TIME_LIMIT_SECONDS;
+        let timerId = null;
+        let submitted = false;
+
+        function shuffle(items) {
+            const copy = [...items];
+            for (let index = copy.length - 1; index > 0; index--) {
+                const randomIndex = Math.floor(Math.random() * (index + 1));
+                [copy[index], copy[randomIndex]] = [copy[randomIndex], copy[index]];
+            }
+            return copy;
+        }
+
+        function selectRandomQuestions(questions, count) {
+            return shuffle(questions).slice(0, Math.min(count, questions.length));
+        }
+
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+        }
+
+        function updateTimer() {
+            const timer = document.getElementById('timer');
+            timer.textContent = `⏱️ ${formatTime(timeLeft)}`;
+            timer.classList.toggle('danger', timeLeft <= 5 * 60);
+        }
+
+        function renderExam() {
+            const app = document.getElementById('app');
+            const questionsHtml = selectedQuestions.map((question, questionIndex) => {
+                const optionsHtml = question.options.map((option, optionIndex) => {
+                    const inputId = `q${questionIndex}_o${optionIndex}`;
+                    const isChecked = userAnswers.get(questionIndex) === optionIndex;
+                    return `
+                        <label class="option-item ${isChecked ? 'selected' : ''}" for="${inputId}">
+                            <div class="option-row">
+                                <input type="radio" id="${inputId}" name="question-${questionIndex}" value="${optionIndex}" ${isChecked ? 'checked' : ''}>
+                                <span>${option}</span>
+                            </div>
+                        </label>
+                    `;
+                }).join('');
+
+                return `
+                    <section class="exam-card" data-question-index="${questionIndex}">
+                        <div class="question-head">
+                            <div>
+                                <p class="question-number">Pregunta ${questionIndex + 1}</p>
+                                <div class="footer-note">Selecciona una sola respuesta</div>
+                            </div>
+                        </div>
+                        <p class="question-text">${question.question}</p>
+                        <div class="options">
+                            ${optionsHtml}
+                        </div>
+                    </section>
+                `;
+            }).join('');
+
+            app.innerHTML = `
+                <form id="examForm">
+                    ${questionsHtml}
+                    <div class="exam-actions">
+                        <button type="submit" class="button primary">Enviar examen</button>
+                        <button type="button" class="button secondary" id="clearBtn">Limpiar respuestas</button>
+                    </div>
+                </form>
+            `;
+
+            document.getElementById('questionCount').textContent = `${selectedQuestions.length} preguntas cargadas`;
+
+            document.querySelectorAll('.option-item input[type="radio"]').forEach((input) => {
+                input.addEventListener('change', (event) => {
+                    const questionIndex = Number(event.target.name.replace('question-', ''));
+                    const optionIndex = Number(event.target.value);
+                    userAnswers.set(questionIndex, optionIndex);
+                    document.querySelectorAll(`[data-question-index="${questionIndex}"] .option-item`).forEach((item) => {
+                        item.classList.remove('selected');
+                    });
+                    event.target.closest('.option-item').classList.add('selected');
+                });
+            });
+
+            document.getElementById('examForm').addEventListener('submit', (event) => {
+                event.preventDefault();
+                submitExam();
+            });
+
+            document.getElementById('clearBtn').addEventListener('click', () => {
+                userAnswers.clear();
+                renderExam();
+            });
+        }
+
+        function buildReview() {
+            return selectedQuestions.map((question, questionIndex) => {
+                const selectedAnswer = userAnswers.get(questionIndex);
+                const correctAnswer = question.answer;
+                const isCorrect = selectedAnswer === correctAnswer;
+                const userAnswerLabel = selectedAnswer === undefined ? 'Sin responder' : question.options[selectedAnswer];
+                const correctAnswerLabel = question.options[correctAnswer];
+                const explanation = question.explanation ? `<p><strong>Explicación:</strong> ${question.explanation}</p>` : '';
+
+                return `
+                    <article class="review-item ${isCorrect ? 'correct' : 'incorrect'}">
+                        <h4>Pregunta ${questionIndex + 1} ${isCorrect ? '✓' : '✗'}</h4>
+                        <p><strong>Enunciado:</strong> ${question.question}</p>
+                        <p><strong>Tu respuesta:</strong> ${userAnswerLabel}</p>
+                        <p><strong>Respuesta correcta:</strong> ${correctAnswerLabel}</p>
+                        ${explanation}
+                    </article>
+                `;
+            }).join('');
+        }
+
+        function submitExam() {
+            if (submitted) {
+                return;
+            }
+
+            submitted = true;
+            clearInterval(timerId);
+
+            let correctAnswers = 0;
+            selectedQuestions.forEach((question, questionIndex) => {
+                if (userAnswers.get(questionIndex) === question.answer) {
+                    correctAnswers += 1;
+                }
+            });
+
+            const totalQuestions = selectedQuestions.length;
+            const incorrectAnswers = totalQuestions - correctAnswers;
+            const percentage = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
+            const results = document.getElementById('results');
+
+            results.innerHTML = `
+                <h2>Resultados del examen</h2>
+                <p>Has completado el simulador de Bioinformática.</p>
+                <div class="score-grid">
+                    <div class="score-box">
+                        <span class="score-value">${correctAnswers}</span>
+                        <span>Aciertos</span>
+                    </div>
+                    <div class="score-box">
+                        <span class="score-value">${incorrectAnswers}</span>
+                        <span>Errores</span>
+                    </div>
+                    <div class="score-box">
+                        <span class="score-value">${percentage}%</span>
+                        <span>Puntuación</span>
+                    </div>
+                </div>
+                <div class="footer-note">Tiempo restante al enviar: ${formatTime(timeLeft)}</div>
+                <h3 style="margin-top: 24px;">Revisión de respuestas</h3>
+                <div class="review-list">
+                    ${buildReview()}
+                </div>
+            `;
+
+            results.classList.add('visible');
+            window.scrollTo({ top: results.offsetTop, behavior: 'smooth' });
+
+            if (window.va) {
+                window.va('track', 'bioinformatics_exam_submitted');
+            }
+        }
+
+        function startTimer() {
+            updateTimer();
+            timerId = setInterval(() => {
+                if (submitted) {
+                    clearInterval(timerId);
+                    return;
+                }
+
+                timeLeft -= 1;
+                updateTimer();
+
+                if (timeLeft <= 0) {
+                    timeLeft = 0;
+                    updateTimer();
+                    submitExam();
+                }
+            }, 1000);
+        }
+
+        async function loadQuestions() {
+            try {
+                let response = await fetch('./preguntas.json');
+                if (!response.ok) {
+                    response = await fetch('/bioinformatica/preguntas.json');
+                }
+
+                if (!response.ok) {
+                    throw new Error('No fue posible cargar el banco de preguntas.');
+                }
+
+                allQuestions = await response.json();
+                selectedQuestions = selectRandomQuestions(allQuestions, QUESTIONS_TO_PICK);
+
+                if (selectedQuestions.length === 0) {
+                    throw new Error('No hay preguntas disponibles para iniciar el examen.');
+                }
+
+                renderExam();
+                startTimer();
+            } catch (error) {
+                document.getElementById('app').innerHTML = `
+                    <div class="error">
+                        <strong>Error al cargar el examen:</strong> ${error.message}
+                    </div>
+                `;
+            }
+        }
+
+        loadQuestions();
+    </script>
+</body>
+</html>

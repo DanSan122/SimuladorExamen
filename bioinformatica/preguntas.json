@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 1,
+        "tema": "Introduccion",
+        "tipo": "teorica",
+        "pregunta": "¿Qué disciplina combina la biología, la informática, las matemáticas y la estadística para analizar datos biológicos?",
+        "opciones": [
+            "Bioinformática",
+            "Biotecnología",
+            "Genética Molecular",
+            "Bioquímica"
+        ],
+        "respuesta": "Bioinformática"
+    },
+    {
+        "id": 2,
+        "tema": "Historia",
+        "tipo": "teorica",
+        "pregunta": "¿En qué año Watson y Crick propusieron el modelo de la doble hélice del ADN?",
+        "opciones": [
+            "1953",
+            "1965",
+            "1970",
+            "1983"
+        ],
+        "respuesta": "1953"
+    },
+    {
+        "id": 3,
+        "tema": "Historia",
+        "tipo": "teorica",
+        "pregunta": "¿Quién es considerada la madre de la bioinformática y publicó el 'Atlas de secuencia y estructura de proteínas'?",
+        "opciones": [
+            "Margaret Oakley Dayhoff",
+            "Rosalind Franklin",
+            "Ada Lovelace",
+            "Barbara McClintock"
+        ],
+        "respuesta": "Margaret Oakley Dayhoff"
+    },
+    {
+        "id": 4,
+        "tema": "Historia",
+        "tipo": "teorica",
+        "pregunta": "¿Qué científico obtuvo el Premio Nobel en 1958 por descubrir que cada proteína posee una estructura primaria única?",
+        "opciones": [
+            "Frederick Sanger",
+            "Francis Crick",
+            "James Watson",
+            "Linus Pauling"
+        ],
+        "respuesta": "Frederick Sanger"
+    },
+    {
+        "id": 5,
+        "tema": "HGP",
+        "tipo": "teorica",
+        "pregunta": "¿En qué periodo se llevó a cabo el Proyecto del Genoma Humano?",
+        "opciones": [
+            "1990 - 2003",
+            "1980 - 1995",
+            "2000 - 2010",
+            "1975 - 1985"
+        ],
+        "respuesta": "1990 - 2003"
+    },
+    {
+        "id": 6,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Cuál es la función principal de GenBank?",
+        "opciones": [
+            "Base de datos pública de secuencias de nucleótidos",
+            "Simulación de dinámicas moleculares",
+            "Alineamiento estructural de proteínas",
+            "Visualización de modelos 3D"
+        ],
+        "respuesta": "Base de datos pública de secuencias de nucleótidos"
+    },
+    {
+        "id": 7,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué tipo de datos se manejan principalmente en bioinformática?",
+        "opciones": [
+            "Texto (secuencias, nombres, funciones)",
+            "Imágenes de microscopía únicamente",
+            "Audio de latidos cardiacos",
+            "Solo valores numéricos enteros"
+        ],
+        "respuesta": "Texto (secuencias, nombres, funciones)"
+    },
+    {
+        "id": 8,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué significa el acrónimo ORF en genómica?",
+        "opciones": [
+            "Open Reading Frame",
+            "Optical Result Form",
+            "Organism Reference File",
+            "Original Reset Function"
+        ],
+        "respuesta": "Open Reading Frame"
+    },
+    {
+        "id": 9,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué es la traducción en biología molecular?",
+        "opciones": [
+            "Paso de ARN mensajero a proteína",
+            "Paso de ADN a ARN mensajero",
+            "Copia exacta de ADN",
+            "Eliminación de intrones"
+        ],
+        "respuesta": "Paso de ARN mensajero a proteína"
+    },
+    {
+        "id": 10,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué es la transcripción en biología molecular?",
+        "opciones": [
+            "Paso de ADN a ARN mensajero",
+            "Paso de ARN a proteína",
+            "Paso de proteína a ADN",
+            "Duplicación del genoma"
+        ],
+        "respuesta": "Paso de ADN a ARN mensajero"
+    },
+    {
+        "id": 11,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Quién es el creador del lenguaje de programación Python?",
+        "opciones": [
+            "Guido van Rossum",
+            "Dennis Ritchie",
+            "James Gosling",
+            "Bjarne Stroustrup"
+        ],
+        "respuesta": "Guido van Rossum"
+    },
+    {
+        "id": 12,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué característica define a las Tuplas en Python?",
+        "opciones": [
+            "Inmutables (no se pueden modificar)",
+            "Dinámicas (se pueden agregar elementos)",
+            "No tienen orden",
+            "Solo aceptan números"
+        ],
+        "respuesta": "Inmutables (no se pueden modificar)"
+    },
+    {
+        "id": 13,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Cuál es el índice del primer elemento de una lista en Python?",
+        "opciones": [
+            "0",
+            "1",
+            "-1",
+            "Ninguno"
+        ],
+        "respuesta": "0"
+    },
+    {
+        "id": 14,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Cómo se accede al último elemento de una lista usando índices negativos?",
+        "opciones": [
+            "lista[-1]",
+            "lista[0]",
+            "lista[-end]",
+            "lista[ultimo]"
+        ],
+        "respuesta": "lista[-1]"
+    },
+    {
+        "id": 15,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué tipo de dato es 'False' en Python?",
+        "opciones": [
+            "Boolean",
+            "String",
+            "Integer",
+            "Float"
+        ],
+        "respuesta": "Boolean"
+    },
+    {
+        "id": 16,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué estructura se basa en pares de 'llaves' (keys) y 'valores'?",
+        "opciones": [
+            "Diccionarios",
+            "Listas",
+            "Tuplas",
+            "Sets"
+        ],
+        "respuesta": "Diccionarios"
+    },
+    {
+        "id": 17,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué método se usa para convertir todo el texto de una cadena a mayúsculas?",
+        "opciones": [
+            ".upper()",
+            ".toUpper()",
+            ".capitalize()",
+            ".max()"
+        ],
+        "respuesta": ".upper()"
+    },
+    {
+        "id": 18,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué librería es considerada la más importante para bioinformática en Python?",
+        "opciones": [
+            "Biopython",
+            "Pandas",
+            "NumPy",
+            "Matplotlib"
+        ],
+        "respuesta": "Biopython"
+    },
+    {
+        "id": 19,
+        "tema": "Jupyter",
+        "tipo": "teorica",
+        "pregunta": "¿Se considera Jupyter Notebook formalmente como un IDE?",
+        "opciones": [
+            "No, es un entorno interactivo basado en web",
+            "Sí, es el IDE oficial de Python",
+            "No, es un compilador únicamente",
+            "Sí, es idéntico a PyCharm"
+        ],
+        "respuesta": "No, es un entorno interactivo basado en web"
+    },
+    {
+        "id": 20,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué estructura de control se usa para tomar decisiones basadas en una condición?",
+        "opciones": [
+            "if / else",
+            "for",
+            "while",
+            "def"
+        ],
+        "respuesta": "if / else"
+    },
+    {
+        "id": 21,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué formato de archivo se usa comúnmente para almacenar secuencias biológicas simples?",
+        "opciones": [
+            "FASTA",
+            "CSV",
+            "XLSX",
+            "PDF"
+        ],
+        "respuesta": "FASTA"
+    },
+    {
+        "id": 22,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué función de Python se usa para abrir un archivo?",
+        "opciones": [
+            "open()",
+            "read()",
+            "file()",
+            "access()"
+        ],
+        "respuesta": "open()"
+    },
+    {
+        "id": 23,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "En la función open(), ¿qué significa el parámetro 'w'?",
+        "opciones": [
+            "Escritura (Write), sobreescribe si existe",
+            "Lectura (Read)",
+            "Anexar (Append)",
+            "Binario (Binary)"
+        ],
+        "respuesta": "Escritura (Write), sobreescribe si existe"
+    },
+    {
+        "id": 24,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué parámetro en open() permite añadir contenido al final de un archivo sin borrar lo anterior?",
+        "opciones": [
+            "'a'",
+            "'w'",
+            "'r'",
+            "'x'"
+        ],
+        "respuesta": "'a'"
+    },
+    {
+        "id": 25,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Cuál es la ventaja de usar la estructura 'with open(...)' en lugar de solo 'open()'?",
+        "opciones": [
+            "Cierra el archivo automáticamente",
+            "Es más rápido al leer",
+            "Permite leer archivos PDF",
+            "No requiere permisos de sistema"
+        ],
+        "respuesta": "Cierra el archivo automáticamente"
+    },
+    {
+        "id": 26,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué método lee todas las líneas de un archivo y las devuelve como una lista?",
+        "opciones": [
+            ".readlines()",
+            ".read()",
+            ".readline()",
+            ".getLines()"
+        ],
+        "respuesta": ".readlines()"
+    },
+    {
+        "id": 27,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué formato de archivo separa los datos por comas?",
+        "opciones": [
+            "CSV",
+            "TSV",
+            "GFF",
+            "TXT"
+        ],
+        "respuesta": "CSV"
+    },
+    {
+        "id": 28,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué formato de archivo separa los datos por tabulaciones?",
+        "opciones": [
+            "TSV",
+            "CSV",
+            "FASTA",
+            "XLSX"
+        ],
+        "respuesta": "TSV"
+    },
+    {
+        "id": 29,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué comando se usa para cerrar un archivo abierto manualmente con f = open()?",
+        "opciones": [
+            "f.close()",
+            "f.stop()",
+            "f.exit()",
+            "f.end()"
+        ],
+        "respuesta": "f.close()"
+    },
+    {
+        "id": 30,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué librería de Python se integra directamente en el modelo de datos de 'Biotite'?",
+        "opciones": [
+            "NumPy",
+            "Pandas",
+            "Django",
+            "Flask"
+        ],
+        "respuesta": "NumPy"
+    },
+    {
+        "id": 31,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Desde qué módulo de Biopython se importa la clase Seq?",
+        "opciones": [
+            "Bio.Seq",
+            "Bio.Alphabet",
+            "Bio.Tools",
+            "Bio.Genetics"
+        ],
+        "respuesta": "Bio.Seq"
+    },
+    {
+        "id": 32,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué método del objeto Seq devuelve la secuencia de ARN a partir de una de ADN?",
+        "opciones": [
+            ".transcribe()",
+            ".translate()",
+            ".complement()",
+            ".toARN()"
+        ],
+        "respuesta": ".transcribe()"
+    },
+    {
+        "id": 33,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué método del objeto Seq devuelve la secuencia de aminoácidos?",
+        "opciones": [
+            ".translate()",
+            ".transcribe()",
+            ".protein()",
+            ".to_amino()"
+        ],
+        "respuesta": ".translate()"
+    },
+    {
+        "id": 34,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué método permite obtener el complemento de una secuencia de ADN?",
+        "opciones": [
+            ".complement()",
+            ".reverse()",
+            ".inverse()",
+            ".match()"
+        ],
+        "respuesta": ".complement()"
+    },
+    {
+        "id": 35,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué función de SeqIO se usa para leer un archivo que contiene una única secuencia?",
+        "opciones": [
+            "SeqIO.read()",
+            "SeqIO.parse()",
+            "SeqIO.get()",
+            "SeqIO.open()"
+        ],
+        "respuesta": "SeqIO.read()"
+    },
+    {
+        "id": 36,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué función de SeqIO se usa para iterar sobre múltiples secuencias en un archivo (multifasta)?",
+        "opciones": [
+            "SeqIO.parse()",
+            "SeqIO.read()",
+            "SeqIO.loop()",
+            "SeqIO.all()"
+        ],
+        "respuesta": "SeqIO.parse()"
+    },
+    {
+        "id": 37,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué objeto en Biopython asocia una secuencia con identificadores (ID, nombre, descripción)?",
+        "opciones": [
+            "SeqRecord",
+            "SeqFeature",
+            "SeqList",
+            "BioEntry"
+        ],
+        "respuesta": "SeqRecord"
+    },
+    {
+        "id": 38,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿En qué atributo de un SeqRecord se guardan las posiciones de los genes o dominios?",
+        "opciones": [
+            "features",
+            "annotations",
+            "dbxrefs",
+            "positions"
+        ],
+        "respuesta": "features"
+    },
+    {
+        "id": 39,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué método devuelve el complemento reverso de una secuencia?",
+        "opciones": [
+            ".reverse_complement()",
+            ".complement_reverse()",
+            ".back_complement()",
+            ".rev_comp()"
+        ],
+        "respuesta": ".reverse_complement()"
+    },
+    {
+        "id": 40,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Cuál es la última versión de Biopython compatible con Python 3.9 lanzada en 2024?",
+        "opciones": [
+            "1.84",
+            "1.79",
+            "2.0",
+            "1.50"
+        ],
+        "respuesta": "1.84"
+    },
+    {
+        "id": 41,
+        "tema": "Genetica",
+        "tipo": "teorica",
+        "pregunta": "¿Cuál es el codón de inicio estándar en el código genético?",
+        "opciones": [
+            "AUG",
+            "UAA",
+            "UAG",
+            "UGA"
+        ],
+        "respuesta": "AUG"
+    },
+    {
+        "id": 42,
+        "tema": "Genetica",
+        "tipo": "teorica",
+        "pregunta": "¿Cuáles son los tres codones de parada (stop) estándar?",
+        "opciones": [
+            "UAA, UAG, UGA",
+            "AUG, GUG, UUG",
+            "AAA, CCC, GGG",
+            "UUA, UUG, CUU"
+        ],
+        "respuesta": "UAA, UAG, UGA"
+    },
+    {
+        "id": 43,
+        "tema": "Genetica",
+        "tipo": "teorica",
+        "pregunta": "¿Qué nucleótido reemplaza a la Timina (T) en el ARN?",
+        "opciones": [
+            "Uracilo (U)",
+            "Guanina (G)",
+            "Citosina (C)",
+            "Adenina (A)"
+        ],
+        "respuesta": "Uracilo (U)"
+    },
+    {
+        "id": 44,
+        "tema": "Genetica",
+        "tipo": "teorica",
+        "pregunta": "Si una secuencia de ADN es 'ATGC', ¿cuál es su complemento?",
+        "opciones": [
+            "TACG",
+            "ATGC",
+            "GCTA",
+            "GCAT"
+        ],
+        "respuesta": "TACG"
+    },
+    {
+        "id": 45,
+        "tema": "Genetica",
+        "tipo": "teorica",
+        "pregunta": "¿Cómo se llama el proceso de pasar de ARNm a Mitocondria en el contexto de codones alternativos?",
+        "opciones": [
+            "Traducción mitocondrial",
+            "Transcripción reversa",
+            "Splicing",
+            "Edición génica"
+        ],
+        "respuesta": "Traducción mitocondrial"
+    },
+    {
+        "id": 46,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué hace el método .replace('T', 'U') en un string de Python?",
+        "opciones": [
+            "Cambia todas las T por U",
+            "Borra las T",
+            "Solo cambia la primera T",
+            "Cambia las U por T"
+        ],
+        "respuesta": "Cambia todas las T por U"
+    },
+    {
+        "id": 47,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Cómo se define una función en Python?",
+        "opciones": [
+            "def nombre_funcion():",
+            "function nombre():",
+            "define nombre():",
+            "func nombre():"
+        ],
+        "respuesta": "def nombre_funcion():"
+    },
+    {
+        "id": 48,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué palabra clave se usa para devolver un valor desde una función?",
+        "opciones": [
+            "return",
+            "get",
+            "send",
+            "back"
+        ],
+        "respuesta": "return"
+    },
+    {
+        "id": 49,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Cuál es el resultado de 'Bio' + 'informatica'?",
+        "opciones": [
+            "'Bioinformatica'",
+            "Error",
+            "['Bio', 'informatica']",
+            "None"
+        ],
+        "respuesta": "'Bioinformatica'"
+    },
+    {
+        "id": 50,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué función devuelve la longitud de una lista o cadena?",
+        "opciones": [
+            "len()",
+            "size()",
+            "count()",
+            "length()"
+        ],
+        "respuesta": "len()"
+    },
+    {
+        "id": 51,
+        "tema": "Herramientas",
+        "tipo": "teorica",
+        "pregunta": "¿Qué plataforma permite simulaciones de dinámica molecular del SARS-CoV-2?",
+        "opciones": [
+            "BioExcel-CV19",
+            "Cytoscape",
+            "Blast",
+            "ClustalW"
+        ],
+        "respuesta": "BioExcel-CV19"
+    },
+    {
+        "id": 52,
+        "tema": "Herramientas",
+        "tipo": "teorica",
+        "pregunta": "¿Qué librería se usa para visualización de gráficos en Python?",
+        "opciones": [
+            "Matplotlib",
+            "Biopython",
+            "SeqIO",
+            "Request"
+        ],
+        "respuesta": "Matplotlib"
+    },
+    {
+        "id": 53,
+        "tema": "Historia",
+        "tipo": "teorica",
+        "pregunta": "¿En qué década se volvieron accesibles los computadores para investigadores (aprox. 15%)?",
+        "opciones": [
+            "1970",
+            "1950",
+            "1990",
+            "2010"
+        ],
+        "respuesta": "1970"
+    },
+    {
+        "id": 54,
+        "tema": "Historia",
+        "tipo": "teorica",
+        "pregunta": "¿Qué base de datos de proteínas se creó en 1983 (PSD)?",
+        "opciones": [
+            "Protein Sequence Database",
+            "Uniprot",
+            "PDB",
+            "SwissProt"
+        ],
+        "respuesta": "Protein Sequence Database"
+    },
+    {
+        "id": 55,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué conjunto de datos NO tiene un orden definido en Python?",
+        "opciones": [
+            "Diccionario",
+            "Lista",
+            "Tupla",
+            "String"
+        ],
+        "respuesta": "Diccionario"
+    },
+    {
+        "id": 56,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué atributo de un objeto SeqRecord muestra la secuencia misma?",
+        "opciones": [
+            ".seq",
+            ".data",
+            ".string",
+            ".bases"
+        ],
+        "respuesta": ".seq"
+    },
+    {
+        "id": 57,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué atributo de un objeto SeqRecord es un diccionario con información extra?",
+        "opciones": [
+            "annotations",
+            "features",
+            "metadata",
+            "info"
+        ],
+        "respuesta": "annotations"
+    },
+    {
+        "id": 58,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué es un nucleótido?",
+        "opciones": [
+            "Unidad básica del ADN (A, T, C, G)",
+            "Una cadena de proteínas",
+            "Un tipo de carbohidrato",
+            "Una enzima de restricción"
+        ],
+        "respuesta": "Unidad básica del ADN (A, T, C, G)"
+    },
+    {
+        "id": 59,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Cómo se comenta una línea de código en Python?",
+        "opciones": [
+            "# comentario",
+            "// comentario",
+            "/* comentario */",
+            "-- comentario"
+        ],
+        "respuesta": "# comentario"
+    },
+    {
+        "id": 60,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué es la medicina personalizada?",
+        "opciones": [
+            "Tratamiento basado en el perfil genético del paciente",
+            "Atención médica a domicilio",
+            "Uso de robots para cirugía",
+            "Recetas escritas a mano"
+        ],
+        "respuesta": "Tratamiento basado en el perfil genético del paciente"
+    },
+    {
+        "id": 61,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Qué imprime: seq = 'ATGC'; print(seq[1:3])?",
+        "opciones": [
+            "'TG'",
+            "'AT'",
+            "'GC'",
+            "'ATG'"
+        ],
+        "respuesta": "'TG'"
+    },
+    {
+        "id": 62,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Cuál es la salida de: print('DNA'.lower())?",
+        "opciones": [
+            "'dna'",
+            "'DNA'",
+            "'Dna'",
+            "Error"
+        ],
+        "respuesta": "'dna'"
+    },
+    {
+        "id": 63,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Qué hace seq[::-1] en Python?",
+        "opciones": [
+            "Invierte la secuencia",
+            "Borra la secuencia",
+            "Duplica la secuencia",
+            "No hace nada"
+        ],
+        "respuesta": "Invierte la secuencia"
+    },
+    {
+        "id": 64,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "Si ARN = 'AUGUAA', ¿qué devuelve ARN.find('UAA')?",
+        "opciones": [
+            "3",
+            "0",
+            "4",
+            "None"
+        ],
+        "respuesta": "3"
+    },
+    {
+        "id": 65,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Cómo obtienes los últimos 3 caracteres de la cadena 'seq'?",
+        "opciones": [
+            "seq[-3:]",
+            "seq[3:]",
+            "seq[:3]",
+            "seq[0:3]"
+        ],
+        "respuesta": "seq[-3:]"
+    },
+    {
+        "id": 66,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Qué error da: tupla = (1, 2); tupla[0] = 5?",
+        "opciones": [
+            "TypeError (objeto no soporta asignación)",
+            "ValueError",
+            "IndexError",
+            "Ninguno, cambia a 5"
+        ],
+        "respuesta": "TypeError (objeto no soporta asignación)"
+    },
+    {
+        "id": 67,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Qué imprime: list(range(0, 5, 2))?",
+        "opciones": [
+            "[0, 2, 4]",
+            "[0, 1, 2, 3, 4, 5]",
+            "[0, 2, 4, 6]",
+            "[2, 4]"
+        ],
+        "respuesta": "[0, 2, 4]"
+    },
+    {
+        "id": 68,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Cómo se importa SeqIO de Biopython?",
+        "opciones": [
+            "from Bio import SeqIO",
+            "import SeqIO",
+            "import bio.seqio",
+            "from Bio.Seq import SeqIO"
+        ],
+        "respuesta": "from Bio import SeqIO"
+    },
+    {
+        "id": 69,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "Si DNA = Seq('AAA'), ¿qué es DNA.transcribe()?",
+        "opciones": [
+            "Seq('AAA')",
+            "Seq('UUU')",
+            "Seq('TTT')",
+            "Seq('AAA', ARN)"
+        ],
+        "respuesta": "Seq('AAA')"
+    },
+    {
+        "id": 70,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "Si DNA = Seq('ATG'), ¿qué es DNA.translate()?",
+        "opciones": [
+            "Seq('M')",
+            "Seq('AUG')",
+            "Seq('Stop')",
+            "Error"
+        ],
+        "respuesta": "Seq('M')"
+    },
+    {
+        "id": 71,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Qué devuelve open('test.txt', 'r').read()?",
+        "opciones": [
+            "Todo el contenido como un string",
+            "La primera línea",
+            "Una lista de líneas",
+            "Un objeto binario"
+        ],
+        "respuesta": "Todo el contenido como un string"
+    },
+    {
+        "id": 72,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "En un diccionario d = {'A': 'T'}, ¿cómo obtienes 'T'?",
+        "opciones": [
+            "d['A']",
+            "d[0]",
+            "d.get(0)",
+            "d.keys()"
+        ],
+        "respuesta": "d['A']"
+    },
+    {
+        "id": 73,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Qué hace el método .strip() en una cadena de secuencia leída de un archivo?",
+        "opciones": [
+            "Elimina espacios y saltos de línea extremos",
+            "Elimina los nucleótidos",
+            "Convierte a mayúsculas",
+            "Divide la cadena"
+        ],
+        "respuesta": "Elimina espacios y saltos de línea extremos"
+    },
+    {
+        "id": 74,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "¿Cuál es la sintaxis correcta para un bucle for que recorra una lista 'adn'?",
+        "opciones": [
+            "for i in adn:",
+            "foreach i in adn:",
+            "for(i=0; i<len(adn); i++):",
+            "for i to adn:"
+        ],
+        "respuesta": "for i in adn:"
+    },
+    {
+        "id": 75,
+        "tema": "Codigo",
+        "tipo": "codigo",
+        "pregunta": "Si s = 'ATGC', ¿qué imprime print(s.count('A'))?",
+        "opciones": [
+            "1",
+            "0",
+            "4",
+            "Error"
+        ],
+        "respuesta": "1"
+    },
+    {
+        "id": 76,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué es un dataset?",
+        "opciones": [
+            "Un conjunto de datos ordenados",
+            "Un tipo de archivo ejecutable",
+            "Un comando de Linux",
+            "Una red de computadoras"
+        ],
+        "respuesta": "Un conjunto de datos ordenados"
+    },
+    {
+        "id": 77,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué significa 'Atribución-NoComercial-Sin Derivadas' en una licencia Creative Commons?",
+        "opciones": [
+            "Se debe dar crédito, no lucrar y no modificar",
+            "Se puede vender pero no modificar",
+            "Uso libre total",
+            "Solo para uso gubernamental"
+        ],
+        "respuesta": "Se debe dar crédito, no lucrar y no modificar"
+    },
+    {
+        "id": 78,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué clase permite crear features para componer un SeqRecord o entender archivos .gb?",
+        "opciones": [
+            "SeqFeature",
+            "SeqPart",
+            "BioFeature",
+            "AnnotationFeature"
+        ],
+        "respuesta": "SeqFeature"
+    },
+    {
+        "id": 79,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Cuál es el operador para 'distinto de' en Python?",
+        "opciones": [
+            "!=",
+            "==",
+            "<>",
+            "not"
+        ],
+        "respuesta": "!="
+    },
+    {
+        "id": 80,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué palabra clave inicia la definición de una clase en Python?",
+        "opciones": [
+            "class",
+            "object",
+            "def class",
+            "struct"
+        ],
+        "respuesta": "class"
+    },
+    {
+        "id": 81,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué nucleótido es la 'C' en el ADN?",
+        "opciones": [
+            "Citosina",
+            "Cisteína",
+            "Calcio",
+            "Cloro"
+        ],
+        "respuesta": "Citosina"
+    },
+    {
+        "id": 82,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué nucleótido es la 'G' en el ADN?",
+        "opciones": [
+            "Guanina",
+            "Glutamina",
+            "Glicina",
+            "Glucosa"
+        ],
+        "respuesta": "Guanina"
+    },
+    {
+        "id": 83,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Qué función de Biopython revierte la transcripción (ARN a ADN)?",
+        "opciones": [
+            "back_transcribe()",
+            "reverse_transcribe()",
+            "rna_to_dna()",
+            "undo_transcribe()"
+        ],
+        "respuesta": "back_transcribe()"
+    },
+    {
+        "id": 84,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué formato se asocia con el nombre 'General Feature Format'?",
+        "opciones": [
+            "GFF",
+            "FASTA",
+            "BAM",
+            "VCF"
+        ],
+        "respuesta": "GFF"
+    },
+    {
+        "id": 85,
+        "tema": "Archivos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué significa el modo 'rb' en la función open()?",
+        "opciones": [
+            "Lectura en modo binario",
+            "Lectura y escritura",
+            "Solo lectura rápida",
+            "Reinicio de archivo"
+        ],
+        "respuesta": "Lectura en modo binario"
+    },
+    {
+        "id": 86,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Cómo se llama el par de bases de la Adenina en el ADN?",
+        "opciones": [
+            "Timina",
+            "Uracilo",
+            "Citosina",
+            "Guanina"
+        ],
+        "respuesta": "Timina"
+    },
+    {
+        "id": 87,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Cómo se llama el par de bases de la Guanina?",
+        "opciones": [
+            "Citosina",
+            "Adenina",
+            "Timina",
+            "Uracilo"
+        ],
+        "respuesta": "Citosina"
+    },
+    {
+        "id": 88,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué tipo de bucle se ejecuta mientras una condición sea verdadera?",
+        "opciones": [
+            "while",
+            "for",
+            "if",
+            "loop"
+        ],
+        "respuesta": "while"
+    },
+    {
+        "id": 89,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Cómo se llama el entorno interactivo de Anaconda para Bioinformática?",
+        "opciones": [
+            "Jupyter",
+            "Spyder",
+            "RStudio",
+            "VS Code"
+        ],
+        "respuesta": "Jupyter"
+    },
+    {
+        "id": 90,
+        "tema": "Herramientas",
+        "tipo": "teorica",
+        "pregunta": "¿Qué librería de Python se especializa en minería de datos web (web scraping)?",
+        "opciones": [
+            "BeautifulSoup / Scrapy",
+            "Pandas",
+            "Biopython",
+            "NumPy"
+        ],
+        "respuesta": "BeautifulSoup / Scrapy"
+    },
+    {
+        "id": 91,
+        "tema": "Genetica",
+        "tipo": "teorica",
+        "pregunta": "¿Qué aminoácido codifica el codón AUG?",
+        "opciones": [
+            "Metionina",
+            "Valina",
+            "Lisina",
+            "Leucina"
+        ],
+        "respuesta": "Metionina"
+    },
+    {
+        "id": 92,
+        "tema": "Genetica",
+        "tipo": "teorica",
+        "pregunta": "Si un codón es UAA, ¿qué aminoácido se produce?",
+        "opciones": [
+            "Ninguno (Stop)",
+            "Serina",
+            "Tirosina",
+            "Cisteína"
+        ],
+        "respuesta": "Ninguno (Stop)"
+    },
+    {
+        "id": 93,
+        "tema": "Herramientas",
+        "tipo": "teorica",
+        "pregunta": "¿Qué herramienta permite el alineamiento de secuencias en Biopython?",
+        "opciones": [
+            "Bio.pairwise2",
+            "Bio.Align",
+            "Bio.Blast",
+            "Todas las anteriores"
+        ],
+        "respuesta": "Todas las anteriores"
+    },
+    {
+        "id": 94,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué método añade un elemento al final de una lista?",
+        "opciones": [
+            ".append()",
+            ".add()",
+            ".insert()",
+            ".plus()"
+        ],
+        "respuesta": ".append()"
+    },
+    {
+        "id": 95,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué función convierte un string a un entero?",
+        "opciones": [
+            "int()",
+            "str()",
+            "float()",
+            "to_int()"
+        ],
+        "respuesta": "int()"
+    },
+    {
+        "id": 96,
+        "tema": "Historia",
+        "tipo": "teorica",
+        "pregunta": "¿En qué año se definió la Bioinformática como el uso de computadores para adquisición y análisis de datos (Brown)?",
+        "opciones": [
+            "2000",
+            "1990",
+            "1980",
+            "2010"
+        ],
+        "respuesta": "2000"
+    },
+    {
+        "id": 97,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Qué nucleótido falta en la secuencia de ARN pero está en el ADN?",
+        "opciones": [
+            "Timina (T)",
+            "Adenina (A)",
+            "Uracilo (U)",
+            "Citosina (C)"
+        ],
+        "respuesta": "Timina (T)"
+    },
+    {
+        "id": 98,
+        "tema": "Python",
+        "tipo": "teorica",
+        "pregunta": "¿Qué ocurre si intentas acceder a un índice que no existe en una lista?",
+        "opciones": [
+            "IndexError",
+            "Devuelve None",
+            "La lista crece automáticamente",
+            "ValueError"
+        ],
+        "respuesta": "IndexError"
+    },
+    {
+        "id": 99,
+        "tema": "Conceptos",
+        "tipo": "teorica",
+        "pregunta": "¿Cómo se llama el proceso de comparar dos secuencias para ver su similitud?",
+        "opciones": [
+            "Alineamiento",
+            "Traducción",
+            "Transcripción",
+            "Mutación"
+        ],
+        "respuesta": "Alineamiento"
+    },
+    {
+        "id": 100,
+        "tema": "Biopython",
+        "tipo": "teorica",
+        "pregunta": "¿Cuál es la clase base para trabajar con secuencias en Biopython?",
+        "opciones": [
+            "Seq",
+            "BioSeq",
+            "DnaSeq",
+            "Sequence"
+        ],
+        "respuesta": "Seq"
+    }
+]
