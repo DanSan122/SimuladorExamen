@@ -1,0 +1,830 @@
+[
+    {
+        "question": "¿Cuál es el enfoque ético que se centra en el cumplimiento de deberes, principios y normas universales independientemente de las consecuencias?",
+        "options": [
+            "Enfoque Utilitarista",
+            "Enfoque Antropocéntrico",
+            "Enfoque Deontológico",
+            "Enfoque Teleológico"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "El enfoque teleológico evalúa la ética de una acción basándose principalmente en sus resultados o consecuencias.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes es un impacto negativo potencial de la IA generativa mencionado en los materiales?",
+        "options": [
+            "Automatización de tareas",
+            "Aumento de la accesibilidad",
+            "Mejora en la toma de decisiones",
+            "Vulneración de la privacidad y desinformación"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Qué evento histórico impulsó significativamente la creación de sistemas de información avanzados y seguros debido a la necesidad de comunicaciones eficientes?",
+        "options": [
+            "Las Guerras Mundiales",
+            "El Renacimiento",
+            "La invención de la rueda",
+            "La Revolución Francesa"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La Revolución Industrial marcó el inicio de la era de la automatización y eficiencia en la gestión de procesos empresariales.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el objetivo principal de la anonimización de datos?",
+        "options": [
+            "Vender datos personales a terceros",
+            "Aumentar el tamaño de los archivos",
+            "Eliminar todos los datos de una base de datos",
+            "Hacer que un registro sea indistinguible para proteger la privacidad individual"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "En el modelo K-anonimato, un registro debe ser indistinguible de al menos otros 'k-1' registros.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué técnica de anonimización requiere que la distribución de un atributo sensible en un grupo sea similar a la distribución del conjunto total?",
+        "options": [
+            "T-cercanía (T-closeness)",
+            "Minimización de datos",
+            "L-diversidad",
+            "K-anonimato"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El principio de minimización de datos establece que solo se deben recopilar los datos estrictamente necesarios para un propósito específico.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué enfoque matemático permite el análisis de grandes bases de datos sin comprometer la privacidad individual mediante la adición de ruido?",
+        "options": [
+            "Análisis de Big Data",
+            "Blockchain",
+            "Criptografía Simétrica",
+            "Privacidad Diferencial"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Qué organismo de estándares retiró el algoritmo SHA-1 por no ser ya seguro frente a ataques modernos?",
+        "options": [
+            "WIPO",
+            "NIST",
+            "ISO",
+            "IEEE"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La 'seguridad por oscuridad' (mantener el algoritmo secreto) es un principio ampliamente aceptado en la criptografía moderna.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es uno de los criterios clave para seleccionar proveedores de energía para centros de datos de IA sostenibles?",
+        "options": [
+            "Distancia mínima al usuario",
+            "Costo de implementación más alto",
+            "Uso exclusivo de carbón",
+            "Uso de fuentes renovables (solar, eólica, biomasa)"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "El Inventario del Ciclo de Vida (LCI) en productos de IA incluye desde la extracción de materiales para el hardware hasta la disposición final.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cómo ayuda la descomposición de tareas en la eficiencia energética de los sistemas de IA?",
+        "options": [
+            "Eliminando la necesidad de memoria RAM",
+            "Aumentando el número de errores",
+            "Permitiendo procesar datos en paralelo para reducir el tiempo de ejecución",
+            "Haciendo que el hardware trabaje más lento"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "El balanceo de carga ineficiente puede disminuir la eficiencia global del sistema al sobrecargar algunos procesadores.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué requisito es fundamental para que una obra sea protegida por derechos de autor tradicionalmente?",
+        "options": [
+            "No tener autor conocido",
+            "Ser generada por una máquina",
+            "Ser una copia exacta de la realidad",
+            "Cumplir con un umbral de originalidad e intelecto humano"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Actualmente, existe incertidumbre jurídica sobre si el entrenamiento de IA con obras protegidas constituye una infracción.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Para qué sirven los 'Datasheets for Datasets' según los materiales?",
+        "options": [
+            "Para reemplazar a los programadores",
+            "Para aumentar el costo de la IA",
+            "Para ocultar errores en el entrenamiento",
+            "Para documentar la procedencia, metodología y sesgos de los datos"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Si se otorga personificación jurídica a la IA, ella misma podría ser la titular de sus derechos de autor.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Quién acuñó el término 'desempleo tecnológico' en su ensayo de 1930?",
+        "options": [
+            "Bill Gates",
+            "John Maynard Keynes",
+            "Karl Marx",
+            "Adam Smith"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El crecimiento del empleo en las últimas décadas ha tenido forma de 'U', polarizándose hacia habilidades muy bajas o muy altas.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Según estimaciones de la industria, ¿qué porcentaje de los incidentes de ciberseguridad tienen origen en un error humano?",
+        "options": [
+            "95%",
+            "100%",
+            "25%",
+            "50%"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Conocer los conceptos técnicos de ciberseguridad en clase garantiza que el estudiante aplique buenos hábitos en su vida diaria.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué ataque de ingeniería social sigue siendo uno de los vectores más efectivos contra estudiantes y profesionales?",
+        "options": [
+            "Ataque de fuerza bruta",
+            "Denegación de servicio (DoS)",
+            "Inyección SQL",
+            "Phishing"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Cuál es un componente de los SI que define el mantenimiento y uso de operaciones?",
+        "options": [
+            "Hardware",
+            "Procedimientos Operativos"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué permite la manipulación de datos y ejecución de análisis complejos en un SI?",
+        "options": [
+            "Software",
+            "Redes"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Cuál es el núcleo de cualquier sistema de información?",
+        "options": [
+            "Datos",
+            "Cables"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Las redes facilitan la comunicación rompiendo barreras geográficas.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La computación móvil ha transformado las interacciones sociales.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué concepto describe la desigualdad en el acceso a las tecnologías de la información?",
+        "options": [
+            "Brecha Digital",
+            "Sesgo de Algoritmo"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La automatización desafía las estructuras de empleo tradicionales.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué país ya cuenta con reglamentos específicos para IA generativa según los textos?",
+        "options": [
+            "Brasil",
+            "China"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La Unión Europea tiene previsto regular la IA en breve.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Los piratas informáticos pueden extraer datos mediante 'inyección de instrucciones'.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué riesgo surge si un usuario incluye secretos comerciales en un prompt de IA?",
+        "options": [
+            "Mejora del modelo",
+            "Revelación involuntaria"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Se recomienda usar nubes privadas para IA que maneje datos sensibles.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué técnica de anonimización protege contra ataques de vinculación?",
+        "options": [
+            "K-anonimato",
+            "Cifrado de disco"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La I-diversidad exige que haya valores distintos para atributos sensibles.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué factor se mide en términos de complejidad computacional necesaria para romper un cifrado?",
+        "options": [
+            "Resistencia Criptográfica",
+            "Latencia"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Los algoritmos deben ser de dominio público para permitir el escrutinio.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué ISO se menciona para la gestión ambiental?",
+        "options": [
+            "ISO 14001",
+            "ISO 9001"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El estándar LEED se usa para construcciones sostenibles de centros de datos.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué técnica permite recuperar el estado del sistema en caso de fallos?",
+        "options": [
+            "Checkpointing",
+            "Replicación"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La escalabilidad de un sistema distribuido debe ser predecible.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué invención del Siglo XV marcó el primer gran desafío para el copyright?",
+        "options": [
+            "La Imprenta",
+            "La Radio"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La fotografía en el siglo XIX fue cuestionada como obra original.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué ley de 1998 en EE.UU. regula los derechos de autor digitales?",
+        "options": [
+            "GDPR",
+            "DMCA"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El proyecto 'The Next Rembrandt' generó debates sobre autoría algorítmica.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué requiere el umbral de originalidad?",
+        "options": [
+            "Mínimo de creatividad humana",
+            "Cero errores"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La autoría colaborativa ocurre entre desarrolladores y máquinas.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué principio de datos busca que sean Encontrables y Accesibles?",
+        "options": [
+            "Principios FAIR",
+            "Principios SOAP"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La originalidad en la IA es cuestionable sin creatividad humana directa.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué predijo Leontief en 1983 sobre los trabajadores?",
+        "options": [
+            "Que serían como los caballos",
+            "Que serían reyes"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La pérdida de empleo afecta la esperanza de vida.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué porcentaje de incidentes de seguridad son técnicos puros?",
+        "options": [
+            "95%",
+            "5%"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El phishing usa técnicas psicológicas para robar datos.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué permite trazar componentes electrónicos desde el origen?",
+        "options": [
+            "Cables",
+            "Interoperabilidad de Sistemas"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Blockchain ofrece inmutabilidad de registros en trazabilidad.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué técnica optimiza hiperparámetros basándose en evolución biológica?",
+        "options": [
+            "Grid Search",
+            "Algoritmos Genéticos"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La optimización Bayesiana usa el rendimiento anterior para elegir el siguiente paso.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué agente aprende estrategias para maximizar una recompensa?",
+        "options": [
+            "Aprendizaje por Refuerzo",
+            "Random Forest"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La energía solar es considerada una fuente de energía renovable limpia.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué implica la interoperabilidad?",
+        "options": [
+            "Que sistemas diferentes trabajen juntos",
+            "Que solo usemos Linux"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La seguridad de datos en la cadena de suministro es un aspecto crítico.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué norma facilita la compatibilidad global de sistemas?",
+        "options": [
+            "Leyes locales",
+            "Estándares Universales"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El análisis de Big Data puede predecir la vida útil de componentes.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué abarca la gestión de activos de información?",
+        "options": [
+            "Compra de sillas",
+            "Inventario y clasificación"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El principio de mínimo privilegio limita el acceso a solo lo necesario.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué firma asegura las transacciones y comunicaciones?",
+        "options": [
+            "Sello de goma",
+            "Firma Digital"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La seguridad física protege contra desastres naturales.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué teoría sugiere que la gobernanza de datos es multifacética?",
+        "options": [
+            "Ley de Ohm",
+            "Teoría de Sistemas Complejos"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "El principio de subsidiariedad dice que las decisiones deben ser locales.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué modelo aplica el voto y consenso en la organización?",
+        "options": [
+            "Democracia Organizacional",
+            "Monarquía"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El diseño centrado en el usuario atiende las necesidades finales.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué permite el consentimiento dinámico?",
+        "options": [
+            "Venta rápida de datos",
+            "Control continuo del usuario sobre sus datos"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Blockchain puede gestionar preferencias de consentimiento de forma segura.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué reglamento de Europa rige el consentimiento de datos?",
+        "options": [
+            "GDPR",
+            "FIFA"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La ética en gobernanza de datos es fundamental para la privacidad.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué herramienta actual de IA generativa se menciona?",
+        "options": [
+            "ChatGPT",
+            "Excel 97"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La IA generativa se basa en el aprendizaje automático (ML).",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué costo puede suponer el desarrollo de una IA generativa?",
+        "options": [
+            "Decenas de millones de dólares",
+            "100 soles"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Las empresas prefieren usar herramientas de terceros por costo.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué puede generar una IA inadecuadamente?",
+        "options": [
+            "Contenidos discriminatorios",
+            "Pan artesanal"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Las leyes de PI son más antiguas que el nacimiento de la IA.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué organización publicó orientaciones sobre uso responsable de IA?",
+        "options": [
+            "UNESCO",
+            "FIFA"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La inyección de instrucciones es un riesgo de seguridad de la IA.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué es un secreto comercial?",
+        "options": [
+            "Información con valor económico secreto",
+            "Un chisme de oficina"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Se debe limitar el acceso a IA que maneje datos sensibles.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué derechos de PI afectan los litigios de IA?",
+        "options": [
+            "Derechos de autor y marcas",
+            "Solo patentes"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La responsabilidad de infracción de PI puede no depender de la intención.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué principio rige si una IA es considerada autor?",
+        "options": [
+            "Personificación Jurídica",
+            "Duda razonable"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La gestión de regalías de IA requeriría agentes humanos.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué efecto tiene la automatización en la clase media?",
+        "options": [
+            "La reduce",
+            "La triplica"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Los luditas destruyeron telares en el siglo XIX.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué empresa generó protestas de taxistas en Bogotá?",
+        "options": [
+            "Uber",
+            "Petroperú"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La educación debe integrar habilidades tecnológicas fundamentales.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Qué técnica permite procesar conjuntos de datos simultáneamente?",
+        "options": [
+            "Programación Paralela",
+            "Cintas magnéticas"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La comunicación entre procesos evita condiciones de carrera.",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿Qué técnica de optimización explora valores exhaustivamente?",
+        "options": [
+            "Grid Search (Búsqueda de rejilla)",
+            "Random Search"
+        ],
+        "answer": 0
+    }
+]

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen - Computación en la Sociedad</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --primary-color: #FF9800;
+            --primary-hover: #F57C00;
+            --secondary-color: #333;
+            --border-color: #444;
+            --correct-bg: #2d4a2d;
+            --correct-text: #4caf50;
+            --incorrect-bg: #4a2d2d;
+            --incorrect-text: #f44336;
+            --card-bg: #2a2a2a;
+            --highlight-color: #3a3a3a;
+        }
+    
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+    
+        h1, h2, h3 {
+            color: #f5f5f5;
+        }
+    
+        .question {
+            margin-bottom: 25px;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background-color: var(--card-bg);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+    
+        .question:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+    
+        .options {
+            margin-left: 25px;
+            margin-top: 15px;
+        }
+    
+        input[type="radio"] {
+            accent-color: var(--primary-color);
+            margin-right: 10px;
+            transform: scale(1.1);
+        }
+    
+        label {
+            cursor: pointer;
+            user-select: none;
+        }
+    
+        button {
+            padding: 12px 24px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    
+        button:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    
+        #timer {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            background: var(--secondary-color);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            border: 2px solid var(--primary-color);
+        }
+    
+        #loading {
+            text-align: center;
+            padding: 30px;
+            font-size: 18px;
+            color: var(--text-color);
+        }
+    
+        /* Estilos para pregunta individual */
+        .question-header {
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .progress-info h3 {
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background-color: var(--secondary-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-color), #FFB74D);
+            transition: width 0.5s ease;
+        }
+
+        .question-text {
+            margin: 20px 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .option-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .option-item:hover {
+            border-color: var(--primary-color);
+            background-color: var(--highlight-color);
+            transform: translateX(5px);
+        }
+
+        .option-item.selected {
+            border-color: var(--primary-color);
+            background-color: rgba(33, 150, 243, 0.2);
+            transform: scale(1.02);
+        }
+
+        .option-item input[type="radio"] {
+            margin-right: 15px;
+        }
+
+        .option-item label {
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+
+        /* Botón siguiente */
+        .next-button-container {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .next-button {
+            padding: 15px 30px;
+            background: linear-gradient(45deg, var(--primary-color), #FFB74D);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+            min-width: 200px;
+        }
+
+        .next-button:hover:not(.disabled) {
+            background: linear-gradient(45deg, var(--primary-hover), #FF9800);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+        }
+
+        .next-button.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Estilos para pantalla de resultados */
+        .results-container {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--card-bg);
+            border-radius: 15px;
+            border: 2px solid var(--border-color);
+            margin: 30px 0;
+        }
+
+        .score-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-color), #FFB74D);
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 8px 20px rgba(255, 152, 0, 0.3);
+        }
+
+        .results-container h2 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            color: var(--primary-color);
+        }
+
+        .results-details {
+            background: var(--highlight-color);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+        .retry-button {
+            background: linear-gradient(45deg, var(--primary-color), #FFB74D);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
+        }
+
+        .retry-button:hover {
+            background: linear-gradient(45deg, var(--primary-hover), #FF9800);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+        }
+
+        .home-button {
+            background: var(--secondary-color);
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+            padding: 12px 30px;
+            font-size: 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-left: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .home-button:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .message {
+            font-size: 1.3rem;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .message.excellent {
+            background: var(--correct-bg);
+            color: var(--correct-text);
+            border: 2px solid var(--correct-text);
+        }
+
+        .message.good {
+            background: rgba(255, 193, 7, 0.2);
+            color: #FFD700;
+            border: 2px solid #FFD700;
+        }
+
+        .message.needswork {
+            background: var(--incorrect-bg);
+            color: var(--incorrect-text);
+            border: 2px solid var(--incorrect-text);
+        }
+    </style>
+</head>
+<body>
+    <div id="timer"></div>
+    <div id="loading">Cargando preguntas...</div>
+
+    <script>
+        let currentQuestion = 0;
+        let questions = [];
+        let userAnswers = [];
+        let timeLeft = 25 * 60; // 25 minutos en segundos
+
+        // Cargar preguntas
+        async function loadQuestions() {
+            try {
+                const response = await fetch('./preguntas.json');
+                questions = await response.json();
+                
+                if (questions.length === 0) {
+                    document.getElementById('loading').innerHTML = '<h2>No hay preguntas disponibles</h2><p>Por favor, cargue las preguntas en el archivo preguntas.json</p>';
+                    return;
+                }
+
+                // Randomizar preguntas (máximo 20)
+                questions = questions.sort(() => Math.random() - 0.5).slice(0, 20);
+                userAnswers = new Array(questions.length).fill(null);
+                
+                startTimer();
+                showQuestion();
+            } catch (error) {
+                document.getElementById('loading').innerHTML = '<h2>Error</h2><p>No se pudieron cargar las preguntas</p>';
+                console.error('Error:', error);
+            }
+        }
+
+        function startTimer() {
+            const timerDisplay = document.getElementById('timer');
+            
+            const updateTimer = () => {
+                const minutes = Math.floor(timeLeft / 60);
+                const seconds = timeLeft % 60;
+                timerDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    finishExam();
+                } else {
+                    timeLeft--;
+                }
+            };
+
+            updateTimer();
+            const timerInterval = setInterval(updateTimer, 1000);
+        }
+
+        function showQuestion() {
+            if (currentQuestion >= questions.length) {
+                finishExam();
+                return;
+            }
+
+            const question = questions[currentQuestion];
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
+
+            let html = `
+                <div class="question-header">
+                    <div class="progress-info">
+                        <h3>Pregunta ${currentQuestion + 1} de ${questions.length}</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: ${progress}%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div class="question-text"><strong>${question.question}</strong></div>
+                    <div class="options">`;
+
+            question.options.forEach((option, index) => {
+                const checked = userAnswers[currentQuestion] === index ? 'checked' : '';
+                html += `
+                    <div class="option-item ${checked ? 'selected' : ''}">
+                        <input type="radio" id="option${index}" name="answer" value="${index}" ${checked} 
+                               onchange="selectOption(${index})">
+                        <label for="option${index}">${option}</label>
+                    </div>`;
+            });
+
+            html += `
+                    </div>
+                </div>
+
+                <div class="next-button-container">
+                    ${currentQuestion > 0 ? `<button onclick="previousQuestion()" style="margin-right: 10px;">← Anterior</button>` : ''}
+                    ${currentQuestion < questions.length - 1 ? `<button class="next-button ${userAnswers[currentQuestion] === null ? 'disabled' : ''}" onclick="nextQuestion()" ${userAnswers[currentQuestion] === null ? 'disabled' : ''}>Siguiente →</button>` : ''}
+                    ${currentQuestion === questions.length - 1 ? `<button class="next-button ${userAnswers[currentQuestion] === null ? 'disabled' : ''}" onclick="finishExam()" ${userAnswers[currentQuestion] === null ? 'disabled' : ''}>Finalizar Examen</button>` : ''}
+                </div>`;
+
+            document.getElementById('loading').innerHTML = html;
+        }
+
+        function selectOption(index) {
+            userAnswers[currentQuestion] = index;
+            document.querySelectorAll('.option-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+            event.target.closest('.option-item').classList.add('selected');
+            updateButtonStates();
+        }
+
+        function updateButtonStates() {
+            const nextBtn = document.querySelector('.next-button');
+            if (nextBtn) {
+                if (userAnswers[currentQuestion] === null) {
+                    nextBtn.classList.add('disabled');
+                    nextBtn.disabled = true;
+                } else {
+                    nextBtn.classList.remove('disabled');
+                    nextBtn.disabled = false;
+                }
+            }
+        }
+
+        function nextQuestion() {
+            if (userAnswers[currentQuestion] !== null) {
+                currentQuestion++;
+                showQuestion();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion();
+            }
+        }
+
+        function finishExam() {
+            let correct = 0;
+            
+            questions.forEach((question, index) => {
+                if (userAnswers[index] === question.correctAnswer) {
+                    correct++;
+                }
+            });
+
+            const percentage = Math.round((correct / questions.length) * 100);
+            let message = '';
+            let messageClass = '';
+
+            if (percentage >= 80) {
+                message = '¡Excelente! Obtuviste una puntuación sobresaliente.';
+                messageClass = 'excellent';
+            } else if (percentage >= 60) {
+                message = 'Buen trabajo. Puedes mejorar en algunos temas.';
+                messageClass = 'good';
+            } else {
+                message = 'Necesitas estudiar más. Intenta nuevamente.';
+                messageClass = 'needswork';
+            }
+
+            const html = `
+                <div class="results-container">
+                    <h2>Resultados Finales</h2>
+                    <div class="score-circle">${percentage}%</div>
+                    <div class="message ${messageClass}">${message}</div>
+                    <div class="results-details">
+                        <div class="detail-row">
+                            <span>Respuestas correctas:</span>
+                            <span><strong>${correct}/${questions.length}</strong></span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Porcentaje:</span>
+                            <span><strong>${percentage}%</strong></span>
+                        </div>
+                        <div class="detail-row">
+                            <span>Tiempo usado:</span>
+                            <span><strong>${Math.floor((25 * 60 - timeLeft) / 60)} min ${(25 * 60 - timeLeft) % 60} seg</strong></span>
+                        </div>
+                    </div>
+                    <button class="retry-button" onclick="location.href='./index.html'">🔄 Intentar de Nuevo</button>
+                    <a href="../index.html" class="home-button">🏠 Ir al Inicio</a>
+                </div>`;
+
+            document.getElementById('timer').style.display = 'none';
+            document.getElementById('loading').innerHTML = html;
+        }
+
+        // Iniciar cuando carga la página
+        window.addEventListener('load', loadQuestions);
+    </script>
+</body>
+</html>
