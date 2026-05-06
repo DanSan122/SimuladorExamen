@@ -314,6 +314,66 @@
             color: var(--incorrect-text);
             border: 2px solid var(--incorrect-text);
         }
+        
+        /* Result breakdown styles */
+        .result-list {
+            margin-top: 20px;
+            display: grid;
+            gap: 12px;
+            max-height: 400px;
+            overflow: auto;
+            padding: 10px;
+            border-radius: 8px;
+            background: rgba(0,0,0,0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        .result-item {
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .result-item.correct {
+            border: 2px solid var(--correct-text);
+            background: rgba(76,175,80,0.06);
+        }
+
+        .result-item.incorrect {
+            border: 2px solid var(--incorrect-text);
+            background: rgba(244,67,54,0.04);
+        }
+
+        .result-q {
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .result-answers {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+        }
+
+        .answer-label {
+            padding: 6px 10px;
+            border-radius: 999px;
+        }
+
+        .answer-label.user {
+            background: rgba(33,150,243,0.08);
+            color: #bbdefb;
+            border: 1px solid rgba(33,150,243,0.12);
+        }
+
+        .answer-label.correct {
+            background: rgba(76,175,80,0.12);
+            color: #c8e6c9;
+            border: 1px solid rgba(76,175,80,0.12);
+        }
     </style>
 </head>
 <body>
@@ -459,7 +519,6 @@
                     correct++;
                 }
             });
-
             const percentage = Math.round((correct / questions.length) * 100);
             let message = '';
             let messageClass = '';
@@ -474,6 +533,23 @@
                 message = 'Necesitas estudiar más. Intenta nuevamente.';
                 messageClass = 'needswork';
             }
+
+            // Construir desglose por pregunta
+            let breakdownHtml = '<div class="result-list">';
+            questions.forEach((question, index) => {
+                const userIdx = userAnswers[index];
+                const isCorrect = userIdx === question.correctAnswer;
+                const userText = userIdx === null ? 'No respondió' : question.options[userIdx];
+                const correctText = question.options[question.correctAnswer];
+
+                breakdownHtml += `\n<div class="result-item ${isCorrect ? 'correct' : 'incorrect'}">\n` +
+                    `<div class="result-q">${index + 1}. ${question.question}</div>` +
+                    `<div class="result-answers">` +
+                        `<span class="answer-label user">Tu respuesta: ${userText}</span>` +
+                        `<span class="answer-label correct">Correcta: ${correctText}</span>` +
+                    `</div>\n</div>`;
+            });
+            breakdownHtml += '</div>';
 
             const html = `
                 <div class="results-container">
@@ -494,6 +570,7 @@
                             <span><strong>${Math.floor((25 * 60 - timeLeft) / 60)} min ${(25 * 60 - timeLeft) % 60} seg</strong></span>
                         </div>
                     </div>
+                    ${breakdownHtml}
                     <button class="retry-button" onclick="location.href='./index.html'">🔄 Intentar de Nuevo</button>
                     <a href="../index.html" class="home-button">🏠 Ir al Inicio</a>
                 </div>`;
