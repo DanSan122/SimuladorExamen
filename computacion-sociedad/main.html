@@ -515,7 +515,8 @@
             let correct = 0;
             
             questions.forEach((question, index) => {
-                if (userAnswers[index] === question.correctAnswer) {
+                const correctIdx = (typeof question.correctAnswer !== 'undefined') ? question.correctAnswer : question.answer;
+                if (userAnswers[index] === correctIdx) {
                     correct++;
                 }
             });
@@ -538,9 +539,10 @@
             let breakdownHtml = '<div class="result-list">';
             questions.forEach((question, index) => {
                 const userIdx = userAnswers[index];
-                const isCorrect = userIdx === question.correctAnswer;
+                const correctIdx = (typeof question.correctAnswer !== 'undefined') ? question.correctAnswer : question.answer;
+                const isCorrect = userIdx === correctIdx;
                 const userText = userIdx === null ? 'No respondió' : question.options[userIdx];
-                const correctText = question.options[question.correctAnswer];
+                const correctText = question.options[correctIdx];
 
                 breakdownHtml += `\n<div class="result-item ${isCorrect ? 'correct' : 'incorrect'}">\n` +
                     `<div class="result-q">${index + 1}. ${question.question}</div>` +
