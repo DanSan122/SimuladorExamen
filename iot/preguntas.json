@@ -1,0 +1,944 @@
+[
+  {
+    "question": "El sensor LDR (Light Dependant Resistor) basa su funcionamiento en:",
+    "options": [
+      "El sulfuro de cadmio (CdS)",
+      "Un cristal de cuarzo",
+      "Una bobina de cobre",
+      "La presión del aire"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cómo se debe conectar un amperímetro para medir la corriente?",
+    "options": [
+      "Con una resistencia en paralelo",
+      "En paralelo",
+      "Entre tierra y la fuente",
+      "En serie"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué es un biotransductor?",
+    "options": [
+      "Un cable que transmite datos médicos",
+      "Una bacteria modificada genéticamente",
+      "Dispositivo que convierte energía fisiológica en señal electrónica",
+      "Un robot que realiza cirugías"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El Arduino Mega usa niveles lógicos de 5V por defecto.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué comando de Arduino lee el valor de un pin analógico?",
+    "options": [
+      "readPin(A0)",
+      "analogRead()",
+      "getAnalog()",
+      "digitalRead()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En un divisor de tensión con R1 y R2 en serie, el voltaje de salida en R2 es:",
+    "options": [
+      "Vsal = V1 / (R1 * R2)",
+      "Vsal = V1 * (R2 / (R1 + R2))",
+      "Vsal = V1 * (R1 / (R2))",
+      "Vsal = V1 * (R1 + R2) / R2"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Según la 1ra Ley de Kirchhoff (LCK):",
+    "options": [
+      "La suma de corrientes en un nodo es cero",
+      "El voltaje en un lazo cerrado es constante",
+      "La resistencia total siempre aumenta",
+      "La energía se pierde en calor"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En una conexión en paralelo de resistencias, el voltaje a través de cada una es:",
+    "options": [
+      "Cero",
+      "Diferente",
+      "Proporcional a su resistencia",
+      "El mismo"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "En el modelo Windkessel, el condensador C representa:",
+    "options": [
+      "Las válvulas cardíacas",
+      "La viscosidad de la sangre",
+      "El pulso eléctrico del nodo sinusal",
+      "La distensibilidad/elasticidad de los vasos"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Los sensores instalados permanentemente (ej. termómetro de pared) se clasifican por su ubicación como:",
+    "options": [
+      "Portátiles",
+      "Distribuidos",
+      "Fijos",
+      "Nanoelectrónicos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "'iParking' es una aplicación de IoT orientada a Ciudades Inteligentes.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué sensor se utiliza para detectar alcohol?",
+    "options": [
+      "MQ-3",
+      "MQ-7",
+      "DHT22",
+      "MQ-2"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un 'Objeto Inteligente' se define como un dispositivo que tiene:",
+    "options": [
+      "Inteligencia artificial propia",
+      "Sensor/actuador, microprocesador, comunicación y alimentación",
+      "Solo conexión Wi-Fi",
+      "Una pantalla táctil"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Los sensores electroquímicos varían su resistencia al exponerse a gases específicos.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un sistema IoT para 'Gestión de Desastres' podría incluir sensores de nivel de río.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué capa del modelo IoT se encarga de la visualización y análisis?",
+    "options": [
+      "Cables",
+      "Batería",
+      "Aplicación",
+      "Física"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El principio de funcionamiento del amperímetro requiere que su resistencia sea:",
+    "options": [
+      "Mínima",
+      "Máxima",
+      "Igual a 1 kOhm",
+      "Variable"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué sensor MQ es más sensible al monóxido de carbono (CO)?",
+    "options": [
+      "MQ-2",
+      "MQ-3",
+      "MQ-135",
+      "MQ-7"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "En la evolución de la industria, la 'Industria 4.0' se caracteriza por:",
+    "options": [
+      "Integración de IoT y sistemas ciberfísicos",
+      "La producción en masa",
+      "El uso de vapor y agua",
+      "La automatización con electrónica e IT"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El Arduino IDE permite visualizar datos por el puerto serie mediante el 'Serial Monitor'.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En el código de Arduino, la función loop() sirve para:",
+    "options": [
+      "Ejecutar el código repetidamente",
+      "Declarar variables globales",
+      "Detener el programa",
+      "Configurar los pines una sola vez"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un micrófono cardíaco es un biotransductor que usa un disco piezoeléctrico.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Para anular una fuente de tensión al calcular Rth, se debe:",
+    "options": [
+      "Reemplazar por un cortocircuito",
+      "Duplicar su valor",
+      "Reemplazar por un circuito abierto",
+      "Dejarla tal cual"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un sensor de pulso cardíaco típico de dedo (fotopletismografía) usa:",
+    "options": [
+      "Un imán",
+      "Un LED IR y un fototransistor",
+      "Un sonar",
+      "Electrodos de gel"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un actuador permite que un objeto inteligente afecte el mundo físico.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El efecto Thomson describe la generación de calor/frío con gradiente de temperatura.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El microprocesador en un objeto inteligente realiza el procesamiento de datos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Si se tienen dos resistencias iguales en paralelo de 100 ohmios cada una, la Req es:",
+    "options": [
+      "100 ohmios",
+      "25 ohmios",
+      "50 ohmios",
+      "200 ohmios"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La medición de la saturación de oxígeno (SpO2) se clasifica como una medición:",
+    "options": [
+      "Eléctrica pura",
+      "Mecánica",
+      "Térmica",
+      "Química"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "En un divisor de corriente con dos ramas en paralelo (R1 y R2), la corriente por R1 es:",
+    "options": [
+      "I1 = It * (R2 / (R1 + R2))",
+      "I1 = It / R1",
+      "I1 = It * R1 * R2",
+      "I1 = It * (R1 / (R1 + R2))"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Para medir la caída de tensión en una bombilla, el voltímetro se pone en:",
+    "options": [
+      "Cualquier parte del cable",
+      "Paralelo con la bombilla",
+      "El polo positivo únicamente",
+      "Serie con la bombilla"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La unidad de medida de la Capacitancia es el Faradio.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La 2da Ley de Kirchhoff (LVK) establece que:",
+    "options": [
+      "La corriente se divide en los nodos",
+      "La suma de voltajes en un lazo cerrado es cero",
+      "La potencia es igual a V por I",
+      "La resistencia disminuye con el calor"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En el IDE de Arduino, ¿qué botón se usa para compilar y cargar el código a la placa?",
+    "options": [
+      "Verify (Check)",
+      "Upload (Flecha)",
+      "Play",
+      "Reset"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué comando escribe un valor lógico alto (5V) en un pin digital?",
+    "options": [
+      "analogWrite(pin, 255)",
+      "setPin(HIGH)",
+      "digitalWrite(pin, HIGH)",
+      "digitalRead(pin)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El término IoT se vinculó inicialmente a la tecnología:",
+    "options": [
+      "Zigbee",
+      "Bluetooth",
+      "Wi-Fi",
+      "RFID"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Al usar un ohmímetro, el componente debe estar alimentado por la fuente del circuito.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En el modelo funcional de IoT, la 'Capa de Conectividad' utiliza protocolos como:",
+    "options": [
+      "MP3",
+      "JPEG",
+      "MQTT y CoAP",
+      "HTML"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La memoria Flash del ATmega2560 es de:",
+    "options": [
+      "32 KB",
+      "256 KB",
+      "8 KB",
+      "4 KB"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué protocolo de comunicación utiliza el sensor DHT22?",
+    "options": [
+      "Bluetooth",
+      "SPI",
+      "I2C",
+      "Single-Bus (Un solo hilo)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué significa PWM en el contexto de Arduino?",
+    "options": [
+      "Primary Wired Module",
+      "Pulse Width Modulation",
+      "Power Watt Management",
+      "Programmable Wave Mode"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué tipo de datos recopila un sensor de humedad?",
+    "options": [
+      "Datos físicos",
+      "Datos de ubicación",
+      "Datos biológicos",
+      "Datos químicos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En el modelo de salud, el 'Vaso Pequeño' periférico se asocia con alta resistencia.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El ohmímetro se conecta en serie sin retirar la alimentación del circuito.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El Efecto Seebeck es la base de:",
+    "options": [
+      "Capacitores cerámicos",
+      "Altavoces",
+      "Motores DC",
+      "Termopares"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "En el sensor ultrasónico, la distancia se calcula multiplicando el tiempo por:",
+    "options": [
+      "La frecuencia del pulso",
+      "La gravedad",
+      "La velocidad de la luz",
+      "La velocidad del sonido / 2"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Cómo se calcula la resistencia equivalente de resistencias en serie?",
+    "options": [
+      "Sumando sus valores individuales",
+      "Restando el valor mayor del menor",
+      "Sumando sus inversos",
+      "Multiplicando sus valores"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué material es capaz de generar cargas eléctricas como respuesta a un flujo de calor?",
+    "options": [
+      "Material Ferromagnético",
+      "Material Piroeléctrico",
+      "Resistencia de carbón",
+      "Plástico común"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuántos de los pines digitales del Arduino Mega pueden usarse como salidas PWM?",
+    "options": [
+      "15",
+      "16",
+      "54",
+      "6"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "De acuerdo con IoT Analytics, ¿cuántos dispositivos conectados se estima que habrá para el año 2030?",
+    "options": [
+      "40 mil millones",
+      "5 mil millones",
+      "10 mil millones",
+      "100 mil millones"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuántos pines digitales de entrada/salida posee el Arduino Mega 2560?",
+    "options": [
+      "20",
+      "54",
+      "14",
+      "100"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En sistemas de medición fisiológica, casi todos los transductores son de:",
+    "options": [
+      "Potencia",
+      "Entrada",
+      "Respaldo",
+      "Salida"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La unidad de medida de la Resistencia es:",
+    "options": [
+      "Amperio",
+      "Voltio",
+      "Vatio",
+      "Ohmio"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "El sensor infrarrojo de pulso cardíaco mide el cambio en la absorción de luz.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Tinkercad es una plataforma de simulación de circuitos electrónicos.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué representa el símbolo '~' junto a algunos pines en la placa Arduino?",
+    "options": [
+      "Capacidad PWM",
+      "Pin de tierra",
+      "Entrada analógica",
+      "Conexión de alta tensión"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El efecto Hall se utiliza para detectar:",
+    "options": [
+      "Nivel de CO2",
+      "Humedad relativa",
+      "Radiación UV",
+      "Campos magnéticos"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué capa del modelo IoT se encarga del switching, routing y traducción de protocolos?",
+    "options": [
+      "Capa Física",
+      "Capa de Aplicación",
+      "Capa de Datos",
+      "Conectividad (Capa 2)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿En qué microcontrolador se basa la placa Arduino Mega 2560?",
+    "options": [
+      "ESP32",
+      "ATmega2560",
+      "ARM Cortex-M0",
+      "ATmega328P"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En el modelo Windkessel del sistema cardiovascular, ¿qué representa la resistencia R?",
+    "options": [
+      "Resistencia de los vasos sanguíneos (vasos periféricos)",
+      "El volumen de sangre en el corazón",
+      "La elasticidad de las paredes arteriales",
+      "La presión generada por el ventrículo"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "La tecnología de sensores que utiliza la luz para recoger datos se llama:",
+    "options": [
+      "Optoelectrónica",
+      "Electroquímica",
+      "Crioelectrónica",
+      "Mecatrónica"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El término 'Smart Dust' se refiere a redes de sensores microscópicos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un display LCD 16x2 tiene:",
+    "options": [
+      "16 colores",
+      "16 filas y 2 columnas",
+      "32 píxeles totales",
+      "16 columnas y 2 filas"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "El curso de IoT busca implementar redes de sensores con Arduino.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La Ley de Ohm establece la relación entre:",
+    "options": [
+      "Voltaje, Corriente y Resistencia",
+      "Gravedad y Carga eléctrica",
+      "Capacitancia y Frecuencia",
+      "Potencia, Tiempo y Energía"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un termistor NTC (Negative Temperature Coefficient) se caracteriza porque:",
+    "options": [
+      "Su resistencia sube al subir la temperatura",
+      "Funciona solo bajo el agua",
+      "Produce un voltaje constante",
+      "Su resistencia baja al subir la temperatura"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué variable se mide comúnmente con técnicas de EEG, ECG y EMG?",
+    "options": [
+      "Concentración de glucosa",
+      "Temperatura corporal",
+      "Presión arterial",
+      "Voltaje (potencial eléctrico)"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "El teorema de Thévenin permite simplificar un circuito complejo a una fuente de tensión y una resistencia en serie.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El equivalente de Norton utiliza una fuente de corriente en paralelo con una resistencia.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál debe ser la resistencia interna ideal de un voltímetro?",
+    "options": [
+      "Infinita (muy alta)",
+      "100 ohmios",
+      "Cero (muy baja)",
+      "Igual a la del circuito"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El sensor de humedad de suelo YL-69 funciona midiendo:",
+    "options": [
+      "La vibración sísmica",
+      "La resistencia/conductividad del suelo",
+      "El color de la tierra",
+      "La temperatura de las raíces"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La Ley de Kirchhoff de voltajes se basa en la conservación de la energía.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El biotransductor define a menudo la resolución del sistema de medición completo.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es la función del pin AREF en Arduino?",
+    "options": [
+      "Reiniciar la placa",
+      "Referencia de voltaje para entradas analógicas",
+      "Conectar a tierra",
+      "Alimentar componentes de 3.3V"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El medidor de humedad de suelo YL-69 tiene una salida digital ajustable.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un sistema en lazo abierto tiene retroalimentación del sensor.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El sensor DHT22 tiene salida de tipo analógica.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un componente pasivo común en electrónica es:",
+    "options": [
+      "Fuente de voltaje",
+      "Sensor activo",
+      "Resistencia",
+      "Microcontrolador"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cómo varía la resistencia de un LDR cuando aumenta la intensidad de la luz?",
+    "options": [
+      "Disminuye",
+      "Oscila",
+      "Aumenta",
+      "Se mantiene constante"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El ojo humano, por sí solo en un sistema de control de tanques, no se considera técnicamente un sensor IoT.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un sensor 'Activo' requiere una fuente de alimentación externa.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es la extensión de archivo de un programa de Arduino?",
+    "options": [
+      ".cpp",
+      ".ino",
+      ".ard",
+      ".exe"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El sensor ultrasónico HC-SR04 mide la distancia mediante:",
+    "options": [
+      "Resistencia del aire",
+      "Presión del aire",
+      "Ondas sonoras de alta frecuencia",
+      "Láser infrarrojo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un sensor es un dispositivo que responde a un estímulo con una:",
+    "options": [
+      "Voz humana",
+      "Acción mecánica",
+      "Señal eléctrica",
+      "Imagen visual"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es la función principal de la capa de Edge (Fog) Computing?",
+    "options": [
+      "Proporcionar energía eléctrica",
+      "Gestionar el marketing de la aplicación",
+      "Analizar y transformar datos cerca de la fuente",
+      "Crear el diseño físico del sensor"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué componente almacena energía en forma de campo magnético?",
+    "options": [
+      "Inductor",
+      "Capacitor",
+      "Diodo",
+      "Resistencia"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En el modelo de abstracción de IoT, ¿cuál es la Capa 1?",
+    "options": [
+      "Cosas (Things)",
+      "Edge Computing",
+      "Aplicaciones",
+      "Conectividad"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué efecto consiste en la generación de carga eléctrica por un material cristalino bajo estrés mecánico?",
+    "options": [
+      "Efecto Seebeck",
+      "Efecto Piezoeléctrico",
+      "Efecto Hall",
+      "Efecto Fotoeléctrico"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Si un voltímetro tiene baja resistencia interna, ocurre el efecto de:",
+    "options": [
+      "Amplificación",
+      "Carga (Loading effect)",
+      "Inducción",
+      "Cortocircuito"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es la velocidad de reloj estándar del Arduino Mega 2560?",
+    "options": [
+      "2 GHz",
+      "8 MHz",
+      "16 MHz",
+      "48 MHz"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un multímetro digital puede medir voltajes tanto en DC como en AC.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué función del IDE de Arduino se usa para establecer el modo de un pin?",
+    "options": [
+      "pinMode()",
+      "digitalWrite()",
+      "analogRead()",
+      "setup()"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es el propósito principal de un biotransductor en el procesamiento de señales?",
+    "options": [
+      "Generar energía para el paciente",
+      "Aislar al médico del paciente",
+      "Transferir información",
+      "Aumentar la presión sanguínea"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En el sensor ultrasónico, el pin que produce el pulso cuando se recibe el eco es:",
+    "options": [
+      "Trig",
+      "VCC",
+      "GND",
+      "Echo"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Quién acuñó el término 'Internet de las Cosas' (IoT) por primera vez?",
+    "options": [
+      "Tim Berners-Lee",
+      "Bill Gates",
+      "Kevin Ashton",
+      "Steve Jobs"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La placa Arduino Mega tiene 16 entradas analógicas.",
+    "options": [
+      "Falso",
+      "Verdadero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un inductor se opone a cambios bruscos de:",
+    "options": [
+      "Resistencia",
+      "Temperatura",
+      "Voltaje",
+      "Corriente"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "El efecto Peltier se utiliza principalmente para:",
+    "options": [
+      "Medir distancias",
+      "Generar luz",
+      "Refrigeración o calentamiento",
+      "Detectar gases"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El microcontrolador ATmega2560 tiene una memoria EEPROM de:",
+    "options": [
+      "16 MHz",
+      "8 KB",
+      "256 KB",
+      "4 KB"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "El pin VIN del Arduino sirve para alimentar la placa con una fuente externa de 7-12V.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  }
+]
