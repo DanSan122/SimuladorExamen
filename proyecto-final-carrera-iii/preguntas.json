@@ -1,0 +1,902 @@
+[
+  {
+    "question": "¿Cuál es la cuarta fase del Design Thinking?",
+    "options": [
+      "Empatía",
+      "Definición",
+      "Ideación",
+      "Prototipado"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Un 'Dark Horse prototype' es una idea conservadora y segura.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué tipo de prototipo mezcla ideas diversas, a menudo poco convencionales?",
+    "options": [
+      "Vision prototype",
+      "Funky prototype",
+      "Functional prototype",
+      "Final prototype"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Los prototipos de baja fidelidad son rápidos, económicos y de baja calidad visual.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué significa MVP en el contexto del Design Thinking y Lean Startup?",
+    "options": [
+      "Maximum Viable Process",
+      "Minimum Viable Product",
+      "Most Valuable Player",
+      "Minimum Value Prototype"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El Customer Journey Map incluye una 'Línea de Interacción' y una 'Línea de Visibilidad'.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué herramienta técnica utiliza la regla de los '5 Porqués'?",
+    "options": [
+      "Canvas MVP",
+      "Toyota Production System",
+      "Scrum",
+      "Customer Journey Map"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En Design Thinking, siempre comenzamos con la solución.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuáles son las tres dimensiones de la generación de valor en el modelo de innovación?",
+    "options": [
+      "Tecnología, Negocio y Personas",
+      "Diseño, Código y Testing",
+      "Finanzas, Marketing y Ventas",
+      "Viabilidad, Estabilidad y Rapidez"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En el marco BANI, la 'B' significa Brittle (Frágil).",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la secuencia correcta del micro-ciclo de Design Thinking?",
+    "options": [
+      "Idear, Prototipar, Testear, Entender, Observar, Definir",
+      "Entender, Observar, Definir, Idear, Prototipar, Testear",
+      "Definir, Entender, Prototipar, Idear, Observar, Testear",
+      "Observar, Idear, Definir, Prototipar, Entender, Testear"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Las proto-personas son una representación real y exacta de una persona individual con nombre y apellido verdadero.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En el lienzo de propuesta de valor, las características del cliente se dividen en:",
+    "options": [
+      "Ingresos, Egresos, Ahorros",
+      "Dolores, Ganancias y Actividades del cliente",
+      "Problema, Solución y Métricas",
+      "Fortalezas, Oportunidades y Amenazas"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El 'Círculo Dorado' de Simon Sinek está compuesto por ¿Por qué?, ¿Cómo? y ¿Qué?",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué metodología se describe como un 'desarrollo continuo de funcionalidades de plataforma, entregando valor incremental'?",
+    "options": [
+      "Waterfall",
+      "Lean Startup",
+      "Agile",
+      "Design Thinking"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El 90% de las startups fracasan porque se centran en generar productos que nadie quiere o necesita.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En un árbol de problemas, ¿qué representan las raíces?",
+    "options": [
+      "Los efectos",
+      "Las soluciones",
+      "El problema central",
+      "Las causas"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Al convertir un Árbol de Problemas a un Árbol de Objetivos, las causas se convierten en fines.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es uno de los valores del Manifiesto Ágil?",
+    "options": [
+      "Procesos y herramientas sobre individuos",
+      "Negociación contractual sobre colaboración",
+      "Software funcionando sobre documentación extensiva",
+      "Seguir un plan sobre responder al cambio"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El modelo en Cascada (Waterfall) divide el proyecto en fases donde cada una comienza recién cuando ha terminado la anterior.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuáles son los pilares del empirismo en Scrum?",
+    "options": [
+      "Transparencia, Inspección y Adaptación",
+      "Planificación, Ejecución y Cierre",
+      "Requisitos, Diseño y Pruebas",
+      "Velocidad, Eficacia y Control"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Los valores de Scrum incluyen Coraje, Foco, Compromiso, Respeto y Franqueza.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Quién representa los intereses de la comunidad de negocio y es la 'voz del cliente' en Scrum?",
+    "options": [
+      "Scrum Master",
+      "Equipo Scrum",
+      "Product Owner",
+      "Stakeholder"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El Scrum Master se encarga de desarrollar el producto y el código fuente.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es la duración recomendada de un Daily Scrum?",
+    "options": [
+      "1 hora",
+      "30 minutos",
+      "15 minutos",
+      "45 minutos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La Retrospectiva del Sprint es para inspeccionar y adaptar las prácticas de trabajo del equipo.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué evento de Scrum sirve para presentar el trabajo finalizado a las partes interesadas y solicitar retroalimentación?",
+    "options": [
+      "Daily Scrum",
+      "Sprint Planning",
+      "Sprint Retrospective",
+      "Sprint Review"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "El Product Backlog es la única fuente de trabajo del Equipo Scrum.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué acrónimo se utiliza para mejorar la calidad de las Historias de Usuario?",
+    "options": [
+      "SMART",
+      "INVEST",
+      "MOSCOW",
+      "WSJF"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La técnica MoSCoW clasifica los requisitos en: Must have, Should have, Could have, Won't have.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El lenguaje Gherkin para criterios de aceptación sigue la estructura:",
+    "options": [
+      "Plan, Do, Check, Act",
+      "Given, When, Then",
+      "Must, Should, Could",
+      "Who, What, Why"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un Epic (épica) es un trabajo muy pequeño que se resuelve en horas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es la responsabilidad principal en la Definición de Hecho (Definition of Done)?",
+    "options": [
+      "Definir el costo del proyecto",
+      "Cumplir las medidas de calidad requeridas por el Producto",
+      "Establecer la fecha de lanzamiento",
+      "Redactar las historias de usuario"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El Sprint Backlog es estático y no puede ser ajustado por los desarrolladores durante el Sprint.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Según Aristóteles, ¿cuáles son los tres pilares de la persuasión (retórica)?",
+    "options": [
+      "Ethos, Pathos, Logos",
+      "Pasado, Presente, Futuro",
+      "Visión, Misión, Valores",
+      "Problema, Solución, Métrica"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Ethos apela a la emoción del público.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En una presentación persuasiva, el tiempo promedio de atención de un humano en la actualidad se estima en:",
+    "options": [
+      "12 segundos",
+      "30 segundos",
+      "8 segundos",
+      "2 minutos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un Pitch persuasivo suele terminar con una Llamada a la Acción (Call to Action).",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En el Business Model Canvas, ¿cuántos bloques principales lo componen?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El modelo TAM, SAM, SOM se utiliza para calcular el tamaño del mercado.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué significa la 'S' en SAM dentro del modelo de mercado?",
+    "options": [
+      "Simple",
+      "Serviceable",
+      "Strategic",
+      "Segmented"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El enfoque Bottom-Up en TAM, SAM, SOM es más realista para una startup.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál de las siguientes es una fase de los canales de distribución según el Canvas?",
+    "options": [
+      "Ideación",
+      "Evaluación",
+      "Prototipado",
+      "Desarrollo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una relación con clientes de 'Self-service automatizado' requiere contacto humano presencial constante.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El mecanismo de fijación de precios 'Dinámico' en las fuentes de ingreso significa que:",
+    "options": [
+      "Los precios son fijos según catálogo",
+      "El precio cambia en función del mercado",
+      "El precio depende del volumen adquirido",
+      "Se negocia uno a uno verbalmente"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Las 'Actividades clave' en el BMC pueden incluir producción, resolución de problemas y gestión de plataformas/redes.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué tipo de alianza se denomina 'Coopetición'?",
+    "options": [
+      "Alianza con proveedores",
+      "Alianzas estratégicas entre empresas no competidoras",
+      "Asociaciones estratégicas entre empresas competidoras",
+      "Joint ventures"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Los costos variables no cambian sin importar el volumen de producción.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El indicador financiero que indica el tiempo que tarda un proyecto en recuperar el dinero desembolsado se llama:",
+    "options": [
+      "TIR",
+      "ROI",
+      "Periodo de recuperación o Payback",
+      "VAN"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El Valor Actual Neto (VAN) mide la rentabilidad absoluta del proyecto.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En Scrum, ¿qué métrica o técnica de priorización considera el 'Cost of Delay' dividido por el tamaño?",
+    "options": [
+      "MoSCoW",
+      "WSJF",
+      "ROI",
+      "TIR"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El Manifiesto Ágil dicta que la negociación contractual es más importante que la colaboración con el cliente.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué elemento NO es un artefacto de Scrum según la guía oficial?",
+    "options": [
+      "Product Backlog",
+      "Sprint Backlog",
+      "Project Charter",
+      "Incremento"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En Design Thinking, un 'Prototipo Funcional' se usa para probar una función clave técnica que aún no está completamente desarrollada.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué aspecto de la Retórica Aristotélica se relaciona con los datos, las estadísticas y los hechos?",
+    "options": [
+      "Ethos",
+      "Pathos",
+      "Logos",
+      "Eros"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La Hibridación de metodologías propone integrar Design Thinking para idear, Lean para validar, Agile para construir y Growth Hacking para escalar.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la función principal de la cuadrícula de captura de retroalimentación en Testeo?",
+    "options": [
+      "Estimar costos",
+      "Recopilar y organizar comentarios de usuarios",
+      "Diseñar bases de datos",
+      "Asignar tareas en Scrum"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En el modelo BANI, la 'A' significa Agilidad.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Quién es el creador del método INVEST para historias de usuario?",
+    "options": [
+      "Jeff Sutherland",
+      "Bill Wake",
+      "Simon Sinek",
+      "Alex Osterwalder"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un mapa de posicionamiento evalúa a los competidores basándose comúnmente en los ejes Precio y Calidad.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué indica un TIR que es mayor que la Tasa mínima de rentabilidad exigida (K)?",
+    "options": [
+      "Pérdidas seguras",
+      "Debe evitarse la inversión",
+      "Que el proyecto es viable y debe invertirse",
+      "Que el VAN es menor a cero"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El 'Viaje del Héroe' es una estructura de storytelling útil para conectar emocionalmente con la audiencia.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿En qué fase del Design Thinking se desafían las suposiciones y se enmarca la necesidad real del usuario?",
+    "options": [
+      "Empatizar",
+      "Definir",
+      "Prototipar",
+      "Testear"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Las métricas pirata AARRR pertenecen a la fase de Lean Startup.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La 'Estructura de costos' del Business Model Canvas debe considerar:",
+    "options": [
+      "Únicamente los impuestos",
+      "Las métricas pirata",
+      "Costos fijos, variables y economías de escala",
+      "Ingresos por suscripción"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El Customer Journey Map solo documenta los pasos que el cliente realiza internamente sin importar el tiempo.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué elemento pertenece a los 'Creadores de alegrías' en el Lienzo de Propuesta de Valor?",
+    "options": [
+      "Dolores del cliente",
+      "Beneficios adicionales o ganancias para el usuario",
+      "Obstáculos técnicos",
+      "Precios fijos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El Product Owner es el responsable de priorizar el Product Backlog.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué ocurre en un Daily Standup/Scrum?",
+    "options": [
+      "Se demuestra el incremento al cliente",
+      "Se reescribe el código legado",
+      "Se inspecciona el progreso hacia el objetivo del Sprint",
+      "Se estiman presupuestos a 5 años"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La fórmula del ROI es (Beneficio - Inversión) / Inversión x 100.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué rol en Scrum actúa como un facilitador y 'removedor' de impedimentos?",
+    "options": [
+      "Product Owner",
+      "Scrum Master",
+      "Developer",
+      "Stakeholder"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Los parámetros en un árbol de problemas son causas que el proyecto puede modificar fácilmente.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué se evalúa en el bloque 'Recursos Clave' del BMC?",
+    "options": [
+      "Cuánto nos paga el cliente",
+      "Activos físicos, intelectuales, humanos y financieros requeridos",
+      "Los canales de comunicación",
+      "La relación a largo plazo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En el modelo 'Top-Down' de mercado, se parte de variables globales ajustando hasta datos más específicos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué bloque del BMC responde a la pregunta '¿Cómo ayudamos a los clientes a evaluar nuestra propuesta de valor?'?",
+    "options": [
+      "Fuentes de ingreso",
+      "Canales de distribución (Fase de Evaluación)",
+      "Socios clave",
+      "Estructura de costes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La 'T' en INVEST significa Time-boxed.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En Scrum, ¿qué es un Incremento?",
+    "options": [
+      "Un aumento de sueldo",
+      "Un nuevo servidor comprado",
+      "Un paso verificado y utilizable hacia el Objetivo del Producto",
+      "Una historia de usuario rechazada"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una 'Joint Venture' es un tipo de asociación para crear nuevos negocios de manera conjunta.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué indica el acrónimo ODS en el contexto de proyectos e impacto global?",
+    "options": [
+      "Objetivos de Desarrollo Sostenible",
+      "Organización de Sistemas",
+      "Opciones de Diseño Simple",
+      "Operaciones de Distribución"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un 'Prototipo de Visión' sirve únicamente para probar la tecnología de una base de datos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué herramienta permite organizar visualmente post-its por afinidad para obtener hallazgos durante el Design Thinking?",
+    "options": [
+      "Matriz de Riesgo",
+      "Fase de Definición mediante clusterización",
+      "Burn-down chart",
+      "Calculadora de VAN"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El 'Refinamiento del Backlog' implica desglosar elementos grandes en historias más precisas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la función del 'Scrum Police' en un anti-patrón de Scrum Master?",
+    "options": [
+      "Cuidar la ciberseguridad",
+      "Ser un dictador inflexible de las reglas de Scrum sin adaptación",
+      "Programar interfaces seguras",
+      "Realizar testing automatizado"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En la creación del Árbol de Problemas, se aconseja tener en cuenta que un problema es la falta de una solución específica.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál de los siguientes NO es un tipo de fuente de ingresos del BMC?",
+    "options": [
+      "Fee por suscripción",
+      "Concesión de licencias",
+      "Actividades clave",
+      "Venta de activos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El 'Diagrama de Elementos Críticos' ayuda a definir preguntas del tipo '¿Cómo podríamos...?' basadas en experiencias y funciones cruciales.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la estructura correcta de una Historia de Usuario?",
+    "options": [
+      "Como [rol], quiero [acción], para [beneficio]",
+      "Por qué [rol], Qué [acción], Dónde [beneficio]",
+      "Dado [rol], Cuando [acción], Entonces [beneficio]",
+      "Necesito [acción], porque [rol] lo dice"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un MVP siempre debe ser de alta fidelidad desde el primer día.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En el contexto del modelo de negocio, ¿qué significa 'Relación con el cliente de tipo Auto-servicio'?",
+    "options": [
+      "Atención personalizada con ejecutivo",
+      "La empresa ofrece los medios para que el cliente se atienda a sí mismo",
+      "Intermediación entre compradores y vendedores",
+      "Ventas masivas por B2B"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El 'Product Goal' o Meta del Producto guía el progreso a largo plazo en Scrum.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿En la persuasión, qué rol cumple la evidencia empírica (ej. métricas, datos)?",
+    "options": [
+      "Mejora el Pathos",
+      "Fortalece el Logos",
+      "Elimina el Ethos",
+      "Reemplaza el Call to Action"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una 'Economía de Campo' es una reducción de costos por aumentar el volumen de producción del mismo ítem.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué aspecto NO es necesario para considerar una historia de usuario como INVEST?",
+    "options": [
+      "Negociable",
+      "Estimable",
+      "Estatica (Inmutable)",
+      "Independiente"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En la matriz de captura de feedback, un cuadrante se destina a las preguntas o dudas surgidas durante el testeo.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué indica un Valor Actual Neto (VAN) exactamente igual a cero?",
+    "options": [
+      "El proyecto generó grandes pérdidas",
+      "El proyecto genera rentabilidad enorme",
+      "El proyecto devuelve exactamente la rentabilidad mínima exigida",
+      "Hay un error de cálculo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un 'Sprint Goal' cambia de forma constante y aleatoria durante el propio Sprint.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En el modelo 'MoSCoW', 'Should Have' representa:",
+    "options": [
+      "Algo indispensable sin lo cual falla el proyecto",
+      "Algo muy recomendable de alta prioridad, pero no crítico para lanzar",
+      "Algo que se hará solo en la versión 3.0",
+      "Algo completamente descartado"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El 'Pitch' busca persuadir a un cliente, socio o inversionista combinando emoción, lógica y credibilidad.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "De acuerdo con el modelo VUCA a BANI, ¿cómo se describe el entorno actual?",
+    "options": [
+      "Estable, Predecible, Lineal, Simple",
+      "Frágil, Ansioso, No lineal, Incomprensible",
+      "Volátil, Único, Computacional, Activo",
+      "Vertical, Unificado, Centralizado, Analítico"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Las 'Pruebas de Aceptación' aseguran a nivel funcional si la historia de usuario cumple lo acordado con el Product Owner.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  }
+]
