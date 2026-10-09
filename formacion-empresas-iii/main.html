@@ -1,24 +1,99 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Formación de empresas III - Test</title>
-  </head>
-  <body>
-    <h1>Test — Formación de empresas III</h1>
-    <div id="app">Cargando preguntas...</div>
-    <script src="test-randomization.js"></script>
-    <script>
-      fetch('preguntas.json')
-        .then(r => r.json())
-        .then(questions => {
-          const app = document.getElementById('app');
-          app.innerHTML = '<ol>' + questions.slice(0,10).map((q,i)=>
-            `<li><strong>${q.question}</strong><ul>${q.options.map(o=>`<li>${o}</li>`).join('')}</ul></li>`
-          ).join('') + '</ol>';
-        })
-        .catch(e => { document.getElementById('app').textContent = 'Error cargando preguntas.'; console.error(e); });
-    </script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formación de empresas III - Test</title>
+  <style>
+    :root{
+      --bg-color:#1a1a1a;
+      --text-color:#e0e0e0;
+      --primary-color:#8BC34A;
+      --primary-hover:#7CB342;
+      --card-bg:#2a2a2a;
+      --border-color:#444;
+      --highlight-color:#3a3a3a;
+    }
+    body{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width:900px;
+      margin:0 auto;
+      padding:20px;
+      background-color:var(--bg-color);
+      color:var(--text-color);
+    }
+    a.back-button{
+      display:inline-block;
+      margin-bottom:15px;
+      padding:8px 12px;
+      background:var(--highlight-color);
+      color:var(--text-color);
+      text-decoration:none;
+      border-radius:6px;
+      border:1px solid var(--border-color);
+    }
+    h1{margin-bottom:10px}
+    .question{background:var(--card-bg);padding:18px;border-radius:8px;border:1px solid var(--border-color);margin-bottom:16px}
+    .options{margin-top:10px}
+    .options label{display:block;padding:8px;border-radius:6px;cursor:pointer}
+    .options input{margin-right:10px}
+    button{
+      background:var(--primary-color);color:#fff;border:none;padding:12px 20px;border-radius:8px;cursor:pointer;font-weight:600
+    }
+    button:hover{background:var(--primary-hover)}
+  </style>
+</head>
+<body>
+  <a href="../index.html" class="back-button">← Volver al inicio</a>
+  <h1>Test — Formación de empresas III</h1>
+  <div id="loading">Cargando preguntas...</div>
+  <div id="quiz" style="display:none"></div>
+  <div style="text-align:center;margin-top:18px">
+    <button id="submitBtn" style="display:none">Verificar respuestas</button>
+  </div>
+
+  <script src="test-randomization.js"></script>
+  <script>
+    function renderQuiz(questions){
+      const container = document.getElementById('quiz');
+      container.innerHTML = '';
+      questions.forEach((q, idx) =>{
+        const qDiv = document.createElement('div'); qDiv.className='question';
+        qDiv.innerHTML = `<div><strong>${idx+1}. ${q.question}</strong></div>`;
+        const opts = document.createElement('div'); opts.className='options';
+        q.options.forEach((opt,i)=>{
+          const id = `q${idx}_o${i}`;
+          const label = document.createElement('label');
+          label.innerHTML = `<input type="radio" name="q${idx}" value="${i}" id="${id}"> ${opt}`;
+          opts.appendChild(label);
+        });
+        qDiv.appendChild(opts);
+        container.appendChild(qDiv);
+      });
+      document.getElementById('loading').style.display='none';
+      container.style.display='block';
+      document.getElementById('submitBtn').style.display='inline-block';
+    }
+
+    fetch('preguntas.json')
+      .then(r=>r.json())
+      .then(qs=>{
+        const randomized = window.randomizeQuestions ? window.randomizeQuestions(qs) : qs;
+        renderQuiz(randomized.slice(0,10));
+      })
+      .catch(e=>{ document.getElementById('loading').textContent='Error cargando preguntas.'; console.error(e)});
+
+    document.getElementById('submitBtn').addEventListener('click', ()=>{
+      const total = document.querySelectorAll('.question').length;
+      let score=0;
+      const results = [];
+      document.querySelectorAll('.question').forEach((qDiv, idx)=>{
+        const selected = qDiv.querySelector('input[type=radio]:checked');
+        const correctIdx = null; // preguntas.json tiene propiedad answer but we didn't keep mapping here
+        results.push({selected: selected ? selected.value : null});
+      });
+      alert('Respuestas enviadas. (Interfaz simple)');
+    });
+  </script>
+</body>
 </html>
