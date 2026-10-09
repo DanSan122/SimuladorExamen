@@ -1,0 +1,962 @@
+[
+  {
+    "question": "¿Cuál es el enfoque central del Design Thinking?",
+    "options": [
+      "Optimizar exclusivamente costos",
+      "Resolver problemas desde las necesidades de las personas",
+      "Diseñar sin consultar usuarios",
+      "Priorizar tecnologías sobre problemas"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué caracteriza el carácter iterativo del Design Thinking?",
+    "options": [
+      "Se evita validar con usuarios",
+      "No se modifican ideas después de definirlas",
+      "Las fases pueden retroalimentarse y revisarse",
+      "Cada fase se ejecuta una sola vez"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es la finalidad de la fase Empatizar?",
+    "options": [
+      "Construir la versión definitiva",
+      "Comprender pensamientos, motivaciones y necesidades del usuario",
+      "Registrar legalmente la empresa",
+      "Establecer el precio final"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué técnica corresponde a la fase Empatizar?",
+    "options": [
+      "Entrevista con usuarios",
+      "Definición de estructura de costos",
+      "Inscripción en SUNARP",
+      "Análisis de rentabilidad anual"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Para qué se utiliza el árbol de problemas?",
+    "options": [
+      "Seleccionar un régimen tributario",
+      "Calcular la tasa de conversión",
+      "Definir colores de la interfaz",
+      "Relacionar el problema central con sus causas y efectos"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué representa un Buyer Persona?",
+    "options": [
+      "Un socio inversionista obligatorio",
+      "Un diagrama de infraestructura",
+      "Una prueba de rendimiento",
+      "Un perfil ficticio del cliente ideal basado en datos reales"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué se entiende por insight en la fase Definir?",
+    "options": [
+      "Un hallazgo revelador sobre necesidades o comportamientos del usuario",
+      "Una lista de funcionalidades terminadas",
+      "Un contrato con proveedores",
+      "Una proyección de costos fijos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la estructura de un Point of View (POV)?",
+    "options": [
+      "Capital, impuesto y deuda",
+      "Usuario, necesidad e insight",
+      "Precio, canal y utilidad",
+      "Servidor, base de datos y API"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué acción es propia de la fase Definir?",
+    "options": [
+      "Comprar servidores antes de entrevistar",
+      "Sintetizar patrones e identificar una necesidad concreta",
+      "Registrar una marca comercial",
+      "Escalar ventas sin prototipo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es la regla principal del brainstorming inicial?",
+    "options": [
+      "Exigir un presupuesto definitivo por idea",
+      "Generar ideas sin juzgarlas prematuramente",
+      "Descartar todas las ideas novedosas",
+      "Aceptar solo propuestas del líder"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué técnica permite visualizar relaciones entre ideas?",
+    "options": [
+      "RUC",
+      "Mapa mental",
+      "Escritura pública",
+      "Matriz de costos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué técnica invita a representar situaciones desde la perspectiva del usuario?",
+    "options": [
+      "Role-playing",
+      "Análisis tributario",
+      "Liderazgo en costos",
+      "Bootstrapping"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la finalidad de Crazy 8’s?",
+    "options": [
+      "Registrar ocho empresas",
+      "Construir ocho productos terminados",
+      "Evaluar ocho balances financieros",
+      "Producir rápidamente varias alternativas de solución"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Verdadero o falso: El storyboard ayuda a visualizar la experiencia del usuario en una secuencia de escenas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: Design Thinking es una metodología centrada en las personas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: En la fase Empatizar se deben evitar las observaciones del comportamiento del usuario.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Verdadero o falso: La definición del problema puede apoyarse en patrones identificados en los datos recogidos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuántos bloques principales conforman el Business Model Canvas?",
+    "options": [
+      "Nueve",
+      "Siete",
+      "Cinco",
+      "Doce"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué describe el bloque Segmentos de clientes?",
+    "options": [
+      "Los gastos de infraestructura",
+      "La lista de proveedores tecnológicos",
+      "Los grupos de personas u organizaciones a los que se crea valor",
+      "Las tareas internas de desarrollo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué expresa la propuesta de valor?",
+    "options": [
+      "El nombre legal de la empresa",
+      "El organigrama del equipo",
+      "La razón por la cual un cliente elegiría el producto o servicio",
+      "El importe total de impuestos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué bloque explica cómo se comunica y entrega valor al cliente?",
+    "options": [
+      "Socios clave",
+      "Canales",
+      "Recursos clave",
+      "Estructura de costos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué fase de los canales busca dar a conocer un producto?",
+    "options": [
+      "Concienciación",
+      "Financiamiento",
+      "Constitución",
+      "Producción"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué actividad se vincula con la evaluación de una propuesta de valor mediante canales?",
+    "options": [
+      "Evitar el contacto con clientes",
+      "Ofrecer demostraciones o pruebas antes de comprar",
+      "Omitir la comunicación del producto",
+      "Eliminar reseñas de usuarios"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué define el bloque Relaciones con clientes?",
+    "options": [
+      "El tipo de base de datos",
+      "La depreciación de equipos",
+      "La forma de registrar el RUC",
+      "Cómo captar, atender y fidelizar a los clientes"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Cuál es un ejemplo de fuente de ingresos de una plataforma de cursos?",
+    "options": [
+      "Alquiler de oficina",
+      "Suscripción mensual",
+      "Pago de servidores",
+      "Salario de programadores"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué representa un recurso clave en una empresa de software?",
+    "options": [
+      "Solo la ubicación de oficinas",
+      "Únicamente anuncios publicitarios",
+      "Talento humano y conocimiento técnico",
+      "Exclusivamente el logotipo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué se registra en Actividades clave?",
+    "options": [
+      "Impuestos personales de fundadores",
+      "Únicamente clientes potenciales",
+      "Procesos indispensables para entregar la propuesta de valor",
+      "Preferencias de colores"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué caracteriza a un socio clave?",
+    "options": [
+      "Una alianza necesaria para el funcionamiento del modelo de negocio",
+      "Cualquier persona que vea un anuncio",
+      "Cualquier usuario que visite la web",
+      "Todo competidor de la industria"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué incluye la estructura de costos?",
+    "options": [
+      "Gastos necesarios para operar el modelo de negocio",
+      "Únicamente ingresos por publicidad",
+      "Solo el número de usuarios",
+      "Solo el precio de venta"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una aplicación cobra por anuncios y suscripciones. ¿En qué bloque se registran ambos mecanismos?",
+    "options": [
+      "Recursos clave",
+      "Segmentos de clientes",
+      "Fuentes de ingresos",
+      "Actividades clave"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Verdadero o falso: Los canales del BMC pueden incluir redes sociales y otros medios de contacto con clientes.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: El BMC permite analizar cómo un negocio crea, entrega y captura valor.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: La propuesta de valor y los segmentos de clientes son el mismo bloque del BMC.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Verdadero o falso: Los socios clave pueden incluir proveedores y alianzas estratégicas.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Quién es el autor asociado con la metodología Lean Startup en las clases?",
+    "options": [
+      "Eric Ries",
+      "Frederick Taylor",
+      "Michael Porter",
+      "Peter Drucker"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la secuencia central del ciclo Lean Startup?",
+    "options": [
+      "Planificar, contratar y facturar",
+      "Diseñar, patentar y vender",
+      "Comprar, instalar y auditar",
+      "Construir, medir y aprender"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué se busca en la etapa Construir?",
+    "options": [
+      "Crear una solución inicial o MVP para probar hipótesis",
+      "Escalar internacionalmente de inmediato",
+      "Cerrar la retroalimentación",
+      "Emitir una escritura pública"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué corresponde a la etapa Medir?",
+    "options": [
+      "Recopilar métricas y feedback real de usuarios",
+      "Cambiar de idea sin evidencias",
+      "Eliminar pruebas de usuarios",
+      "Constituir una sociedad"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué decisión puede resultar de la etapa Aprender?",
+    "options": [
+      "Prohibir cambios al producto",
+      "Perseverar, mejorar o pivotar según los datos",
+      "Ignorar la evidencia recopilada",
+      "Cancelar toda medición futura"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es el propósito de un prototipo?",
+    "options": [
+      "Representar y probar una idea antes de su desarrollo completo",
+      "Eliminar la necesidad de usuarios",
+      "Garantizar ingresos automáticos",
+      "Sustituir la constitución legal"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué caracteriza a un prototipo de baja fidelidad?",
+    "options": [
+      "Arquitectura productiva obligatoria",
+      "Producto comercial totalmente implementado",
+      "Representación simple y rápida con pocos detalles",
+      "Sistema con todos los módulos desplegados"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué caracteriza a un prototipo de alta fidelidad?",
+    "options": [
+      "Ausencia de interacción y estructura",
+      "Solo un análisis tributario",
+      "Únicamente una descripción verbal",
+      "Mayor detalle e interactividad cercana al producto final"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué es un Producto Mínimo Viable (MVP)?",
+    "options": [
+      "Un producto con todas las funciones imaginables",
+      "Una versión con funciones esenciales para validar valor con usuarios",
+      "Una empresa ya consolidada",
+      "Una maqueta sin ninguna posibilidad de validación"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es el objetivo principal del MVP?",
+    "options": [
+      "Obtener aprendizaje validado con el menor esfuerzo razonable",
+      "Evitar cualquier cambio posterior",
+      "Maximizar funcionalidades antes de probar",
+      "Sustituir el modelo de negocio"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué es un MVP Concierge?",
+    "options": [
+      "Una prestación manual del servicio para probar la propuesta",
+      "Un servidor de producción obligatorio",
+      "Una campaña masiva sin contacto con clientes",
+      "Un producto completo y automatizado"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué es un MVP de pieza de humo?",
+    "options": [
+      "Una página o anuncio que prueba interés antes de desarrollar la solución",
+      "Un software terminado con todas sus funciones",
+      "Un estudio contable de la empresa",
+      "Un plan de continuidad de TI"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué indicador puede emplearse para evaluar un MVP?",
+    "options": [
+      "Cantidad de colores del logo",
+      "Tasa de conversión",
+      "Tamaño del documento legal",
+      "Número de reuniones sin usuarios"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué paso debe preceder a la selección de funcionalidades del MVP?",
+    "options": [
+      "Diseñar el plan tributario completo",
+      "Comprar licencias sin análisis",
+      "Identificar problema y cliente objetivo",
+      "Escalar el producto a todos los mercados"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Verdadero o falso: Lean Startup propone invertir poco para aprender de errores manejables.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: Un MVP debe incorporar todas las funciones futuras antes de mostrarse a usuarios.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Verdadero o falso: La retroalimentación permite iterar y mejorar el MVP.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué dos atributos distinguen especialmente a una startup?",
+    "options": [
+      "Antigüedad y monopolio",
+      "Burocracia y rigidez",
+      "Innovación y escalabilidad",
+      "Ausencia de riesgo y cambio"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué se realiza en la etapa de idea y concepción de una startup?",
+    "options": [
+      "Emitir estados financieros auditados de diez años",
+      "Liquidar la empresa",
+      "Identificar una oportunidad y formular la idea inicial",
+      "Consolidar participación mundial"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué es bootstrapping?",
+    "options": [
+      "Vender todas las acciones a un fondo",
+      "Solicitar obligatoriamente un crédito bancario",
+      "Financiar el emprendimiento con recursos propios",
+      "Recibir exclusivamente subsidios estatales"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué significa la fuente de financiamiento Friends, Family and Fools?",
+    "options": [
+      "Créditos otorgados por la SUNAT",
+      "Ingresos por ventas de acciones en bolsa",
+      "Pagos de clientes corporativos",
+      "Aportes iniciales de amigos, familiares y personas cercanas dispuestas a asumir riesgos"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué caracteriza a un inversionista ángel?",
+    "options": [
+      "Exige que el producto sea una multinacional",
+      "Actúa siempre como entidad tributaria",
+      "Solo vende infraestructura de TI",
+      "Aporta capital temprano y puede ofrecer mentoría y contactos"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué función cumplen las aceleradoras?",
+    "options": [
+      "Registrar impuestos de todas las empresas",
+      "Reemplazar a los clientes",
+      "Impulsar el crecimiento de startups mediante apoyo y acompañamiento",
+      "Prohibir la búsqueda de inversión"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué describe una vertical EdTech?",
+    "options": [
+      "Negocios dedicados solo a construcción",
+      "Emprendimientos tecnológicos enfocados en educación",
+      "Startups exclusivamente agrícolas",
+      "Servicios de transporte terrestre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué decisión corresponde al primer paso de constitución de una empresa en Perú según la clase?",
+    "options": [
+      "Emitir facturas antes de constituirse",
+      "Registrar primero una patente",
+      "Elegir el tipo de empresa",
+      "Obtener inmediatamente el RUC"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Para qué se reserva el nombre de la empresa?",
+    "options": [
+      "Calcular la tasa de retención",
+      "Obtener automáticamente inversión",
+      "Definir las funcionalidades del MVP",
+      "Comprobar disponibilidad y proteger la denominación elegida en el trámite"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué información debe incluir la minuta de constitución?",
+    "options": [
+      "Objeto social, capital y datos de socios",
+      "Solo el código fuente",
+      "Solo el diseño del logotipo",
+      "Únicamente el número de usuarios"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué entidad interviene para elevar la minuta a escritura pública?",
+    "options": [
+      "Notaría",
+      "Ministerio de Educación",
+      "Banco Central de Reserva",
+      "Oficina de soporte técnico"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿En qué entidad se inscribe la empresa tras la escritura pública?",
+    "options": [
+      "INDECOPI exclusivamente",
+      "SUNARP",
+      "RENIEC como único paso",
+      "OSIPTEL"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Ante qué entidad se obtiene el RUC?",
+    "options": [
+      "SUNARP",
+      "Ministerio de Cultura",
+      "SUNAT",
+      "Municipalidad exclusivamente"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Verdadero o falso: El RUC permite identificar tributariamente a una empresa ante el Estado peruano.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: Todas las startups se financian únicamente con préstamos bancarios.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Verdadero o falso: La escalabilidad alude a la posibilidad de crecer sin aumentar recursos en la misma proporción.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué analiza la matriz FODA?",
+    "options": [
+      "Fondos, oficinas, distribución y acciones",
+      "Funciones, objetos, datos y algoritmos",
+      "Fortalezas, oportunidades, debilidades y amenazas",
+      "Facturación, operaciones, deuda y activos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál de los siguientes es un factor interno favorable?",
+    "options": [
+      "Fortaleza",
+      "Oportunidad",
+      "Amenaza",
+      "Sustituto"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál de los siguientes es un factor interno desfavorable?",
+    "options": [
+      "Nueva demanda",
+      "Debilidad",
+      "Crecimiento del mercado",
+      "Oportunidad"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es un ejemplo de oportunidad externa?",
+    "options": [
+      "Fallas recurrentes del sistema propio",
+      "Ausencia de talento en el equipo",
+      "Aumento de demanda de soluciones digitales",
+      "Alta rotación del personal interno"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es un ejemplo de amenaza externa?",
+    "options": [
+      "Nueva regulación que encarece la operación",
+      "Patente propia registrada",
+      "Procesos internos eficientes",
+      "Equipo interno con gran experiencia"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué describe la misión de una organización?",
+    "options": [
+      "Solo el valor futuro de las acciones",
+      "Exclusivamente su infraestructura",
+      "Únicamente los riesgos externos",
+      "Su propósito actual y razón de ser"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué expresa la visión?",
+    "options": [
+      "La aspiración de la organización a largo plazo",
+      "El inventario actual de computadoras",
+      "Los pagos mensuales de nómina",
+      "El detalle de cada factura"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué representan los valores organizacionales?",
+    "options": [
+      "Únicamente el precio del producto",
+      "Principios que orientan cultura y decisiones",
+      "Solo indicadores contables",
+      "Proveedores de infraestructura"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es la finalidad de los objetivos estratégicos?",
+    "options": [
+      "Evitar medir resultados",
+      "Sustituir la misión",
+      "Eliminar la planificación",
+      "Definir resultados clave de mediano y largo plazo"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué busca la estrategia de liderazgo en costos?",
+    "options": [
+      "Imitar siempre productos premium",
+      "Lograr eficiencia y ofrecer precios competitivos bajos",
+      "Aumentar costos innecesarios",
+      "Atender solo a clientes de lujo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué busca la estrategia de diferenciación?",
+    "options": [
+      "Eliminar toda innovación",
+      "Competir solo reduciendo personal",
+      "Ofrecer exactamente lo mismo sin ventajas",
+      "Crear una oferta percibida como única y valiosa"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué caracteriza la estrategia de enfoque o nicho?",
+    "options": [
+      "Evitar conocer al cliente",
+      "Atender de forma especializada a un segmento específico",
+      "Intentar servir a todos sin segmentación",
+      "Eliminar la propuesta de valor"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué mide la rivalidad entre competidores de Porter?",
+    "options": [
+      "El costo del registro mercantil",
+      "La intensidad de competencia dentro de una industria",
+      "La eficiencia del código fuente",
+      "La velocidad del servidor"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué analiza la amenaza de nuevos entrantes?",
+    "options": [
+      "La facilidad con la que nuevas empresas pueden ingresar al mercado",
+      "El presupuesto de marketing interno",
+      "La cantidad de errores de programación",
+      "La rotación interna de desarrolladores"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: Las cinco fuerzas de Porter ayudan a analizar competitividad y rentabilidad sectorial.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: El poder de negociación de los clientes no tiene relación con los precios.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Verdadero o falso: La amenaza de sustitutos considera alternativas de otras industrias que satisfacen necesidades similares.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué significa PETI?",
+    "options": [
+      "Proceso de Entrega Técnica Inmediata",
+      "Programa de Evaluación Tributaria Interna",
+      "Plan de Exportación de Tecnología Industrial",
+      "Plan Estratégico de Tecnología de la Información"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Cuál es la finalidad central del PETI?",
+    "options": [
+      "Desarrollar aplicaciones sin planificación",
+      "Comprar tecnología sin evaluar necesidades",
+      "Alinear las iniciativas de TI con visión, misión y estrategias del negocio",
+      "Sustituir todos los objetivos del negocio"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué se busca con el análisis de requerimientos estratégicos?",
+    "options": [
+      "Identificar necesidades de información y requerimientos organizacionales",
+      "Elegir hardware sin consultar procesos",
+      "Registrar únicamente el dominio web",
+      "Definir solo colores de interfaz"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué información resulta pertinente al analizar requerimientos de TI?",
+    "options": [
+      "Solo preferencias personales del programador",
+      "Exclusivamente los gastos de publicidad",
+      "Procesos de negocio y modelo de datos",
+      "Únicamente el número de escritorios"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es la Fase I de la metodología PETI presentada en clase?",
+    "options": [
+      "Situación actual",
+      "Constitución legal",
+      "Modelo de planeación",
+      "Modelo de TI"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la Fase II del PETI?",
+    "options": [
+      "Modelo de negocio u organización",
+      "Plan tributario",
+      "Situación actual",
+      "Modelo de planeación"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es la Fase III del PETI?",
+    "options": [
+      "Modelo de negocio u organización",
+      "Situación actual",
+      "Modelo de TI",
+      "Reserva de nombre"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es la Fase IV del PETI?",
+    "options": [
+      "Situación actual",
+      "Empatización",
+      "Definición del Buyer Persona",
+      "Modelo de planeación"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué se realiza principalmente en la fase de situación actual?",
+    "options": [
+      "Definir impuestos para los clientes",
+      "Examinar el estado presente de organización y TI",
+      "Cerrar la evaluación de sistemas existentes",
+      "Publicar directamente la aplicación"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué busca la fase Modelo de negocio/organización?",
+    "options": [
+      "Desarrollar únicamente pantallas",
+      "Escoger proveedores sin objetivos",
+      "Comprender y representar las necesidades y estrategias organizacionales",
+      "Eliminar los procesos empresariales"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué propósito tiene la fase Modelo de TI?",
+    "options": [
+      "Realizar solo campañas de publicidad",
+      "Definir únicamente precios de venta",
+      "Traducir estrategias de negocio en estrategias y arquitectura de TI",
+      "Registrar accionistas ante SUNARP"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué se desarrolla en la fase Modelo de planeación?",
+    "options": [
+      "La planificación de iniciativas y su implementación",
+      "Una prueba de humo del MVP",
+      "La minuta de constitución",
+      "Un Buyer Persona de marketing"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una empresa desea priorizar proyectos de software según sus objetivos comerciales. ¿Qué instrumento corresponde?",
+    "options": [
+      "MVP Concierge",
+      "Árbol de problemas exclusivamente",
+      "PETI",
+      "Escritura pública"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Verdadero o falso: La estrategia de TI debe guardar relación con la estrategia del negocio.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Verdadero o falso: Un PETI consiste exclusivamente en comprar computadoras y licencias.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Verdadero o falso: El análisis de procesos ayuda a definir necesidades de información para el PETI.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  }
+]

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formación de empresas III - Test</title>
+  </head>
+  <body>
+    <h1>Test — Formación de empresas III</h1>
+    <div id="app">Cargando preguntas...</div>
+    <script src="test-randomization.js"></script>
+    <script>
+      fetch('preguntas.json')
+        .then(r => r.json())
+        .then(questions => {
+          const app = document.getElementById('app');
+          app.innerHTML = '<ol>' + questions.slice(0,10).map((q,i)=>
+            `<li><strong>${q.question}</strong><ul>${q.options.map(o=>`<li>${o}</li>`).join('')}</ul></li>`
+          ).join('') + '</ol>';
+        })
+        .catch(e => { document.getElementById('app').textContent = 'Error cargando preguntas.'; console.error(e); });
+    </script>
+  </body>
+</html>
