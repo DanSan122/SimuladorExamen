@@ -1,13 +1,237 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Formación de empresas III</title>
-  </head>
-  <body>
-    <h1>Formación de empresas III</h1>
-    <p>Bienvenido al módulo. Haz clic para empezar:</p>
-    <a href="main.html">Comenzar prueba</a>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Examen - Formación de Empresas III</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --primary-color: #8BC34A;
+            --primary-hover: #7CB342;
+            --secondary-color: #333;
+            --card-bg: #2a2a2a;
+            --border-color: #444;
+            --highlight-color: #3a3a3a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--bg-color) 0%, #2c2c2c 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--highlight-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .logo {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #f5f5f5;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #b0b0b0;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .info-box {
+            background: var(--highlight-color);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .info-value {
+            color: var(--text-color);
+        }
+
+        .start-button {
+            background: linear-gradient(45deg, var(--primary-color), #9CCC65);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(139, 195, 74, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 20px;
+            min-width: 200px;
+        }
+
+        .start-button:hover {
+            background: linear-gradient(45deg, var(--primary-hover), #8BC34A);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(139, 195, 74, 0.4);
+        }
+
+        .start-button:active {
+            transform: translateY(-1px);
+        }
+
+        .instructions {
+            background: rgba(139, 195, 74, 0.1);
+            border: 1px solid rgba(139, 195, 74, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .instructions h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .instructions ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #b0b0b0;
+        }
+
+        .instructions li:before {
+            content: "✓ ";
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .logo {
+                font-size: 3rem;
+            }
+
+            .start-button {
+                padding: 15px 30px;
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back-button">← Volver al inicio</a>
+    <div class="container">
+        <div class="logo">🏢</div>
+        <h1>Formación de Empresas III</h1>
+        <p class="subtitle">Evaluación especializada en emprendimiento, modelos de negocio y financiamiento</p>
+
+        <div class="info-box">
+            <div class="info-item">
+                <span class="info-label">⏱️ Duración:</span>
+                <span class="info-value">20 minutos</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">📊 Preguntas:</span>
+                <span class="info-value">20 (seleccionadas al azar)</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">🎯 Dificultad:</span>
+                <span class="info-value">Intermedia</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">✅ Tipología:</span>
+                <span class="info-value">Opción múltiple</span>
+            </div>
+        </div>
+
+        <button class="start-button" onclick="window.location.href='main.html'">
+            🚀 Comenzar Examen
+        </button>
+
+        <div class="instructions">
+            <h3>📋 Instrucciones</h3>
+            <ul>
+                <li>Responde todas las preguntas en el tiempo permitido</li>
+                <li>Cada pregunta tiene cuatro opciones de respuesta</li>
+                <li>Selecciona una respuesta antes de continuar</li>
+                <li>Al finalizar verás tu puntuación y la revisión</li>
+                <li>Puedes repetir el examen cuantas veces desees</li>
+            </ul>
+        </div>
+    </div>
+</body>
 </html>
