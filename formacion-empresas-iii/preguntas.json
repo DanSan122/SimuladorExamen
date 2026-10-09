@@ -958,5 +958,979 @@
       "Falso"
     ],
     "answer": 0
+  },
+  {
+    "question": "Un equipo entrevista solo a sus compañeros para validar una app para adultos mayores. ¿Qué amenaza metodológica predomina?",
+    "options": [
+      "Exceso de canales de distribución",
+      "Sesgo de selección de participantes",
+      "Incremento del costo marginal",
+      "Ausencia de arquitectura de microservicios"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En entrevistas, los usuarios afirman que quieren una función, pero nunca la utilizan. ¿Qué evidencia debe priorizarse?",
+    "options": [
+      "Cantidad de funciones solicitadas",
+      "Número de pantallas del prototipo",
+      "Observación de comportamientos y pruebas reales",
+      "Preferencias del equipo técnico"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una startup formula el reto «crear una aplicación móvil». ¿Cómo debe reformularlo en Design Thinking?",
+    "options": [
+      "Como necesidad del usuario sin imponer una solución",
+      "Como presupuesto de marketing",
+      "Como lista cerrada de tecnologías",
+      "Como decisión irrevocable de interfaz"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Durante empatía aparecen problemas contradictorios entre dos segmentos. ¿Qué conviene hacer?",
+    "options": [
+      "Promediar respuestas sin distinguir segmentos",
+      "Descartar al segmento minoritario automáticamente",
+      "Segmentar hallazgos y contrastar patrones de necesidades",
+      "Elegir el problema más fácil de programar"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un mapa de empatía revela que el usuario dice valorar privacidad pero comparte datos por rapidez. ¿Qué interpretación es más sólida?",
+    "options": [
+      "El usuario mintió necesariamente",
+      "La privacidad es irrelevante para todos",
+      "Existe tensión entre preferencias declaradas y comportamiento",
+      "La etapa de empatía ya terminó"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una sesión de ideación produce 40 ideas sin criterios de evaluación. ¿Cuál es el paso más útil?",
+    "options": [
+      "Cancelar la validación con usuarios",
+      "Agrupar alternativas y priorizar por valor y factibilidad",
+      "Elegir la primera idea presentada",
+      "Implementar simultáneamente las 40"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un prototipo de baja fidelidad genera errores de navegación repetidos. ¿Qué decisión corresponde?",
+    "options": [
+      "Contratar publicidad inmediatamente",
+      "Congelar el diseño para ahorrar tiempo",
+      "Iterar el flujo antes de invertir en desarrollo completo",
+      "Aumentar servidores"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué experimento valida mejor que el problema identificado es importante?",
+    "options": [
+      "Observar intentos actuales de resolverlo y sus costos",
+      "Contar las líneas de código",
+      "Preguntar si la idea parece innovadora",
+      "Mostrar un logotipo atractivo"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Si un usuario falla en una tarea del prototipo, ¿qué métrica aporta más que una opinión general?",
+    "options": [
+      "Precio de la licencia IDE",
+      "Número de colores usados",
+      "Tasa de éxito de la tarea y causas de fallo",
+      "Cantidad de integrantes del equipo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un equipo confunde la fase definir con redactar funcionalidades. ¿Qué producto corresponde a definir?",
+    "options": [
+      "Contrato de constitución",
+      "Enunciado del problema centrado en usuario y necesidad",
+      "Arquitectura física del servidor",
+      "Plan de despliegue productivo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una solución funciona en laboratorio pero no en contexto real. ¿Qué principio se omitió?",
+    "options": [
+      "Aumentar el número de diapositivas",
+      "Validar en condiciones representativas del uso",
+      "Elegir un canal de ingresos",
+      "Registrar una marca antes de prototipar"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Dos prototipos obtienen igual satisfacción, pero uno requiere la mitad de pasos. ¿Qué criterio ayuda a compararlos?",
+    "options": [
+      "Eficiencia de tarea junto con efectividad",
+      "Solo la apariencia visual",
+      "Cantidad de dependencias de software",
+      "Antigüedad del equipo fundador"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un equipo descarta todas las ideas distintas a la del líder antes de explorar. ¿Qué práctica está fallando?",
+    "options": [
+      "Análisis de flujos de caja",
+      "Pensamiento divergente en ideación",
+      "Despliegue continuo",
+      "Registro tributario"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué evidencia justificaría volver de prototipar a empatizar?",
+    "options": [
+      "Descubrir necesidades no contempladas durante pruebas",
+      "Cambiar el color del botón",
+      "Aprobar un presupuesto ya ejecutado",
+      "Concluir la presentación"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una propuesta ofrece rapidez a clientes que valoran principalmente seguridad. ¿Qué bloque del BMC debe revisarse primero?",
+    "options": [
+      "Recursos físicos exclusivamente",
+      "Propuesta de valor en relación con segmento de clientes",
+      "Estructura de costos exclusivamente",
+      "Socios clave exclusivamente"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un marketplace atrae usuarios pero no proveedores. ¿Qué inconsistencia es más crítica?",
+    "options": [
+      "El logo tiene pocos colores",
+      "El modelo depende de segmentos interdependientes insuficientemente atendidos",
+      "La misión no incluye una fecha",
+      "Falta un lenguaje de programación específico"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una plataforma cobra suscripción, pero la mayoría de clientes solo la usa una vez. ¿Qué hipótesis se cuestiona?",
+    "options": [
+      "Importancia del nombre de la empresa",
+      "Ajuste entre mecanismo de ingresos y patrón de uso",
+      "Necesidad de usar un servidor dedicado",
+      "Tamaño del equipo de diseño"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un servicio depende de una API de pagos externa para operar. ¿En qué bloque se refleja principalmente esa dependencia?",
+    "options": [
+      "Relación con clientes",
+      "Segmentos de clientes",
+      "Fuentes de ingresos",
+      "Socios clave"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Una startup invierte en anuncios para atraer clientes, pero no consigue retenerlos. ¿Qué bloques debe contrastar?",
+    "options": [
+      "Solo estructura legal",
+      "Solo activos inmobiliarios",
+      "Canales, relaciones con clientes y propuesta de valor",
+      "Solo actividades contables"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es un costo variable típico de una plataforma que cobra por transacción?",
+    "options": [
+      "Alquiler mensual fijo",
+      "Registro inicial de la empresa",
+      "Sueldo fijo administrativo",
+      "Comisión del procesador por operación"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Un producto B2B requiere capacitación personalizada para cada cliente. ¿Qué combinación se afecta más?",
+    "options": [
+      "Socios y propiedad intelectual exclusivamente",
+      "Segmentación geográfica y marca",
+      "Relaciones con clientes y estructura de costos",
+      "Visión y análisis externo exclusivamente"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un BMC identifica universidades como clientes, pero estudiantes como usuarios. ¿Qué debe aclararse?",
+    "options": [
+      "Quién recibe valor, quién decide y quién paga",
+      "Solo la cantidad de reuniones",
+      "Solo el lenguaje backend",
+      "Solo el color de la interfaz"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un modelo ofrece servicio gratuito a usuarios y cobra a anunciantes. ¿Qué interpretación es correcta?",
+    "options": [
+      "Los costos son siempre cero",
+      "No existe propuesta de valor",
+      "Existen segmentos y fuentes de ingresos diferentes",
+      "Los anunciantes son necesariamente socios clave"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La app requiere datos de terceros con acceso incierto. ¿Qué riesgo del BMC es más inmediato?",
+    "options": [
+      "Cantidad de entrevistas completadas",
+      "Exceso de prototipos de papel",
+      "Dependencia de recursos y socios clave",
+      "Error de ortografía en misión"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una startup vende por web y atiende soporte por chat. ¿Cómo clasificar ambos mecanismos?",
+    "options": [
+      "Web como canal y chat como relación con clientes",
+      "Ambos son fuentes de ingresos",
+      "Ambos son segmentos",
+      "Ambos son recursos físicos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un producto tiene usuarios activos, pero los ingresos no cubren infraestructura. ¿Qué contraste del BMC es imprescindible?",
+    "options": [
+      "Misión frente a valores personales",
+      "Logo frente a tipografía",
+      "Nombre frente a dominio",
+      "Fuentes de ingresos frente a estructura de costos"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Una startup necesita desarrolladores especializados para entregar valor. ¿Dónde se ubica ese talento en BMC?",
+    "options": [
+      "Fuentes de ingresos",
+      "Segmentos de clientes",
+      "Recursos clave",
+      "Canales de adquisición"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué evidencia cuestiona más una propuesta de valor de ahorro de tiempo?",
+    "options": [
+      "La empresa tiene pocos socios",
+      "Las pruebas muestran que el proceso toma más tiempo que la alternativa",
+      "El equipo usa control de versiones",
+      "El prototipo utiliza colores oscuros"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un equipo lanza un MVP con diez funciones secundarias sin hipótesis clara. ¿Qué error principal comete?",
+    "options": [
+      "Reducir desperdicio",
+      "Aplicar aprendizaje validado",
+      "Confundir mínimo viable con versión extensa no enfocada",
+      "Medir comportamiento real"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En Lean Startup, ¿qué decisión sigue a medir un experimento que refuta la hipótesis principal?",
+    "options": [
+      "Escalar marketing sin revisar nada",
+      "Agregar funciones al azar",
+      "Evaluar un pivote sustentado en el aprendizaje",
+      "Ignorar las mediciones"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un MVP obtiene 500 registros, pero solo 8 usuarios completan la tarea principal. ¿Qué métrica debe analizarse primero?",
+    "options": [
+      "Activación o finalización de la tarea central",
+      "Cantidad de anuncios publicados",
+      "Número de commits",
+      "Número bruto de registros únicamente"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué prueba permite distinguir intención de pago de cortesía en una entrevista?",
+    "options": [
+      "Votación del equipo",
+      "Pregunta «¿te gusta?»",
+      "Encuesta sin contexto",
+      "Experimento con compromiso económico real y ético"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Un prototipo simula manualmente recomendaciones automáticas para validar utilidad. ¿Qué ventaja tiene?",
+    "options": [
+      "Elimina necesidad de medir",
+      "Prueba el valor antes de construir la automatización",
+      "Garantiza rentabilidad futura",
+      "Demuestra escalabilidad técnica"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una startup cambia el segmento objetivo pero mantiene el problema y la solución. ¿Cómo se interpreta?",
+    "options": [
+      "Escalamiento confirmado",
+      "Refactorización sin cambio estratégico",
+      "Optimización de infraestructura",
+      "Pivote de segmento de clientes"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "La tasa de retención cae tras la primera semana. ¿Qué hipótesis conviene investigar?",
+    "options": [
+      "El nombre de la startup es muy largo",
+      "El producto no genera valor recurrente suficiente",
+      "El equipo necesita más reuniones",
+      "El servidor tiene necesariamente una falla"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una prueba A/B mejora clics, pero reduce compras. ¿Qué criterio debe prevalecer?",
+    "options": [
+      "La variante con más animaciones",
+      "La opinión del desarrollador",
+      "La métrica vinculada al objetivo de negocio",
+      "La métrica con porcentaje más alto"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es la diferencia clave entre prototipo y MVP en una validación?",
+    "options": [
+      "El prototipo debe generar ingresos",
+      "El prototipo siempre es software final",
+      "El MVP permite probar hipótesis de valor con usuarios reales en condiciones relevantes",
+      "El MVP exige todas las funciones"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una landing page recibe 1000 visitas y 20 solicitudes. ¿Cuál es la conversión a solicitudes?",
+    "options": [
+      "20 %",
+      "50 %",
+      "0,2 %",
+      "2 %"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Un equipo mide descargas cuando la hipótesis es «usuarios volverán semanalmente». ¿Qué métrica es más pertinente?",
+    "options": [
+      "Visitas al repositorio",
+      "Retención semanal por cohorte",
+      "Cantidad de funcionalidades",
+      "Número de archivos instalados"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué acción representa aprendizaje validado y no solo opinión?",
+    "options": [
+      "Elegir la función más votada internamente",
+      "Modificar la propuesta tras observar resultados reproducibles de un experimento",
+      "Copiar a un competidor",
+      "Aceptar sugerencias del fundador"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un MVP fracasa con un segmento, pero funciona con otro. ¿Qué respuesta es razonable?",
+    "options": [
+      "Revisar segmentación y repetir la validación enfocada",
+      "Aumentar el alcance indiscriminadamente",
+      "Omitir los resultados desfavorables",
+      "Eliminar toda la idea sin análisis"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué error surge al medir solo usuarios acumulados?",
+    "options": [
+      "Se mide correctamente la retención",
+      "Se garantiza el encaje producto-mercado",
+      "Se determina el margen neto",
+      "Se oculta si los usuarios nuevos realmente permanecen activos"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Un fundador decide formalizar su startup sin acordar aportes ni responsabilidades. ¿Qué riesgo aumenta?",
+    "options": [
+      "Eliminación de responsabilidad contractual",
+      "Conflictos societarios y de gobierno",
+      "Disminución automática de impuestos",
+      "Mejora de retención de clientes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una startup tiene una idea innovadora, pero ningún problema validado. ¿Qué prioridad debería adoptar?",
+    "options": [
+      "Contratar un gran equipo comercial",
+      "Abrir varias sedes",
+      "Validar problema y mercado antes de escalar",
+      "Comprar servidores costosos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Por qué separar el patrimonio de la empresa del personal puede ser relevante al elegir forma jurídica?",
+    "options": [
+      "Porque garantiza inversión externa",
+      "Por sus efectos sobre responsabilidad patrimonial, según el régimen aplicable",
+      "Porque elimina todas las obligaciones tributarias",
+      "Porque impide contratar trabajadores"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Antes de constituir una empresa tecnológica en Perú, ¿qué análisis evita decisiones apresuradas?",
+    "options": [
+      "Seleccionar únicamente el logotipo",
+      "Comparar formas jurídicas, obligaciones y necesidades de socios",
+      "Comprar el dominio más costoso",
+      "Registrar todas las redes sociales"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una startup ofrece tecnología desarrollada por colaboradores externos. ¿Qué acuerdo conviene revisar?",
+    "options": [
+      "Titularidad y cesión de derechos de propiedad intelectual",
+      "Cantidad de entrevistas",
+      "Horario de publicaciones",
+      "Paleta de colores"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Dos socios discrepan sobre quién puede comprometer a la empresa ante terceros. ¿Qué instrumento resulta pertinente?",
+    "options": [
+      "Reglas de representación y poderes establecidos formalmente",
+      "Diagrama de arquitectura de red",
+      "Mapa de empatía",
+      "Prueba de usabilidad"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una startup vende software a empresas y almacena datos personales. ¿Qué dimensión debe contemplar además del desarrollo?",
+    "options": [
+      "Cumplimiento legal y protección de datos",
+      "Solo diseño visual",
+      "Solo publicidad en redes",
+      "Solo registro de marca"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué señal diferencia crecimiento sostenible de expansión prematura?",
+    "options": [
+      "Tamaño de la oficina",
+      "Número de seguidores únicamente",
+      "Número de ideas propuestas",
+      "Repetibilidad de adquisición, entrega y economía del negocio"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Una startup recibe interés de inversionistas, pero no conoce su estructura accionarial. ¿Qué información es prioritaria?",
+    "options": [
+      "Cantidad de prototipos descartados",
+      "Participaciones, derechos y acuerdos entre socios",
+      "Número de colores de marca",
+      "Nombre del servidor"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué aspecto se debe definir al incorporar un socio técnico?",
+    "options": [
+      "Solo su lenguaje favorito",
+      "Solo la fecha de lanzamiento",
+      "Aportes, funciones, participación y mecanismos de decisión",
+      "Solo el nombre comercial"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un equipo confunde constitución con validación comercial. ¿Cuál es la distinción correcta?",
+    "options": [
+      "Un MVP es un registro mercantil",
+      "Constituir equivale a tener clientes",
+      "La validación reemplaza todas las obligaciones legales",
+      "Formalizar la empresa no demuestra demanda del mercado"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Una empresa tiene excelente producto, pero dependencia absoluta de un proveedor. ¿Qué riesgo estratégico enfrenta?",
+    "options": [
+      "Ausencia de misión necesariamente",
+      "Concentración de dependencia operativa",
+      "Incompatibilidad con Design Thinking",
+      "Exceso de segmentos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué decisión requiere especial atención al formalizar una startup con varios fundadores?",
+    "options": [
+      "Mecanismos de salida y resolución de desacuerdos",
+      "El color de las tarjetas",
+      "La fuente del prototipo",
+      "El orden de los commits"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Un proyecto identifica una nueva regulación como amenaza. ¿A qué dimensión del análisis estratégico pertenece?",
+    "options": [
+      "Capacidad de desarrollo",
+      "Recurso humano interno",
+      "Fortaleza interna",
+      "Entorno externo"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Una empresa cuenta con equipo de IA altamente especializado. ¿Cómo se clasifica en FODA?",
+    "options": [
+      "Oportunidad externa",
+      "Fortaleza interna",
+      "Amenaza externa",
+      "Debilidad del mercado"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una startup carece de recursos comerciales y el mercado crece. ¿Qué combinación FODA existe?",
+    "options": [
+      "Dos amenazas externas",
+      "Debilidad interna y oportunidad externa",
+      "Fortaleza y amenaza internas",
+      "Dos fortalezas internas"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un competidor con grandes economías de escala reduce precios. ¿Qué fuerza de Porter se manifiesta principalmente?",
+    "options": [
+      "Amenaza de nuevos entrantes únicamente",
+      "Ausencia de sustitutos",
+      "Rivalidad entre competidores existentes",
+      "Poder de negociación de proveedores únicamente"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Los clientes pueden cambiar de proveedor sin costo y comparan precios fácilmente. ¿Qué fuerza aumenta?",
+    "options": [
+      "Poder de negociación de clientes",
+      "Integración vertical propia",
+      "Poder de proveedores",
+      "Barreras de entrada"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una solución alternativa resuelve la misma necesidad sin usar software. ¿Qué fuerza competitiva representa?",
+    "options": [
+      "Fortaleza financiera interna",
+      "Poder de proveedores",
+      "Barreras regulatorias",
+      "Amenaza de productos sustitutos"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué objetivo estratégico es más verificable?",
+    "options": [
+      "Innovar constantemente sin indicadores",
+      "Aumentar la retención mensual de 40 % a 55 % en seis meses",
+      "Mejorar mucho el producto",
+      "Ser la mejor empresa"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una misión describe metas para 2035 y una visión describe la actividad actual. ¿Qué corrección corresponde?",
+    "options": [
+      "Distinguir propósito presente de aspiración futura",
+      "Eliminar ambas",
+      "Sustituirlas por costos",
+      "Redactarlas solo con métricas financieras"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una startup tiene tecnología superior, pero el mercado desconoce su existencia. ¿Qué respuesta es coherente?",
+    "options": [
+      "Abandonar la fortaleza",
+      "Aumentar deuda sin plan",
+      "Ignorar el mercado",
+      "Vincular fortaleza tecnológica con estrategia de posicionamiento"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Una oportunidad de mercado depende de un cambio legal todavía incierto. ¿Qué conviene hacer?",
+    "options": [
+      "Eliminar el análisis externo",
+      "Ignorar escenarios alternativos",
+      "Considerarla ingreso garantizado",
+      "Construir escenarios y monitorear el riesgo regulatorio"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Una estrategia de diferenciación incrementa costos. ¿Qué debe verificarse?",
+    "options": [
+      "Que el producto no tenga competencia",
+      "Que el valor percibido justifique el sobreprecio o mayor preferencia",
+      "Que el costo fijo sea cero",
+      "Que todos los clientes prefieran lo mismo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Si una empresa enfrenta proveedores únicos y altos costos de sustitución, ¿qué fuerza aumenta?",
+    "options": [
+      "Amenaza de nuevos entrantes necesariamente",
+      "Poder de negociación de proveedores",
+      "Rivalidad interna del equipo",
+      "Poder de clientes necesariamente"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una estrategia se apoya en una fortaleza para aprovechar una oportunidad. ¿Cómo se clasifica en matriz FODA cruzada?",
+    "options": [
+      "Estrategia DO",
+      "Estrategia DA",
+      "Estrategia FO",
+      "Estrategia FA"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una empresa busca reducir una debilidad para enfrentar una amenaza. ¿Qué enfoque corresponde?",
+    "options": [
+      "Estrategia FA",
+      "Estrategia de diversificación obligatoria",
+      "Estrategia FO",
+      "Estrategia DA"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué riesgo existe al definir indicadores estratégicos sin responsables?",
+    "options": [
+      "Falta de rendición de cuentas y seguimiento",
+      "Eliminación de incertidumbre",
+      "Aumento automático de rentabilidad",
+      "Alineación garantizada"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una startup prioriza crecer usuarios, pero su visión enfatiza rentabilidad sostenible. ¿Qué tensión debe resolver?",
+    "options": [
+      "Ignorar el flujo de caja",
+      "Medir solo instalaciones",
+      "Alinear métricas de crecimiento con sostenibilidad económica",
+      "Eliminar la visión"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En PETI, se inventaría infraestructura y aplicaciones existentes. ¿A qué fase corresponde?",
+    "options": [
+      "Fase III: Modelo de TI",
+      "Fase II: Modelo de negocio/organización",
+      "Fase I: Situación actual",
+      "Fase IV: Modelo de planeación"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un equipo define procesos y prioridades organizacionales antes de decidir aplicaciones. ¿Qué fase del PETI aborda?",
+    "options": [
+      "Fase I: Situación actual",
+      "Fase IV: Modelo de planeación",
+      "Fase II: Modelo de negocio/organización",
+      "Fase III: Modelo de TI"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿En qué fase del PETI se transforma la estrategia del negocio en estrategia de TI?",
+    "options": [
+      "Fase IV: Modelo de planeación",
+      "Fase II: Modelo de negocio/organización",
+      "Fase I: Situación actual",
+      "Fase III: Modelo de TI"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Un PETI ya definió arquitectura de aplicaciones. ¿Qué elemento tecnológico complementario corresponde desarrollar?",
+    "options": [
+      "Arquitectura de hardware y comunicaciones",
+      "Solo misión comercial",
+      "Solo eslogan corporativo",
+      "Solo campaña de redes"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una cartera TI contiene proyectos sin orden de ejecución ni análisis de riesgos. ¿Qué fase está incompleta?",
+    "options": [
+      "Fase III: Modelo de TI",
+      "Fase II: Modelo de negocio/organización",
+      "Fase IV: Modelo de planeación",
+      "Fase I: Situación actual"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una empresa implementa ERP sin relacionarlo con objetivos de negocio. ¿Qué principio del PETI vulnera?",
+    "options": [
+      "Externalización de soporte",
+      "Reducción del costo de hardware",
+      "Estandarización de interfaces",
+      "Alineamiento entre estrategia organizacional y TI"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué resultado se espera del análisis costo-beneficio en el PETI?",
+    "options": [
+      "Sustituir análisis de riesgos",
+      "Eliminar evaluación de alternativas",
+      "Sustentar la conveniencia económica de inversiones propuestas",
+      "Elegir automáticamente la herramienta más cara"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una arquitectura de sistemas impide compartir información entre áreas. ¿Qué aspecto del modelo TI debe revisarse?",
+    "options": [
+      "Nombre comercial de la startup",
+      "Segmentación de clientes",
+      "Integración de aplicaciones e información",
+      "Distribución de acciones"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un proyecto TI depende de otro que habilita la base de datos central. ¿Qué debe reflejar la planificación?",
+    "options": [
+      "Solo el número de desarrolladores",
+      "Secuencia de implantación y dependencias",
+      "Solo el presupuesto de publicidad",
+      "Solo la fecha de presentación"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un PETI define plataformas, pero no responsables de operación. ¿Qué falta?",
+    "options": [
+      "Un mapa de empatía",
+      "Un contrato de publicidad",
+      "Una campaña comercial",
+      "Modelo operativo y estructura organizacional de TI"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué práctica conecta la visión de negocio con la cartera de proyectos TI?",
+    "options": [
+      "Priorizar por preferencias personales",
+      "Elegir herramientas por popularidad",
+      "Trazabilidad entre objetivos, capacidades y proyectos",
+      "Duplicar bases de datos sin motivo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Una empresa planea migrar sistemas críticos y no considera continuidad operativa. ¿Qué componente falta?",
+    "options": [
+      "Registro de nombre comercial",
+      "Administración de riesgos de implantación",
+      "Análisis de colores",
+      "Definición de segmentos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Una organización pretende automatizar un proceso ineficiente sin analizarlo. ¿Qué paso es preferible?",
+    "options": [
+      "Comprar licencias inmediatamente",
+      "Copiar la arquitectura de otra empresa",
+      "Eliminar entrevistas a responsables",
+      "Comprender y mejorar el proceso de negocio antes de automatizar"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "En el PETI, ¿qué criterio debe pesar al priorizar dos proyectos de costo similar?",
+    "options": [
+      "Contribución a objetivos, dependencias y riesgo",
+      "Preferencia del proveedor",
+      "Orden alfabético de proyectos",
+      "Cantidad de diapositivas"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una propuesta PETI no identifica capacidades actuales. ¿Por qué se debilita?",
+    "options": [
+      "La arquitectura se vuelve innecesaria",
+      "El negocio deja de necesitar estrategia",
+      "Se reduce automáticamente el costo",
+      "No establece una línea base para analizar brechas"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Una startup usa servicios cloud sin evaluar costos recurrentes ni recuperación. ¿Qué análisis del PETI se omite?",
+    "options": [
+      "Mapa de empatía",
+      "Propuesta de valor exclusivamente",
+      "Costo-beneficio y recuperación de inversión",
+      "Ideación divergente"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Si dos segmentos de usuarios muestran necesidades opuestas, promediar sus respuestas siempre permite definir un problema representativo.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un prototipo que falla en pruebas puede aportar evidencia valiosa para redefinir el problema.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En un BMC, el usuario final y quien paga por el servicio deben ser necesariamente la misma persona.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un aumento de usuarios garantiza la sostenibilidad de un modelo de negocio, aunque los costos crezcan más rápido que los ingresos.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Un MVP puede utilizar operaciones manuales detrás de una interfaz para validar una hipótesis antes de automatizar.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Una métrica de descargas es suficiente para demostrar retención semanal de usuarios.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Pivotar implica revisar una hipótesis relevante del modelo, no necesariamente desechar toda la solución.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "La formalización legal de una startup constituye evidencia suficiente de aceptación del producto en el mercado.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La definición de acuerdos entre socios puede reducir conflictos sobre aportes y decisiones.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En FODA, la aparición de un competidor internacional se clasifica normalmente como una debilidad interna.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La amenaza de sustitutos puede existir aunque las soluciones alternativas utilicen tecnologías diferentes.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En el PETI, la fase III contempla la arquitectura de sistemas y la arquitectura tecnológica.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "La fase IV del PETI puede omitir la administración de riesgos si existe un cronograma de implantación.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "answer": 1
   }
 ]
