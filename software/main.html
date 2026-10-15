@@ -507,13 +507,19 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="../assets/ui.css">
 </head>
-<body data-duration="20">
+<body data-duration="20" class="exam-page">
+    <nav class="site-nav" aria-label="Navegación principal">
+        <a class="site-brand" href="../index.html"><span class="brand-mark" aria-hidden="true">✓</span> Simula / Examen</a>
+        <span class="nav-caption">Tu siguiente paso empieza aquí</span>
+    </nav>
     <div class="header-controls">
-        <a href="../index.html" class="back-button">← Volver al inicio</a>
+        <a href="index.html" class="back-button">← Salir del examen</a>
         <div id="timer">Tiempo: 20:00</div>
     </div>
-    <h1>Simulador de Examen</h1>
+    <p class="eyebrow">Sesión de práctica</p>
+    <h1>Ingeniería de Software</h1>
     <div id="loading">Cargando preguntas...</div>
     <div id="quiz-container" style="display:none;"></div>
     <button id="submit-btn" style="display:none;">Verificar Respuestas</button>

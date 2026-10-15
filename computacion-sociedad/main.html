@@ -375,9 +375,16 @@
             border: 1px solid rgba(76,175,80,0.12);
         }
     </style>
+    <link rel="stylesheet" href="../assets/ui.css">
 </head>
-<body>
-    <div id="timer"></div>
+<body class="exam-page">
+    <nav class="site-nav" aria-label="Navegación principal">
+        <a class="site-brand" href="../index.html"><span class="brand-mark" aria-hidden="true">✓</span> Simula / Examen</a>
+        <span class="nav-caption">Tu siguiente paso empieza aquí</span>
+    </nav>
+    <div class="header-controls"><a class="back-button" href="index.html">← Salir del examen</a><div id="timer"></div></div>
+    <p class="eyebrow">Sesión de práctica</p>
+    <h1>Computación en la Sociedad</h1>
     <div id="loading">Cargando preguntas...</div>
 
     <script src="../assets/exam-core.js"></script>

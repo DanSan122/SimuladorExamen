@@ -253,23 +253,29 @@
             margin-top: 5px;
         }
     </style>
+    <link rel="stylesheet" href="assets/ui.css">
+    <script defer src="assets/catalog.js"></script>
 </head>
-<body>
+<body class="catalog-page">
+    <nav class="site-nav" aria-label="Navegación principal">
+        <a class="site-brand" href="./index.html"><span class="brand-mark" aria-hidden="true">✓</span> Simula / Examen</a>
+        <span class="nav-caption">Tu siguiente paso empieza aquí</span>
+    </nav>
     <div class="header">
-        <h1 class="main-title">🎓 Simuladores de Examen</h1>
-        <p class="subtitle">Plataforma de Evaluación Académica - Selecciona tu área de estudio</p>
+        <p class="eyebrow">Tu espacio de práctica académica</p>
+        <h1 class="main-title">Más práctica.<br><span>Más confianza.</span></h1>
+        <p class="subtitle">Prepárate a tu ritmo. Elige un curso, pon a prueba lo que sabes y aprende con cada intento.</p>
     </div>
 
     <div class="stats-section">
-        <h3>📊 Estadísticas de la Plataforma</h3>
         <div class="stats-grid">
             <div class="stat-item">
-                <span class="stat-number">8</span>
+                <span class="stat-number">10</span>
                 <div class="stat-label">Simuladores</div>
             </div>
             <div class="stat-item">
-                <span class="stat-number">100+</span>
-                <div class="stat-label">Preguntas</div>
+                <span class="stat-number">1,086</span>
+                <div class="stat-label">Preguntas para practicar</div>
             </div>
             <div class="stat-item">
                 <span class="stat-number">20</span>
@@ -278,10 +284,17 @@
         </div>
     </div>
 
-    <div class="simulators-container">
+    <main id="courses">
+    <section class="catalog-toolbar" aria-labelledby="courses-title">
+        <div><h2 id="courses-title">Encuentra tu próximo reto</h2><p id="course-count" role="status">10 módulos disponibles para practicar</p></div>
+        <label class="search-field" for="course-search">Buscar un módulo
+            <input id="course-search" type="search" placeholder="Nombre o tema del curso…" autocomplete="off" aria-controls="course-grid">
+        </label>
+    </section>
+    <div class="simulators-container" id="course-grid">
         <!-- Simulador Métrica V3 -->
         <div class="simulator-card metrica-card">
-            <span class="card-icon">📋</span>
+            <div class="card-topline"><span class="card-icon">📋</span><span class="course-number">MÓDULO 01</span></div>
             <h2 class="card-title">Métrica V3</h2>
             <p class="card-description">
                 Evaluación completa sobre la metodología Métrica V3. Cubre todos los procesos de desarrollo de sistemas de información.
@@ -304,14 +317,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./metrica/index.html" class="start-button">
-                🚀 Iniciar Examen Métrica V3
-            </a>
+            <a href="./metrica/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
         <!-- Simulador Seguridad Computacional -->
         <div class="simulator-card seguridad-card">
-            <span class="card-icon">🔐</span>
+            <div class="card-topline"><span class="card-icon">🔐</span><span class="course-number">MÓDULO 02</span></div>
             <h2 class="card-title">Seguridad Computacional</h2>
             <p class="card-description">
                 Examen especializado en ciberseguridad. Incluye criptografía, redes seguras, vulnerabilidades y protocolos de seguridad.
@@ -334,14 +345,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./seguridad-computacional/index.html" class="start-button">
-                🚀 Iniciar Examen de Seguridad
-            </a>
+            <a href="./seguridad-computacional/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
         <!-- Simulador Matemática Aplicada -->
         <div class="simulator-card matematica-card">
-            <span class="card-icon">🧮</span>
+            <div class="card-topline"><span class="card-icon">🧮</span><span class="course-number">MÓDULO 03</span></div>
             <h2 class="card-title">Matemática Aplicada</h2>
             <p class="card-description">
                 Evaluación de conceptos matemáticos aplicados a la computación. Incluye álgebra, grafos, estadística y análisis de algoritmos.
@@ -364,14 +373,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./matematica-aplicada/index.html" class="start-button">
-                🚀 Iniciar Examen de Matemáticas
-            </a>
+            <a href="./matematica-aplicada/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
         <!-- Simulador Ingeniería de Software -->
         <div class="simulator-card software-card">
-            <span class="card-icon">💻</span>
+            <div class="card-topline"><span class="card-icon">💻</span><span class="course-number">MÓDULO 04</span></div>
             <h2 class="card-title">Ingeniería de Software</h2>
             <p class="card-description">
                 Evaluación de principios y prácticas de desarrollo de software. Incluye metodologías, UML, patrones de diseño y gestión de proyectos.
@@ -394,14 +401,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./software/index.html" class="start-button">
-                🚀 Iniciar Examen de Software
-            </a>
+            <a href="./software/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
         <!-- Simulador Proyecto Final de Carrera III -->
         <div class="simulator-card proyecto-card">
-            <span class="card-icon">🎓</span>
+            <div class="card-topline"><span class="card-icon">🎓</span><span class="course-number">MÓDULO 05</span></div>
             <h2 class="card-title">Proyecto Final de Carrera III</h2>
             <p class="card-description">
                 Evaluación de conocimientos clave para la planificación, ejecución y cierre de un proyecto final de carrera, incluyendo requisitos, diseño, validación y entrega.
@@ -424,14 +429,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./proyecto-final-carrera-iii/index.html" class="start-button">
-                🚀 Iniciar Examen de Proyecto Final
-            </a>
+            <a href="./proyecto-final-carrera-iii/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
         <!-- Simulador Bioinformática -->
         <div class="simulator-card bioinformatica-card">
-            <span class="card-icon">🧬</span>
+            <div class="card-topline"><span class="card-icon">🧬</span><span class="course-number">MÓDULO 06</span></div>
             <h2 class="card-title">Bioinformática</h2>
             <p class="card-description">
                 Evaluación de conceptos de secuenciación, alineamiento, anotación genómica, bases de datos biológicas y análisis ómico.
@@ -454,14 +457,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./bioinformatica/index.html" class="start-button">
-                🚀 Iniciar Examen de Bioinformática
-            </a>
+            <a href="./bioinformatica/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
         
         <!-- Simulador Experiencia usuario -->
         <div class="simulator-card UX-card">
-            <span class="card-icon">👥</span>
+            <div class="card-topline"><span class="card-icon">👥</span><span class="course-number">MÓDULO 07</span></div>
             <h2 class="card-title">Experiencia Usuario</h2>
             <p class="card-description">
                 Evaluación de teoria y practicas de UX. Incluye diseño centrado en el usuario, usabilidad, accesibilidad y pruebas de usuario.
@@ -484,14 +485,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./experiencia-usuario/index.html" class="start-button">
-                🚀 Iniciar Examen de Experiencia de Usuario
-            </a>
+            <a href="./experiencia-usuario/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
         <!-- Simulador Computación en la Sociedad -->
         <div class="simulator-card computacion-card">
-            <span class="card-icon">💻</span>
+            <div class="card-topline"><span class="card-icon">💻</span><span class="course-number">MÓDULO 08</span></div>
             <h2 class="card-title">Computación en la Sociedad</h2>
             <p class="card-description">
                 Evaluación sobre el impacto de la computación en la sociedad moderna. Incluye ética, privacidad, impacto social y transformación digital.
@@ -514,14 +513,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./computacion-sociedad/index.html" class="start-button">
-                🚀 Iniciar Examen de Computación en la Sociedad
-            </a>
+            <a href="./computacion-sociedad/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
         <!-- Simulador Internet de las Cosas (IoT) -->
         <div class="simulator-card iot-card">
-            <span class="card-icon">📡</span>
+            <div class="card-topline"><span class="card-icon">📡</span><span class="course-number">MÓDULO 09</span></div>
             <h2 class="card-title">Internet de las Cosas (IoT)</h2>
             <p class="card-description">
                 Evaluación sobre Internet de las Cosas. Incluye dispositivos conectados, protocolos de comunicación, redes inteligentes y aplicaciones IoT.
@@ -544,14 +541,12 @@
                     <span>20 aleatorias</span>
                 </div>
             </div>
-            <a href="./iot/index.html" class="start-button">
-                🚀 Iniciar Examen de IoT
-            </a>
+            <a href="./iot/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
         <!-- Simulador Formación de empresas III -->
         <div class="simulator-card formacion-card">
-            <span class="card-icon">🏢</span>
+            <div class="card-topline"><span class="card-icon">🏢</span><span class="course-number">MÓDULO 10</span></div>
             <h2 class="card-title">Formación de Empresas III</h2>
             <p class="card-description">
                 Conceptos de emprendimiento, modelos de negocio, plan de empresa y financiamiento para proyectos.
@@ -574,21 +569,20 @@
                     <span>10-20 aleatorias</span>
                 </div>
             </div>
-            <a href="./formacion-empresas-iii/index.html" class="start-button">
-                🚀 Iniciar Examen Formación Empresas III
-            </a>
+            <a href="./formacion-empresas-iii/index.html" class="start-button">Explorar módulo <span aria-hidden="true">↗</span></a>
         </div>
 
 
     </div>
 
-    <div class="footer">
+    <p class="empty-state" id="no-courses" hidden>No encontramos ese módulo. Prueba con otro nombre o tema.</p>
+    </main>
+    <footer class="footer">
         <p>🎓 Plataforma de Simuladores de Examen | Desarrollado para fines educativos</p>
         <p>💡 Cada simulador utiliza preguntas aleatorias para una experiencia única en cada intento</p>
-        <p>📅 Última actualización: Octubre 2025</p>
         <p>Elaborado por: Daniel Sanchez</p>
 
-    </div>
+    </footer>
 
     <!-- Vercel Analytics -->
     <script>

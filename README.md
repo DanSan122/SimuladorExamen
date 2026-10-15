@@ -34,6 +34,8 @@ Abrir `http://localhost:8000`. Los bancos se cargan con Fetch: se necesita un se
 - `<modulo>/main.html`: interfaz del examen y estilos del módulo.
 - `<modulo>/preguntas.json`: banco activo.
 - `assets/exam-core.js`: validación, selección Fisher-Yates sin enunciados repetidos, tiempo y escape de texto.
+- `assets/ui.css`: estilo compartido y adaptación a móviles de las 21 pantallas.
+- `assets/catalog.js`: búsqueda local de módulos por nombre y descripción, ignorando tildes.
 - `assets/exam.js`: motor compartido por ocho módulos; duración en `data-duration` del elemento `body`.
 - Bioinformática y Computación y Sociedad conservan sus interfaces y navegación propias y utilizan las utilidades comunes.
 - `tests/exam.test.cjs`: verificaciones sin dependencias, para Node.js 18 o superior.
