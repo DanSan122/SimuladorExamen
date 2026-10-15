@@ -380,17 +380,22 @@
     <div id="timer"></div>
     <div id="loading">Cargando preguntas...</div>
 
+    <script src="../assets/exam-core.js"></script>
     <script>
         let currentQuestion = 0;
         let questions = [];
         let userAnswers = [];
+        let timerInterval;
+        let deadline;
+        let finished = false;
         let timeLeft = 25 * 60; // 25 minutos en segundos
 
         // Cargar preguntas
         async function loadQuestions() {
             try {
                 const response = await fetch('./preguntas.json');
-                questions = await response.json();
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                questions = ExamCore.validateQuestions(await response.json());
                 
                 if (questions.length === 0) {
                     document.getElementById('loading').innerHTML = '<h2>No hay preguntas disponibles</h2><p>Por favor, cargue las preguntas en el archivo preguntas.json</p>';
@@ -398,7 +403,7 @@
                 }
 
                 // Randomizar preguntas (máximo 20)
-                questions = questions.sort(() => Math.random() - 0.5).slice(0, 20);
+                questions = ExamCore.selectQuestions(questions, 20);
                 userAnswers = new Array(questions.length).fill(null);
                 
                 startTimer();
@@ -410,9 +415,11 @@
         }
 
         function startTimer() {
+            deadline = Date.now() + timeLeft * 1000;
             const timerDisplay = document.getElementById('timer');
             
             const updateTimer = () => {
+                timeLeft = ExamCore.remainingSeconds(deadline);
                 const minutes = Math.floor(timeLeft / 60);
                 const seconds = timeLeft % 60;
                 timerDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
@@ -420,13 +427,11 @@
                 if (timeLeft <= 0) {
                     clearInterval(timerInterval);
                     finishExam();
-                } else {
-                    timeLeft--;
                 }
             };
 
             updateTimer();
-            const timerInterval = setInterval(updateTimer, 1000);
+            timerInterval = setInterval(updateTimer, 1000);
         }
 
         function showQuestion() {
@@ -449,7 +454,7 @@
                 </div>
 
                 <div class="question">
-                    <div class="question-text"><strong>${question.question}</strong></div>
+                    <div class="question-text"><strong>${ExamCore.escapeHtml(question.question)}</strong></div>
                     <div class="options">`;
 
             question.options.forEach((option, index) => {
@@ -457,8 +462,8 @@
                 html += `
                     <div class="option-item ${checked ? 'selected' : ''}">
                         <input type="radio" id="option${index}" name="answer" value="${index}" ${checked} 
-                               onchange="selectOption(${index})">
-                        <label for="option${index}">${option}</label>
+                               onchange="selectOption(${index}, this)">
+                        <label for="option${index}">${ExamCore.escapeHtml(option)}</label>
                     </div>`;
             });
 
@@ -475,12 +480,12 @@
             document.getElementById('loading').innerHTML = html;
         }
 
-        function selectOption(index) {
+        function selectOption(index, input) {
             userAnswers[currentQuestion] = index;
             document.querySelectorAll('.option-item').forEach(item => {
                 item.classList.remove('selected');
             });
-            event.target.closest('.option-item').classList.add('selected');
+            input.closest('.option-item').classList.add('selected');
             updateButtonStates();
         }
 
@@ -512,6 +517,10 @@
         }
 
         function finishExam() {
+            if (finished) return;
+            finished = true;
+            clearInterval(timerInterval);
+            timeLeft = ExamCore.remainingSeconds(deadline);
             let correct = 0;
             
             questions.forEach((question, index) => {
@@ -545,10 +554,10 @@
                 const correctText = question.options[correctIdx];
 
                 breakdownHtml += `\n<div class="result-item ${isCorrect ? 'correct' : 'incorrect'}">\n` +
-                    `<div class="result-q">${index + 1}. ${question.question}</div>` +
+                    `<div class="result-q">${index + 1}. ${ExamCore.escapeHtml(question.question)}</div>` +
                     `<div class="result-answers">` +
-                        `<span class="answer-label user">Tu respuesta: ${userText}</span>` +
-                        `<span class="answer-label correct">Correcta: ${correctText}</span>` +
+                        `<span class="answer-label user">Tu respuesta: ${ExamCore.escapeHtml(userText)}</span>` +
+                        `<span class="answer-label correct">Correcta: ${ExamCore.escapeHtml(correctText)}</span>` +
                     `</div>\n</div>`;
             });
             breakdownHtml += '</div>';

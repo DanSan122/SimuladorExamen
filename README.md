@@ -1,179 +1,71 @@
-# 🎓 Centro de Simuladores de Examen
+# Centro de Simuladores de Examen
 
-Un centro de simuladores de examen interactivo con múltiples módulos especializados, desarrollado con HTML, CSS y JavaScript vanilla.
+Aplicación estática en HTML, CSS y JavaScript, con diez módulos y selección de hasta 20 preguntas distintas por examen. No necesita compilación ni dependencias para ejecutarse.
 
-## 🚀 Características Principales
+## Desarrollo local
 
-- 🏛️ **Centro de Simuladores** con selección de módulos
-- 📚 **Múltiples áreas de conocimiento** (Métrica V3, Ingeniería de Software)
-- ✅ **20 preguntas aleatorias** por examen
-- ⏱️ **Temporizador de 20 minutos** por examen
-- 🎨 **Interfaz moderna** con tema oscuro y colores diferenciados por módulo
-- 📊 **Resultados detallados** con puntuación y respuestas correctas
-- 📱 **Responsive design** para móviles y desktop
-- 🔄 **Navegación fluida** entre módulos
+Desde este directorio:
 
-## � Módulos Disponibles
-
-### 📋 Métrica V3
-- **Tema**: Metodología de desarrollo de sistemas de información
-- **Procesos**: PSI, ASI, DSI, CSI, IAS
-- **Color**: Verde
-- **Preguntas**: Enfocadas en la metodología española de desarrollo de SI
-
-### 💻 Ingeniería de Software
-- **Tema**: Principios y prácticas de desarrollo de software
-- **Áreas**: Metodologías ágiles, UML, Patrones de diseño, Arquitectura
-- **Color**: Azul
-- **Preguntas**: Covering SOLID principles, design patterns, testing, DevOps
-
-## �🛠️ Tecnologías
-
-- HTML5
-- CSS3 (Variables CSS, Grid, Flexbox, Animaciones)
-- JavaScript ES6+ (Async/Await, Fetch API, Modules)
-- Vercel Analytics
-
-## 📦 Estructura del Proyecto
-
-```
-├── index.html              # Centro de Simuladores (página principal)
-├── metrica/                # Módulo Métrica V3
-│   ├── index.html          # Página de inicio del módulo
-│   ├── main.html           # Simulador de Métrica V3
-│   ├── preguntas.json      # Preguntas de Métrica V3
-│   └── test-randomization.js # Script de aleatorización
-├── software/               # Módulo Ingeniería de Software
-│   ├── index.html          # Página de inicio del módulo
-│   ├── main.html           # Simulador de Ingeniería de Software
-│   ├── preguntas.json      # Preguntas de Ingeniería de Software
-│   └── test-randomization.js # Script de aleatorización
-├── main.html               # (Legacy) Simulador original
-├── preguntas.json          # (Legacy) Preguntas originales
-├── test-randomization.js   # (Legacy) Script original
-├── vercel.json             # Configuración de Vercel
-└── README.md               # Este archivo
-```
-
-## 🚀 Despliegue
-
-### Vercel (Recomendado)
-1. Haz fork de este repositorio
-2. Conecta tu cuenta de Vercel con GitHub
-3. Importa el proyecto desde Vercel
-4. ¡Automáticamente desplegado!
-
-### Desarrollo Local
 ```bash
-# Servir archivos localmente (Python)
-python -m http.server 8000
-
-# O con Node.js
-npx serve .
-
-# O con Live Server (VS Code Extension)
-# Abrir index.html con Live Server
+python3 -m http.server 8000
 ```
 
-## 📊 Formato de Preguntas
+Abrir `http://localhost:8000`. Los bancos se cargan con Fetch: se necesita un servidor HTTP y acceso al banco al iniciar. No existe soporte offline garantizado ni persistencia de respuestas al recargar la página.
 
-Las preguntas están almacenadas en archivos JSON con el siguiente formato:
+## Módulos y duración
+
+| Módulo | Minutos |
+| --- | --- |
+| Métrica V3 | 20 |
+| Ingeniería de Software | 20 |
+| Proyecto Final de Carrera III | 20 |
+| Formación de Empresas III | 20 |
+| Bioinformática | 20 |
+| Seguridad Computacional | 25 |
+| Computación y Sociedad | 25 |
+| Internet de las Cosas | 25 |
+| Matemática Aplicada | 30 |
+| Experiencia de Usuario | 30 |
+
+## Organización
+
+- `index.html`: catálogo de módulos.
+- `<modulo>/index.html`: presentación e instrucciones.
+- `<modulo>/main.html`: interfaz del examen y estilos del módulo.
+- `<modulo>/preguntas.json`: banco activo.
+- `assets/exam-core.js`: validación, selección Fisher-Yates sin enunciados repetidos, tiempo y escape de texto.
+- `assets/exam.js`: motor compartido por ocho módulos; duración en `data-duration` del elemento `body`.
+- Bioinformática y Computación y Sociedad conservan sus interfaces y navegación propias y utilizan las utilidades comunes.
+- `tests/exam.test.cjs`: verificaciones sin dependencias, para Node.js 18 o superior.
+- `vercel.json`: configuración existente de alojamiento.
+
+Los archivos `test-randomization.js` son auxiliares históricos: las páginas actuales no los cargan. El banco raíz y `seguridad-computacional/preguntas1.json` tampoco se usan en los exámenes actuales.
+
+## Formato de preguntas
+
 ```json
-{
-{
-  "question": "Texto de la pregunta",
-  "options": ["Opción A", "Opción B", "Opción C", "Opción D"],
-  "answer": 1,
-  "explanation": "Explicación de la respuesta correcta (opcional)"
-}
+[
+  {
+    "question": "Texto de la pregunta",
+    "options": ["Opción A", "Opción B", "Opción C", "Opción D"],
+    "answer": 1,
+    "explanation": "Explicación opcional"
+  }
+]
 ```
 
-## 🎯 Funcionalidades por Módulo
+`answer` es un índice desde cero. Cada pregunta requiere un enunciado, al menos dos opciones de texto y un índice válido. La selección conserva el orden de las opciones. Si se repite un enunciado (ignorando espacios al inicio y final), se usa la primera aparición para seleccionar el examen. Los bancos originales se conservan.
 
-### Funcionalidades Comunes
-- ✅ Selección aleatoria de 20 preguntas por examen
-- ⏱️ Temporizador con finalización automática
-- 💾 Guardado temporal de respuestas
-- 🎨 Visualización de resultados con colores
-- ✔️ Identificación de respuestas correctas e incorrectas
-- 🔙 Navegación de regreso al centro de simuladores
+## Verificación
 
-### Características Específicas
-- 🎨 **Esquemas de colores diferenciados** por módulo
-- � **Analytics integrado** con Vercel
-- 🔄 **Animaciones suaves** de transición
-- �📱 **Diseño responsive** optimizado
+```bash
+node --test tests/exam.test.cjs
+```
 
-## 🎮 Cómo Usar
+Incluye validación de los diez bancos activos, selección sin duplicados y sin modificar los datos originales, vencimiento del tiempo, escape de contenido, enlaces locales, sintaxis de scripts y flujo del motor compartido con un DOM simulado: carga, puntuación, reinicio y vencimiento. Esta comprobación no sustituye una revisión visual en un navegador.
 
-1. **Accede al Centro de Simuladores**: Abre `index.html`
-2. **Selecciona un módulo**: Haz clic en la tarjeta del módulo deseado
-3. **Lee las instrucciones**: Revisa la información del examen
-4. **Inicia el examen**: Haz clic en "Iniciar Examen"
-5. **Responde las preguntas**: Tienes 20 minutos para completar 20 preguntas
-6. **Revisa tus resultados**: Al finalizar verás tu puntuación y respuestas correctas
-7. **Vuelve al inicio**: Usa el botón "Volver al inicio" para elegir otro módulo
+## Agregar un módulo
 
-## 📱 Compatibilidad
+Copiar una interfaz que utilice el motor compartido, ajustar su título, estilos, duración y banco; añadir un enlace al catálogo. El motor busca `./preguntas.json` relativo a la página del examen. Al reiniciar reutiliza el banco ya cargado y selecciona un conjunto nuevo.
 
-- ✅ **Navegadores**: Chrome, Firefox, Safari, Edge
-- ✅ **Dispositivos**: Desktop, tablets, móviles
-- ✅ **Offline**: Funciona offline una vez cargado
-- ✅ **Responsive**: Optimizado para todas las pantallas
-
-## 🎨 Personalización
-
-### Agregar un Nuevo Módulo
-1. Crear directorio: `nuevo-modulo/`
-2. Copiar estructura base de otro módulo
-3. Personalizar `preguntas.json` con nuevas preguntas
-4. Actualizar colores CSS en el tema del módulo
-5. Agregar tarjeta del módulo en `index.html`
-
-### Modificar Preguntas
-- Editar archivos `preguntas.json` en cada módulo
-- Mantener el formato JSON especificado
-- Agregar explicaciones para mejor comprensión
-
-## 🚀 Características Técnicas
-
-- **Algoritmo Fisher-Yates** para aleatorización real de preguntas
-- **Local Storage** para persistencia temporal de respuestas
-- **CSS Grid y Flexbox** para layouts responsivos
-- **Vanilla JavaScript** sin dependencias externas
-- **Vercel Analytics** para métricas de uso
-
-## 📊 Métricas y Analytics
-
-El proyecto incluye integración con Vercel Analytics para rastrear:
-- Selección de módulos
-- Inicio de exámenes
-- Patrones de uso
-- Performance del sitio
-
-## 🤝 Contribuir
-
-1. **Fork** el proyecto
-2. **Crea una rama**: `git checkout -b feature/nueva-funcionalidad`
-3. **Agrega tus cambios**: Nuevos módulos, preguntas, mejoras
-4. **Commit**: `git commit -am 'Añadir nueva funcionalidad'`
-5. **Push**: `git push origin feature/nueva-funcionalidad`
-6. **Pull Request**: Abre un PR describiendo los cambios
-
-### Ideas para Contribuir
-- 📚 Nuevos módulos temáticos
-- ❓ Más preguntas para módulos existentes
-- 🎨 Mejoras en UI/UX
-- 🔧 Optimizaciones de rendimiento
-- 📱 Mejoras de accesibilidad
-
-## 📄 Licencia
-
-Este proyecto está bajo la **Licencia MIT**.
-
-## 👨‍💻 Autor
-
-**Daniel Sanchez** - Desarrollo completo del centro de simuladores
-
----
-⭐ **¡Si te gusta este proyecto, dale una estrella en GitHub!** ⭐
+Las páginas que incluyen `/_vercel/insights/script.js` utilizan Vercel Analytics cuando está disponible en el alojamiento.

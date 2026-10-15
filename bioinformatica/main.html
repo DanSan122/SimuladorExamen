@@ -386,6 +386,7 @@
         <section id="results" class="results-panel" aria-live="polite"></section>
     </div>
 
+    <script src="../assets/exam-core.js"></script>
     <script>
         const QUESTIONS_TO_PICK = 20;
         const TIME_LIMIT_SECONDS = 20 * 60;
@@ -395,6 +396,7 @@
         let userAnswers = new Map();
         let timeLeft = TIME_LIMIT_SECONDS;
         let timerId = null;
+        let deadline;
         let submitted = false;
         let currentIndex = 0;
 
@@ -408,7 +410,7 @@
         }
 
         function selectRandomQuestions(questions, count) {
-            return shuffle(questions).slice(0, Math.min(count, questions.length));
+            return ExamCore.selectQuestions(questions, count);
         }
 
         function formatTime(seconds) {
@@ -433,7 +435,7 @@
                     <label class="option-item ${isChecked ? 'selected' : ''}" for="${inputId}">
                         <div class="option-row">
                             <input type="radio" id="${inputId}" name="question-${currentIndex}" value="${optionIndex}" ${isChecked ? 'checked' : ''}>
-                            <span>${option}</span>
+                            <span>${ExamCore.escapeHtml(option)}</span>
                         </div>
                     </label>
                 `;
@@ -447,7 +449,7 @@
                             <div class="footer-note">Selecciona una sola respuesta</div>
                         </div>
                     </div>
-                    <p class="question-text">${question.question}</p>
+                    <p class="question-text">${ExamCore.escapeHtml(question.question)}</p>
                     <div class="options">
                         ${optionsHtml}
                     </div>
@@ -502,14 +504,14 @@
                 const isCorrect = selectedAnswer === correctAnswer;
                 const userAnswerLabel = selectedAnswer === undefined ? 'Sin responder' : question.options[selectedAnswer];
                 const correctAnswerLabel = question.options[correctAnswer];
-                const explanation = question.explanation ? `<p><strong>Explicación:</strong> ${question.explanation}</p>` : '';
+                const explanation = question.explanation ? `<p><strong>Explicación:</strong> ${ExamCore.escapeHtml(question.explanation)}</p>` : '';
 
                 return `
                     <article class="review-item ${isCorrect ? 'correct' : 'incorrect'}">
                         <h4>Pregunta ${questionIndex + 1} ${isCorrect ? '✓' : '✗'}</h4>
-                        <p><strong>Enunciado:</strong> ${question.question}</p>
-                        <p><strong>Tu respuesta:</strong> ${userAnswerLabel}</p>
-                        <p><strong>Respuesta correcta:</strong> ${correctAnswerLabel}</p>
+                        <p><strong>Enunciado:</strong> ${ExamCore.escapeHtml(question.question)}</p>
+                        <p><strong>Tu respuesta:</strong> ${ExamCore.escapeHtml(userAnswerLabel)}</p>
+                        <p><strong>Respuesta correcta:</strong> ${ExamCore.escapeHtml(correctAnswerLabel)}</p>
                         ${explanation}
                     </article>
                 `;
@@ -522,6 +524,8 @@
             }
 
             submitted = true;
+            timeLeft = ExamCore.remainingSeconds(deadline);
+            document.getElementById('app').replaceChildren();
             clearInterval(timerId);
 
             let correctAnswers = 0;
@@ -576,6 +580,8 @@
         }
 
         function startTimer() {
+            clearInterval(timerId);
+            deadline = Date.now() + TIME_LIMIT_SECONDS * 1000;
             updateTimer();
             timerId = setInterval(() => {
                 if (submitted) {
@@ -583,7 +589,7 @@
                     return;
                 }
 
-                timeLeft -= 1;
+                timeLeft = ExamCore.remainingSeconds(deadline);
                 updateTimer();
 
                 if (timeLeft <= 0) {
@@ -620,7 +626,7 @@
                     throw new Error('No fue posible cargar el banco de preguntas.');
                 }
 
-                allQuestions = await response.json();
+                allQuestions = ExamCore.validateQuestions(await response.json());
                 selectedQuestions = selectRandomQuestions(allQuestions, QUESTIONS_TO_PICK);
 
                 if (selectedQuestions.length === 0) {
@@ -632,7 +638,7 @@
             } catch (error) {
                 document.getElementById('app').innerHTML = `
                     <div class="error">
-                        <strong>Error al cargar el examen:</strong> ${error.message}
+                        <strong>Error al cargar el examen:</strong> ${ExamCore.escapeHtml(error.message)}
                     </div>
                 `;
             }
